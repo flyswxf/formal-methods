@@ -1,0 +1,6 @@
+c Example: Unsatisfiable (x1 XOR x2) AND (x1 == x2)
+p cnf 2 4
+1 2 0
+-1 -2 0
+1 -2 0
+-1 2 0

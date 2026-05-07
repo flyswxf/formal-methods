@@ -24,12 +24,8 @@ venv/
 .vscode/
 
 # Datasets
-Datasets/*
-!Datasets/cdcl_dimacs/
-Datasets/cdcl_dimacs/*
-!Datasets/cdcl_dimacs/large/
-Datasets/cdcl_dimacs/large/*
-!Datasets/cdcl_dimacs/large/track_main_2023.uri
+Datasets/cdcl_dimacs/large/cnf
+Datasets/cdcl_dimacs/large/downloads
 
 # OS
 .DS_Store
