@@ -1,61 +1,258 @@
-# CDCL 求解器说明
+# SAT Solver Benchmark 使用说明
 
-本项目新增了一个基于 CDCL 思想实现的 SAT 求解器，输入格式为 DIMACS CNF，输出为：
+本文档说明如何使用当前仓库中的工具进行 SAT 求解器对比测试，主要包含：
+
+- `benchmark_compare.py`
+- MiniSat 编译与使用
+- 自研 CDCL Solver 编译与使用
+
+> 以下同时给出 **Windows** 和 **Linux (CentOS 7)** 的命令。
+
+---
+
+## 1. benchmark_compare.py 使用说明
+
+脚本位置：`benchmark_compare.py`
+
+功能：对比 **自研 CDCL Solver** 与 **MiniSat** 在同一组 DIMACS CNF 用例上的求解结果与耗时。
+
+### 参数说明
+
+```
+python benchmark_compare.py --cdcl <cdcl可执行文件> --minisat <minisat可执行文件> --dataset <cnf目录> [选项]
+```
+
+必选参数：
+- `--cdcl`：自研 CDCL Solver 可执行文件路径
+- `--minisat`：MiniSat 可执行文件路径
+- `--dataset`：包含 `.cnf` 文件的目录
+
+可选参数：
+- `--timeout`：单用例超时时间（秒），默认 300
+- `--output`：结果输出为 JSON 文件路径
+
+### 典型用法
+
+**Windows：**
+
+```powershell
+python benchmark_compare.py --cdcl Checkers\build\cdcl_solver.exe --minisat Baseline\minisat\build\release\bin\minisat.exe --dataset Datasets\cdcl_dimacs\mini --timeout 60
+```
+
+```powershell
+python benchmark_compare.py --cdcl Checkers\build\cdcl_solver.exe --minisat Baseline\minisat\build\release\bin\minisat.exe --dataset Datasets\cdcl_dimacs\mini --timeout 120 --output mini_results.json
+```
+
+**Linux：**
+
+```bash
+python3 benchmark_compare.py --cdcl Checkers/build/cdcl_solver --minisat Baseline/minisat/build/release/bin/minisat --dataset Datasets/cdcl_dimacs/mini --timeout 60
+```
+
+```bash
+python3 benchmark_compare.py --cdcl Checkers/build/cdcl_solver --minisat Baseline/minisat/build/release/bin/minisat --dataset Datasets/cdcl_dimacs/mini --timeout 120 --output mini_results.json
+```
+
+### 输出结果说明
+
+脚本会输出以下内容：
+
+- 每个 `.cnf` 文件的求解结果
+- CDCL / MiniSat 各自结果与耗时
+- 结果是否一致（`OK` / `DIFF` / `N/A`）
+- 汇总统计：
+  - 总实例数
+  - 一致数量
+  - 不一致数量
+  - 超时数量
+  - CDCL / MiniSat 更快的次数
+  - 总耗时与加速比
+
+---
+
+## 2. MiniSat 编译与使用
+
+MiniSat 源码位置：`Baseline/minisat`
+
+### 编译
+
+**Windows（MinGW / MSYS2）：**
+
+```powershell
+cd Baseline\minisat
+make r
+```
+
+**Linux：**
+
+```bash
+cd Baseline/minisat
+make r
+```
+
+编译成功后，可执行文件路径：
+
+- Windows：`Baseline/minisat/build/release/bin/minisat.exe`
+- Linux：`Baseline/minisat/build/release/bin/minisat`
+
+> MiniSat 编译需要 zlib。CentOS 7 如未安装：`sudo yum install -y zlib-devel gcc-c++ make`
+
+### 使用方法
+
+**Windows：**
+
+```powershell
+minisat.exe <input.cnf> <output.txt>
+```
+
+**Linux：**
+
+```bash
+./minisat <input.cnf> <output.txt>
+```
+
+- `input.cnf`：DIMACS 格式输入文件
+- `output.txt`：求解结果输出文件
+
+### 返回码
+
+- `10`：SAT
+- `20`：UNSAT
+
+> `benchmark_compare.py` 中正是根据该返回码判断 MiniSat 求解结果。
+
+---
+
+## 3. 自研 CDCL Solver 编译与使用
+
+自研 solver 源码位置：`Checkers/cdcl_solver.cpp`
+
+入口逻辑读取一个 DIMACS CNF 文件，输出 `SAT` 或 `UNSAT`。
+
+### 编译
+
+**Windows（MinGW / MSYS2）：**
+
+```powershell
+mkdir Checkers\build
+g++ -std=c++14 -O2 Checkers\cdcl_solver.cpp Checkers\cdcl\dimacs_parser.cpp Checkers\cdcl\cdcl_solver.cpp -o Checkers\build\cdcl_solver.exe
+```
+
+**Linux：**
+
+```bash
+mkdir -p Checkers/build
+g++ -std=c++14 -O2 Checkers/cdcl_solver.cpp Checkers/cdcl/dimacs_parser.cpp Checkers/cdcl/cdcl_solver.cpp -o Checkers/build/cdcl_solver
+```
+
+> CentOS 7 默认 gcc 4.8.5 支持 `-std=c++14`，自研 solver 核心代码（`cdcl_solver.cpp`、`dimacs_parser.cpp`）不依赖 C++17，可以直接编译。
+>
+> 如果需要编译 `test_parser.cpp`（使用了 `std::filesystem`），则需要 C++17 支持，CentOS 7 需先安装较新版本的 gcc：
+>
+> ```bash
+> sudo yum install -y centos-release-scl
+> sudo yum install -y devtoolset-11-gcc-c++
+> scl enable devtoolset-11 bash
+> g++ -std=c++17 -O2 ...
+> ```
+
+### 使用方法
+
+**Windows：**
+
+```powershell
+Checkers\build\cdcl_solver.exe <input.cnf>
+```
+
+**Linux：**
+
+```bash
+./Checkers/build/cdcl_solver <input.cnf>
+```
+
+### 输出结果
+
+程序输出一个单词：
 
 - `SAT`
 - `UNSAT`
 
-## 文件结构
+这与 `benchmark_compare.py` 对 CDCL Solver 的调用逻辑一致。
 
-- `Checkers/cdcl_solver.py`
-  - 命令行入口。
-  - 支持两种输入：
-    - 命令行参数：`python Checkers/cdcl_solver.py <dimacs文件>`
-    - 标准输入：从 `stdin` 读取 DIMACS 文件路径（用于你的 `test_framework.py`）。
+---
 
-- `Checkers/cdcl/dimacs_parser.py`
-  - Python DIMACS 解析器。
-  - 支持 `c` 注释行、`p cnf` 头、以及子句以 `0` 结束。
+## 4. 快速完整流程
 
-- `Checkers/cdcl/dimacs_parser.hpp` / `dimacs_parser.cpp`
-  - **C++ DIMACS 解析器**（阶段二产出），接口与 Python 版一致。
-  - 返回 `CNFFormula` 结构体：`num_vars`、`num_clauses`、`clauses`。
-  - 错误情况抛出 `DimacsParseError` 异常。
+### 4.1 编译 MiniSat
 
-- `Checkers/cdcl/test_parser.cpp`
-  - C++ 解析器测试套件，覆盖正常解析、边界情况和错误处理，共 48 项测试。
-  - 编译命令：`g++ -std=c++17 -O2 -o Checkers/cdcl/test_parser.exe Checkers/cdcl/dimacs_parser.cpp Checkers/cdcl/test_parser.cpp`
+**Windows：**
 
-- `Checkers/cdcl/solver.py`
-  - CDCL 核心逻辑：
-    - 单位传播（Unit Propagation）
-    - 决策（Decision）
-    - 冲突分析（Conflict Analysis）
-    - 学习子句（Clause Learning）
-    - 非顺序回溯（Backjumping）
-
-- `Datasets/cdcl_dimacs/*.cnf`
-  - DIMACS 测试样例（含 SAT 和 UNSAT）。
-
-- `Datasets/cdcl_dataset.txt`
-  - 供 `test_framework.py` 使用的数据集清单。
-  - 格式为：`输入 :: 期望输出`，其中输入是 DIMACS 文件路径。
-
-## 运行方式
-
-### 1) 直接运行求解器
-
-```bash
-python Checkers/cdcl_solver.py Datasets/cdcl_dimacs/sat_01.cnf
+```powershell
+cd Baseline\minisat
+make r
+cd ..\..
 ```
 
-### 2) 使用测试框架批量运行
+**Linux：**
 
 ```bash
-python test_framework.py Checkers/cdcl_solver.py Datasets/cdcl_dataset.txt
+cd Baseline/minisat
+make r
+cd ../..
 ```
 
-## 说明
+### 4.2 编译自研 CDCL Solver
 
-- 该实现强调可读性与教学用途，便于理解 CDCL 的关键流程。
-- 对于你当前课程作业的中小规模样例可直接使用。
+**Windows：**
+
+```powershell
+mkdir Checkers\build
+g++ -std=c++14 -O2 Checkers\cdcl_solver.cpp Checkers\cdcl\dimacs_parser.cpp Checkers\cdcl\cdcl_solver.cpp -o Checkers\build\cdcl_solver.exe
+```
+
+**Linux：**
+
+```bash
+mkdir -p Checkers/build
+g++ -std=c++14 -O2 Checkers/cdcl_solver.cpp Checkers/cdcl/dimacs_parser.cpp Checkers/cdcl/cdcl_solver.cpp -o Checkers/build/cdcl_solver
+```
+
+### 4.3 运行对比 benchmark
+
+**Windows：**
+
+```powershell
+python benchmark_compare.py --cdcl Checkers\build\cdcl_solver.exe --minisat Baseline\minisat\build\release\bin\minisat.exe --dataset Datasets\cdcl_dimacs\mini --timeout 120 --output mini_results.json
+```
+
+**Linux：**
+
+```bash
+python3 benchmark_compare.py --cdcl Checkers/build/cdcl_solver --minisat Baseline/minisat/build/release/bin/minisat --dataset Datasets/cdcl_dimacs/mini --timeout 120 --output mini_results.json
+```
+
+---
+
+## 5. CentOS 7 环境准备
+
+在 CentOS 7 服务器上首次运行前，需要安装编译工具和依赖：
+
+```bash
+sudo yum install -y gcc-c++ make zlib-devel python3
+```
+
+如需 C++17 支持（编译 `test_parser.cpp` 等）：
+
+```bash
+sudo yum install -y centos-release-scl
+sudo yum install -y devtoolset-11-gcc-c++
+scl enable devtoolset-11 bash
+```
+
+---
+
+## 6. 注意事项
+
+- Windows 下 `benchmark_compare.py` 调用 `minisat.exe` 时会额外将 `D:\strawberry\c\bin` 加入 PATH，这是 Windows 特有的兼容逻辑，Linux 下无影响。
+- 若编译后的可执行文件路径不同，请按实际路径修改命令。
+- 若 `dataset` 目录下没有 `.cnf` 文件，脚本会直接报错退出。
