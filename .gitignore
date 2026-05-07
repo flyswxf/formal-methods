@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+
+# Trae IDE
+.trae/
+
+# VS Code
+.vscode/
+
+# Datasets
+Datasets/*
+!Datasets/cdcl_dimacs/
+Datasets/cdcl_dimacs/*
+!Datasets/cdcl_dimacs/large/
+Datasets/cdcl_dimacs/large/*
+!Datasets/cdcl_dimacs/large/track_main_2023.uri
+
+# OS
+.DS_Store
+Thumbs.db

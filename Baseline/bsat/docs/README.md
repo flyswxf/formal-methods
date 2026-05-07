@@ -1,0 +1,124 @@
+# BSAT Documentation
+
+Welcome to the BSAT (Boolean Satisfiability) package documentation! This guide will help you understand SAT problems and how to solve them using this library.
+
+## Table of Contents
+
+1. [Introduction to SAT](introduction.md) - Start here if you're new to SAT problems
+2. [Terminology Reference](terminology.md) - **Comprehensive glossary of SAT concepts and techniques**
+3. [CNF Expressions](cnf.md) - Understanding the data structures
+4. [Solvers](solvers.md) - Overview of available solvers
+   - [Davis-Putnam Solver](davis-putnam-solver.md) - The original 1960 resolution-based algorithm (educational)
+   - [2SAT Solver](2sat-solver.md) - Polynomial-time algorithm for 2SAT
+   - [DPLL Solver](dpll-solver.md) - Classic backtracking algorithm for general SAT
+   - [CDCL Solver](cdcl-solver.md) - Conflict-Driven Clause Learning (modern SAT solving)
+   - [Horn-SAT Solver](hornsat-solver.md) - Polynomial-time solver for Horn formulas
+   - [XOR-SAT Solver](xorsat-solver.md) - Polynomial-time solver for XOR constraints
+   - [WalkSAT Solver](walksat-solver.md) - Randomized local search (incomplete but fast)
+   - [Schöning's Algorithm](schoening-solver.md) - Provably O(1.334^n) randomized algorithm for k-SAT
+5. [SAT Preprocessing](preprocessing.md) - Simplification and decomposition techniques
+   - Connected component decomposition
+   - Unit propagation
+   - Pure literal elimination
+   - Clause subsumption
+6. [Solution Enumeration](../examples/example_enumerate_solutions.py) - Find all satisfying assignments
+   - Enumerate all solutions
+   - Count solutions
+   - Model counting
+7. [Problem Encodings](problem-encodings.md) - Encoding real-world problems as SAT
+   - Graph Coloring
+   - Sudoku
+   - N-Queens
+8. [DIMACS Format](dimacs.md) - Industry-standard file format
+   - Reading/writing DIMACS files
+   - Solution format
+   - SAT competition benchmarks
+9. [Benchmarking & Performance](benchmarking.md) - Testing and comparing solvers
+   - Benchmark instances
+   - Performance comparison
+   - Scaling analysis
+10. [Examples & Tutorials](examples.md) - Practical usage examples
+11. [History of SAT Solving](history.md) - From 1960 to present: algorithms, people, and breakthroughs
+12. [Competition-Level Requirements](competition_requirements.md) - What it takes to build a winning SAT solver
+13. [Theory & References](theory.md) - Academic papers and further reading
+14. [Reading List](reading-list.md) - Comprehensive bibliography of books, papers, and resources
+
+## Quick Start
+
+### Installation
+
+```bash
+pip install bsat
+```
+
+### Basic Usage
+
+```python
+from bsat import CNFExpression, solve_sat
+
+# Parse a CNF formula
+formula = "(x | y) & (~x | z) & (~y | ~z)"
+cnf = CNFExpression.parse(formula)
+
+# Solve it
+result = solve_sat(cnf)
+
+if result:
+    print(f"SAT: {result}")
+else:
+    print("UNSAT")
+```
+
+## What is SAT?
+
+The **Boolean Satisfiability Problem (SAT)** asks: given a Boolean formula, is there an assignment of truth values to variables that makes the formula true?
+
+For example:
+- Formula: `(x ∨ y) ∧ (¬x ∨ z)`
+- Question: Can we find values for x, y, z that make this true?
+- Answer: Yes! For instance, x=True, y=True, z=True works.
+
+## Why is SAT Important?
+
+1. **First NP-Complete Problem**: SAT was the first problem proven to be NP-complete (Cook-Levin theorem, 1971)
+2. **Practical Applications**: Used in:
+   - Hardware verification
+   - Software testing
+   - Automated reasoning
+   - Planning and scheduling
+   - Cryptography
+   - AI and machine learning
+3. **Foundation for Other Problems**: Many problems can be reduced to SAT
+
+## Package Features
+
+- ✅ **CNF Data Structures**: Clean, Pythonic representation of Boolean formulas
+- ✅ **2SAT Solver**: O(n+m) polynomial-time solver using strongly connected components
+- ✅ **DPLL Solver**: Classic backtracking algorithm for general SAT/3SAT
+- ✅ **CDCL Solver**: Conflict-Driven Clause Learning with VSIDS and restarts (modern SAT solving)
+- ✅ **Horn-SAT Solver**: O(n+m) polynomial-time solver for Horn formulas (logic programming)
+- ✅ **XOR-SAT Solver**: O(n³) polynomial-time solver using Gaussian elimination over GF(2)
+- ✅ **WalkSAT Solver**: Randomized local search (incomplete but often very fast)
+- ✅ **Schöning's Algorithm**: Randomized k-SAT solver with provably O(1.334^n) expected runtime for 3SAT
+- ✅ **SAT Preprocessing**: Simplification techniques (decomposition, unit propagation, pure literals, subsumption)
+- ✅ **Solution Enumeration**: Find all satisfying assignments, not just one
+- ✅ **k-SAT to 3-SAT Reduction**: Convert any CNF to 3-SAT form using auxiliary variables
+- ✅ **Pretty Printing**: Unicode symbols (∧, ∨, ¬) for readable output
+- ✅ **Multiple Input Formats**: Parse from text, JSON, or programmatic construction
+- ✅ **Truth Tables**: Generate and compare truth tables
+
+## Next Steps
+
+- **New to SAT?** Start with [Introduction to SAT](introduction.md)
+- **Need to look up a term?** Check the [Terminology Reference](terminology.md)
+- **Ready to code?** Check out [Examples & Tutorials](examples.md)
+- **Want to understand the algorithms?** See the individual solver pages
+- **Looking for theory?** Visit [Theory & References](theory.md)
+
+## Contributing
+
+This is an educational package designed to help people learn about SAT solving. Contributions, examples, and documentation improvements are welcome!
+
+## License
+
+MIT License - See LICENSE file for details.
