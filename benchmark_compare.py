@@ -85,11 +85,31 @@ def format_time(t):
         return f"{t*1000000:.0f}us"
 
 
-def run_benchmark(cdcl_exe, minisat_exe, cnf_dir, timeout, output_json=None):
+def collect_cnf_files(cnf_dir, shard_index=0, num_shards=1):
     cnf_files = sorted(glob.glob(os.path.join(cnf_dir, "*.cnf")))
+    if num_shards > 1:
+        cnf_files = [
+            path for i, path in enumerate(cnf_files) if i % num_shards == shard_index
+        ]
+    return cnf_files
+
+
+def run_benchmark(
+    cdcl_exe,
+    minisat_exe,
+    cnf_dir,
+    timeout,
+    output_json=None,
+    shard_index=0,
+    num_shards=1,
+):
+    cnf_files = collect_cnf_files(cnf_dir, shard_index, num_shards)
     if not cnf_files:
-        print(f"Error: No .cnf files found in {cnf_dir}")
-        sys.exit(1)
+        print(
+            f"[WARN] No .cnf files assigned (dataset={cnf_dir}, shard={shard_index}/{num_shards})",
+            flush=True,
+        )
+        return []
 
     print(f"{'='*90}")
     print(f"  SAT Solver Benchmark: CDCLSolver vs MiniSat")
@@ -97,6 +117,8 @@ def run_benchmark(cdcl_exe, minisat_exe, cnf_dir, timeout, output_json=None):
     print(f"  CDCL Solver : {cdcl_exe}")
     print(f"  MiniSat     : {minisat_exe}")
     print(f"  Dataset     : {cnf_dir} ({len(cnf_files)} files)")
+    if num_shards > 1:
+        print(f"  Shard       : {shard_index}/{num_shards}")
     print(f"  Timeout     : {timeout}s")
     print(f"{'='*90}\n")
 
@@ -246,12 +268,22 @@ def run_one_instance(idx, cnf_path, cdcl_exe, minisat_exe, timeout):
 
 
 def run_benchmark_parallel(
-    cdcl_exe, minisat_exe, cnf_dir, timeout, jobs, output_json=None
+    cdcl_exe,
+    minisat_exe,
+    cnf_dir,
+    timeout,
+    jobs,
+    output_json=None,
+    shard_index=0,
+    num_shards=1,
 ):
-    cnf_files = sorted(glob.glob(os.path.join(cnf_dir, "*.cnf")))
+    cnf_files = collect_cnf_files(cnf_dir, shard_index, num_shards)
     if not cnf_files:
-        print(f"Error: No .cnf files found in {cnf_dir}")
-        sys.exit(1)
+        print(
+            f"[WARN] No .cnf files assigned (dataset={cnf_dir}, shard={shard_index}/{num_shards})",
+            flush=True,
+        )
+        return []
 
     if jobs <= 0:
         jobs = os.cpu_count() or 1
@@ -263,6 +295,8 @@ def run_benchmark_parallel(
     print(f"  CDCL Solver : {cdcl_exe}")
     print(f"  MiniSat     : {minisat_exe}")
     print(f"  Dataset     : {cnf_dir} ({len(cnf_files)} files)")
+    if num_shards > 1:
+        print(f"  Shard       : {shard_index}/{num_shards}")
     print(f"  Timeout     : {timeout}s")
     print(f"  Workers     : {jobs}")
     print(f"{'='*90}\n")
@@ -322,9 +356,11 @@ def run_benchmark_parallel(
                 f"{r['idx']:>3} {r['file_show']:<45} {r['vars']:>6} {r['clauses']:>7} "
                 f"{cdcl_result:>7} {ms_result:>7} {format_time(cdcl_time):>12} "
                 f"{format_time(ms_time):>12} {match_str:>6}"
+                ,
+                flush=True
             )
             if done_count % 10 == 0 or done_count == len(futures):
-                print(f"[INFO] Completed {done_count}/{len(futures)}")
+                print(f"[INFO] Completed {done_count}/{len(futures)}", flush=True)
 
             final_results.append(
                 {
@@ -386,6 +422,11 @@ def run_benchmark_parallel(
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(line_buffering=True)
+    if hasattr(sys.stderr, "reconfigure"):
+        sys.stderr.reconfigure(line_buffering=True)
+
     parser = argparse.ArgumentParser(
         description="SAT Solver Benchmark: CDCLSolver vs MiniSat"
     )
@@ -407,9 +448,36 @@ if __name__ == "__main__":
         default=0,
         help="Parallel workers. Use 0 for all available CPU cores (default: 0)",
     )
+    parser.add_argument(
+        "--shard-index",
+        type=int,
+        default=0,
+        help="Shard index for distributed runs (0-based, default: 0)",
+    )
+    parser.add_argument(
+        "--num-shards",
+        type=int,
+        default=1,
+        help="Total number of shards for distributed runs (default: 1)",
+    )
     args = parser.parse_args()
+    if args.num_shards <= 0:
+        print("Error: --num-shards must be >= 1")
+        sys.exit(1)
+    if args.shard_index < 0 or args.shard_index >= args.num_shards:
+        print("Error: --shard-index must be in [0, --num-shards)")
+        sys.exit(1)
+
     if args.jobs == 1:
-        run_benchmark(args.cdcl, args.minisat, args.dataset, args.timeout, args.output)
+        run_benchmark(
+            args.cdcl,
+            args.minisat,
+            args.dataset,
+            args.timeout,
+            args.output,
+            args.shard_index,
+            args.num_shards,
+        )
     else:
         run_benchmark_parallel(
             args.cdcl,
@@ -418,4 +486,6 @@ if __name__ == "__main__":
             args.timeout,
             args.jobs,
             args.output,
+            args.shard_index,
+            args.num_shards,
         )

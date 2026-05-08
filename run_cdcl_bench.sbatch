@@ -8,14 +8,15 @@
 #SBATCH --exclusive
 #SBATCH --output=Logs/cdcl-bench-%j.out
 
-# set -euo pipefail
+set -euo pipefail
 
 cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p Logs
 
 module load compiler/gnu/10.2.0
+export PYTHONUNBUFFERED=1
 
-python3 benchmark_compare.py \
+python3 -u benchmark_compare.py \
   --cdcl Checkers/cdcl_solver \
   --minisat Baseline/minisat/build/release/bin/minisat \
   --dataset Datasets/cdcl_dimacs/large/cnfs \
