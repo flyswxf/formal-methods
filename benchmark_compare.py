@@ -323,7 +323,8 @@ def run_benchmark_parallel(
                 f"{cdcl_result:>7} {ms_result:>7} {format_time(cdcl_time):>12} "
                 f"{format_time(ms_time):>12} {match_str:>6}"
             )
-            print(f"[INFO] Completed {done_count}/{len(futures)}")
+            if done_count % 10 == 0 or done_count == len(futures):
+                print(f"[INFO] Completed {done_count}/{len(futures)}")
 
             final_results.append(
                 {

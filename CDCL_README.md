@@ -238,10 +238,24 @@ srun --pty --cpu-bind=cores bash
 
 - `--cpu-bind=cores`：CPU绑定，避免进程上下文切换，大幅提升CPU密集型任务的性能
 
-### 6.4 再跑 MiniSat 对比基准（timeout=300）
+### 6.5 额外：非交互提交（sbatch）
+
+项目根目录已提供脚本：`run_cdcl_bench.sbatch`。提交命令：
 
 ```bash
-python3 benchmark_compare.py --cdcl Checkers/cdcl_solver --minisat Baseline/minisat/build/release/bin/minisat --dataset Datasets/cdcl_dimacs/large --timeout 300 --output bench_results.json
+sbatch run_cdcl_bench.sbatch
+```
+
+可选查看任务状态：
+
+```bash
+squeue -u $USER
+```
+
+### 6.6 再跑 MiniSat 对比基准（timeout=300）
+
+```bash
+python3 benchmark_compare.py --cdcl Checkers/cdcl_solver --minisat Baseline/minisat/build/release/bin/minisat --dataset Datasets/cdcl_dimacs/large/cnfs --timeout 300 --output bench_results.json
 ```
 
 ## 7. 注意事项
@@ -249,4 +263,3 @@ python3 benchmark_compare.py --cdcl Checkers/cdcl_solver --minisat Baseline/mini
 - Windows 下 `benchmark_compare.py` 会尝试把 `D:\strawberry\c\bin` 加入 `PATH`，用于兼容部分 `minisat.exe` 运行环境。
 - `dataset` 目录必须直接包含 `.cnf` 文件；若为空会直接报错退出。
 - 若你使用的是超大实例，建议先关自检跑性能，再开自检定位一致性问题。
-
