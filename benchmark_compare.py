@@ -106,8 +106,7 @@ def run_benchmark(
     cnf_files = collect_cnf_files(cnf_dir, shard_index, num_shards)
     if not cnf_files:
         print(
-            f"[WARN] No .cnf files assigned (dataset={cnf_dir}, shard={shard_index}/{num_shards})",
-            flush=True,
+            f"[WARN] No .cnf files assigned (dataset={cnf_dir}, shard={shard_index}/{num_shards})"
         )
         return []
 
@@ -280,8 +279,7 @@ def run_benchmark_parallel(
     cnf_files = collect_cnf_files(cnf_dir, shard_index, num_shards)
     if not cnf_files:
         print(
-            f"[WARN] No .cnf files assigned (dataset={cnf_dir}, shard={shard_index}/{num_shards})",
-            flush=True,
+            f"[WARN] No .cnf files assigned (dataset={cnf_dir}, shard={shard_index}/{num_shards})"
         )
         return []
 
@@ -356,11 +354,9 @@ def run_benchmark_parallel(
                 f"{r['idx']:>3} {r['file_show']:<45} {r['vars']:>6} {r['clauses']:>7} "
                 f"{cdcl_result:>7} {ms_result:>7} {format_time(cdcl_time):>12} "
                 f"{format_time(ms_time):>12} {match_str:>6}"
-                ,
-                flush=True
             )
             if done_count % 10 == 0 or done_count == len(futures):
-                print(f"[INFO] Completed {done_count}/{len(futures)}", flush=True)
+                print(f"[INFO] Completed {done_count}/{len(futures)}")
 
             final_results.append(
                 {
@@ -422,11 +418,6 @@ def run_benchmark_parallel(
 
 
 if __name__ == "__main__":
-    if hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(line_buffering=True)
-    if hasattr(sys.stderr, "reconfigure"):
-        sys.stderr.reconfigure(line_buffering=True)
-
     parser = argparse.ArgumentParser(
         description="SAT Solver Benchmark: CDCLSolver vs MiniSat"
     )

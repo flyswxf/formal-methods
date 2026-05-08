@@ -14,7 +14,6 @@ cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p Logs shard_results
 
 module load compiler/gnu/10.2.0
-export PYTHONUNBUFFERED=1
 
 echo "[INFO] job_id=${SLURM_JOB_ID} nodes=${SLURM_NNODES} tasks=${SLURM_NTASKS}"
 
@@ -26,7 +25,7 @@ srun --cpu-bind=cores bash -lc '
   out_log="Logs/bench_${SLURM_JOB_ID}_shard${shard}.out"
 
   echo "[INFO] shard=${shard}/${total} host=$(hostname) log=${out_log}" | tee -a "${out_log}"
-  python3 -u benchmark_compare.py \
+  python3 benchmark_compare.py \
     --cdcl Checkers/cdcl_solver \
     --minisat Baseline/minisat/build/release/bin/minisat \
     --dataset Datasets/cdcl_dimacs/large/cnfs \
@@ -37,22 +36,4 @@ srun --cpu-bind=cores bash -lc '
     --output "${out_json}" >> "${out_log}" 2>&1
 '
 
-python3 - << 'PY'
-import glob
-import json
-import os
-
-job_id = os.environ.get("SLURM_JOB_ID", "")
-paths = sorted(glob.glob(f"shard_results/bench_{job_id}_shard*.json"))
-merged = []
-for p in paths:
-    with open(p, "r", encoding="utf-8") as f:
-        merged.extend(json.load(f))
-
-out_path = f"bench_results_{job_id}_merged.json"
-with open(out_path, "w", encoding="utf-8") as f:
-    json.dump(merged, f, indent=2, ensure_ascii=False)
-
-print(f"[INFO] merged {len(paths)} shard files, total records={len(merged)}")
-print(f"[INFO] merged json => {out_path}")
-PY
+python3 Utils/merge_shard_results.py --job-id "${SLURM_JOB_ID}"
