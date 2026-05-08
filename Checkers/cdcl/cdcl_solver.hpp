@@ -59,7 +59,6 @@ private:
     int n_vars;
     int n_clauses;
     int qhead;
-    int qtail;
     int decision_level;
     int conflict_count;
 
@@ -69,10 +68,6 @@ private:
     std::vector<Lit> trail;
     std::vector<int> trail_lim;
     std::vector<bool> seen;
-    std::vector<Lit> learnt_clause;
-    std::vector<Lit> analyze_stack;
-    std::vector<Lit> analyze_toclear;
-    std::vector<Lit> propagate_buffer;
 
     std::vector<double> activity;
     std::vector<int> heap;
@@ -80,10 +75,15 @@ private:
     double var_inc;
     double var_decay;
     bool initial_conflict;
+    bool self_check_enabled;
+    int self_check_interval;
+    int self_check_counter;
 
     Lit pick_branch_lit();
     void new_decision_level();
+    bool enqueue(Lit p, int from);
     void unchecked_enqueue(Lit p, int from);
+    void attach_clause(int cref);
     int propagate();
     int value_of(Lit p) const;
     bool lit_true(Lit p) const;
@@ -104,6 +104,11 @@ private:
     int heap_left(int i) const { return 2 * i + 1; }
     int heap_right(int i) const { return 2 * i + 2; }
     bool heap_cmp(int a, int b) const { return activity[a] < activity[b]; }
+    void self_check_fail(const char* module, const char* message) const;
+    void self_check_require(bool condition, const char* module, const char* message) const;
+    void self_check_clause_shape(int cref, const char* module) const;
+    void self_check_trail_and_assignments(const char* module) const;
+    void self_check_watchers_sample(const char* module);
 };
 
 #endif

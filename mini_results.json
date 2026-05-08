@@ -1,0 +1,50 @@
+[
+  {
+    "file": "sat_01.cnf",
+    "vars": 3,
+    "clauses": 3,
+    "cdcl_result": "SAT",
+    "cdcl_time": 0.0174,
+    "cdcl_error": null,
+    "minisat_result": "SAT",
+    "minisat_time": 0.4139,
+    "minisat_error": null,
+    "match": "OK"
+  },
+  {
+    "file": "sat_02.cnf",
+    "vars": 4,
+    "clauses": 5,
+    "cdcl_result": "SAT",
+    "cdcl_time": 0.0183,
+    "cdcl_error": null,
+    "minisat_result": "SAT",
+    "minisat_time": 0.1199,
+    "minisat_error": null,
+    "match": "OK"
+  },
+  {
+    "file": "unsat_01.cnf",
+    "vars": 1,
+    "clauses": 2,
+    "cdcl_result": "UNSAT",
+    "cdcl_time": 0.0203,
+    "cdcl_error": null,
+    "minisat_result": "UNSAT",
+    "minisat_time": 0.0331,
+    "minisat_error": null,
+    "match": "OK"
+  },
+  {
+    "file": "unsat_02.cnf",
+    "vars": 2,
+    "clauses": 4,
+    "cdcl_result": "UNSAT",
+    "cdcl_time": 0.0165,
+    "cdcl_error": null,
+    "minisat_result": "UNSAT",
+    "minisat_time": 0.0533,
+    "minisat_error": null,
+    "match": "OK"
+  }
+]
