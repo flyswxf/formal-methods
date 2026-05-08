@@ -13,7 +13,7 @@
 cd "${SLURM_SUBMIT_DIR:-$PWD}"
 mkdir -p Logs
 
-# module load compiler/gnu/10.2.0
+module load compiler/gnu/10.2.0
 
 python3 benchmark_compare.py \
   --cdcl Checkers/cdcl_solver \
