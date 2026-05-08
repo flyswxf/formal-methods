@@ -2,7 +2,7 @@
 #SBATCH --job-name=cdcl-bench
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32L
+#SBATCH --cpus-per-task=32
 #SBATCH --mem=100G
 #SBATCH --time=4:00:00
 #SBATCH --exclusive
