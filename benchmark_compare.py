@@ -222,10 +222,10 @@ def run_one_instance(idx, cnf_path, cdcl_exe, minisat_exe, timeout):
     else:
         fname_show = fname
 
-    if cdcl_result == ms_result:
-        match_str = "OK"
-    elif cdcl_result in ("TIMEOUT", "ERROR") or ms_result in ("TIMEOUT", "ERROR"):
+    if cdcl_result in ("TIMEOUT", "ERROR") or ms_result in ("TIMEOUT", "ERROR"):
         match_str = "N/A"
+    elif cdcl_result == ms_result:
+        match_str = "OK"
     else:
         match_str = "DIFF"
 
