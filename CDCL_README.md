@@ -218,22 +218,25 @@ python3 Utils/cdcl_random_sanity.py --cdcl Checkers/cdcl_solver --cases 1000 --m
 ```
 
 ### 6.4申请独占节点资源
+
 ```bash
 # 申请1个完整节点，独占32核128G内存，时长按需调整（示例4小时）
-salloc --exclusive -N 1 -n 1 --cpus-per-task=32 --mem=128G -t 4:00:00
+salloc --exclusive -N 1 -n 1 --cpus-per-task=32 --mem=100G -t 4:00:00
 ```
+
 - `--exclusive`：**核心参数**，独占整个节点，不与其他用户共享，避免CPU争抢，性能最稳定
 - `-N 1`：固定1个节点（单线程SAT跨节点无意义）
 - `--cpus-per-task=32`：匹配节点全部32个物理核
-- `--mem=128G`：匹配节点全部内存，避免OOM
+- `--mem=100G`：匹配节点全部内存，避免OOM
 - `-t 4:00:00`：运行时长，格式`小时:分钟:秒`，按需修改（比如跑大规模实验可以设`24:00:00`）
 
 申请成功后，登录到计算节点：
+
 ```bash
 srun --pty --cpu-bind=cores bash
 ```
-- `--cpu-bind=cores`：CPU绑定，避免进程上下文切换，大幅提升CPU密集型任务的性能
 
+- `--cpu-bind=cores`：CPU绑定，避免进程上下文切换，大幅提升CPU密集型任务的性能
 
 ### 6.4 再跑 MiniSat 对比基准（timeout=300）
 

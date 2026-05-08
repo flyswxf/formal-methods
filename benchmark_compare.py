@@ -268,21 +268,6 @@ def run_benchmark_parallel(
     print(f"{'='*90}\n")
 
     print(f"[INFO] Submitting {len(cnf_files)} instances ...")
-    raw_results = []
-    with ProcessPoolExecutor(max_workers=jobs) as ex:
-        futures = [
-            ex.submit(run_one_instance, idx, path, cdcl_exe, minisat_exe, timeout)
-            for idx, path in enumerate(cnf_files, 1)
-        ]
-        done_count = 0
-        for fut in as_completed(futures):
-            raw_results.append(fut.result())
-            done_count += 1
-            if done_count % 10 == 0 or done_count == len(futures):
-                print(f"[INFO] Completed {done_count}/{len(futures)}")
-
-    results_sorted = sorted(raw_results, key=lambda x: x["idx"])
-
     agree = 0
     disagree = 0
     cdcl_wins = 0
@@ -296,55 +281,64 @@ def run_benchmark_parallel(
     print("-" * len(header))
 
     final_results = []
-    for r in results_sorted:
-        cdcl_result = r["cdcl_result"]
-        ms_result = r["minisat_result"]
-        cdcl_time = r["cdcl_time"]
-        ms_time = r["minisat_time"]
-        match_str = r["match"]
+    with ProcessPoolExecutor(max_workers=jobs) as ex:
+        futures = [
+            ex.submit(run_one_instance, idx, path, cdcl_exe, minisat_exe, timeout)
+            for idx, path in enumerate(cnf_files, 1)
+        ]
+        done_count = 0
+        for fut in as_completed(futures):
+            r = fut.result()
+            done_count += 1
+            cdcl_result = r["cdcl_result"]
+            ms_result = r["minisat_result"]
+            cdcl_time = r["cdcl_time"]
+            ms_time = r["minisat_time"]
+            match_str = r["match"]
 
-        if cdcl_result not in ("TIMEOUT", "ERROR"):
-            cdcl_total_time += cdcl_time
-        if ms_result not in ("TIMEOUT", "ERROR"):
-            minisat_total_time += ms_time
+            if cdcl_result not in ("TIMEOUT", "ERROR"):
+                cdcl_total_time += cdcl_time
+            if ms_result not in ("TIMEOUT", "ERROR"):
+                minisat_total_time += ms_time
 
-        if match_str == "OK":
-            agree += 1
-        elif match_str == "DIFF":
-            disagree += 1
+            if match_str == "OK":
+                agree += 1
+            elif match_str == "DIFF":
+                disagree += 1
 
-        if cdcl_result not in ("TIMEOUT", "ERROR") and ms_result not in (
-            "TIMEOUT",
-            "ERROR",
-        ):
-            if cdcl_time < ms_time:
-                cdcl_wins += 1
-            elif ms_time < cdcl_time:
-                minisat_wins += 1
+            if cdcl_result not in ("TIMEOUT", "ERROR") and ms_result not in (
+                "TIMEOUT",
+                "ERROR",
+            ):
+                if cdcl_time < ms_time:
+                    cdcl_wins += 1
+                elif ms_time < cdcl_time:
+                    minisat_wins += 1
 
-        if cdcl_result == "TIMEOUT" and ms_result == "TIMEOUT":
-            both_timeout += 1
+            if cdcl_result == "TIMEOUT" and ms_result == "TIMEOUT":
+                both_timeout += 1
 
-        print(
-            f"{r['idx']:>3} {r['file_show']:<45} {r['vars']:>6} {r['clauses']:>7} "
-            f"{cdcl_result:>7} {ms_result:>7} {format_time(cdcl_time):>12} "
-            f"{format_time(ms_time):>12} {match_str:>6}"
-        )
+            print(
+                f"{r['idx']:>3} {r['file_show']:<45} {r['vars']:>6} {r['clauses']:>7} "
+                f"{cdcl_result:>7} {ms_result:>7} {format_time(cdcl_time):>12} "
+                f"{format_time(ms_time):>12} {match_str:>6}"
+            )
+            print(f"[INFO] Completed {done_count}/{len(futures)}")
 
-        final_results.append(
-            {
-                "file": r["file"],
-                "vars": r["vars"],
-                "clauses": r["clauses"],
-                "cdcl_result": cdcl_result,
-                "cdcl_time": round(cdcl_time, 4),
-                "cdcl_error": r["cdcl_error"],
-                "minisat_result": ms_result,
-                "minisat_time": round(ms_time, 4),
-                "minisat_error": r["minisat_error"],
-                "match": match_str,
-            }
-        )
+            final_results.append(
+                {
+                    "file": r["file"],
+                    "vars": r["vars"],
+                    "clauses": r["clauses"],
+                    "cdcl_result": cdcl_result,
+                    "cdcl_time": round(cdcl_time, 4),
+                    "cdcl_error": r["cdcl_error"],
+                    "minisat_result": ms_result,
+                    "minisat_time": round(ms_time, 4),
+                    "minisat_error": r["minisat_error"],
+                    "match": match_str,
+                }
+            )
 
     total = len(final_results)
     solved_both = sum(
