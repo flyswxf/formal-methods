@@ -72,7 +72,17 @@ def main():
     if paths:
         print(f"[INFO] Deleted {len(paths)} shard JSON files.")
 
-    # 2. Merge shard log files into result.out
+    # 2. Read meta.json if available
+    meta_path = os.path.join(job_dir, "meta.json")
+    meta = {}
+    if os.path.isfile(meta_path):
+        try:
+            with open(meta_path, "r", encoding="utf-8") as f:
+                meta = json.load(f)
+        except Exception:
+            pass
+
+    # 3. Merge shard log files into result.out
     agree = 0
     disagree = 0
     cdcl_wins = 0
@@ -88,6 +98,20 @@ def main():
         out_f.write("  SAT Solver Benchmark: Merged Results\n")
         out_f.write("=" * 90 + "\n")
         out_f.write(f"  Job ID      : {args.job_id}\n")
+        if meta.get("task_name"):
+            out_f.write(f"  Task Name   : {meta['task_name']}\n")
+        if meta.get("dataset"):
+            out_f.write(f"  Dataset     : {meta['dataset']}\n")
+        if meta.get("cdcl"):
+            out_f.write(f"  CDCL Solver : {meta['cdcl']}\n")
+        if meta.get("minisat"):
+            out_f.write(f"  MiniSat     : {meta['minisat']}\n")
+        if meta.get("timeout"):
+            out_f.write(f"  Timeout     : {meta['timeout']}s\n")
+        if meta.get("nodes"):
+            out_f.write(
+                f"  Nodes       : {meta['nodes']}  ({meta.get('cpus_per_node', 32)} cpus/node)\n"
+            )
         out_f.write(f"  Total Files : {total}\n")
         out_f.write("=" * 90 + "\n\n")
 

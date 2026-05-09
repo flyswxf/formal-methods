@@ -1,22 +1,55 @@
 #!/bin/bash
 set -euo pipefail
 
+usage() {
+    echo "Usage: $0 [--serial] [--max-nodes N]"
+    echo ""
+    echo "  --serial       Submit jobs with SLURM dependency chain (one at a time)."
+    echo "                 Without this flag, all jobs are submitted at once."
+    echo "  --max-nodes N  Override max nodes per job (default: 16)"
+    echo ""
+}
+
+SERIAL=false
+MAX_NODES=16
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --serial)
+            SERIAL=true
+            shift
+            ;;
+        --max-nodes)
+            MAX_NODES="$2"
+            shift 2
+            ;;
+        -h|--help)
+            usage
+            exit 0
+            ;;
+        *)
+            echo "Unknown option: $1" >&2
+            usage
+            exit 1
+            ;;
+    esac
+done
+
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 TEMPLATE="$PROJECT_DIR/run_cdcl_bench_multinode.sbatch"
 TMP_DIR="$PROJECT_DIR/Logs/batch_sbatch"
 mkdir -p "$PROJECT_DIR/Logs" "$TMP_DIR"
 
 CORES_PER_NODE=32
-MAX_NODES=16
 
 # ============================================================
 # Task definitions: "task_name|cnf_relative_path"
 # Add or remove tasks here as needed.
 # ============================================================
 TASKS=(
-    "large-2023|Datasets/cdcl_dimacs/large/cnfs/2023",
-    "large-2022|Datasets/cdcl_dimacs/large/cnfs/2022",
-    "large-2021|Datasets/cdcl_dimacs/large/cnfs/2021",
+    "large-2023|Datasets/cdcl_dimacs/large/cnfs/2023"
+    "large-2022|Datasets/cdcl_dimacs/large/cnfs/2022"
+    "large-2021|Datasets/cdcl_dimacs/large/cnfs/2021"
     "medium-uf20-91-SAT|Datasets/cdcl_dimacs/medium/uf20-91/SAT"
     "medium-uf50-218-SAT|Datasets/cdcl_dimacs/medium/uf50-218/SAT"
     "medium-uf50-218-UNSAT|Datasets/cdcl_dimacs/medium/uf50-218/UNSAT"
@@ -46,10 +79,13 @@ fi
 echo "=== Batch Benchmark Submission ==="
 echo "Template : $TEMPLATE"
 echo "Project  : $PROJECT_DIR"
+echo "Serial   : $SERIAL"
+echo "Max nodes: $MAX_NODES"
 echo ""
 
 submitted=0
 skipped=0
+prev_jobid=""
 
 for task in "${TASKS[@]}"; do
     IFS='|' read -r name cnf_rel <<< "$task"
@@ -84,10 +120,21 @@ for task in "${TASKS[@]}"; do
     sed \
         -e "s|^#SBATCH --job-name=cdcl-bench-mn$|#SBATCH --job-name=${name}|" \
         -e "s|^#SBATCH --nodes=16$|#SBATCH --nodes=${nodes}|" \
+        -e "s|^TASK_NAME=\"cdcl-bench-mn\"$|TASK_NAME=\"${name}\"|" \
+        -e "s|^DATASET=\"Datasets/cdcl_dimacs/large/cnfs\"$|DATASET=\"${cnf_rel}\"|" \
         -e "s|--dataset Datasets/cdcl_dimacs/large/cnfs|--dataset ${cnf_rel}|" \
         "$TEMPLATE" > "$tmp_sbatch"
 
-    sbatch "$tmp_sbatch"
+    if [ "$SERIAL" = true ] && [ -n "$prev_jobid" ]; then
+        echo "    dependency : afterok:$prev_jobid"
+        output=$(sbatch --dependency="afterok:$prev_jobid" "$tmp_sbatch")
+    else
+        output=$(sbatch "$tmp_sbatch")
+    fi
+
+    jobid=$(echo "$output" | grep -oP '\d+$')
+    echo "    submitted  : jobid=$jobid"
+    prev_jobid="$jobid"
     submitted=$((submitted + 1))
     echo ""
 done
@@ -95,4 +142,5 @@ done
 echo "=== Summary ==="
 echo "Submitted : $submitted"
 echo "Skipped   : $skipped"
+echo "Mode      : $( [ "$SERIAL" = true ] && echo "serial (dependency chain)" || echo "parallel" )"
 echo "Done."
