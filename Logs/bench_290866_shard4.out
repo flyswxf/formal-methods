@@ -1,0 +1,56 @@
+[INFO] shard=4/16 host=node112 log=Logs/bench_290866_shard4.out
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/large/cnfs (22 files)
+  Shard       : 4/16
+  Timeout     : 5000s
+  Workers     : 22
+==========================================================================================
+
+[INFO] Submitting 22 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  5 24b93d0bf941e4b050c9109e4cb7faf4-connm-ue-...    556    6427     SAT     SAT      18.024s      160.4ms     OK
+  9 4989239fbeb6eb40fc0b664d9ba92636-asconhash... 126976  296954   UNSAT   UNSAT       571.9s       258.1s     OK
+ 10 571a2f223784fb92a53b4cc8cc8b569e-clqcolor-...    132    1527   UNSAT   UNSAT      1035.8s      26.356s     OK
+  1 00f2eb377986e7decbc863931680a3b2-rand_net7...   5600   16661 TIMEOUT   UNSAT      5000.0s        93.1s    N/A
+  4 1b02025658c2a23e1fd3ce0a9c3633cb-asconhash... 158739  373741 TIMEOUT     SAT      5000.0s       107.5s    N/A
+ 15 96ae6bde39369f75aa975b0f5b74c325-asconhash... 158736  373160 TIMEOUT     SAT      5000.0s       197.7s    N/A
+  2 06b138e8a6da806e88ac7da2919cef30-grs-192-3... 132826  392468 TIMEOUT   UNSAT      5000.0s       317.0s    N/A
+ 22 f448874997bae64bd455fb00309dc738-asconhash... 127096  297418 TIMEOUT     SAT      5000.0s       395.7s    N/A
+ 12 73063c6257a4ffc29f5bea7028403a64-mod2c-ran...    354    2596 TIMEOUT     SAT      5000.0s       762.2s    N/A
+  8 3ff114cc7bee4f39fa56a0325e605c2d-stb_588_1...   1176   13650 TIMEOUT   UNSAT      5000.0s      2579.3s    N/A
+[INFO] Completed 10/22
+ 17 ae9b7950ef1513068bb9339893ec8c50-WCNF_to_a...    448    5562 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 20 d7f381cd99ca40ba3324c8cc03a54269-mchess16-...  16278     965 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  3 11db226d109e82f93aaa3b2604173ff9-posixpath...    351    4291 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 14 8e30bfdb721ca0a20031c79a76f9aa7c-satcoin-g... 134781  648806 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 13 835ac60ca83af6f334b64b61c4ad345b-tseitin_d...    240     640 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 16 a4941208671f6ebfd118e4e563538c31-SCPC-1000...   1000   51095 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 19 cd58fa8eba4046fd0a86642e1fe26cb9-intervals...   2501   58454 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 18 bc3a8bd47c5575c2f1b31882d28ee091-26_1.cnf       4288   14336 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 21 e51a98d78f61103e0672579e87cfd7e5-satcoin-g... 134781  648806 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 11 6b2ccabf0304af478a558b8a333ced32-grs-192-2... 1436378 4172104 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 20/22
+  7 35b19a3332597c1e5a3668f75ca72971-SC23_Time... 248899  807483 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  6 2b3de92685792ae19e4549b5c4571e27-crafted_n...  56064 15834160 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 22/22
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 22
+  Both agree            : 3
+  Disagreements         : 0
+  Both timeout          : 12
+  CDCL faster           : 0 / 3
+  MiniSat faster        : 3 / 3
+  CDCL total time       : 1625.7s
+  MiniSat total time    : 4737.1s
+  Speedup (MS/CDCL)     : 2.91x
+==========================================================================================
+
+  Results saved to: shard_results/bench_290866_shard4.json

@@ -1,0 +1,56 @@
+[INFO] shard=8/16 host=node116 log=Logs/bench_290866_shard8.out
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/large/cnfs (22 files)
+  Shard       : 8/16
+  Timeout     : 5000s
+  Workers     : 22
+==========================================================================================
+
+[INFO] Submitting 22 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+ 10 587150fb7b12a6b5dd7e4a9446b9713b-iso-ukn00...   1890   12666     SAT     SAT      919.1ms       42.1ms     OK
+ 14 909f704d5f4127c1197a086705468624-rbsat-v76...    760   43649 TIMEOUT     SAT      5000.0s       6.022s    N/A
+  2 096ac97e4261eabca440fc7bc135d7c0-SC23_Time... 248016  803998 TIMEOUT     SAT      5000.0s       132.3s    N/A
+ 13 8751f8d1570611ba079dfd862b14c514-SC23_Time... 250975  820712 TIMEOUT     SAT      5000.0s       144.0s    N/A
+ 16 a6d7268b35eec18656a85ad91b0413e9-php17-mix...    460    8655 TIMEOUT   UNSAT      5000.0s       255.4s    N/A
+  5 26114429758a203d651f4df87c94de4c-sgen1-uns...   7009   13996 TIMEOUT   UNSAT      5000.0s       314.7s    N/A
+  7 3728fe50d8038c639c2d9c84e04fe2b1-46bits_11...    689   16922 TIMEOUT     SAT      5000.0s       399.6s    N/A
+ 18 bdc85226a8d910a8b7d6a8730c7a4572-PRP_40_40... 249398 1492208 TIMEOUT     SAT      5000.0s       454.7s    N/A
+  3 177a4ad8fd76ad8240387998112c3168-SC23_Time... 247375  798538 TIMEOUT     SAT      5000.0s       533.4s    N/A
+ 22 f959755d7c68ea8b64d900e589fbe21f-g2-slp-sy...  94998  302862 TIMEOUT     SAT      5000.0s       642.0s    N/A
+[INFO] Completed 10/22
+ 17 b09585f2346c207e9e14a3daf0de46cf-CNF_to_al...    231    1880 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  1 01966a0fc52b2200a13f5f835275a919-SGI_30_70...    810   68270 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 15 99d134de6323a845a2828596a48bbb1d-php17-mix...    460    4494 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  6 2e808d215e4155379a847b146ef38b34-goldcrest... 852822 2626667 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  8 41a8365f60db55b71d949df6954e0db7-FileObjec...    247    2073 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 12 78d23f235b63b1b7f08eb1b6cfb03f34-29_1.cnf       4768   15968 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  4 1eea3d913d346b900252d77fc0cb25c8-par32-4.s...   3176   10313 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 19 cea96962ebd736646af54d950943d909-SCPC-800-...    800   33540 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 21 eca3692344e30ae83a49158b5baf3372-brent_65_...  77577  335642 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  9 4f38f4b005cc54122135c8c21aec4b85-intervals...   2621   59571 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 20/22
+ 20 d8f131a86243ef138af39abf52a479e5-SC23_Time... 249051  807916 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 11 6e9cae5108bd423666c73aaace197769-brent_51_...  60534  248804 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 22/22
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 22
+  Both agree            : 1
+  Disagreements         : 0
+  Both timeout          : 12
+  CDCL faster           : 0 / 1
+  MiniSat faster        : 1 / 1
+  CDCL total time       : 919.1ms
+  MiniSat total time    : 2882.2s
+  Speedup (MS/CDCL)     : 3135.93x
+==========================================================================================
+
+  Results saved to: shard_results/bench_290866_shard8.json

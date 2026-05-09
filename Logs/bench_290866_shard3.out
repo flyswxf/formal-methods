@@ -1,0 +1,57 @@
+[INFO] shard=3/16 host=node111 log=Logs/bench_290866_shard3.out
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/large/cnfs (23 files)
+  Shard       : 3/16
+  Timeout     : 5000s
+  Workers     : 23
+==========================================================================================
+
+[INFO] Submitting 23 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+ 17 ae9522ea003ea9f75891b2d37a5e264b-srhd-sgi-...   1285  166723     SAT TIMEOUT      949.5ms      5000.0s    N/A
+  7 358fa8d20aa467c7e9b9bf34f73d1dc9-patat-08-...  78774 1618778 TIMEOUT     SAT      5000.0s      31.260s    N/A
+  4 1aa7cd96ab1f7bf58984deccf8362ab4-rand_net5...   6000   17901 TIMEOUT   UNSAT      5000.0s        60.5s    N/A
+ 20 d6402b482a5dc102a5b09360689e2be8-jkkk-one-...   6401   46366 TIMEOUT   UNSAT      5000.0s       260.8s    N/A
+ 12 72b5ad031bf852634bc081f9da9a5a60-GzipFile_...    187    1348 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 18 bbf800109d039e117ed60593c185692c-ER_500_10...   1002   38698 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  5 246afd75cb97a21144f368c00252a656-BZ2File_w...    176    1149 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 14 8db36208fc6ce43b4002cf048c549b3f-WS_400_32...    800   20001 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 15 965ca988015c9aee5a1a7b2136c1fe5d-os_fwalk_...    288    3240 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 11 6aacae96461cb65176942b6dc88ea470-mchess20-...  39805    1513 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 10/23
+ 23 ff867fd35aa52058382a8b0c21cd1f38-mchess20-...  39805    1549 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  6 2a4680a801ad32ab8768030250daf0c8-ER_500_10...   1002   38878 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  2 03e9d1abe418a1727bbf2ead77d69d02-php15-mix...    354    2938 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 10 558ce551d2b933b7a5f1c7d2a6044930-collectio...    945   22923 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 21 e46bdd62b3789b64f7fbb3bd6c99484e-intervals...   2518   55499 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 19 cd118ff851f95661b2a3adfc3e393c74-Schur_160...    756   27689 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  1 00bb0b4ef28ed38c49de4c54b9fabc4d-25_2.cnf       4128   13792 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  8 3f4174289e971950c290f27892169bc5-intervals...   2598   62264 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 16 a45b60e53917968f922b97c6f8aa8db3-unsat-set...    205    4549 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 22 f4064d73fd6e69caf154046e61fea7b8-cliquecol...    387    9088 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 20/23
+ 13 82fe0a5b2467d6e5299c315da8b16ec5-brent_51_...  60812  264896 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  9 48ac8814180bdc90bf96a4caea64dae2-intervals...   2478   56767 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  3 1153a473e1d5dd21ccd33189d594a4aa-tseitin_d...  15000   40000 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 23/23
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 23
+  Both agree            : 0
+  Disagreements         : 0
+  Both timeout          : 19
+  CDCL faster           : 0 / 0
+  MiniSat faster        : 0 / 0
+  CDCL total time       : 949.5ms
+  MiniSat total time    : 352.6s
+  Speedup (MS/CDCL)     : 371.31x
+==========================================================================================
+
+  Results saved to: shard_results/bench_290866_shard3.json

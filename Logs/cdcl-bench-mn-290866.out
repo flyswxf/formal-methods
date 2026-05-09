@@ -1,0 +1,19 @@
+[INFO] job_id=290866 nodes=16 tasks=16
+[INFO] shard=0/16 host=node107 log=Logs/bench_290866_shard0.out
+[INFO] shard=11/16 host=node119 log=Logs/bench_290866_shard11.out
+[INFO] shard=8/16 host=node116 log=Logs/bench_290866_shard8.out
+[INFO] shard=9/16 host=node117 log=Logs/bench_290866_shard9.out
+[INFO] shard=14/16 host=node123 log=Logs/bench_290866_shard14.out
+[INFO] shard=1/16 host=node109 log=Logs/bench_290866_shard1.out
+[INFO] shard=12/16 host=node120 log=Logs/bench_290866_shard12.out
+[INFO] shard=3/16 host=node111 log=Logs/bench_290866_shard3.out
+[INFO] shard=5/16 host=node113 log=Logs/bench_290866_shard5.out
+[INFO] shard=6/16 host=node114 log=Logs/bench_290866_shard6.out
+[INFO] shard=10/16 host=node118 log=Logs/bench_290866_shard10.out
+[INFO] shard=7/16 host=node115 log=Logs/bench_290866_shard7.out
+[INFO] shard=2/16 host=node110 log=Logs/bench_290866_shard2.out
+[INFO] shard=4/16 host=node112 log=Logs/bench_290866_shard4.out
+[INFO] shard=15/16 host=node124 log=Logs/bench_290866_shard15.out
+[INFO] shard=13/16 host=node122 log=Logs/bench_290866_shard13.out
+[INFO] merged 16 shard files, total records=356
+[INFO] merged json => bench_results_290866_merged.json

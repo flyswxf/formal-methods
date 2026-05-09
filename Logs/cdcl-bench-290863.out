@@ -1,0 +1,34 @@
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/mini (4 files)
+  Timeout     : 5000s
+  Workers     : 4
+==========================================================================================
+
+[INFO] Submitting 4 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  3 unsat_01.cnf                                       1       2   UNSAT   UNSAT      554.5ms       96.9ms     OK
+  4 unsat_02.cnf                                       2       4   UNSAT   UNSAT      554.0ms       97.5ms     OK
+  2 sat_02.cnf                                         4       5     SAT     SAT      554.7ms       97.5ms     OK
+  1 sat_01.cnf                                         3       3     SAT     SAT      554.7ms       98.0ms     OK
+[INFO] Completed 4/4
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 4
+  Both agree            : 4
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 0 / 4
+  MiniSat faster        : 4 / 4
+  CDCL total time       : 2.218s
+  MiniSat total time    : 389.9ms
+  Speedup (MS/CDCL)     : 0.18x
+==========================================================================================
+
+  Results saved to: bench_results_5000.json

@@ -1,0 +1,14 @@
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/large/cnfs (356 files)
+  Timeout     : 5000s
+  Workers     : 32
+==========================================================================================
+
+[INFO] Submitting 356 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+slurmstepd: error: *** JOB 289987 ON node90 CANCELLED AT 2026-05-08T19:47:42 ***
