@@ -126,8 +126,8 @@ for task in "${TASKS[@]}"; do
         "$TEMPLATE" > "$tmp_sbatch"
 
     if [ "$SERIAL" = true ] && [ -n "$prev_jobid" ]; then
-        echo "    dependency : afterok:$prev_jobid"
-        output=$(sbatch --dependency="afterok:$prev_jobid" "$tmp_sbatch")
+        echo "    dependency : afterany:$prev_jobid"
+        output=$(sbatch --dependency="afterany:$prev_jobid" "$tmp_sbatch")
     else
         output=$(sbatch "$tmp_sbatch")
     fi

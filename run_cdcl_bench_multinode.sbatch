@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=100G
 #SBATCH --time=24:00:00
-#SBATCH --exclusive
 #SBATCH --output=Logs/%j/info.out
 
 set -euo pipefail
