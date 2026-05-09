@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=100G
 #SBATCH --time=24:00:00
-#SBATCH --output=Logs/%j/info.out
+#SBATCH --output=Logs/info-%j.out
 
 set -euo pipefail
 
@@ -18,7 +18,7 @@ TASK_NAME="cdcl-bench-mn"
 DATASET="Datasets/cdcl_dimacs/large/cnfs"
 
 python3 -c "
-import json, os
+import json
 meta = {
     'job_id': int('${SLURM_JOB_ID}'),
     'task_name': '${TASK_NAME}',
@@ -58,4 +58,5 @@ srun --cpu-bind=cores bash -lc '
     --output "${out_json}" >> "${out_log}" 2>&1
 '
 
+mv "Logs/info-${SLURM_JOB_ID}.out" "${JOB_DIR}/info.out"
 python3 Utils/merge_shard_results.py --job-id "${SLURM_JOB_ID}" --job-dir "$JOB_DIR"
