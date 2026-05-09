@@ -26,6 +26,7 @@ venv/
 # Datasets
 Datasets/cdcl_dimacs/large/cnfs
 Datasets/cdcl_dimacs/large/downloads
+Datasets/cdcl_dimacs/medium
 
 # OS
 .DS_Store
