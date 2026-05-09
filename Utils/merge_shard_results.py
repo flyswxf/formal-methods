@@ -22,55 +22,57 @@ def main():
     parser.add_argument(
         "--job-id",
         default=os.environ.get("SLURM_JOB_ID", ""),
-        help="SLURM job id used in shard file names (default: $SLURM_JOB_ID)",
+        help="SLURM job id (default: $SLURM_JOB_ID)",
     )
     parser.add_argument(
-        "--input-dir",
-        default="shard_results",
-        help="Directory containing shard JSON files (default: shard_results)",
-    )
-    parser.add_argument(
-        "--log-dir",
-        default="Logs",
-        help="Directory containing shard log files (default: Logs)",
+        "--job-dir",
+        default=None,
+        help="Directory containing shard JSON and log files (default: Logs/<job-id>)",
     )
     parser.add_argument(
         "--output",
         default=None,
-        help="Output merged JSON path (default: bench_results_<jobid>_merged.json)",
+        help="Output merged JSON path (default: <job-dir>/detail.json)",
+    )
+    parser.add_argument(
+        "--result",
+        default=None,
+        help="Output result report path (default: <job-dir>/result.out)",
     )
     args = parser.parse_args()
 
     if not args.job_id:
         raise SystemExit("Error: missing --job-id and $SLURM_JOB_ID is empty")
 
-    # 1. Merge JSON files
-    pattern = os.path.join(args.input_dir, f"bench_{args.job_id}_shard*.json")
+    job_dir = args.job_dir or os.path.join("Logs", str(args.job_id))
+    os.makedirs(job_dir, exist_ok=True)
+
+    detail_path = args.output or os.path.join(job_dir, "detail.json")
+    result_path = args.result or os.path.join(job_dir, "result.out")
+
+    # 1. Merge shard JSON files
+    pattern = os.path.join(job_dir, "shard*.json")
     paths = sorted(glob.glob(pattern))
     merged = []
     for path in paths:
         with open(path, "r", encoding="utf-8") as f:
             merged.extend(json.load(f))
 
-    out_path = args.output or f"bench_results_{args.job_id}_merged.json"
-    with open(out_path, "w", encoding="utf-8") as f:
+    with open(detail_path, "w", encoding="utf-8") as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)
 
     print(f"[INFO] merged {len(paths)} shard files, total records={len(merged)}")
-    print(f"[INFO] merged json => {out_path}")
+    print(f"[INFO] detail.json => {detail_path}")
 
-    # Delete original shard JSON files
     for path in paths:
         try:
             os.remove(path)
         except OSError as e:
             print(f"[WARN] Failed to remove {path}: {e}")
     if paths:
-        print(f"[INFO] Deleted {len(paths)} original shard JSON files.")
+        print(f"[INFO] Deleted {len(paths)} shard JSON files.")
 
-    # 2. Merge Log files into a single report
-    log_out_path = os.path.join(args.log_dir, f"bench_{args.job_id}_merged.out")
-
+    # 2. Merge shard log files into result.out
     agree = 0
     disagree = 0
     cdcl_wins = 0
@@ -81,7 +83,7 @@ def main():
 
     total = len(merged)
 
-    with open(log_out_path, "w", encoding="utf-8") as out_f:
+    with open(result_path, "w", encoding="utf-8") as out_f:
         out_f.write("=" * 90 + "\n")
         out_f.write("  SAT Solver Benchmark: Merged Results\n")
         out_f.write("=" * 90 + "\n")
@@ -169,10 +171,10 @@ def main():
                         f"     {r.get('file')}: CDCL={r.get('cdcl_result')} vs MiniSat={r.get('minisat_result')}\n"
                     )
 
-    print(f"[INFO] merged logs => {log_out_path}")
+    print(f"[INFO] result.out => {result_path}")
 
-    # Delete original shard log files
-    log_pattern = os.path.join(args.log_dir, f"bench_{args.job_id}_shard*.out")
+    # 3. Delete shard log files
+    log_pattern = os.path.join(job_dir, "shard*.log")
     log_paths = sorted(glob.glob(log_pattern))
     for path in log_paths:
         try:
@@ -180,7 +182,7 @@ def main():
         except OSError as e:
             print(f"[WARN] Failed to remove {path}: {e}")
     if log_paths:
-        print(f"[INFO] Deleted {len(log_paths)} original shard log files.")
+        print(f"[INFO] Deleted {len(log_paths)} shard log files.")
 
 
 if __name__ == "__main__":

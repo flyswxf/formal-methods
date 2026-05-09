@@ -6,12 +6,14 @@
 #SBATCH --mem=100G
 #SBATCH --time=24:00:00
 #SBATCH --exclusive
-#SBATCH --output=Logs/cdcl-bench-mn-%j.out
+#SBATCH --output=Logs/%j/info.out
 
 set -euo pipefail
 
 cd "${SLURM_SUBMIT_DIR:-$PWD}"
-mkdir -p Logs shard_results
+
+JOB_DIR="Logs/${SLURM_JOB_ID}"
+mkdir -p "$JOB_DIR"
 
 module load compiler/gnu/10.2.0
 
@@ -21,8 +23,9 @@ echo "[INFO] job_id=${SLURM_JOB_ID} nodes=${SLURM_NNODES} tasks=${SLURM_NTASKS}"
 srun --cpu-bind=cores bash -lc '
   shard="${SLURM_PROCID}"
   total="${SLURM_NTASKS}"
-  out_json="shard_results/bench_${SLURM_JOB_ID}_shard${shard}.json"
-  out_log="Logs/bench_${SLURM_JOB_ID}_shard${shard}.out"
+  job_dir="'"$JOB_DIR"'"
+  out_json="${job_dir}/shard${shard}.json"
+  out_log="${job_dir}/shard${shard}.log"
 
   echo "[INFO] shard=${shard}/${total} host=$(hostname) log=${out_log}" | tee -a "${out_log}"
   python3 benchmark_compare.py \
@@ -36,4 +39,4 @@ srun --cpu-bind=cores bash -lc '
     --output "${out_json}" >> "${out_log}" 2>&1
 '
 
-python3 Utils/merge_shard_results.py --job-id "${SLURM_JOB_ID}"
+python3 Utils/merge_shard_results.py --job-id "${SLURM_JOB_ID}" --job-dir "$JOB_DIR"
