@@ -1,0 +1,63 @@
+[INFO] shard=11/12 host=node132 log=Logs/293501/shard11.log
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/large/cnfs/2023 (29 files)
+  Shard       : 11/12
+  Timeout     : 5000s
+  Workers     : 29
+==========================================================================================
+
+[INFO] Submitting 29 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 028d0cc7af63e9bba5795f20e24db4f6-pyhala-br...   7383   24320     SAT     SAT       631.9s       103.7s     OK
+ 18 8fcc57f6c75cb2ac48d19e3038ad3c6c-asconhash... 127069  297372   UNSAT   UNSAT      1269.2s       602.7s     OK
+ 21 a811388cc92def6ef2d639dc062d456c-ContextMo...   9000   46780 TIMEOUT     SAT      5000.0s       358.3s    N/A
+ 25 d0fe6bf914469ca51675bac9078a2c0b-asconhash... 158850  373802 TIMEOUT     SAT      5000.0s       557.1s    N/A
+  6 25b7a69d04a5029cf4ba2f483b5bec45-asconhash... 158664  373158 TIMEOUT     SAT      5000.0s       774.9s    N/A
+ 16 81d2158d506ea1049708837460b9387e-WS_400_24...    800   15201 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  3 1153a473e1d5dd21ccd33189d594a4aa-tseitin_d...  15000   40000 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 19 965ca988015c9aee5a1a7b2136c1fe5d-os_fwalk_...    288    3240 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 10 41457ee03686b32962c12445524f62a9-mchess18-...  26095    1281 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 27 e46bdd62b3789b64f7fbb3bd6c99484e-intervals...   2518   55499 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 10/29
+ 29 fb5d0254bc4b8d258eb84ea1dbcdda13-mchess22-...  58317    1839 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  7 2a4680a801ad32ab8768030250daf0c8-ER_500_10...   1002   38878 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 15 72b5ad031bf852634bc081f9da9a5a60-GzipFile_...    187    1348 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 24 c9af5b23c87350f5d817acc9ca7b69bb-CNF_to_al...    252    2049 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 28 f090d0d6eaff3b92c817f5db6fa47544-intervals...   2867   71030 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 22 af5838e83024d2dee3942be8d8e35fec-TableMode...  14208  190528 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  5 20be6aa61af15fd53b4c48eb3f2f3319-27_1.cnf       4448   14880 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 23 bbf800109d039e117ed60593c185692c-ER_500_10...   1002   38698 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  9 385e2c7010a419a9bd47b9258c9d2903-tseitin_d...    300     800 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 12 53799aafcd0c684a2adc79400bd35f82-satcoin-g... 141429  646176 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 20/29
+ 17 8a7a61a63a718e4dc5aba5426b31c063-satcoin-g... 134781  648806 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 13 5dc5185101e1d439d14f0a04acfa9bfb-28_2.cnf       4608   15424 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 11 48ac8814180bdc90bf96a4caea64dae2-intervals...   2478   56767 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 20 a09a2d7397732447bdcc9651973767b7-TableSymM...   9090  110055 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 14 6e5efd19744842d1fa5415173bffbf6b-tseitin_d... 270000  720000 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+ 26 d89f0a7a08f9b60579b26b01e2196394-intervals...   2348   51402 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  2 0945c95ba9b82c32d12fc9d9e5229c5a-SC23_Time... 248145  803289 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  4 1a20649a8c79d6675d934cec271d573f-tseitin_g...  19800   78408 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+  8 33bcf82677b7fdacf18dd48892596a1d-Timetable... 378430 2649518 TIMEOUT TIMEOUT      5000.0s      5000.0s    N/A
+[INFO] Completed 29/29
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 29
+  Both agree            : 2
+  Disagreements         : 0
+  Both timeout          : 24
+  CDCL faster           : 0 / 2
+  MiniSat faster        : 2 / 2
+  CDCL total time       : 1901.1s
+  MiniSat total time    : 2396.8s
+  Speedup (MS/CDCL)     : 1.26x
+==========================================================================================
+
+  Results saved to: Logs/293501/shard11.json

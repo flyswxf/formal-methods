@@ -1,0 +1,19 @@
+[INFO] job_id=293503 task=large-2021 nodes=11 tasks=11
+[INFO] dataset=Datasets/cdcl_dimacs/large/cnfs/2021
+[INFO] job_dir=Logs/293503
+[INFO] shard=9/11 host=node130 log=Logs/293503/shard9.log
+[INFO] shard=6/11 host=node127 log=Logs/293503/shard6.log
+[INFO] shard=0/11 host=node120 log=Logs/293503/shard0.log
+[INFO] shard=5/11 host=node126 log=Logs/293503/shard5.log
+[INFO] shard=7/11 host=node128 log=Logs/293503/shard7.log
+[INFO] shard=2/11 host=node123 log=Logs/293503/shard2.log
+[INFO] shard=10/11 host=node131 log=Logs/293503/shard10.log
+[INFO] shard=3/11 host=node124 log=Logs/293503/shard3.log
+[INFO] shard=8/11 host=node129 log=Logs/293503/shard8.log
+[INFO] shard=4/11 host=node125 log=Logs/293503/shard4.log
+[INFO] shard=1/11 host=node122 log=Logs/293503/shard1.log
+[INFO] merged 11 shard files, total records=352
+[INFO] detail.json => Logs/293503/detail.json
+[INFO] Deleted 11 shard JSON files.
+[INFO] result.out => Logs/293503/result.out
+[INFO] Deleted 11 shard log files.

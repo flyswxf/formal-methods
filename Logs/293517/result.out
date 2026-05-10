@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293517
+  Task Name   : medium-uf200-860-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf200-860/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf200-016.cnf                                    200     860     SAT     SAT       74.5ms       44.6ms     OK
+  2 uf200-078.cnf                                    200     860     SAT     SAT      116.9ms       45.4ms     OK
+  3 uf200-067.cnf                                    200     860     SAT     SAT      166.9ms       12.8ms     OK
+  4 uf200-070.cnf                                    200     860     SAT     SAT      121.7ms       26.4ms     OK
+  5 uf200-085.cnf                                    200     860     SAT     SAT       90.4ms      115.5ms     OK
+  6 uf200-012.cnf                                    200     860     SAT     SAT      104.4ms      112.5ms     OK
+  7 uf200-056.cnf                                    200     860     SAT     SAT      175.8ms       32.5ms     OK
+  8 uf200-06.cnf                                     200     860     SAT     SAT      115.0ms      233.8ms     OK
+  9 uf200-081.cnf                                    200     860     SAT     SAT       73.2ms      332.8ms     OK
+ 10 uf200-045.cnf                                    200     860     SAT     SAT      345.9ms       78.2ms     OK
+ 11 uf200-030.cnf                                    200     860     SAT     SAT      201.2ms      330.6ms     OK
+ 12 uf200-096.cnf                                    200     860     SAT     SAT      398.2ms      123.7ms     OK
+ 13 uf200-023.cnf                                    200     860     SAT     SAT      562.5ms       35.9ms     OK
+ 14 uf200-034.cnf                                    200     860     SAT     SAT      480.4ms      187.0ms     OK
+ 15 uf200-092.cnf                                    200     860     SAT     SAT      490.9ms      276.3ms     OK
+ 16 uf200-049.cnf                                    200     860     SAT     SAT      531.2ms      251.1ms     OK
+ 17 uf200-041.cnf                                    200     860     SAT     SAT      684.9ms      100.7ms     OK
+ 18 uf200-02.cnf                                     200     860     SAT     SAT      677.8ms      222.3ms     OK
+ 19 uf200-038.cnf                                    200     860     SAT     SAT      692.0ms      278.0ms     OK
+ 20 uf200-074.cnf                                    200     860     SAT     SAT       1.034s      153.1ms     OK
+ 21 uf200-01.cnf                                     200     860     SAT     SAT       1.005s      303.6ms     OK
+ 22 uf200-089.cnf                                    200     860     SAT     SAT      18.570s      320.3ms     OK
+ 23 uf200-052.cnf                                    200     860     SAT     SAT      22.847s      590.7ms     OK
+ 24 uf200-063.cnf                                    200     860     SAT     SAT      36.964s      959.9ms     OK
+ 25 uf200-027.cnf                                    200     860     SAT     SAT       285.5s      465.6ms     OK
+ 26 uf200-057.cnf                                    200     860     SAT     SAT       65.1ms      153.4ms     OK
+ 27 uf200-031.cnf                                    200     860     SAT     SAT      119.3ms      118.0ms     OK
+ 28 uf200-042.cnf                                    200     860     SAT     SAT       93.0ms      287.8ms     OK
+ 29 uf200-086.cnf                                    200     860     SAT     SAT      295.6ms      112.4ms     OK
+ 30 uf200-020.cnf                                    200     860     SAT     SAT      398.4ms       14.1ms     OK
+ 31 uf200-053.cnf                                    200     860     SAT     SAT      478.8ms       17.2ms     OK
+ 32 uf200-09.cnf                                     200     860     SAT     SAT      202.7ms      391.6ms     OK
+ 33 uf200-060.cnf                                    200     860     SAT     SAT      541.5ms       61.9ms     OK
+ 34 uf200-097.cnf                                    200     860     SAT     SAT      553.0ms       37.2ms     OK
+ 35 uf200-079.cnf                                    200     860     SAT     SAT      492.7ms      158.4ms     OK
+ 36 uf200-010.cnf                                    200     860     SAT     SAT      766.6ms       92.2ms     OK
+ 37 uf200-013.cnf                                    200     860     SAT     SAT      778.4ms      104.1ms     OK
+ 38 uf200-082.cnf                                    200     860     SAT     SAT      913.8ms       20.9ms     OK
+ 39 uf200-068.cnf                                    200     860     SAT     SAT       1.029s       82.8ms     OK
+ 40 uf200-064.cnf                                    200     860     SAT     SAT       1.034s      110.3ms     OK
+ 41 uf200-093.cnf                                    200     860     SAT     SAT       1.142s       33.0ms     OK
+ 42 uf200-035.cnf                                    200     860     SAT     SAT       1.404s      365.4ms     OK
+ 43 uf200-028.cnf                                    200     860     SAT     SAT       1.350s      630.7ms     OK
+ 44 uf200-046.cnf                                    200     860     SAT     SAT       3.269s       30.5ms     OK
+ 45 uf200-024.cnf                                    200     860     SAT     SAT       3.416s      345.6ms     OK
+ 46 uf200-039.cnf                                    200     860     SAT     SAT       3.152s      757.4ms     OK
+ 47 uf200-075.cnf                                    200     860     SAT     SAT       5.144s      275.2ms     OK
+ 48 uf200-05.cnf                                     200     860     SAT     SAT       5.672s      100.2ms     OK
+ 49 uf200-071.cnf                                    200     860     SAT     SAT       6.396s       85.0ms     OK
+ 50 uf200-017.cnf                                    200     860     SAT     SAT      50.125s      127.9ms     OK
+ 51 uf200-08.cnf                                     200     860     SAT     SAT       62.1ms       41.4ms     OK
+ 52 uf200-069.cnf                                    200     860     SAT     SAT       49.5ms       95.4ms     OK
+ 53 uf200-065.cnf                                    200     860     SAT     SAT       80.7ms      119.7ms     OK
+ 54 uf200-014.cnf                                    200     860     SAT     SAT      109.7ms      166.4ms     OK
+ 55 uf200-083.cnf                                    200     860     SAT     SAT      242.4ms      116.2ms     OK
+ 56 uf200-061.cnf                                    200     860     SAT     SAT      432.7ms       54.3ms     OK
+ 57 uf200-076.cnf                                    200     860     SAT     SAT      435.9ms      100.2ms     OK
+ 58 uf200-050.cnf                                    200     860     SAT     SAT      665.8ms       94.1ms     OK
+ 59 uf200-032.cnf                                    200     860     SAT     SAT      596.7ms      288.5ms     OK
+ 60 uf200-025.cnf                                    200     860     SAT     SAT      705.0ms      203.0ms     OK
+ 61 uf200-04.cnf                                     200     860     SAT     SAT      460.0ms      467.3ms     OK
+ 62 uf200-043.cnf                                    200     860     SAT     SAT      934.4ms       32.2ms     OK
+ 63 uf200-090.cnf                                    200     860     SAT     SAT      864.4ms      118.9ms     OK
+ 64 uf200-072.cnf                                    200     860     SAT     SAT       1.129s       90.0ms     OK
+ 65 uf200-047.cnf                                    200     860     SAT     SAT       77.7ms       1.145s     OK
+ 66 uf200-029.cnf                                    200     860     SAT     SAT       1.140s      126.6ms     OK
+ 67 uf200-087.cnf                                    200     860     SAT     SAT      536.7ms      790.3ms     OK
+ 68 uf200-054.cnf                                    200     860     SAT     SAT       1.318s      404.9ms     OK
+ 69 uf200-098.cnf                                    200     860     SAT     SAT       1.782s       36.8ms     OK
+ 70 uf200-018.cnf                                    200     860     SAT     SAT       1.774s       64.7ms     OK
+ 71 uf200-036.cnf                                    200     860     SAT     SAT       1.732s       1.224s     OK
+ 72 uf200-094.cnf                                    200     860     SAT     SAT       2.738s      505.2ms     OK
+ 73 uf200-058.cnf                                    200     860     SAT     SAT       1.378s       1.950s     OK
+ 74 uf200-0100.cnf                                   200     860     SAT     SAT      22.515s      250.1ms     OK
+ 75 uf200-021.cnf                                    200     860     SAT     SAT      35.788s      458.6ms     OK
+ 76 uf200-040.cnf                                    200     860     SAT     SAT      124.5ms       65.8ms     OK
+ 77 uf200-03.cnf                                     200     860     SAT     SAT      188.2ms       15.7ms     OK
+ 78 uf200-080.cnf                                    200     860     SAT     SAT      173.1ms       35.6ms     OK
+ 79 uf200-077.cnf                                    200     860     SAT     SAT      108.9ms      169.4ms     OK
+ 80 uf200-084.cnf                                    200     860     SAT     SAT      143.9ms      197.9ms     OK
+ 81 uf200-037.cnf                                    200     860     SAT     SAT      367.7ms       36.2ms     OK
+ 82 uf200-026.cnf                                    200     860     SAT     SAT       96.9ms      316.8ms     OK
+ 83 uf200-07.cnf                                     200     860     SAT     SAT      387.6ms       64.3ms     OK
+ 84 uf200-062.cnf                                    200     860     SAT     SAT      466.8ms       28.4ms     OK
+ 85 uf200-033.cnf                                    200     860     SAT     SAT      138.1ms      381.5ms     OK
+ 86 uf200-066.cnf                                    200     860     SAT     SAT      626.6ms      199.4ms     OK
+ 87 uf200-044.cnf                                    200     860     SAT     SAT      613.3ms      302.0ms     OK
+ 88 uf200-091.cnf                                    200     860     SAT     SAT      882.1ms       61.0ms     OK
+ 89 uf200-055.cnf                                    200     860     SAT     SAT      895.4ms      305.8ms     OK
+ 90 uf200-015.cnf                                    200     860     SAT     SAT       1.074s      324.7ms     OK
+ 91 uf200-022.cnf                                    200     860     SAT     SAT      773.6ms      643.7ms     OK
+ 92 uf200-048.cnf                                    200     860     SAT     SAT      307.9ms       1.179s     OK
+ 93 uf200-011.cnf                                    200     860     SAT     SAT       1.610s       28.1ms     OK
+ 94 uf200-059.cnf                                    200     860     SAT     SAT       1.555s      323.5ms     OK
+ 95 uf200-088.cnf                                    200     860     SAT     SAT       1.243s      696.9ms     OK
+ 96 uf200-051.cnf                                    200     860     SAT     SAT       1.875s      702.1ms     OK
+ 97 uf200-073.cnf                                    200     860     SAT     SAT       8.529s      154.4ms     OK
+ 98 uf200-019.cnf                                    200     860     SAT     SAT      12.279s      189.2ms     OK
+ 99 uf200-099.cnf                                    200     860     SAT     SAT      50.836s      636.0ms     OK
+100 uf200-095.cnf                                    200     860     SAT     SAT       499.0s      586.2ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 20 / 100
+  MiniSat faster        : 80 / 100
+  CDCL total time       : 1122.7s
+  MiniSat total time    : 26.733s
+  Speedup (MS/CDCL)     : 0.02x
+==========================================================================================

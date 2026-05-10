@@ -5,8 +5,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=100G
 #SBATCH --time=24:00:00
-#SBATCH --exclusive
-#SBATCH --output=Logs/%j/info.out
+#SBATCH --output=Logs/info-%j.out
 
 set -euo pipefail
 
@@ -15,11 +14,31 @@ cd "${SLURM_SUBMIT_DIR:-$PWD}"
 JOB_DIR="Logs/${SLURM_JOB_ID}"
 mkdir -p "$JOB_DIR"
 
+TASK_NAME="medium-uf225-960-UNSAT"
+DATASET="Datasets/cdcl_dimacs/medium/uf225-960/UNSAT"
+
+python3 -c "
+import json
+meta = {
+    'job_id': int('${SLURM_JOB_ID}'),
+    'task_name': '${TASK_NAME}',
+    'dataset': '${DATASET}',
+    'cdcl': 'Checkers/cdcl_solver',
+    'minisat': 'Baseline/minisat/build/release/bin/minisat',
+    'timeout': 5000,
+    'nodes': int('${SLURM_NNODES}'),
+    'cpus_per_node': 32,
+}
+with open('${JOB_DIR}/meta.json', 'w') as f:
+    json.dump(meta, f, indent=2)
+"
+
 module load compiler/gnu/10.2.0
 
-echo "[INFO] job_id=${SLURM_JOB_ID} nodes=${SLURM_NNODES} tasks=${SLURM_NTASKS}"
+echo "[INFO] job_id=${SLURM_JOB_ID} task=${TASK_NAME} nodes=${SLURM_NNODES} tasks=${SLURM_NTASKS}"
+echo "[INFO] dataset=${DATASET}"
+echo "[INFO] job_dir=${JOB_DIR}"
 
-# Each SLURM task handles one shard; inside each node we still run 32 local workers.
 srun --cpu-bind=cores bash -lc '
   shard="${SLURM_PROCID}"
   total="${SLURM_NTASKS}"
@@ -31,7 +50,7 @@ srun --cpu-bind=cores bash -lc '
   python3 benchmark_compare.py \
     --cdcl Checkers/cdcl_solver \
     --minisat Baseline/minisat/build/release/bin/minisat \
-    --dataset Datasets/cdcl_dimacs/medium/uf225-960/UNSAT \
+    --dataset '"$DATASET"' \
     --timeout 5000 \
     --jobs 32 \
     --shard-index "${shard}" \
@@ -39,4 +58,5 @@ srun --cpu-bind=cores bash -lc '
     --output "${out_json}" >> "${out_log}" 2>&1
 '
 
+mv "Logs/info-${SLURM_JOB_ID}.out" "${JOB_DIR}/info.out"
 python3 Utils/merge_shard_results.py --job-id "${SLURM_JOB_ID}" --job-dir "$JOB_DIR"

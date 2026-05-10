@@ -1,0 +1,21 @@
+[INFO] job_id=293501 task=large-2023 nodes=12 tasks=12
+[INFO] dataset=Datasets/cdcl_dimacs/large/cnfs/2023
+[INFO] job_dir=Logs/293501
+[INFO] shard=0/12 host=node120 log=Logs/293501/shard0.log
+[INFO] shard=10/12 host=node131 log=Logs/293501/shard10.log
+[INFO] shard=8/12 host=node129 log=Logs/293501/shard8.log
+[INFO] shard=2/12 host=node123 log=Logs/293501/shard2.log
+[INFO] shard=7/12 host=node128 log=Logs/293501/shard7.log
+[INFO] shard=11/12 host=node132 log=Logs/293501/shard11.log
+[INFO] shard=5/12 host=node126 log=Logs/293501/shard5.log
+[INFO] shard=4/12 host=node125 log=Logs/293501/shard4.log
+[INFO] shard=9/12 host=node130 log=Logs/293501/shard9.log
+[INFO] shard=3/12 host=node124 log=Logs/293501/shard3.log
+[INFO] shard=6/12 host=node127 log=Logs/293501/shard6.log
+[INFO] shard=1/12 host=node122 log=Logs/293501/shard1.log
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=293501.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: node131: task 10: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=293501.0
+srun: error: node127: task 6: Terminated
+srun: error: node122: task 1: Terminated
+srun: Force Terminated StepId=293501.0

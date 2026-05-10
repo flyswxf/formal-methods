@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293521
+  Task Name   : medium-uf250-1065-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf250-1065/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf250-016.cnf                                    250    1065     SAT     SAT       62.3ms      333.6ms     OK
+  2 uf250-01.cnf                                     250    1065     SAT     SAT      351.0ms      361.3ms     OK
+  3 uf250-012.cnf                                    250    1065     SAT     SAT       74.1ms      799.6ms     OK
+  4 uf250-027.cnf                                    250    1065     SAT     SAT      661.1ms      660.8ms     OK
+  5 uf250-052.cnf                                    250    1065     SAT     SAT      250.6ms       1.582s     OK
+  6 uf250-067.cnf                                    250    1065     SAT     SAT      452.2ms       1.921s     OK
+  7 uf250-030.cnf                                    250    1065     SAT     SAT       2.666s       2.148s     OK
+  8 uf250-078.cnf                                    250    1065     SAT     SAT       7.085s      507.6ms     OK
+  9 uf250-049.cnf                                    250    1065     SAT     SAT      38.986s      108.9ms     OK
+ 10 uf250-06.cnf                                     250    1065     SAT     SAT      43.657s      333.1ms     OK
+ 11 uf250-038.cnf                                    250    1065     SAT     SAT        79.6s       8.041s     OK
+ 12 uf250-085.cnf                                    250    1065     SAT     SAT       214.6s      212.5ms     OK
+ 13 uf250-081.cnf                                    250    1065     SAT     SAT       308.1s      693.5ms     OK
+ 14 uf250-023.cnf                                    250    1065     SAT     SAT       482.3s      301.4ms     OK
+ 15 uf250-063.cnf                                    250    1065     SAT     SAT       902.8s      477.1ms     OK
+ 16 uf250-045.cnf                                    250    1065     SAT     SAT       996.0s      343.9ms     OK
+ 17 uf250-041.cnf                                    250    1065     SAT     SAT      1355.3s      363.7ms     OK
+ 18 uf250-074.cnf                                    250    1065     SAT     SAT      1535.5s      389.9ms     OK
+ 19 uf250-089.cnf                                    250    1065     SAT     SAT      2354.6s      308.5ms     OK
+ 20 uf250-034.cnf                                    250    1065     SAT     SAT      2413.1s       3.648s     OK
+ 21 uf250-092.cnf                                    250    1065     SAT     SAT      2671.4s      146.9ms     OK
+ 22 uf250-096.cnf                                    250    1065     SAT     SAT      2685.4s      666.2ms     OK
+ 23 uf250-056.cnf                                    250    1065     SAT     SAT      3864.6s      770.7ms     OK
+ 24 uf250-070.cnf                                    250    1065 TIMEOUT     SAT      5000.0s      431.5ms    N/A
+ 25 uf250-02.cnf                                     250    1065 TIMEOUT     SAT      5000.0s       5.225s    N/A
+ 26 uf250-097.cnf                                    250    1065     SAT     SAT      213.7ms      254.4ms     OK
+ 27 uf250-05.cnf                                     250    1065     SAT     SAT       92.5ms      936.3ms     OK
+ 28 uf250-039.cnf                                    250    1065     SAT     SAT      851.1ms      166.5ms     OK
+ 29 uf250-068.cnf                                    250    1065     SAT     SAT       1.278s      179.3ms     OK
+ 30 uf250-042.cnf                                    250    1065     SAT     SAT       1.427s      321.9ms     OK
+ 31 uf250-020.cnf                                    250    1065     SAT     SAT      233.7ms       2.265s     OK
+ 32 uf250-093.cnf                                    250    1065     SAT     SAT       7.054s      151.5ms     OK
+ 33 uf250-053.cnf                                    250    1065     SAT     SAT       7.360s       1.472s     OK
+ 34 uf250-010.cnf                                    250    1065     SAT     SAT      36.196s      352.9ms     OK
+ 35 uf250-075.cnf                                    250    1065     SAT     SAT      54.124s       1.869s     OK
+ 36 uf250-046.cnf                                    250    1065     SAT     SAT        77.9s      305.0ms     OK
+ 37 uf250-017.cnf                                    250    1065     SAT     SAT        77.3s       1.776s     OK
+ 38 uf250-09.cnf                                     250    1065     SAT     SAT       206.5s      877.0ms     OK
+ 39 uf250-064.cnf                                    250    1065     SAT     SAT       218.6s      668.0ms     OK
+ 40 uf250-035.cnf                                    250    1065     SAT     SAT       233.0s       36.8ms     OK
+ 41 uf250-028.cnf                                    250    1065     SAT     SAT       235.8s       9.662s     OK
+ 42 uf250-057.cnf                                    250    1065     SAT     SAT       439.7s      388.4ms     OK
+ 43 uf250-060.cnf                                    250    1065     SAT     SAT       874.2s       3.174s     OK
+ 44 uf250-082.cnf                                    250    1065     SAT     SAT      2079.4s      927.1ms     OK
+ 45 uf250-013.cnf                                    250    1065     SAT     SAT      2273.0s      499.9ms     OK
+ 46 uf250-079.cnf                                    250    1065 TIMEOUT     SAT      5000.0s      380.6ms    N/A
+ 47 uf250-086.cnf                                    250    1065 TIMEOUT     SAT      5000.0s       1.851s    N/A
+ 48 uf250-071.cnf                                    250    1065 TIMEOUT     SAT      5000.0s       5.133s    N/A
+ 49 uf250-024.cnf                                    250    1065 TIMEOUT     SAT      5000.0s       5.798s    N/A
+ 50 uf250-031.cnf                                    250    1065 TIMEOUT     SAT      5000.0s      10.014s    N/A
+ 51 uf250-025.cnf                                    250    1065     SAT     SAT      254.0ms       19.4ms     OK
+ 52 uf250-098.cnf                                    250    1065     SAT     SAT      200.6ms       97.7ms     OK
+ 53 uf250-04.cnf                                     250    1065     SAT     SAT      223.8ms      253.3ms     OK
+ 54 uf250-094.cnf                                    250    1065     SAT     SAT       1.660s       4.012s     OK
+ 55 uf250-061.cnf                                    250    1065     SAT     SAT      13.436s       1.349s     OK
+ 56 uf250-065.cnf                                    250    1065     SAT     SAT      15.011s      703.4ms     OK
+ 57 uf250-021.cnf                                    250    1065     SAT     SAT      17.818s      269.8ms     OK
+ 58 uf250-087.cnf                                    250    1065     SAT     SAT      16.205s       6.816s     OK
+ 59 uf250-047.cnf                                    250    1065     SAT     SAT      24.973s       6.985s     OK
+ 60 uf250-043.cnf                                    250    1065     SAT     SAT      23.829s      13.410s     OK
+ 61 uf250-050.cnf                                    250    1065     SAT     SAT        67.5s      191.9ms     OK
+ 62 uf250-058.cnf                                    250    1065     SAT     SAT       129.1s       2.380s     OK
+ 63 uf250-036.cnf                                    250    1065     SAT     SAT       159.1s       4.368s     OK
+ 64 uf250-090.cnf                                    250    1065     SAT     SAT       226.8s       2.946s     OK
+ 65 uf250-014.cnf                                    250    1065     SAT     SAT       257.9s       32.5ms     OK
+ 66 uf250-054.cnf                                    250    1065     SAT     SAT       326.5s       1.825s     OK
+ 67 uf250-083.cnf                                    250    1065     SAT     SAT       434.9s       2.086s     OK
+ 68 uf250-08.cnf                                     250    1065     SAT     SAT       491.4s       1.466s     OK
+ 69 uf250-069.cnf                                    250    1065     SAT     SAT       498.9s       7.452s     OK
+ 70 uf250-029.cnf                                    250    1065     SAT     SAT       893.0s       5.948s     OK
+ 71 uf250-018.cnf                                    250    1065     SAT     SAT      1324.5s      572.0ms     OK
+ 72 uf250-072.cnf                                    250    1065     SAT     SAT      1332.8s      384.6ms     OK
+ 73 uf250-076.cnf                                    250    1065     SAT     SAT      2122.5s       2.974s     OK
+ 74 uf250-032.cnf                                    250    1065     SAT     SAT      2623.1s      880.2ms     OK
+ 75 uf250-0100.cnf                                   250    1065 TIMEOUT     SAT      5000.0s       3.818s    N/A
+ 76 uf250-019.cnf                                    250    1065     SAT     SAT       78.5ms      830.8ms     OK
+ 77 uf250-084.cnf                                    250    1065     SAT     SAT       37.7ms      907.2ms     OK
+ 78 uf250-077.cnf                                    250    1065     SAT     SAT      238.7ms      839.6ms     OK
+ 79 uf250-091.cnf                                    250    1065     SAT     SAT       1.613s      119.3ms     OK
+ 80 uf250-015.cnf                                    250    1065     SAT     SAT       1.619s      308.9ms     OK
+ 81 uf250-073.cnf                                    250    1065     SAT     SAT       88.2ms       1.873s     OK
+ 82 uf250-044.cnf                                    250    1065     SAT     SAT      401.2ms       1.994s     OK
+ 83 uf250-066.cnf                                    250    1065     SAT     SAT      407.4ms       2.370s     OK
+ 84 uf250-037.cnf                                    250    1065     SAT     SAT       3.212s      347.9ms     OK
+ 85 uf250-055.cnf                                    250    1065     SAT     SAT      22.624s      155.1ms     OK
+ 86 uf250-048.cnf                                    250    1065     SAT     SAT      44.733s      10.266s     OK
+ 87 uf250-026.cnf                                    250    1065     SAT     SAT       196.3s       2.427s     OK
+ 88 uf250-040.cnf                                    250    1065     SAT     SAT       226.8s       1.877s     OK
+ 89 uf250-062.cnf                                    250    1065     SAT     SAT       316.6s      445.2ms     OK
+ 90 uf250-033.cnf                                    250    1065     SAT     SAT      1157.7s       66.6ms     OK
+ 91 uf250-059.cnf                                    250    1065     SAT     SAT      1373.9s       2.873s     OK
+ 92 uf250-099.cnf                                    250    1065     SAT     SAT      1877.8s      10.212s     OK
+ 93 uf250-011.cnf                                    250    1065     SAT     SAT      2104.0s       4.320s     OK
+ 94 uf250-095.cnf                                    250    1065     SAT     SAT      2146.1s       80.6ms     OK
+ 95 uf250-03.cnf                                     250    1065     SAT     SAT      2797.2s       1.185s     OK
+ 96 uf250-088.cnf                                    250    1065 TIMEOUT     SAT      5000.0s       90.2ms    N/A
+ 97 uf250-051.cnf                                    250    1065 TIMEOUT     SAT      5000.0s      739.4ms    N/A
+ 98 uf250-022.cnf                                    250    1065 TIMEOUT     SAT      5000.0s       1.718s    N/A
+ 99 uf250-080.cnf                                    250    1065 TIMEOUT     SAT      5000.0s       2.559s    N/A
+100 uf250-07.cnf                                     250    1065 TIMEOUT     SAT      5000.0s       5.136s    N/A
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 87
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 16 / 87
+  MiniSat faster        : 71 / 87
+  CDCL total time       : 50055.0s
+  MiniSat total time    : 205.2s
+  Speedup (MS/CDCL)     : 0.00x
+==========================================================================================

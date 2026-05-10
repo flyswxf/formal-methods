@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293520
+  Task Name   : medium-uf225-960-UNSAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf225-960/UNSAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uuf225-02.cnf                                    225     960   UNSAT   UNSAT      47.218s       1.075s     OK
+  2 uuf225-038.cnf                                   225     960   UNSAT   UNSAT      58.763s      797.7ms     OK
+  3 uuf225-056.cnf                                   225     960   UNSAT   UNSAT       140.1s       2.392s     OK
+  4 uuf225-030.cnf                                   225     960   UNSAT   UNSAT       153.8s       1.643s     OK
+  5 uuf225-049.cnf                                   225     960   UNSAT   UNSAT       276.0s       1.067s     OK
+  6 uuf225-085.cnf                                   225     960   UNSAT   UNSAT       317.4s       2.760s     OK
+  7 uuf225-012.cnf                                   225     960   UNSAT   UNSAT       485.1s       1.132s     OK
+  8 uuf225-034.cnf                                   225     960   UNSAT   UNSAT       629.6s       2.568s     OK
+  9 uuf225-041.cnf                                   225     960   UNSAT   UNSAT       681.8s       1.440s     OK
+ 10 uuf225-096.cnf                                   225     960   UNSAT   UNSAT       841.3s       3.771s     OK
+ 11 uuf225-081.cnf                                   225     960   UNSAT   UNSAT      1104.8s       2.730s     OK
+ 12 uuf225-045.cnf                                   225     960   UNSAT   UNSAT      1196.1s       1.022s     OK
+ 13 uuf225-01.cnf                                    225     960   UNSAT   UNSAT      1200.1s       2.647s     OK
+ 14 uuf225-052.cnf                                   225     960   UNSAT   UNSAT      1311.0s       2.460s     OK
+ 15 uuf225-089.cnf                                   225     960   UNSAT   UNSAT      1462.2s       3.196s     OK
+ 16 uuf225-016.cnf                                   225     960   UNSAT   UNSAT      2093.6s       2.204s     OK
+ 17 uuf225-063.cnf                                   225     960   UNSAT   UNSAT      2150.7s       5.406s     OK
+ 18 uuf225-070.cnf                                   225     960   UNSAT   UNSAT      2342.7s       6.169s     OK
+ 19 uuf225-027.cnf                                   225     960   UNSAT   UNSAT      2987.6s       3.777s     OK
+ 20 uuf225-023.cnf                                   225     960   UNSAT   UNSAT      3755.3s      708.1ms     OK
+ 21 uuf225-06.cnf                                    225     960   UNSAT   UNSAT      4345.9s      720.8ms     OK
+ 22 uuf225-078.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       1.294s    N/A
+ 23 uuf225-067.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       1.502s    N/A
+ 24 uuf225-092.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       1.801s    N/A
+ 25 uuf225-074.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       2.239s    N/A
+ 26 uuf225-060.cnf                                   225     960   UNSAT   UNSAT        74.8s      880.1ms     OK
+ 27 uuf225-075.cnf                                   225     960   UNSAT   UNSAT       126.6s      463.0ms     OK
+ 28 uuf225-010.cnf                                   225     960   UNSAT   UNSAT       177.8s       2.528s     OK
+ 29 uuf225-064.cnf                                   225     960   UNSAT   UNSAT       402.8s      975.0ms     OK
+ 30 uuf225-097.cnf                                   225     960   UNSAT   UNSAT       397.2s       7.839s     OK
+ 31 uuf225-042.cnf                                   225     960   UNSAT   UNSAT       416.0s       1.073s     OK
+ 32 uuf225-071.cnf                                   225     960   UNSAT   UNSAT       506.2s       1.404s     OK
+ 33 uuf225-079.cnf                                   225     960   UNSAT   UNSAT       554.5s       1.713s     OK
+ 34 uuf225-024.cnf                                   225     960   UNSAT   UNSAT       616.9s       1.825s     OK
+ 35 uuf225-046.cnf                                   225     960   UNSAT   UNSAT       676.9s      896.2ms     OK
+ 36 uuf225-082.cnf                                   225     960   UNSAT   UNSAT       700.0s       1.221s     OK
+ 37 uuf225-013.cnf                                   225     960   UNSAT   UNSAT       810.2s       2.125s     OK
+ 38 uuf225-020.cnf                                   225     960   UNSAT   UNSAT      1522.9s       1.761s     OK
+ 39 uuf225-093.cnf                                   225     960   UNSAT   UNSAT      1521.8s       3.703s     OK
+ 40 uuf225-028.cnf                                   225     960   UNSAT   UNSAT      2031.1s       1.636s     OK
+ 41 uuf225-017.cnf                                   225     960   UNSAT   UNSAT      2058.0s       2.598s     OK
+ 42 uuf225-086.cnf                                   225     960   UNSAT   UNSAT      2469.8s       3.095s     OK
+ 43 uuf225-068.cnf                                   225     960   UNSAT   UNSAT      2580.5s       1.819s     OK
+ 44 uuf225-035.cnf                                   225     960   UNSAT   UNSAT      3506.9s       1.710s     OK
+ 45 uuf225-053.cnf                                   225     960   UNSAT   UNSAT      3692.4s       1.426s     OK
+ 46 uuf225-05.cnf                                    225     960   UNSAT   UNSAT      4125.6s       4.001s     OK
+ 47 uuf225-031.cnf                                   225     960   UNSAT   UNSAT      4186.2s       1.659s     OK
+ 48 uuf225-039.cnf                                   225     960   UNSAT   UNSAT      4944.5s      949.7ms     OK
+ 49 uuf225-09.cnf                                    225     960 TIMEOUT   UNSAT      5000.0s       1.880s    N/A
+ 50 uuf225-057.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       8.456s    N/A
+ 51 uuf225-014.cnf                                   225     960   UNSAT   UNSAT      23.464s      583.4ms     OK
+ 52 uuf225-087.cnf                                   225     960   UNSAT   UNSAT       301.7s       6.318s     OK
+ 53 uuf225-08.cnf                                    225     960   UNSAT   UNSAT       355.6s       3.148s     OK
+ 54 uuf225-025.cnf                                   225     960   UNSAT   UNSAT       489.0s       2.823s     OK
+ 55 uuf225-065.cnf                                   225     960   UNSAT   UNSAT       630.6s       2.593s     OK
+ 56 uuf225-061.cnf                                   225     960   UNSAT   UNSAT       668.3s       2.784s     OK
+ 57 uuf225-050.cnf                                   225     960   UNSAT   UNSAT       685.2s       2.168s     OK
+ 58 uuf225-029.cnf                                   225     960   UNSAT   UNSAT       783.2s       3.841s     OK
+ 59 uuf225-058.cnf                                   225     960   UNSAT   UNSAT      1203.1s       3.583s     OK
+ 60 uuf225-036.cnf                                   225     960   UNSAT   UNSAT      1450.7s       1.603s     OK
+ 61 uuf225-043.cnf                                   225     960   UNSAT   UNSAT      2033.1s       1.918s     OK
+ 62 uuf225-032.cnf                                   225     960   UNSAT   UNSAT      2081.3s       1.832s     OK
+ 63 uuf225-072.cnf                                   225     960   UNSAT   UNSAT      2176.6s      947.9ms     OK
+ 64 uuf225-090.cnf                                   225     960   UNSAT   UNSAT      2294.1s       6.523s     OK
+ 65 uuf225-018.cnf                                   225     960   UNSAT   UNSAT      2522.1s       1.964s     OK
+ 66 uuf225-021.cnf                                   225     960   UNSAT   UNSAT      2979.3s       2.053s     OK
+ 67 uuf225-054.cnf                                   225     960   UNSAT   UNSAT      3044.5s       3.728s     OK
+ 68 uuf225-047.cnf                                   225     960   UNSAT   UNSAT      3057.4s       4.050s     OK
+ 69 uuf225-0100.cnf                                  225     960   UNSAT   UNSAT      3714.7s      876.1ms     OK
+ 70 uuf225-069.cnf                                   225     960   UNSAT   UNSAT      4272.0s       1.305s     OK
+ 71 uuf225-098.cnf                                   225     960   UNSAT   UNSAT      4601.9s       3.366s     OK
+ 72 uuf225-076.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s      552.8ms    N/A
+ 73 uuf225-04.cnf                                    225     960 TIMEOUT   UNSAT      5000.0s      959.9ms    N/A
+ 74 uuf225-094.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       4.328s    N/A
+ 75 uuf225-083.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       5.143s    N/A
+ 76 uuf225-077.cnf                                   225     960   UNSAT   UNSAT        75.8s      759.6ms     OK
+ 77 uuf225-051.cnf                                   225     960   UNSAT   UNSAT       151.6s      577.7ms     OK
+ 78 uuf225-099.cnf                                   225     960   UNSAT   UNSAT       273.2s       3.553s     OK
+ 79 uuf225-037.cnf                                   225     960   UNSAT   UNSAT       417.9s       6.049s     OK
+ 80 uuf225-011.cnf                                   225     960   UNSAT   UNSAT       434.2s       1.980s     OK
+ 81 uuf225-066.cnf                                   225     960   UNSAT   UNSAT       530.7s       2.191s     OK
+ 82 uuf225-019.cnf                                   225     960   UNSAT   UNSAT       612.3s       2.053s     OK
+ 83 uuf225-040.cnf                                   225     960   UNSAT   UNSAT       728.8s       5.700s     OK
+ 84 uuf225-059.cnf                                   225     960   UNSAT   UNSAT       758.1s       1.748s     OK
+ 85 uuf225-044.cnf                                   225     960   UNSAT   UNSAT       912.3s       7.696s     OK
+ 86 uuf225-095.cnf                                   225     960   UNSAT   UNSAT       953.9s       1.899s     OK
+ 87 uuf225-091.cnf                                   225     960   UNSAT   UNSAT       963.0s       2.158s     OK
+ 88 uuf225-084.cnf                                   225     960   UNSAT   UNSAT      1082.3s      548.1ms     OK
+ 89 uuf225-062.cnf                                   225     960   UNSAT   UNSAT      1111.5s       2.884s     OK
+ 90 uuf225-022.cnf                                   225     960   UNSAT   UNSAT      1392.5s       9.494s     OK
+ 91 uuf225-088.cnf                                   225     960   UNSAT   UNSAT      1716.7s       6.552s     OK
+ 92 uuf225-015.cnf                                   225     960   UNSAT   UNSAT      1798.8s       7.444s     OK
+ 93 uuf225-080.cnf                                   225     960   UNSAT   UNSAT      2042.6s       4.444s     OK
+ 94 uuf225-073.cnf                                   225     960   UNSAT   UNSAT      2329.4s       3.342s     OK
+ 95 uuf225-048.cnf                                   225     960   UNSAT   UNSAT      2453.0s       5.894s     OK
+ 96 uuf225-07.cnf                                    225     960   UNSAT   UNSAT      2464.9s       1.332s     OK
+ 97 uuf225-03.cnf                                    225     960   UNSAT   UNSAT      3946.7s      767.0ms     OK
+ 98 uuf225-033.cnf                                   225     960   UNSAT   UNSAT      4134.8s       3.087s     OK
+ 99 uuf225-055.cnf                                   225     960   UNSAT   UNSAT      4163.0s       1.595s     OK
+100 uuf225-026.cnf                                   225     960 TIMEOUT   UNSAT      5000.0s       2.696s    N/A
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 89
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 0 / 89
+  MiniSat faster        : 89 / 89
+  CDCL total time       : 140496.7s
+  MiniSat total time    : 269.6s
+  Speedup (MS/CDCL)     : 0.00x
+==========================================================================================

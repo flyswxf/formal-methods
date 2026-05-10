@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293519
+  Task Name   : medium-uf225-960-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf225-960/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf225-074.cnf                                    225     960     SAT     SAT      156.6ms       48.6ms     OK
+  2 uf225-052.cnf                                    225     960     SAT     SAT      142.8ms      163.8ms     OK
+  3 uf225-067.cnf                                    225     960     SAT     SAT      268.3ms       53.4ms     OK
+  4 uf225-063.cnf                                    225     960     SAT     SAT       88.4ms      338.8ms     OK
+  5 uf225-030.cnf                                    225     960     SAT     SAT      392.2ms      175.7ms     OK
+  6 uf225-081.cnf                                    225     960     SAT     SAT      246.7ms      322.9ms     OK
+  7 uf225-092.cnf                                    225     960     SAT     SAT      436.4ms      187.6ms     OK
+  8 uf225-089.cnf                                    225     960     SAT     SAT      539.1ms      422.2ms     OK
+  9 uf225-078.cnf                                    225     960     SAT     SAT      294.3ms       1.153s     OK
+ 10 uf225-02.cnf                                     225     960     SAT     SAT       1.683s      169.8ms     OK
+ 11 uf225-034.cnf                                    225     960     SAT     SAT       2.031s      788.0ms     OK
+ 12 uf225-023.cnf                                    225     960     SAT     SAT      25.503s      439.0ms     OK
+ 13 uf225-070.cnf                                    225     960     SAT     SAT      32.371s      123.4ms     OK
+ 14 uf225-045.cnf                                    225     960     SAT     SAT      33.955s       13.4ms     OK
+ 15 uf225-01.cnf                                     225     960     SAT     SAT      38.126s      302.1ms     OK
+ 16 uf225-027.cnf                                    225     960     SAT     SAT      50.682s      756.1ms     OK
+ 17 uf225-06.cnf                                     225     960     SAT     SAT       112.9s       1.208s     OK
+ 18 uf225-085.cnf                                    225     960     SAT     SAT       177.9s      182.7ms     OK
+ 19 uf225-016.cnf                                    225     960     SAT     SAT       263.2s      200.9ms     OK
+ 20 uf225-056.cnf                                    225     960     SAT     SAT       430.3s       2.405s     OK
+ 21 uf225-041.cnf                                    225     960     SAT     SAT       927.8s      568.3ms     OK
+ 22 uf225-038.cnf                                    225     960     SAT     SAT      1063.0s       1.625s     OK
+ 23 uf225-049.cnf                                    225     960     SAT     SAT      2806.0s      966.6ms     OK
+ 24 uf225-096.cnf                                    225     960     SAT     SAT      4638.3s      328.2ms     OK
+ 25 uf225-012.cnf                                    225     960 TIMEOUT     SAT      5000.0s      168.7ms    N/A
+ 26 uf225-031.cnf                                    225     960     SAT     SAT      120.5ms       32.8ms     OK
+ 27 uf225-042.cnf                                    225     960     SAT     SAT       62.8ms      108.8ms     OK
+ 28 uf225-071.cnf                                    225     960     SAT     SAT      507.0ms       35.1ms     OK
+ 29 uf225-013.cnf                                    225     960     SAT     SAT      355.4ms      298.8ms     OK
+ 30 uf225-010.cnf                                    225     960     SAT     SAT      350.3ms      494.2ms     OK
+ 31 uf225-064.cnf                                    225     960     SAT     SAT       1.257s      127.1ms     OK
+ 32 uf225-082.cnf                                    225     960     SAT     SAT       1.406s       29.0ms     OK
+ 33 uf225-079.cnf                                    225     960     SAT     SAT       1.419s      269.7ms     OK
+ 34 uf225-020.cnf                                    225     960     SAT     SAT       1.745s       53.1ms     OK
+ 35 uf225-028.cnf                                    225     960     SAT     SAT       2.232s      162.9ms     OK
+ 36 uf225-097.cnf                                    225     960     SAT     SAT      781.3ms       2.920s     OK
+ 37 uf225-05.cnf                                     225     960     SAT     SAT       4.535s       31.4ms     OK
+ 38 uf225-086.cnf                                    225     960     SAT     SAT       4.436s       1.179s     OK
+ 39 uf225-046.cnf                                    225     960     SAT     SAT       4.747s       1.792s     OK
+ 40 uf225-09.cnf                                     225     960     SAT     SAT       4.337s      11.258s     OK
+ 41 uf225-035.cnf                                    225     960     SAT     SAT       113.9s      106.1ms     OK
+ 42 uf225-017.cnf                                    225     960     SAT     SAT       192.8s      954.9ms     OK
+ 43 uf225-057.cnf                                    225     960     SAT     SAT       372.1s      635.0ms     OK
+ 44 uf225-060.cnf                                    225     960     SAT     SAT       379.9s       1.202s     OK
+ 45 uf225-093.cnf                                    225     960     SAT     SAT       391.2s       1.597s     OK
+ 46 uf225-068.cnf                                    225     960     SAT     SAT       408.4s       5.748s     OK
+ 47 uf225-039.cnf                                    225     960     SAT     SAT       490.6s       3.900s     OK
+ 48 uf225-053.cnf                                    225     960     SAT     SAT       921.8s       4.497s     OK
+ 49 uf225-024.cnf                                    225     960     SAT     SAT      1092.4s      271.2ms     OK
+ 50 uf225-075.cnf                                    225     960     SAT     SAT      1864.0s      230.7ms     OK
+ 51 uf225-087.cnf                                    225     960     SAT     SAT      198.1ms       25.3ms     OK
+ 52 uf225-083.cnf                                    225     960     SAT     SAT      280.0ms       75.5ms     OK
+ 53 uf225-018.cnf                                    225     960     SAT     SAT      376.9ms       37.6ms     OK
+ 54 uf225-025.cnf                                    225     960     SAT     SAT      877.7ms      184.6ms     OK
+ 55 uf225-061.cnf                                    225     960     SAT     SAT      969.1ms      191.3ms     OK
+ 56 uf225-058.cnf                                    225     960     SAT     SAT       1.682s       33.9ms     OK
+ 57 uf225-029.cnf                                    225     960     SAT     SAT       1.423s      518.0ms     OK
+ 58 uf225-021.cnf                                    225     960     SAT     SAT       2.565s      128.9ms     OK
+ 59 uf225-036.cnf                                    225     960     SAT     SAT       3.967s      538.4ms     OK
+ 60 uf225-065.cnf                                    225     960     SAT     SAT       2.034s       2.959s     OK
+ 61 uf225-050.cnf                                    225     960     SAT     SAT       6.212s      781.5ms     OK
+ 62 uf225-043.cnf                                    225     960     SAT     SAT       5.612s       1.558s     OK
+ 63 uf225-090.cnf                                    225     960     SAT     SAT      20.610s      690.2ms     OK
+ 64 uf225-08.cnf                                     225     960     SAT     SAT      58.389s      132.5ms     OK
+ 65 uf225-014.cnf                                    225     960     SAT     SAT        68.3s      708.9ms     OK
+ 66 uf225-098.cnf                                    225     960     SAT     SAT       101.2s       1.243s     OK
+ 67 uf225-032.cnf                                    225     960     SAT     SAT       201.5s      448.2ms     OK
+ 68 uf225-04.cnf                                     225     960     SAT     SAT       228.5s      850.8ms     OK
+ 69 uf225-069.cnf                                    225     960     SAT     SAT       577.7s       2.045s     OK
+ 70 uf225-076.cnf                                    225     960     SAT     SAT       577.2s       2.880s     OK
+ 71 uf225-094.cnf                                    225     960     SAT     SAT       692.0s      377.2ms     OK
+ 72 uf225-054.cnf                                    225     960     SAT     SAT      2286.0s      807.6ms     OK
+ 73 uf225-072.cnf                                    225     960     SAT     SAT      2576.7s      126.0ms     OK
+ 74 uf225-047.cnf                                    225     960     SAT     SAT      3464.0s       3.411s     OK
+ 75 uf225-0100.cnf                                   225     960     SAT     SAT      4462.3s       4.233s     OK
+ 76 uf225-051.cnf                                    225     960     SAT     SAT      139.2ms       51.9ms     OK
+ 77 uf225-055.cnf                                    225     960     SAT     SAT      403.9ms       98.1ms     OK
+ 78 uf225-048.cnf                                    225     960     SAT     SAT      461.7ms       81.5ms     OK
+ 79 uf225-026.cnf                                    225     960     SAT     SAT      258.6ms      331.0ms     OK
+ 80 uf225-088.cnf                                    225     960     SAT     SAT      342.9ms      292.5ms     OK
+ 81 uf225-077.cnf                                    225     960     SAT     SAT      464.3ms      294.7ms     OK
+ 82 uf225-091.cnf                                    225     960     SAT     SAT      610.3ms      135.4ms     OK
+ 83 uf225-099.cnf                                    225     960     SAT     SAT      614.5ms      421.7ms     OK
+ 84 uf225-033.cnf                                    225     960     SAT     SAT      886.0ms      170.1ms     OK
+ 85 uf225-073.cnf                                    225     960     SAT     SAT      607.9ms      747.1ms     OK
+ 86 uf225-044.cnf                                    225     960     SAT     SAT       1.364s      200.0ms     OK
+ 87 uf225-062.cnf                                    225     960     SAT     SAT       2.035s      592.5ms     OK
+ 88 uf225-011.cnf                                    225     960     SAT     SAT       2.384s      515.3ms     OK
+ 89 uf225-03.cnf                                     225     960     SAT     SAT      650.1ms       2.318s     OK
+ 90 uf225-037.cnf                                    225     960     SAT     SAT       1.826s       2.450s     OK
+ 91 uf225-022.cnf                                    225     960     SAT     SAT       3.921s      418.7ms     OK
+ 92 uf225-040.cnf                                    225     960     SAT     SAT       6.045s       2.433s     OK
+ 93 uf225-066.cnf                                    225     960     SAT     SAT      14.746s      730.2ms     OK
+ 94 uf225-07.cnf                                     225     960     SAT     SAT      25.077s      387.5ms     OK
+ 95 uf225-059.cnf                                    225     960     SAT     SAT       339.5s       1.813s     OK
+ 96 uf225-019.cnf                                    225     960     SAT     SAT       780.2s       1.146s     OK
+ 97 uf225-095.cnf                                    225     960     SAT     SAT      1197.5s       1.332s     OK
+ 98 uf225-080.cnf                                    225     960     SAT     SAT      1319.0s       84.6ms     OK
+ 99 uf225-015.cnf                                    225     960     SAT     SAT      2695.2s       1.242s     OK
+100 uf225-084.cnf                                    225     960 TIMEOUT     SAT      5000.0s       2.932s    N/A
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 98
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 13 / 98
+  MiniSat faster        : 85 / 98
+  CDCL total time       : 38596.3s
+  MiniSat total time    : 97.2s
+  Speedup (MS/CDCL)     : 0.00x
+==========================================================================================

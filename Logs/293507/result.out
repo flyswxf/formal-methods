@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293507
+  Task Name   : medium-uf75-325-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf75-325/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf75-06.cnf                                       75     325     SAT     SAT       21.3ms       13.0ms     OK
+  2 uf75-067.cnf                                      75     325     SAT     SAT       24.7ms       37.2ms     OK
+  3 uf75-02.cnf                                       75     325     SAT     SAT       28.8ms       46.7ms     OK
+  4 uf75-034.cnf                                      75     325     SAT     SAT       23.6ms       47.1ms     OK
+  5 uf75-049.cnf                                      75     325     SAT     SAT       24.2ms       47.0ms     OK
+  6 uf75-027.cnf                                      75     325     SAT     SAT       23.7ms       48.0ms     OK
+  7 uf75-016.cnf                                      75     325     SAT     SAT       27.3ms       49.0ms     OK
+  8 uf75-023.cnf                                      75     325     SAT     SAT       31.2ms       47.2ms     OK
+  9 uf75-041.cnf                                      75     325     SAT     SAT       34.3ms       43.3ms     OK
+ 10 uf75-038.cnf                                      75     325     SAT     SAT       42.3ms       36.2ms     OK
+ 11 uf75-012.cnf                                      75     325     SAT     SAT       37.6ms       40.6ms     OK
+ 12 uf75-092.cnf                                      75     325     SAT     SAT       34.6ms       42.8ms     OK
+ 13 uf75-078.cnf                                      75     325     SAT     SAT       33.2ms       42.4ms     OK
+ 14 uf75-085.cnf                                      75     325     SAT     SAT       35.4ms       44.1ms     OK
+ 15 uf75-074.cnf                                      75     325     SAT     SAT       41.3ms       38.9ms     OK
+ 16 uf75-063.cnf                                      75     325     SAT     SAT       38.4ms       46.1ms     OK
+ 17 uf75-052.cnf                                      75     325     SAT     SAT       45.2ms       32.5ms     OK
+ 18 uf75-030.cnf                                      75     325     SAT     SAT       70.9ms       23.2ms     OK
+ 19 uf75-045.cnf                                      75     325     SAT     SAT       63.7ms       26.8ms     OK
+ 20 uf75-089.cnf                                      75     325     SAT     SAT       62.2ms       23.4ms     OK
+ 21 uf75-01.cnf                                       75     325     SAT     SAT       66.4ms       25.1ms     OK
+ 22 uf75-081.cnf                                      75     325     SAT     SAT       68.2ms       24.8ms     OK
+ 23 uf75-070.cnf                                      75     325     SAT     SAT       61.4ms       20.6ms     OK
+ 24 uf75-056.cnf                                      75     325     SAT     SAT       65.0ms       22.1ms     OK
+ 25 uf75-096.cnf                                      75     325     SAT     SAT       50.9ms       19.8ms     OK
+ 26 uf75-024.cnf                                      75     325     SAT     SAT       15.3ms       49.9ms     OK
+ 27 uf75-020.cnf                                      75     325     SAT     SAT       22.8ms       54.6ms     OK
+ 28 uf75-013.cnf                                      75     325     SAT     SAT       48.5ms       58.3ms     OK
+ 29 uf75-010.cnf                                      75     325     SAT     SAT       68.1ms       49.5ms     OK
+ 30 uf75-031.cnf                                      75     325     SAT     SAT       46.7ms       61.3ms     OK
+ 31 uf75-017.cnf                                      75     325     SAT     SAT       66.4ms       61.0ms     OK
+ 32 uf75-035.cnf                                      75     325     SAT     SAT       56.4ms       57.7ms     OK
+ 33 uf75-05.cnf                                       75     325     SAT     SAT       43.4ms       65.9ms     OK
+ 34 uf75-079.cnf                                      75     325     SAT     SAT       49.7ms       58.0ms     OK
+ 35 uf75-053.cnf                                      75     325     SAT     SAT       50.2ms       70.6ms     OK
+ 36 uf75-064.cnf                                      75     325     SAT     SAT       53.7ms       62.9ms     OK
+ 37 uf75-057.cnf                                      75     325     SAT     SAT       53.7ms       63.1ms     OK
+ 38 uf75-060.cnf                                      75     325     SAT     SAT       66.3ms       62.2ms     OK
+ 39 uf75-046.cnf                                      75     325     SAT     SAT       76.1ms       53.5ms     OK
+ 40 uf75-09.cnf                                       75     325     SAT     SAT       71.0ms       43.5ms     OK
+ 41 uf75-082.cnf                                      75     325     SAT     SAT       70.5ms       43.5ms     OK
+ 42 uf75-039.cnf                                      75     325     SAT     SAT       65.4ms       49.0ms     OK
+ 43 uf75-071.cnf                                      75     325     SAT     SAT       69.1ms       34.3ms     OK
+ 44 uf75-028.cnf                                      75     325     SAT     SAT       76.2ms       33.8ms     OK
+ 45 uf75-097.cnf                                      75     325     SAT     SAT       49.9ms       75.5ms     OK
+ 46 uf75-075.cnf                                      75     325     SAT     SAT       46.6ms       85.6ms     OK
+ 47 uf75-068.cnf                                      75     325     SAT     SAT       53.7ms       70.1ms     OK
+ 48 uf75-042.cnf                                      75     325     SAT     SAT       64.4ms       70.1ms     OK
+ 49 uf75-093.cnf                                      75     325     SAT     SAT       67.2ms       53.4ms     OK
+ 50 uf75-086.cnf                                      75     325     SAT     SAT       85.0ms       37.5ms     OK
+ 51 uf75-018.cnf                                      75     325     SAT     SAT       32.4ms       48.2ms     OK
+ 52 uf75-076.cnf                                      75     325     SAT     SAT       35.7ms       39.0ms     OK
+ 53 uf75-047.cnf                                      75     325     SAT     SAT       33.7ms       50.0ms     OK
+ 54 uf75-050.cnf                                      75     325     SAT     SAT       41.5ms       40.1ms     OK
+ 55 uf75-032.cnf                                      75     325     SAT     SAT       29.5ms       49.4ms     OK
+ 56 uf75-014.cnf                                      75     325     SAT     SAT       39.6ms       38.2ms     OK
+ 57 uf75-08.cnf                                       75     325     SAT     SAT       40.5ms       41.7ms     OK
+ 58 uf75-025.cnf                                      75     325     SAT     SAT       33.0ms       61.7ms     OK
+ 59 uf75-072.cnf                                      75     325     SAT     SAT       36.5ms       45.4ms     OK
+ 60 uf75-094.cnf                                      75     325     SAT     SAT       35.3ms       59.0ms     OK
+ 61 uf75-043.cnf                                      75     325     SAT     SAT       34.0ms       68.3ms     OK
+ 62 uf75-0100.cnf                                     75     325     SAT     SAT       41.4ms       57.3ms     OK
+ 63 uf75-061.cnf                                      75     325     SAT     SAT       38.7ms       59.6ms     OK
+ 64 uf75-098.cnf                                      75     325     SAT     SAT       57.9ms       42.5ms     OK
+ 65 uf75-090.cnf                                      75     325     SAT     SAT       69.8ms       32.7ms     OK
+ 66 uf75-021.cnf                                      75     325     SAT     SAT       48.8ms       63.3ms     OK
+ 67 uf75-036.cnf                                      75     325     SAT     SAT       36.6ms       66.2ms     OK
+ 68 uf75-087.cnf                                      75     325     SAT     SAT       53.7ms       50.8ms     OK
+ 69 uf75-054.cnf                                      75     325     SAT     SAT       69.5ms       31.8ms     OK
+ 70 uf75-029.cnf                                      75     325     SAT     SAT       73.1ms       40.6ms     OK
+ 71 uf75-083.cnf                                      75     325     SAT     SAT       75.8ms       32.2ms     OK
+ 72 uf75-069.cnf                                      75     325     SAT     SAT       49.1ms       37.2ms     OK
+ 73 uf75-04.cnf                                       75     325     SAT     SAT       52.6ms       47.4ms     OK
+ 74 uf75-058.cnf                                      75     325     SAT     SAT       69.9ms       30.6ms     OK
+ 75 uf75-065.cnf                                      75     325     SAT     SAT       82.8ms       26.5ms     OK
+ 76 uf75-033.cnf                                      75     325     SAT     SAT       21.2ms       69.9ms     OK
+ 77 uf75-044.cnf                                      75     325     SAT     SAT       51.8ms       55.1ms     OK
+ 78 uf75-059.cnf                                      75     325     SAT     SAT       45.8ms       67.4ms     OK
+ 79 uf75-011.cnf                                      75     325     SAT     SAT       52.7ms       59.6ms     OK
+ 80 uf75-077.cnf                                      75     325     SAT     SAT       53.4ms       61.8ms     OK
+ 81 uf75-066.cnf                                      75     325     SAT     SAT       49.1ms       72.2ms     OK
+ 82 uf75-084.cnf                                      75     325     SAT     SAT       56.2ms       58.8ms     OK
+ 83 uf75-07.cnf                                       75     325     SAT     SAT       61.8ms       65.4ms     OK
+ 84 uf75-037.cnf                                      75     325     SAT     SAT       68.1ms       60.3ms     OK
+ 85 uf75-055.cnf                                      75     325     SAT     SAT       55.0ms       64.6ms     OK
+ 86 uf75-051.cnf                                      75     325     SAT     SAT       53.6ms       58.7ms     OK
+ 87 uf75-022.cnf                                      75     325     SAT     SAT       39.6ms       76.3ms     OK
+ 88 uf75-088.cnf                                      75     325     SAT     SAT       50.2ms       67.9ms     OK
+ 89 uf75-03.cnf                                       75     325     SAT     SAT       62.9ms       55.1ms     OK
+ 90 uf75-019.cnf                                      75     325     SAT     SAT       63.2ms       53.1ms     OK
+ 91 uf75-026.cnf                                      75     325     SAT     SAT       67.3ms       69.4ms     OK
+ 92 uf75-015.cnf                                      75     325     SAT     SAT       69.4ms       60.2ms     OK
+ 93 uf75-073.cnf                                      75     325     SAT     SAT       82.5ms       54.3ms     OK
+ 94 uf75-091.cnf                                      75     325     SAT     SAT       60.7ms       57.1ms     OK
+ 95 uf75-040.cnf                                      75     325     SAT     SAT       85.0ms       52.2ms     OK
+ 96 uf75-062.cnf                                      75     325     SAT     SAT       63.5ms       63.2ms     OK
+ 97 uf75-048.cnf                                      75     325     SAT     SAT       59.7ms       75.8ms     OK
+ 98 uf75-099.cnf                                      75     325     SAT     SAT       72.5ms       57.5ms     OK
+ 99 uf75-095.cnf                                      75     325     SAT     SAT       70.2ms       63.0ms     OK
+100 uf75-080.cnf                                      75     325     SAT     SAT       75.9ms       58.9ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 54 / 100
+  MiniSat faster        : 46 / 100
+  CDCL total time       : 5.195s
+  MiniSat total time    : 5.030s
+  Speedup (MS/CDCL)     : 0.97x
+==========================================================================================

@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293511
+  Task Name   : medium-uf125-538-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf125-538/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf125-070.cnf                                    125     538     SAT     SAT       19.5ms       73.3ms     OK
+  2 uf125-02.cnf                                     125     538     SAT     SAT       26.0ms       73.0ms     OK
+  3 uf125-056.cnf                                    125     538     SAT     SAT       28.0ms       78.8ms     OK
+  4 uf125-01.cnf                                     125     538     SAT     SAT       24.4ms       85.6ms     OK
+  5 uf125-041.cnf                                    125     538     SAT     SAT       49.0ms       65.5ms     OK
+  6 uf125-085.cnf                                    125     538     SAT     SAT       31.8ms       89.3ms     OK
+  7 uf125-067.cnf                                    125     538     SAT     SAT       25.0ms       90.6ms     OK
+  8 uf125-038.cnf                                    125     538     SAT     SAT       60.3ms       56.9ms     OK
+  9 uf125-016.cnf                                    125     538     SAT     SAT       56.1ms       68.7ms     OK
+ 10 uf125-012.cnf                                    125     538     SAT     SAT       61.7ms       56.7ms     OK
+ 11 uf125-052.cnf                                    125     538     SAT     SAT       35.6ms       86.4ms     OK
+ 12 uf125-06.cnf                                     125     538     SAT     SAT       62.4ms       60.7ms     OK
+ 13 uf125-030.cnf                                    125     538     SAT     SAT       66.6ms       54.6ms     OK
+ 14 uf125-063.cnf                                    125     538     SAT     SAT       68.2ms       54.3ms     OK
+ 15 uf125-092.cnf                                    125     538     SAT     SAT       78.7ms       47.0ms     OK
+ 16 uf125-045.cnf                                    125     538     SAT     SAT       74.5ms       58.0ms     OK
+ 17 uf125-074.cnf                                    125     538     SAT     SAT       78.7ms       40.1ms     OK
+ 18 uf125-034.cnf                                    125     538     SAT     SAT       79.2ms       51.0ms     OK
+ 19 uf125-089.cnf                                    125     538     SAT     SAT       77.7ms       50.8ms     OK
+ 20 uf125-096.cnf                                    125     538     SAT     SAT       84.5ms       42.5ms     OK
+ 21 uf125-027.cnf                                    125     538     SAT     SAT       93.7ms       29.5ms     OK
+ 22 uf125-023.cnf                                    125     538     SAT     SAT       82.5ms       47.3ms     OK
+ 23 uf125-081.cnf                                    125     538     SAT     SAT       83.7ms       49.1ms     OK
+ 24 uf125-049.cnf                                    125     538     SAT     SAT      102.4ms       31.9ms     OK
+ 25 uf125-078.cnf                                    125     538     SAT     SAT      102.2ms       41.7ms     OK
+ 26 uf125-09.cnf                                     125     538     SAT     SAT       35.1ms       14.5ms     OK
+ 27 uf125-035.cnf                                    125     538     SAT     SAT       40.7ms       27.1ms     OK
+ 28 uf125-039.cnf                                    125     538     SAT     SAT       53.4ms       46.2ms     OK
+ 29 uf125-079.cnf                                    125     538     SAT     SAT       56.3ms       54.6ms     OK
+ 30 uf125-071.cnf                                    125     538     SAT     SAT      123.2ms       63.1ms     OK
+ 31 uf125-046.cnf                                    125     538     SAT     SAT       31.0ms       52.1ms     OK
+ 32 uf125-042.cnf                                    125     538     SAT     SAT       43.7ms       49.1ms     OK
+ 33 uf125-075.cnf                                    125     538     SAT     SAT       30.3ms       61.5ms     OK
+ 34 uf125-068.cnf                                    125     538     SAT     SAT       57.0ms       46.7ms     OK
+ 35 uf125-017.cnf                                    125     538     SAT     SAT       37.6ms       68.9ms     OK
+ 36 uf125-097.cnf                                    125     538     SAT     SAT       54.3ms       44.1ms     OK
+ 37 uf125-028.cnf                                    125     538     SAT     SAT       55.4ms       50.6ms     OK
+ 38 uf125-086.cnf                                    125     538     SAT     SAT       27.7ms       86.8ms     OK
+ 39 uf125-057.cnf                                    125     538     SAT     SAT       40.0ms       54.7ms     OK
+ 40 uf125-020.cnf                                    125     538     SAT     SAT       71.9ms       49.9ms     OK
+ 41 uf125-024.cnf                                    125     538     SAT     SAT       82.2ms       52.6ms     OK
+ 42 uf125-013.cnf                                    125     538     SAT     SAT       42.7ms       88.2ms     OK
+ 43 uf125-082.cnf                                    125     538     SAT     SAT       61.0ms       52.1ms     OK
+ 44 uf125-064.cnf                                    125     538     SAT     SAT       78.2ms       55.9ms     OK
+ 45 uf125-05.cnf                                     125     538     SAT     SAT       53.5ms       53.7ms     OK
+ 46 uf125-053.cnf                                    125     538     SAT     SAT       96.7ms       47.0ms     OK
+ 47 uf125-060.cnf                                    125     538     SAT     SAT       97.2ms       46.6ms     OK
+ 48 uf125-031.cnf                                    125     538     SAT     SAT       88.2ms       37.7ms     OK
+ 49 uf125-093.cnf                                    125     538     SAT     SAT       50.8ms      105.7ms     OK
+ 50 uf125-010.cnf                                    125     538     SAT     SAT      147.4ms       11.7ms     OK
+ 51 uf125-018.cnf                                    125     538     SAT     SAT       19.1ms       24.8ms     OK
+ 52 uf125-083.cnf                                    125     538     SAT     SAT       35.1ms       25.2ms     OK
+ 53 uf125-061.cnf                                    125     538     SAT     SAT       26.6ms       15.1ms     OK
+ 54 uf125-072.cnf                                    125     538     SAT     SAT       31.1ms       12.9ms     OK
+ 55 uf125-047.cnf                                    125     538     SAT     SAT       75.2ms       13.2ms     OK
+ 56 uf125-021.cnf                                    125     538     SAT     SAT       18.0ms       44.7ms     OK
+ 57 uf125-029.cnf                                    125     538     SAT     SAT       27.9ms       58.3ms     OK
+ 58 uf125-076.cnf                                    125     538     SAT     SAT       36.7ms       57.0ms     OK
+ 59 uf125-065.cnf                                    125     538     SAT     SAT       53.4ms       46.6ms     OK
+ 60 uf125-025.cnf                                    125     538     SAT     SAT       45.3ms       54.6ms     OK
+ 61 uf125-043.cnf                                    125     538     SAT     SAT       44.4ms       62.8ms     OK
+ 62 uf125-04.cnf                                     125     538     SAT     SAT       65.7ms       42.2ms     OK
+ 63 uf125-0100.cnf                                   125     538     SAT     SAT       45.4ms       64.5ms     OK
+ 64 uf125-098.cnf                                    125     538     SAT     SAT       45.3ms       53.9ms     OK
+ 65 uf125-087.cnf                                    125     538     SAT     SAT       48.3ms       51.4ms     OK
+ 66 uf125-08.cnf                                     125     538     SAT     SAT       55.9ms       65.1ms     OK
+ 67 uf125-050.cnf                                    125     538     SAT     SAT       88.9ms       40.3ms     OK
+ 68 uf125-069.cnf                                    125     538     SAT     SAT       94.6ms       41.4ms     OK
+ 69 uf125-014.cnf                                    125     538     SAT     SAT       85.1ms       30.8ms     OK
+ 70 uf125-090.cnf                                    125     538     SAT     SAT       59.4ms       60.2ms     OK
+ 71 uf125-058.cnf                                    125     538     SAT     SAT       99.0ms       35.9ms     OK
+ 72 uf125-032.cnf                                    125     538     SAT     SAT      112.0ms       71.3ms     OK
+ 73 uf125-054.cnf                                    125     538     SAT     SAT      187.3ms       10.4ms     OK
+ 74 uf125-036.cnf                                    125     538     SAT     SAT      185.7ms       15.4ms     OK
+ 75 uf125-094.cnf                                    125     538     SAT     SAT      111.2ms       87.6ms     OK
+ 76 uf125-019.cnf                                    125     538     SAT     SAT       18.1ms       19.6ms     OK
+ 77 uf125-040.cnf                                    125     538     SAT     SAT       27.6ms       16.8ms     OK
+ 78 uf125-091.cnf                                    125     538     SAT     SAT       19.5ms       27.6ms     OK
+ 79 uf125-059.cnf                                    125     538     SAT     SAT       44.1ms       21.2ms     OK
+ 80 uf125-037.cnf                                    125     538     SAT     SAT       47.1ms       46.3ms     OK
+ 81 uf125-084.cnf                                    125     538     SAT     SAT       26.0ms       55.1ms     OK
+ 82 uf125-07.cnf                                     125     538     SAT     SAT       18.2ms       52.4ms     OK
+ 83 uf125-044.cnf                                    125     538     SAT     SAT       31.9ms       59.0ms     OK
+ 84 uf125-048.cnf                                    125     538     SAT     SAT       32.9ms       61.3ms     OK
+ 85 uf125-015.cnf                                    125     538     SAT     SAT       40.3ms       59.1ms     OK
+ 86 uf125-011.cnf                                    125     538     SAT     SAT       36.7ms       72.9ms     OK
+ 87 uf125-051.cnf                                    125     538     SAT     SAT       27.1ms       86.4ms     OK
+ 88 uf125-062.cnf                                    125     538     SAT     SAT       48.7ms       77.1ms     OK
+ 89 uf125-022.cnf                                    125     538     SAT     SAT       72.5ms       32.5ms     OK
+ 90 uf125-055.cnf                                    125     538     SAT     SAT       65.9ms       62.5ms     OK
+ 91 uf125-088.cnf                                    125     538     SAT     SAT       31.7ms       96.7ms     OK
+ 92 uf125-095.cnf                                    125     538     SAT     SAT       97.2ms       30.3ms     OK
+ 93 uf125-066.cnf                                    125     538     SAT     SAT      102.1ms       31.4ms     OK
+ 94 uf125-099.cnf                                    125     538     SAT     SAT       72.4ms       45.9ms     OK
+ 95 uf125-03.cnf                                     125     538     SAT     SAT      100.1ms       23.9ms     OK
+ 96 uf125-033.cnf                                    125     538     SAT     SAT      118.8ms       15.2ms     OK
+ 97 uf125-080.cnf                                    125     538     SAT     SAT      128.1ms       12.0ms     OK
+ 98 uf125-077.cnf                                    125     538     SAT     SAT      110.0ms       32.2ms     OK
+ 99 uf125-073.cnf                                    125     538     SAT     SAT      163.6ms       28.6ms     OK
+100 uf125-026.cnf                                    125     538     SAT     SAT      134.0ms       82.3ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 40 / 100
+  MiniSat faster        : 60 / 100
+  CDCL total time       : 6.419s
+  MiniSat total time    : 5.038s
+  Speedup (MS/CDCL)     : 0.78x
+==========================================================================================
