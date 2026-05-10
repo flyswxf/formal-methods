@@ -4,9 +4,9 @@
 # 基础工作目录
 BASE_DIR="/public/home/yhhao/wyf/formal-methods/Datasets/cdcl_dimacs/large"
 # 源文件目录（存放 .xz 文件）
-DOWNLOADS_DIR="${BASE_DIR}/downloads"
+DOWNLOADS_DIR="${BASE_DIR}/downloads/2021"
 # 目标目录（存放解压后的文件）
-CNFS_DIR="${BASE_DIR}/cnfs"
+CNFS_DIR="${BASE_DIR}/cnfs/2021"
 # ===========================================
 
 # 1. 检查源目录是否存在

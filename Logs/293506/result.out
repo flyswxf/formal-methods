@@ -1,0 +1,1029 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293506
+  Task Name   : medium-uf50-218-UNSAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf50-218/UNSAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 16  (32 cpus/node)
+  Total Files : 1000
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uuf50-0112.cnf                                    50     218   UNSAT   UNSAT       17.4ms        9.0ms     OK
+  2 uuf50-0141.cnf                                    50     218   UNSAT   UNSAT       14.7ms        8.0ms     OK
+  3 uuf50-0213.cnf                                    50     218   UNSAT   UNSAT       14.1ms       11.3ms     OK
+  4 uuf50-0358.cnf                                    50     218   UNSAT   UNSAT       11.7ms       12.5ms     OK
+  5 uuf50-0400.cnf                                    50     218   UNSAT   UNSAT       14.6ms       11.3ms     OK
+  6 uuf50-0343.cnf                                    50     218   UNSAT   UNSAT       14.7ms       10.4ms     OK
+  7 uuf50-0459.cnf                                    50     218   UNSAT   UNSAT       15.2ms       14.8ms     OK
+  8 uuf50-0185.cnf                                    50     218   UNSAT   UNSAT       13.5ms       50.1ms     OK
+  9 uuf50-043.cnf                                     50     218   UNSAT   UNSAT       16.2ms       51.2ms     OK
+ 10 uuf50-0589.cnf                                    50     218   UNSAT   UNSAT       48.1ms       35.0ms     OK
+ 11 uuf50-0271.cnf                                    50     218   UNSAT   UNSAT       34.9ms       51.3ms     OK
+ 12 uuf50-01.cnf                                      50     218   UNSAT   UNSAT       49.5ms       41.9ms     OK
+ 13 uuf50-0545.cnf                                    50     218   UNSAT   UNSAT       53.8ms       37.6ms     OK
+ 14 uuf50-0314.cnf                                    50     218   UNSAT   UNSAT       56.5ms       36.6ms     OK
+ 15 uuf50-0602.cnf                                    50     218   UNSAT   UNSAT       54.7ms       49.5ms     OK
+ 16 uuf50-0501.cnf                                    50     218   UNSAT   UNSAT       52.4ms       45.6ms     OK
+ 17 uuf50-0127.cnf                                    50     218   UNSAT   UNSAT       50.4ms       47.3ms     OK
+ 18 uuf50-0530.cnf                                    50     218   UNSAT   UNSAT       52.2ms       50.6ms     OK
+ 19 uuf50-0372.cnf                                    50     218   UNSAT   UNSAT       46.7ms       48.3ms     OK
+ 20 uuf50-0257.cnf                                    50     218   UNSAT   UNSAT       47.3ms       44.3ms     OK
+ 21 uuf50-0488.cnf                                    50     218   UNSAT   UNSAT       55.8ms       45.0ms     OK
+ 22 uuf50-030.cnf                                     50     218   UNSAT   UNSAT       44.7ms       48.1ms     OK
+ 23 uuf50-0156.cnf                                    50     218   UNSAT   UNSAT       51.5ms       47.8ms     OK
+ 24 uuf50-0415.cnf                                    50     218   UNSAT   UNSAT       51.6ms       47.7ms     OK
+ 25 uuf50-0228.cnf                                    50     218   UNSAT   UNSAT       50.3ms       46.1ms     OK
+ 26 uuf50-0170.cnf                                    50     218   UNSAT   UNSAT       49.9ms       50.7ms     OK
+ 27 uuf50-0574.cnf                                    50     218   UNSAT   UNSAT       49.3ms       50.9ms     OK
+ 28 uuf50-0286.cnf                                    50     218   UNSAT   UNSAT       53.2ms       41.1ms     OK
+ 29 uuf50-0387.cnf                                    50     218   UNSAT   UNSAT       56.8ms       41.8ms     OK
+ 30 uuf50-02.cnf                                      50     218   UNSAT   UNSAT       53.2ms       42.1ms     OK
+ 31 uuf50-0242.cnf                                    50     218   UNSAT   UNSAT       53.5ms       41.7ms     OK
+ 32 uuf50-0444.cnf                                    50     218   UNSAT   UNSAT       53.7ms       42.1ms     OK
+ 33 uuf50-0617.cnf                                    50     218   UNSAT   UNSAT       54.3ms       40.6ms     OK
+ 34 uuf50-0516.cnf                                    50     218   UNSAT   UNSAT       52.3ms       43.9ms     OK
+ 35 uuf50-0473.cnf                                    50     218   UNSAT   UNSAT       57.7ms       40.5ms     OK
+ 36 uuf50-0329.cnf                                    50     218   UNSAT   UNSAT       56.2ms       43.4ms     OK
+ 37 uuf50-0631.cnf                                    50     218   UNSAT   UNSAT       44.3ms       51.8ms     OK
+ 38 uuf50-056.cnf                                     50     218   UNSAT   UNSAT       57.9ms       57.9ms     OK
+ 39 uuf50-0646.cnf                                    50     218   UNSAT   UNSAT       45.8ms       55.5ms     OK
+ 40 uuf50-0675.cnf                                    50     218   UNSAT   UNSAT       43.7ms       23.0ms     OK
+ 41 uuf50-0660.cnf                                    50     218   UNSAT   UNSAT       43.3ms       27.7ms     OK
+ 42 uuf50-0718.cnf                                    50     218   UNSAT   UNSAT       38.3ms       21.2ms     OK
+ 43 uuf50-0703.cnf                                    50     218   UNSAT   UNSAT       48.3ms       27.7ms     OK
+ 44 uuf50-0804.cnf                                    50     218   UNSAT   UNSAT       31.2ms       23.8ms     OK
+ 45 uuf50-0776.cnf                                    50     218   UNSAT   UNSAT       31.0ms       24.8ms     OK
+ 46 uuf50-069.cnf                                     50     218   UNSAT   UNSAT       44.9ms       25.2ms     OK
+ 47 uuf50-0905.cnf                                    50     218   UNSAT   UNSAT       24.0ms       25.1ms     OK
+ 48 uuf50-0747.cnf                                    50     218   UNSAT   UNSAT       42.2ms       29.0ms     OK
+ 49 uuf50-0761.cnf                                    50     218   UNSAT   UNSAT       31.1ms       40.4ms     OK
+ 50 uuf50-0732.cnf                                    50     218   UNSAT   UNSAT       52.3ms       43.0ms     OK
+ 51 uuf50-0978.cnf                                    50     218   UNSAT   UNSAT       33.0ms       32.1ms     OK
+ 52 uuf50-0819.cnf                                    50     218   UNSAT   UNSAT       39.0ms       26.5ms     OK
+ 53 uuf50-0877.cnf                                    50     218   UNSAT   UNSAT       35.5ms       29.2ms     OK
+ 54 uuf50-0862.cnf                                    50     218   UNSAT   UNSAT       36.8ms       25.8ms     OK
+ 55 uuf50-0891.cnf                                    50     218   UNSAT   UNSAT       34.7ms       34.5ms     OK
+ 56 uuf50-0992.cnf                                    50     218   UNSAT   UNSAT       34.5ms       26.6ms     OK
+ 57 uuf50-0833.cnf                                    50     218   UNSAT   UNSAT       38.2ms       29.3ms     OK
+ 58 uuf50-0848.cnf                                    50     218   UNSAT   UNSAT       35.6ms       28.4ms     OK
+ 59 uuf50-0963.cnf                                    50     218   UNSAT   UNSAT       32.7ms       27.0ms     OK
+ 60 uuf50-0790.cnf                                    50     218   UNSAT   UNSAT       33.0ms       30.6ms     OK
+ 61 uuf50-0934.cnf                                    50     218   UNSAT   UNSAT       32.9ms       32.4ms     OK
+ 62 uuf50-092.cnf                                     50     218   UNSAT   UNSAT       33.5ms       30.0ms     OK
+ 63 uuf50-0949.cnf                                    50     218   UNSAT   UNSAT       27.2ms       26.1ms     OK
+ 64 uuf50-0128.cnf                                    50     218   UNSAT   UNSAT      794.1ms       31.6ms     OK
+ 65 uuf50-0113.cnf                                    50     218   UNSAT   UNSAT       1.000s       40.2ms     OK
+ 66 uuf50-0142.cnf                                    50     218   UNSAT   UNSAT       1.013s       78.2ms     OK
+ 67 uuf50-0171.cnf                                    50     218   UNSAT   UNSAT      840.6ms       90.0ms     OK
+ 68 uuf50-010.cnf                                     50     218   UNSAT   UNSAT       1.006s       93.2ms     OK
+ 69 uuf50-0214.cnf                                    50     218   UNSAT   UNSAT       1.039s       25.3ms     OK
+ 70 uuf50-0258.cnf                                    50     218   UNSAT   UNSAT       1.382s       58.7ms     OK
+ 71 uuf50-0474.cnf                                    50     218   UNSAT   UNSAT      866.3ms       63.5ms     OK
+ 72 uuf50-0603.cnf                                    50     218   UNSAT   UNSAT      405.6ms      171.7ms     OK
+ 73 uuf50-0300.cnf                                    50     218   UNSAT   UNSAT      864.0ms      182.4ms     OK
+ 74 uuf50-0401.cnf                                    50     218   UNSAT   UNSAT       1.044s       34.6ms     OK
+ 75 uuf50-059.cnf                                     50     218   UNSAT   UNSAT       24.2ms       82.4ms     OK
+ 76 uuf50-0373.cnf                                    50     218   UNSAT   UNSAT      855.1ms      289.8ms     OK
+ 77 uuf50-0229.cnf                                    50     218   UNSAT   UNSAT      842.1ms      315.0ms     OK
+ 78 uuf50-0560.cnf                                    50     218   UNSAT   UNSAT      236.0ms       56.7ms     OK
+ 79 uuf50-0344.cnf                                    50     218   UNSAT   UNSAT      906.1ms      442.5ms     OK
+ 80 uuf50-033.cnf                                     50     218   UNSAT   UNSAT       1.320s       52.4ms     OK
+ 81 uuf50-0632.cnf                                    50     218   UNSAT   UNSAT      243.6ms      120.5ms     OK
+ 82 uuf50-0575.cnf                                    50     218   UNSAT   UNSAT      402.5ms       66.0ms     OK
+ 83 uuf50-0388.cnf                                    50     218   UNSAT   UNSAT       1.437s       81.0ms     OK
+ 84 uuf50-0676.cnf                                    50     218   UNSAT   UNSAT      386.0ms       78.4ms     OK
+ 85 uuf50-0517.cnf                                    50     218   UNSAT   UNSAT       1.494s       41.0ms     OK
+ 86 uuf50-046.cnf                                     50     218   UNSAT   UNSAT       1.477s       39.1ms     OK
+ 87 uuf50-0531.cnf                                    50     218   UNSAT   UNSAT       1.482s       34.0ms     OK
+ 88 uuf50-0186.cnf                                    50     218   UNSAT   UNSAT       1.504s       42.2ms     OK
+ 89 uuf50-0502.cnf                                    50     218   UNSAT   UNSAT       1.520s       65.8ms     OK
+ 90 uuf50-0287.cnf                                    50     218   UNSAT   UNSAT       1.489s      122.6ms     OK
+ 91 uuf50-0430.cnf                                    50     218   UNSAT   UNSAT      871.5ms      767.1ms     OK
+ 92 uuf50-0445.cnf                                    50     218   UNSAT   UNSAT       1.510s      142.0ms     OK
+ 93 uuf50-0315.cnf                                    50     218   UNSAT   UNSAT       1.284s      381.5ms     OK
+ 94 uuf50-020.cnf                                     50     218   UNSAT   UNSAT       1.541s      136.5ms     OK
+ 95 uuf50-0546.cnf                                    50     218   UNSAT   UNSAT       1.506s      180.6ms     OK
+ 96 uuf50-0243.cnf                                    50     218   UNSAT   UNSAT       1.537s      225.0ms     OK
+ 97 uuf50-0489.cnf                                    50     218   UNSAT   UNSAT       1.508s      306.6ms     OK
+ 98 uuf50-0690.cnf                                    50     218   UNSAT   UNSAT      302.8ms      323.4ms     OK
+ 99 uuf50-0733.cnf                                    50     218   UNSAT   UNSAT      225.4ms      491.4ms     OK
+100 uuf50-0661.cnf                                    50     218   UNSAT   UNSAT      479.5ms       39.9ms     OK
+101 uuf50-0964.cnf                                    50     218   UNSAT   UNSAT       63.7ms      206.5ms     OK
+102 uuf50-0849.cnf                                    50     218   UNSAT   UNSAT      186.1ms      130.1ms     OK
+103 uuf50-0979.cnf                                    50     218   UNSAT   UNSAT      183.4ms      143.8ms     OK
+104 uuf50-0647.cnf                                    50     218   UNSAT   UNSAT      339.2ms       41.9ms     OK
+105 uuf50-082.cnf                                     50     218   UNSAT   UNSAT      238.1ms      160.9ms     OK
+106 uuf50-0935.cnf                                    50     218   UNSAT   UNSAT      336.8ms       72.8ms     OK
+107 uuf50-0762.cnf                                    50     218   UNSAT   UNSAT      319.8ms      277.1ms     OK
+108 uuf50-0863.cnf                                    50     218   UNSAT   UNSAT      431.4ms      196.8ms     OK
+109 uuf50-0791.cnf                                    50     218   UNSAT   UNSAT      574.8ms       96.2ms     OK
+110 uuf50-0993.cnf                                    50     218   UNSAT   UNSAT      599.3ms      108.9ms     OK
+111 uuf50-0748.cnf                                    50     218   UNSAT   UNSAT      732.4ms       24.6ms     OK
+112 uuf50-0878.cnf                                    50     218   UNSAT   UNSAT      938.9ms        8.1ms     OK
+113 uuf50-0906.cnf                                    50     218   UNSAT   UNSAT      798.2ms      188.0ms     OK
+114 uuf50-0704.cnf                                    50     218   UNSAT   UNSAT      801.5ms      259.6ms     OK
+115 uuf50-0892.cnf                                    50     218   UNSAT   UNSAT      841.1ms      454.7ms     OK
+116 uuf50-095.cnf                                     50     218   UNSAT   UNSAT      729.8ms      583.0ms     OK
+117 uuf50-0719.cnf                                    50     218   UNSAT   UNSAT       1.610s      406.0ms     OK
+118 uuf50-0777.cnf                                    50     218   UNSAT   UNSAT       2.131s       34.2ms     OK
+119 uuf50-0834.cnf                                    50     218   UNSAT   UNSAT       1.088s       1.656s     OK
+120 uuf50-0157.cnf                                    50     218   UNSAT   UNSAT      19.975s       57.9ms     OK
+121 uuf50-0359.cnf                                    50     218   UNSAT   UNSAT      19.385s       84.8ms     OK
+122 uuf50-0416.cnf                                    50     218   UNSAT   UNSAT      19.856s      245.0ms     OK
+123 uuf50-0618.cnf                                    50     218   UNSAT   UNSAT      19.445s      266.7ms     OK
+124 uuf50-0272.cnf                                    50     218   UNSAT   UNSAT      20.220s       56.3ms     OK
+125 uuf50-0920.cnf                                    50     218   UNSAT   UNSAT      155.9ms      18.806s     OK
+126 uuf50-0805.cnf                                    50     218   UNSAT   UNSAT      396.4ms      19.267s     OK
+127 uuf50-018.cnf                                     50     218   UNSAT   UNSAT       16.3ms       30.1ms     OK
+128 uuf50-0136.cnf                                    50     218   UNSAT   UNSAT       22.2ms       27.2ms     OK
+129 uuf50-0107.cnf                                    50     218   UNSAT   UNSAT       16.3ms       38.8ms     OK
+130 uuf50-0352.cnf                                    50     218   UNSAT   UNSAT       40.5ms       66.6ms     OK
+131 uuf50-0295.cnf                                    50     218   UNSAT   UNSAT       40.5ms       76.5ms     OK
+132 uuf50-0309.cnf                                    50     218   UNSAT   UNSAT       46.4ms       72.6ms     OK
+133 uuf50-0150.cnf                                    50     218   UNSAT   UNSAT       41.2ms       90.7ms     OK
+134 uuf50-0280.cnf                                    50     218   UNSAT   UNSAT       54.5ms       75.8ms     OK
+135 uuf50-0251.cnf                                    50     218   UNSAT   UNSAT       41.6ms       94.0ms     OK
+136 uuf50-0381.cnf                                    50     218   UNSAT   UNSAT       52.5ms       80.3ms     OK
+137 uuf50-0165.cnf                                    50     218   UNSAT   UNSAT       50.3ms       78.0ms     OK
+138 uuf50-0121.cnf                                    50     218   UNSAT   UNSAT       61.0ms       75.7ms     OK
+139 uuf50-0468.cnf                                    50     218   UNSAT   UNSAT       51.0ms       85.1ms     OK
+140 uuf50-0453.cnf                                    50     218   UNSAT   UNSAT       55.9ms       82.0ms     OK
+141 uuf50-0222.cnf                                    50     218   UNSAT   UNSAT       64.6ms       85.1ms     OK
+142 uuf50-0323.cnf                                    50     218   UNSAT   UNSAT       80.7ms       61.7ms     OK
+143 uuf50-0510.cnf                                    50     218   UNSAT   UNSAT       66.8ms       79.8ms     OK
+144 uuf50-0525.cnf                                    50     218   UNSAT   UNSAT       71.3ms       71.4ms     OK
+145 uuf50-0396.cnf                                    50     218   UNSAT   UNSAT       80.2ms       69.2ms     OK
+146 uuf50-054.cnf                                     50     218   UNSAT   UNSAT       80.9ms       63.9ms     OK
+147 uuf50-0367.cnf                                    50     218   UNSAT   UNSAT       69.9ms       74.3ms     OK
+148 uuf50-041.cnf                                     50     218   UNSAT   UNSAT       85.0ms       52.6ms     OK
+149 uuf50-0237.cnf                                    50     218   UNSAT   UNSAT       91.3ms       61.3ms     OK
+150 uuf50-0482.cnf                                    50     218   UNSAT   UNSAT       81.2ms       49.1ms     OK
+151 uuf50-0338.cnf                                    50     218   UNSAT   UNSAT       82.8ms       74.1ms     OK
+152 uuf50-0208.cnf                                    50     218   UNSAT   UNSAT       88.1ms       62.1ms     OK
+153 uuf50-0554.cnf                                    50     218   UNSAT   UNSAT       80.5ms       54.7ms     OK
+154 uuf50-0497.cnf                                    50     218   UNSAT   UNSAT       83.1ms       67.8ms     OK
+155 uuf50-0583.cnf                                    50     218   UNSAT   UNSAT       83.5ms       30.7ms     OK
+156 uuf50-0194.cnf                                    50     218   UNSAT   UNSAT      119.5ms       36.9ms     OK
+157 uuf50-0424.cnf                                    50     218   UNSAT   UNSAT       94.7ms       57.7ms     OK
+158 uuf50-0598.cnf                                    50     218   UNSAT   UNSAT       72.2ms       46.0ms     OK
+159 uuf50-0266.cnf                                    50     218   UNSAT   UNSAT      118.9ms       61.7ms     OK
+160 uuf50-0439.cnf                                    50     218   UNSAT   UNSAT      122.3ms       62.0ms     OK
+161 uuf50-0569.cnf                                    50     218   UNSAT   UNSAT       87.5ms       61.3ms     OK
+162 uuf50-0611.cnf                                    50     218   UNSAT   UNSAT       45.2ms       45.1ms     OK
+163 uuf50-0640.cnf                                    50     218   UNSAT   UNSAT       38.9ms       62.5ms     OK
+164 uuf50-0626.cnf                                    50     218   UNSAT   UNSAT       44.2ms       64.2ms     OK
+165 uuf50-067.cnf                                     50     218   UNSAT   UNSAT       34.1ms       70.5ms     OK
+166 uuf50-0684.cnf                                    50     218   UNSAT   UNSAT       32.5ms       74.4ms     OK
+167 uuf50-0842.cnf                                    50     218   UNSAT   UNSAT       43.8ms       63.6ms     OK
+168 uuf50-08.cnf                                      50     218   UNSAT   UNSAT       45.2ms       64.0ms     OK
+169 uuf50-0770.cnf                                    50     218   UNSAT   UNSAT       49.5ms       59.8ms     OK
+170 uuf50-0727.cnf                                    50     218   UNSAT   UNSAT       56.1ms       60.8ms     OK
+171 uuf50-0756.cnf                                    50     218   UNSAT   UNSAT       49.3ms       80.8ms     OK
+172 uuf50-0943.cnf                                    50     218   UNSAT   UNSAT       66.6ms       63.4ms     OK
+173 uuf50-0929.cnf                                    50     218   UNSAT   UNSAT       85.7ms       43.4ms     OK
+174 uuf50-0958.cnf                                    50     218   UNSAT   UNSAT       77.1ms       49.9ms     OK
+175 uuf50-0914.cnf                                    50     218   UNSAT   UNSAT       91.2ms       39.9ms     OK
+176 uuf50-0813.cnf                                    50     218   UNSAT   UNSAT       76.0ms       55.4ms     OK
+177 uuf50-0699.cnf                                    50     218   UNSAT   UNSAT       56.3ms       91.3ms     OK
+178 uuf50-0871.cnf                                    50     218   UNSAT   UNSAT       48.7ms       91.0ms     OK
+179 uuf50-0655.cnf                                    50     218   UNSAT   UNSAT       66.8ms       88.8ms     OK
+180 uuf50-090.cnf                                     50     218   UNSAT   UNSAT       71.3ms       55.5ms     OK
+181 uuf50-0857.cnf                                    50     218   UNSAT   UNSAT       99.4ms       39.5ms     OK
+182 uuf50-0785.cnf                                    50     218   UNSAT   UNSAT       66.1ms       74.3ms     OK
+183 uuf50-0741.cnf                                    50     218   UNSAT   UNSAT       76.8ms       64.2ms     OK
+184 uuf50-0972.cnf                                    50     218   UNSAT   UNSAT       80.0ms       32.0ms     OK
+185 uuf50-0828.cnf                                    50     218   UNSAT   UNSAT      102.3ms       40.3ms     OK
+186 uuf50-0987.cnf                                    50     218   UNSAT   UNSAT       89.7ms       39.3ms     OK
+187 uuf50-0886.cnf                                    50     218   UNSAT   UNSAT      100.6ms       47.9ms     OK
+188 uuf50-0712.cnf                                    50     218   UNSAT   UNSAT      105.5ms       40.8ms     OK
+189 uuf50-0397.cnf                                    50     218   UNSAT   UNSAT       36.0ms       53.8ms     OK
+190 uuf50-0511.cnf                                    50     218   UNSAT   UNSAT       32.5ms       56.3ms     OK
+191 uuf50-0122.cnf                                    50     218   UNSAT   UNSAT       38.1ms       57.4ms     OK
+192 uuf50-0180.cnf                                    50     218   UNSAT   UNSAT       40.0ms       55.2ms     OK
+193 uuf50-0151.cnf                                    50     218   UNSAT   UNSAT       32.7ms       63.0ms     OK
+194 uuf50-0454.cnf                                    50     218   UNSAT   UNSAT       36.2ms       52.0ms     OK
+195 uuf50-0108.cnf                                    50     218   UNSAT   UNSAT       29.7ms       68.4ms     OK
+196 uuf50-0483.cnf                                    50     218   UNSAT   UNSAT       40.1ms       54.7ms     OK
+197 uuf50-0223.cnf                                    50     218   UNSAT   UNSAT       42.2ms       69.8ms     OK
+198 uuf50-0296.cnf                                    50     218   UNSAT   UNSAT       40.4ms       60.1ms     OK
+199 uuf50-0498.cnf                                    50     218   UNSAT   UNSAT       48.7ms       50.1ms     OK
+200 uuf50-0238.cnf                                    50     218   UNSAT   UNSAT       34.8ms       65.5ms     OK
+201 uuf50-0195.cnf                                    50     218   UNSAT   UNSAT       26.5ms       80.1ms     OK
+202 uuf50-0353.cnf                                    50     218   UNSAT   UNSAT       52.1ms       57.4ms     OK
+203 uuf50-0339.cnf                                    50     218   UNSAT   UNSAT       58.9ms       56.6ms     OK
+204 uuf50-0209.cnf                                    50     218   UNSAT   UNSAT       61.9ms       64.2ms     OK
+205 uuf50-0137.cnf                                    50     218   UNSAT   UNSAT       66.4ms       63.7ms     OK
+206 uuf50-0368.cnf                                    50     218   UNSAT   UNSAT       61.7ms       78.3ms     OK
+207 uuf50-0469.cnf                                    50     218   UNSAT   UNSAT       51.5ms       83.0ms     OK
+208 uuf50-0281.cnf                                    50     218   UNSAT   UNSAT       69.7ms       69.1ms     OK
+209 uuf50-0252.cnf                                    50     218   UNSAT   UNSAT       62.7ms       88.0ms     OK
+210 uuf50-0267.cnf                                    50     218   UNSAT   UNSAT       67.2ms       71.6ms     OK
+211 uuf50-0540.cnf                                    50     218   UNSAT   UNSAT       80.5ms       69.0ms     OK
+212 uuf50-031.cnf                                     50     218   UNSAT   UNSAT       73.6ms       80.6ms     OK
+213 uuf50-0166.cnf                                    50     218   UNSAT   UNSAT       74.3ms       81.8ms     OK
+214 uuf50-044.cnf                                     50     218   UNSAT   UNSAT       84.7ms       76.4ms     OK
+215 uuf50-0555.cnf                                    50     218   UNSAT   UNSAT       68.5ms       77.8ms     OK
+216 uuf50-0526.cnf                                    50     218   UNSAT   UNSAT       77.1ms       83.9ms     OK
+217 uuf50-0382.cnf                                    50     218   UNSAT   UNSAT       85.2ms       86.6ms     OK
+218 uuf50-0425.cnf                                    50     218   UNSAT   UNSAT       90.5ms       79.8ms     OK
+219 uuf50-0324.cnf                                    50     218   UNSAT   UNSAT       83.7ms       97.2ms     OK
+220 uuf50-0410.cnf                                    50     218   UNSAT   UNSAT       99.4ms       97.0ms     OK
+221 uuf50-0584.cnf                                    50     218   UNSAT   UNSAT       74.0ms       78.5ms     OK
+222 uuf50-0641.cnf                                    50     218   UNSAT   UNSAT       80.1ms       85.3ms     OK
+223 uuf50-0627.cnf                                    50     218   UNSAT   UNSAT       79.0ms       84.7ms     OK
+224 uuf50-057.cnf                                     50     218   UNSAT   UNSAT       81.1ms       76.9ms     OK
+225 uuf50-0599.cnf                                    50     218   UNSAT   UNSAT       74.8ms      100.2ms     OK
+226 uuf50-0728.cnf                                    50     218   UNSAT   UNSAT       80.3ms       85.1ms     OK
+227 uuf50-0670.cnf                                    50     218   UNSAT   UNSAT       94.0ms       74.2ms     OK
+228 uuf50-0757.cnf                                    50     218   UNSAT   UNSAT       77.4ms       79.2ms     OK
+229 uuf50-0685.cnf                                    50     218   UNSAT   UNSAT       88.8ms       79.3ms     OK
+230 uuf50-0713.cnf                                    50     218   UNSAT   UNSAT       85.2ms       70.7ms     OK
+231 uuf50-0656.cnf                                    50     218   UNSAT   UNSAT      112.9ms       58.6ms     OK
+232 uuf50-07.cnf                                      50     218   UNSAT   UNSAT       80.7ms       92.7ms     OK
+233 uuf50-0612.cnf                                    50     218   UNSAT   UNSAT       97.8ms       63.1ms     OK
+234 uuf50-0843.cnf                                    50     218   UNSAT   UNSAT       82.9ms       56.0ms     OK
+235 uuf50-0771.cnf                                    50     218   UNSAT   UNSAT       97.2ms       61.2ms     OK
+236 uuf50-093.cnf                                     50     218   UNSAT   UNSAT       62.2ms       61.3ms     OK
+237 uuf50-0786.cnf                                    50     218   UNSAT   UNSAT       93.0ms       66.0ms     OK
+238 uuf50-0742.cnf                                    50     218   UNSAT   UNSAT      105.8ms       84.8ms     OK
+239 uuf50-0829.cnf                                    50     218   UNSAT   UNSAT       90.9ms       65.5ms     OK
+240 uuf50-0915.cnf                                    50     218   UNSAT   UNSAT       75.7ms       73.5ms     OK
+241 uuf50-0872.cnf                                    50     218   UNSAT   UNSAT       86.4ms       71.1ms     OK
+242 uuf50-080.cnf                                     50     218   UNSAT   UNSAT       95.8ms       88.7ms     OK
+243 uuf50-0944.cnf                                    50     218   UNSAT   UNSAT       86.6ms       57.7ms     OK
+244 uuf50-0900.cnf                                    50     218   UNSAT   UNSAT       84.1ms       59.2ms     OK
+245 uuf50-0988.cnf                                    50     218   UNSAT   UNSAT       84.7ms       52.4ms     OK
+246 uuf50-0858.cnf                                    50     218   UNSAT   UNSAT      108.4ms       59.1ms     OK
+247 uuf50-0814.cnf                                    50     218   UNSAT   UNSAT       78.1ms       90.4ms     OK
+248 uuf50-0959.cnf                                    50     218   UNSAT   UNSAT       73.9ms       55.9ms     OK
+249 uuf50-0973.cnf                                    50     218   UNSAT   UNSAT       72.2ms       57.2ms     OK
+250 uuf50-0887.cnf                                    50     218   UNSAT   UNSAT      110.5ms       51.2ms     OK
+251 uuf50-0196.cnf                                    50     218   UNSAT   UNSAT       18.3ms       15.2ms     OK
+252 uuf50-0512.cnf                                    50     218   UNSAT   UNSAT       15.8ms        8.0ms     OK
+253 uuf50-034.cnf                                     50     218   UNSAT   UNSAT       14.3ms       12.9ms     OK
+254 uuf50-0181.cnf                                    50     218   UNSAT   UNSAT       14.3ms       29.9ms     OK
+255 uuf50-0369.cnf                                    50     218   UNSAT   UNSAT       36.6ms       12.0ms     OK
+256 uuf50-0411.cnf                                    50     218   UNSAT   UNSAT       15.0ms       13.0ms     OK
+257 uuf50-0585.cnf                                    50     218   UNSAT   UNSAT       14.0ms        9.3ms     OK
+258 uuf50-0325.cnf                                    50     218   UNSAT   UNSAT       16.1ms       30.4ms     OK
+259 uuf50-0484.cnf                                    50     218   UNSAT   UNSAT       32.3ms       35.9ms     OK
+260 uuf50-0310.cnf                                    50     218   UNSAT   UNSAT       17.3ms       63.6ms     OK
+261 uuf50-021.cnf                                     50     218   UNSAT   UNSAT       23.9ms       67.5ms     OK
+262 uuf50-0282.cnf                                    50     218   UNSAT   UNSAT       17.4ms       83.3ms     OK
+263 uuf50-0109.cnf                                    50     218   UNSAT   UNSAT       36.0ms       71.9ms     OK
+264 uuf50-0297.cnf                                    50     218   UNSAT   UNSAT       38.3ms       71.7ms     OK
+265 uuf50-0426.cnf                                    50     218   UNSAT   UNSAT       57.7ms       60.7ms     OK
+266 uuf50-0613.cnf                                    50     218   UNSAT   UNSAT       36.5ms       84.0ms     OK
+267 uuf50-0123.cnf                                    50     218   UNSAT   UNSAT       55.4ms       59.8ms     OK
+268 uuf50-0354.cnf                                    50     218   UNSAT   UNSAT       56.5ms       63.4ms     OK
+269 uuf50-06.cnf                                      50     218   UNSAT   UNSAT       61.7ms       68.2ms     OK
+270 uuf50-0167.cnf                                    50     218   UNSAT   UNSAT       63.6ms       62.3ms     OK
+271 uuf50-0642.cnf                                    50     218   UNSAT   UNSAT       59.9ms       58.3ms     OK
+272 uuf50-0138.cnf                                    50     218   UNSAT   UNSAT       67.6ms       63.6ms     OK
+273 uuf50-0398.cnf                                    50     218   UNSAT   UNSAT       51.4ms       74.9ms     OK
+274 uuf50-0239.cnf                                    50     218   UNSAT   UNSAT       72.6ms       49.1ms     OK
+275 uuf50-0527.cnf                                    50     218   UNSAT   UNSAT       76.5ms       50.3ms     OK
+276 uuf50-0224.cnf                                    50     218   UNSAT   UNSAT       61.1ms       57.7ms     OK
+277 uuf50-0657.cnf                                    50     218   UNSAT   UNSAT       66.0ms       37.9ms     OK
+278 uuf50-047.cnf                                     50     218   UNSAT   UNSAT       67.2ms       48.7ms     OK
+279 uuf50-0440.cnf                                    50     218   UNSAT   UNSAT       67.5ms       40.0ms     OK
+280 uuf50-0268.cnf                                    50     218   UNSAT   UNSAT       72.6ms       43.6ms     OK
+281 uuf50-0152.cnf                                    50     218   UNSAT   UNSAT       77.8ms       43.4ms     OK
+282 uuf50-0499.cnf                                    50     218   UNSAT   UNSAT       72.8ms       44.3ms     OK
+283 uuf50-0455.cnf                                    50     218   UNSAT   UNSAT       70.4ms       47.9ms     OK
+284 uuf50-0383.cnf                                    50     218   UNSAT   UNSAT       74.9ms       50.2ms     OK
+285 uuf50-0628.cnf                                    50     218   UNSAT   UNSAT       69.3ms       38.9ms     OK
+286 uuf50-0570.cnf                                    50     218   UNSAT   UNSAT       71.9ms       52.9ms     OK
+287 uuf50-0253.cnf                                    50     218   UNSAT   UNSAT       63.8ms       62.8ms     OK
+288 uuf50-0541.cnf                                    50     218   UNSAT   UNSAT       86.3ms       62.2ms     OK
+289 uuf50-0686.cnf                                    50     218   UNSAT   UNSAT       89.0ms       37.2ms     OK
+290 uuf50-0556.cnf                                    50     218   UNSAT   UNSAT       88.1ms       48.0ms     OK
+291 uuf50-0671.cnf                                    50     218   UNSAT   UNSAT       76.2ms       63.7ms     OK
+292 uuf50-070.cnf                                     50     218   UNSAT   UNSAT       47.9ms       35.8ms     OK
+293 uuf50-0714.cnf                                    50     218   UNSAT   UNSAT       44.6ms       31.6ms     OK
+294 uuf50-0772.cnf                                    50     218   UNSAT   UNSAT       34.7ms       40.2ms     OK
+295 uuf50-0787.cnf                                    50     218   UNSAT   UNSAT       37.9ms       38.2ms     OK
+296 uuf50-0729.cnf                                    50     218   UNSAT   UNSAT       50.6ms       55.4ms     OK
+297 uuf50-0743.cnf                                    50     218   UNSAT   UNSAT       48.8ms       48.8ms     OK
+298 uuf50-0859.cnf                                    50     218   UNSAT   UNSAT       41.4ms       36.3ms     OK
+299 uuf50-0901.cnf                                    50     218   UNSAT   UNSAT       33.5ms       40.5ms     OK
+300 uuf50-083.cnf                                     50     218   UNSAT   UNSAT       34.2ms       39.9ms     OK
+301 uuf50-0815.cnf                                    50     218   UNSAT   UNSAT       38.7ms       38.4ms     OK
+302 uuf50-0873.cnf                                    50     218   UNSAT   UNSAT       32.6ms       38.5ms     OK
+303 uuf50-0916.cnf                                    50     218   UNSAT   UNSAT       35.7ms       45.0ms     OK
+304 uuf50-0930.cnf                                    50     218   UNSAT   UNSAT       31.4ms       43.9ms     OK
+305 uuf50-0800.cnf                                    50     218   UNSAT   UNSAT       52.9ms       43.1ms     OK
+306 uuf50-0844.cnf                                    50     218   UNSAT   UNSAT       42.5ms       55.0ms     OK
+307 uuf50-096.cnf                                     50     218   UNSAT   UNSAT       45.0ms       46.0ms     OK
+308 uuf50-0758.cnf                                    50     218   UNSAT   UNSAT       61.5ms       51.5ms     OK
+309 uuf50-0989.cnf                                    50     218   UNSAT   UNSAT       57.1ms       34.1ms     OK
+310 uuf50-0974.cnf                                    50     218   UNSAT   UNSAT       66.1ms       34.9ms     OK
+311 uuf50-0945.cnf                                    50     218   UNSAT   UNSAT       53.3ms       52.6ms     OK
+312 uuf50-0888.cnf                                    50     218   UNSAT   UNSAT       63.4ms       37.3ms     OK
+313 uuf50-0283.cnf                                    50     218   UNSAT   UNSAT       33.1ms       46.5ms     OK
+314 uuf50-0168.cnf                                    50     218   UNSAT   UNSAT       37.3ms       57.4ms     OK
+315 uuf50-0197.cnf                                    50     218   UNSAT   UNSAT       38.3ms       64.7ms     OK
+316 uuf50-05.cnf                                      50     218   UNSAT   UNSAT       39.3ms       54.9ms     OK
+317 uuf50-0124.cnf                                    50     218   UNSAT   UNSAT       44.6ms       65.3ms     OK
+318 uuf50-0210.cnf                                    50     218   UNSAT   UNSAT       43.4ms       64.3ms     OK
+319 uuf50-0254.cnf                                    50     218   UNSAT   UNSAT       42.5ms       60.4ms     OK
+320 uuf50-024.cnf                                     50     218   UNSAT   UNSAT       49.1ms       62.1ms     OK
+321 uuf50-0326.cnf                                    50     218   UNSAT   UNSAT       44.7ms       53.1ms     OK
+322 uuf50-0153.cnf                                    50     218   UNSAT   UNSAT       36.6ms       92.1ms     OK
+323 uuf50-0311.cnf                                    50     218   UNSAT   UNSAT       43.7ms       78.3ms     OK
+324 uuf50-0298.cnf                                    50     218   UNSAT   UNSAT       46.6ms       87.5ms     OK
+325 uuf50-0139.cnf                                    50     218   UNSAT   UNSAT       52.8ms       92.9ms     OK
+326 uuf50-011.cnf                                     50     218   UNSAT   UNSAT       55.1ms       90.4ms     OK
+327 uuf50-0513.cnf                                    50     218   UNSAT   UNSAT       48.7ms       86.3ms     OK
+328 uuf50-0470.cnf                                    50     218   UNSAT   UNSAT       52.3ms       80.2ms     OK
+329 uuf50-037.cnf                                     50     218   UNSAT   UNSAT       63.7ms       79.6ms     OK
+330 uuf50-0225.cnf                                    50     218   UNSAT   UNSAT       65.8ms       89.9ms     OK
+331 uuf50-0485.cnf                                    50     218   UNSAT   UNSAT       60.7ms       77.2ms     OK
+332 uuf50-0456.cnf                                    50     218   UNSAT   UNSAT       59.1ms       53.8ms     OK
+333 uuf50-0340.cnf                                    50     218   UNSAT   UNSAT       56.4ms       89.2ms     OK
+334 uuf50-0269.cnf                                    50     218   UNSAT   UNSAT       42.0ms      104.0ms     OK
+335 uuf50-0399.cnf                                    50     218   UNSAT   UNSAT       48.1ms       95.2ms     OK
+336 uuf50-0412.cnf                                    50     218   UNSAT   UNSAT       47.2ms       97.7ms     OK
+337 uuf50-0182.cnf                                    50     218   UNSAT   UNSAT       67.6ms       92.8ms     OK
+338 uuf50-0542.cnf                                    50     218   UNSAT   UNSAT       67.1ms       71.1ms     OK
+339 uuf50-0427.cnf                                    50     218   UNSAT   UNSAT       76.0ms       74.5ms     OK
+340 uuf50-0384.cnf                                    50     218   UNSAT   UNSAT       86.2ms       61.2ms     OK
+341 uuf50-0355.cnf                                    50     218   UNSAT   UNSAT       88.8ms       60.6ms     OK
+342 uuf50-0557.cnf                                    50     218   UNSAT   UNSAT       87.0ms       51.8ms     OK
+343 uuf50-0528.cnf                                    50     218   UNSAT   UNSAT       96.7ms       35.2ms     OK
+344 uuf50-0441.cnf                                    50     218   UNSAT   UNSAT       64.8ms       76.1ms     OK
+345 uuf50-0672.cnf                                    50     218   UNSAT   UNSAT       49.0ms       51.0ms     OK
+346 uuf50-0658.cnf                                    50     218   UNSAT   UNSAT       48.4ms       58.1ms     OK
+347 uuf50-0571.cnf                                    50     218   UNSAT   UNSAT       72.7ms       66.4ms     OK
+348 uuf50-0586.cnf                                    50     218   UNSAT   UNSAT       48.3ms       56.8ms     OK
+349 uuf50-0629.cnf                                    50     218   UNSAT   UNSAT       53.0ms       57.4ms     OK
+350 uuf50-0614.cnf                                    50     218   UNSAT   UNSAT       54.4ms       67.2ms     OK
+351 uuf50-060.cnf                                     50     218   UNSAT   UNSAT       56.6ms       68.3ms     OK
+352 uuf50-0687.cnf                                    50     218   UNSAT   UNSAT       53.5ms       66.1ms     OK
+353 uuf50-0643.cnf                                    50     218   UNSAT   UNSAT       51.3ms       78.7ms     OK
+354 uuf50-073.cnf                                     50     218   UNSAT   UNSAT       56.3ms       59.8ms     OK
+355 uuf50-0715.cnf                                    50     218   UNSAT   UNSAT       63.7ms       59.9ms     OK
+356 uuf50-0788.cnf                                    50     218   UNSAT   UNSAT       63.3ms       49.2ms     OK
+357 uuf50-086.cnf                                     50     218   UNSAT   UNSAT       53.1ms       53.4ms     OK
+358 uuf50-0744.cnf                                    50     218   UNSAT   UNSAT       61.0ms       53.3ms     OK
+359 uuf50-0830.cnf                                    50     218   UNSAT   UNSAT       64.7ms       45.3ms     OK
+360 uuf50-0759.cnf                                    50     218   UNSAT   UNSAT       66.7ms       46.7ms     OK
+361 uuf50-0700.cnf                                    50     218   UNSAT   UNSAT       68.1ms       64.7ms     OK
+362 uuf50-0917.cnf                                    50     218   UNSAT   UNSAT       58.8ms       50.9ms     OK
+363 uuf50-0874.cnf                                    50     218   UNSAT   UNSAT       70.6ms       44.8ms     OK
+364 uuf50-0889.cnf                                    50     218   UNSAT   UNSAT       69.2ms       40.6ms     OK
+365 uuf50-0816.cnf                                    50     218   UNSAT   UNSAT       53.9ms       67.8ms     OK
+366 uuf50-0975.cnf                                    50     218   UNSAT   UNSAT       60.8ms       39.1ms     OK
+367 uuf50-0902.cnf                                    50     218   UNSAT   UNSAT       60.6ms       39.4ms     OK
+368 uuf50-0845.cnf                                    50     218   UNSAT   UNSAT       58.8ms       61.6ms     OK
+369 uuf50-0801.cnf                                    50     218   UNSAT   UNSAT       82.1ms       40.9ms     OK
+370 uuf50-0946.cnf                                    50     218   UNSAT   UNSAT       61.9ms       40.6ms     OK
+371 uuf50-0773.cnf                                    50     218   UNSAT   UNSAT       74.1ms       57.0ms     OK
+372 uuf50-0931.cnf                                    50     218   UNSAT   UNSAT       80.0ms       39.9ms     OK
+373 uuf50-0960.cnf                                    50     218   UNSAT   UNSAT       86.1ms       31.1ms     OK
+374 uuf50-099.cnf                                     50     218   UNSAT   UNSAT      102.0ms       31.5ms     OK
+375 uuf50-0226.cnf                                    50     218   UNSAT   UNSAT       13.5ms        7.6ms     OK
+376 uuf50-0154.cnf                                    50     218   UNSAT   UNSAT       40.6ms       34.4ms     OK
+377 uuf50-0327.cnf                                    50     218   UNSAT   UNSAT       33.8ms       26.1ms     OK
+378 uuf50-0543.cnf                                    50     218   UNSAT   UNSAT       28.8ms       22.5ms     OK
+379 uuf50-0486.cnf                                    50     218   UNSAT   UNSAT       21.1ms       44.2ms     OK
+380 uuf50-0385.cnf                                    50     218   UNSAT   UNSAT       26.7ms       55.5ms     OK
+381 uuf50-0457.cnf                                    50     218   UNSAT   UNSAT       28.5ms       62.2ms     OK
+382 uuf50-0471.cnf                                    50     218   UNSAT   UNSAT       53.5ms       38.2ms     OK
+383 uuf50-027.cnf                                     50     218   UNSAT   UNSAT       27.3ms       47.8ms     OK
+384 uuf50-0183.cnf                                    50     218   UNSAT   UNSAT       29.9ms       44.9ms     OK
+385 uuf50-0529.cnf                                    50     218   UNSAT   UNSAT       34.3ms       46.7ms     OK
+386 uuf50-0558.cnf                                    50     218   UNSAT   UNSAT       53.6ms       68.3ms     OK
+387 uuf50-0356.cnf                                    50     218   UNSAT   UNSAT       32.0ms       83.5ms     OK
+388 uuf50-0169.cnf                                    50     218   UNSAT   UNSAT       43.5ms       45.7ms     OK
+389 uuf50-0110.cnf                                    50     218   UNSAT   UNSAT       49.2ms       49.7ms     OK
+390 uuf50-014.cnf                                     50     218   UNSAT   UNSAT       28.8ms       82.5ms     OK
+391 uuf50-0125.cnf                                    50     218   UNSAT   UNSAT       49.0ms       50.1ms     OK
+392 uuf50-0284.cnf                                    50     218   UNSAT   UNSAT       45.0ms       59.8ms     OK
+393 uuf50-0299.cnf                                    50     218   UNSAT   UNSAT       39.4ms       73.2ms     OK
+394 uuf50-0514.cnf                                    50     218   UNSAT   UNSAT       63.8ms       62.1ms     OK
+395 uuf50-050.cnf                                     50     218   UNSAT   UNSAT       69.1ms       76.1ms     OK
+396 uuf50-0341.cnf                                    50     218   UNSAT   UNSAT       74.0ms       72.4ms     OK
+397 uuf50-0615.cnf                                    50     218   UNSAT   UNSAT       69.6ms       60.7ms     OK
+398 uuf50-0255.cnf                                    50     218   UNSAT   UNSAT       69.8ms       63.9ms     OK
+399 uuf50-0370.cnf                                    50     218   UNSAT   UNSAT       70.8ms       61.1ms     OK
+400 uuf50-063.cnf                                     50     218   UNSAT   UNSAT       77.4ms       47.2ms     OK
+401 uuf50-0428.cnf                                    50     218   UNSAT   UNSAT       83.3ms       50.5ms     OK
+402 uuf50-0587.cnf                                    50     218   UNSAT   UNSAT       64.6ms       48.2ms     OK
+403 uuf50-0413.cnf                                    50     218   UNSAT   UNSAT       86.8ms       49.0ms     OK
+404 uuf50-0572.cnf                                    50     218   UNSAT   UNSAT       80.2ms       50.4ms     OK
+405 uuf50-0240.cnf                                    50     218   UNSAT   UNSAT       97.4ms       46.5ms     OK
+406 uuf50-0198.cnf                                    50     218   UNSAT   UNSAT       90.1ms       54.9ms     OK
+407 uuf50-0644.cnf                                    50     218   UNSAT   UNSAT       52.8ms       56.9ms     OK
+408 uuf50-0673.cnf                                    50     218   UNSAT   UNSAT       60.4ms       41.3ms     OK
+409 uuf50-0312.cnf                                    50     218   UNSAT   UNSAT       80.9ms       73.1ms     OK
+410 uuf50-04.cnf                                      50     218   UNSAT   UNSAT       95.9ms       53.3ms     OK
+411 uuf50-0600.cnf                                    50     218   UNSAT   UNSAT       70.7ms       50.9ms     OK
+412 uuf50-0211.cnf                                    50     218   UNSAT   UNSAT      103.6ms       66.8ms     OK
+413 uuf50-0701.cnf                                    50     218   UNSAT   UNSAT       57.6ms       61.1ms     OK
+414 uuf50-0659.cnf                                    50     218   UNSAT   UNSAT       64.2ms       68.0ms     OK
+415 uuf50-0442.cnf                                    50     218   UNSAT   UNSAT       89.2ms       90.6ms     OK
+416 uuf50-0716.cnf                                    50     218   UNSAT   UNSAT       62.6ms       68.2ms     OK
+417 uuf50-0745.cnf                                    50     218   UNSAT   UNSAT       39.6ms       51.9ms     OK
+418 uuf50-0730.cnf                                    50     218   UNSAT   UNSAT       74.8ms       51.0ms     OK
+419 uuf50-0688.cnf                                    50     218   UNSAT   UNSAT       76.3ms       65.2ms     OK
+420 uuf50-076.cnf                                     50     218   UNSAT   UNSAT       75.7ms       27.9ms     OK
+421 uuf50-0789.cnf                                    50     218   UNSAT   UNSAT       61.8ms       34.4ms     OK
+422 uuf50-0817.cnf                                    50     218   UNSAT   UNSAT       37.6ms       65.9ms     OK
+423 uuf50-0831.cnf                                    50     218   UNSAT   UNSAT       76.5ms       27.4ms     OK
+424 uuf50-0903.cnf                                    50     218   UNSAT   UNSAT       48.7ms       21.3ms     OK
+425 uuf50-0774.cnf                                    50     218   UNSAT   UNSAT       65.3ms       41.0ms     OK
+426 uuf50-0875.cnf                                    50     218   UNSAT   UNSAT       71.9ms       29.1ms     OK
+427 uuf50-0918.cnf                                    50     218   UNSAT   UNSAT       53.2ms       23.3ms     OK
+428 uuf50-089.cnf                                     50     218   UNSAT   UNSAT       47.6ms       28.6ms     OK
+429 uuf50-0802.cnf                                    50     218   UNSAT   UNSAT       86.7ms       43.2ms     OK
+430 uuf50-0976.cnf                                    50     218   UNSAT   UNSAT       47.6ms       34.1ms     OK
+431 uuf50-0860.cnf                                    50     218   UNSAT   UNSAT       63.2ms       34.2ms     OK
+432 uuf50-0846.cnf                                    50     218   UNSAT   UNSAT       71.5ms       35.2ms     OK
+433 uuf50-0990.cnf                                    50     218   UNSAT   UNSAT       52.3ms       47.8ms     OK
+434 uuf50-0961.cnf                                    50     218   UNSAT   UNSAT       46.3ms       34.3ms     OK
+435 uuf50-0932.cnf                                    50     218   UNSAT   UNSAT       56.1ms       43.2ms     OK
+436 uuf50-0947.cnf                                    50     218   UNSAT   UNSAT       50.5ms       45.1ms     OK
+437 uuf50-0126.cnf                                    50     218   UNSAT   UNSAT       59.6ms       34.9ms     OK
+438 uuf50-017.cnf                                     50     218   UNSAT   UNSAT       38.4ms       82.9ms     OK
+439 uuf50-0140.cnf                                    50     218   UNSAT   UNSAT       42.6ms       79.8ms     OK
+440 uuf50-0328.cnf                                    50     218   UNSAT   UNSAT       61.7ms       60.1ms     OK
+441 uuf50-0184.cnf                                    50     218   UNSAT   UNSAT       70.5ms       65.8ms     OK
+442 uuf50-0386.cnf                                    50     218   UNSAT   UNSAT       58.8ms       60.5ms     OK
+443 uuf50-0111.cnf                                    50     218   UNSAT   UNSAT       70.7ms       68.5ms     OK
+444 uuf50-0227.cnf                                    50     218   UNSAT   UNSAT       58.5ms       70.3ms     OK
+445 uuf50-0515.cnf                                    50     218   UNSAT   UNSAT       54.7ms       65.2ms     OK
+446 uuf50-0270.cnf                                    50     218   UNSAT   UNSAT       64.7ms       66.8ms     OK
+447 uuf50-0357.cnf                                    50     218   UNSAT   UNSAT       59.7ms       71.3ms     OK
+448 uuf50-0199.cnf                                    50     218   UNSAT   UNSAT       58.3ms       82.3ms     OK
+449 uuf50-0371.cnf                                    50     218   UNSAT   UNSAT       72.2ms       43.4ms     OK
+450 uuf50-0500.cnf                                    50     218   UNSAT   UNSAT       73.9ms       43.4ms     OK
+451 uuf50-0241.cnf                                    50     218   UNSAT   UNSAT       75.8ms       63.1ms     OK
+452 uuf50-0256.cnf                                    50     218   UNSAT   UNSAT       73.4ms       63.1ms     OK
+453 uuf50-0544.cnf                                    50     218   UNSAT   UNSAT       83.9ms       34.0ms     OK
+454 uuf50-0342.cnf                                    50     218   UNSAT   UNSAT       87.9ms       32.8ms     OK
+455 uuf50-0285.cnf                                    50     218   UNSAT   UNSAT       59.6ms       79.8ms     OK
+456 uuf50-040.cnf                                     50     218   UNSAT   UNSAT       57.6ms       78.4ms     OK
+457 uuf50-03.cnf                                      50     218   UNSAT   UNSAT       61.5ms       82.9ms     OK
+458 uuf50-0429.cnf                                    50     218   UNSAT   UNSAT       54.2ms       76.1ms     OK
+459 uuf50-0313.cnf                                    50     218   UNSAT   UNSAT       68.5ms       68.4ms     OK
+460 uuf50-053.cnf                                     50     218   UNSAT   UNSAT       72.5ms       55.8ms     OK
+461 uuf50-0155.cnf                                    50     218   UNSAT   UNSAT       74.1ms       79.6ms     OK
+462 uuf50-0212.cnf                                    50     218   UNSAT   UNSAT       64.9ms       78.9ms     OK
+463 uuf50-0472.cnf                                    50     218   UNSAT   UNSAT       89.0ms       49.6ms     OK
+464 uuf50-0487.cnf                                    50     218   UNSAT   UNSAT      104.0ms       34.8ms     OK
+465 uuf50-0458.cnf                                    50     218   UNSAT   UNSAT       96.3ms       57.5ms     OK
+466 uuf50-0414.cnf                                    50     218   UNSAT   UNSAT       95.9ms       57.2ms     OK
+467 uuf50-0559.cnf                                    50     218   UNSAT   UNSAT      105.3ms       30.6ms     OK
+468 uuf50-0443.cnf                                    50     218   UNSAT   UNSAT       98.4ms       59.8ms     OK
+469 uuf50-0573.cnf                                    50     218   UNSAT   UNSAT       39.4ms       52.2ms     OK
+470 uuf50-0717.cnf                                    50     218   UNSAT   UNSAT       36.1ms       21.1ms     OK
+471 uuf50-0760.cnf                                    50     218   UNSAT   UNSAT       34.2ms       36.2ms     OK
+472 uuf50-0832.cnf                                    50     218   UNSAT   UNSAT       33.0ms       41.6ms     OK
+473 uuf50-0588.cnf                                    50     218   UNSAT   UNSAT       49.5ms       46.3ms     OK
+474 uuf50-0645.cnf                                    50     218   UNSAT   UNSAT       43.2ms       49.4ms     OK
+475 uuf50-0919.cnf                                    50     218   UNSAT   UNSAT       40.9ms       39.5ms     OK
+476 uuf50-0702.cnf                                    50     218   UNSAT   UNSAT       44.0ms       43.5ms     OK
+477 uuf50-0876.cnf                                    50     218   UNSAT   UNSAT       43.5ms       43.9ms     OK
+478 uuf50-0818.cnf                                    50     218   UNSAT   UNSAT       43.9ms       41.3ms     OK
+479 uuf50-0890.cnf                                    50     218   UNSAT   UNSAT       41.1ms       41.0ms     OK
+480 uuf50-0674.cnf                                    50     218   UNSAT   UNSAT       36.9ms       65.1ms     OK
+481 uuf50-0803.cnf                                    50     218   UNSAT   UNSAT       43.1ms       44.3ms     OK
+482 uuf50-0861.cnf                                    50     218   UNSAT   UNSAT       45.5ms       52.5ms     OK
+483 uuf50-066.cnf                                     50     218   UNSAT   UNSAT       50.3ms       51.7ms     OK
+484 uuf50-0616.cnf                                    50     218   UNSAT   UNSAT       66.2ms       47.9ms     OK
+485 uuf50-0847.cnf                                    50     218   UNSAT   UNSAT       56.6ms       46.6ms     OK
+486 uuf50-0746.cnf                                    50     218   UNSAT   UNSAT       59.3ms       51.7ms     OK
+487 uuf50-0775.cnf                                    50     218   UNSAT   UNSAT       47.2ms       55.4ms     OK
+488 uuf50-0962.cnf                                    50     218   UNSAT   UNSAT       50.1ms       28.1ms     OK
+489 uuf50-0689.cnf                                    50     218   UNSAT   UNSAT       58.5ms       44.0ms     OK
+490 uuf50-0630.cnf                                    50     218   UNSAT   UNSAT       58.0ms       66.3ms     OK
+491 uuf50-0601.cnf                                    50     218   UNSAT   UNSAT       70.6ms       57.1ms     OK
+492 uuf50-0933.cnf                                    50     218   UNSAT   UNSAT       72.1ms       29.2ms     OK
+493 uuf50-0948.cnf                                    50     218   UNSAT   UNSAT       72.8ms       26.8ms     OK
+494 uuf50-079.cnf                                     50     218   UNSAT   UNSAT       66.8ms       46.5ms     OK
+495 uuf50-0731.cnf                                    50     218   UNSAT   UNSAT       82.2ms       22.3ms     OK
+496 uuf50-0991.cnf                                    50     218   UNSAT   UNSAT       55.1ms       43.0ms     OK
+497 uuf50-0977.cnf                                    50     218   UNSAT   UNSAT       61.5ms       36.7ms     OK
+498 uuf50-0904.cnf                                    50     218   UNSAT   UNSAT       73.2ms       10.7ms     OK
+499 uuf50-0187.cnf                                    50     218   UNSAT   UNSAT       22.9ms       54.1ms     OK
+500 uuf50-0143.cnf                                    50     218   UNSAT   UNSAT       23.2ms       53.3ms     OK
+501 uuf50-0114.cnf                                    50     218   UNSAT   UNSAT       43.2ms       75.9ms     OK
+502 uuf50-0215.cnf                                    50     218   UNSAT   UNSAT       45.7ms       62.6ms     OK
+503 uuf50-0129.cnf                                    50     218   UNSAT   UNSAT       37.7ms       78.9ms     OK
+504 uuf50-0273.cnf                                    50     218   UNSAT   UNSAT       50.2ms       62.9ms     OK
+505 uuf50-0100.cnf                                    50     218   UNSAT   UNSAT       49.2ms       75.5ms     OK
+506 uuf50-0158.cnf                                    50     218   UNSAT   UNSAT       55.2ms       68.0ms     OK
+507 uuf50-0446.cnf                                    50     218   UNSAT   UNSAT       41.4ms       66.4ms     OK
+508 uuf50-0431.cnf                                    50     218   UNSAT   UNSAT       60.1ms       48.0ms     OK
+509 uuf50-0172.cnf                                    50     218   UNSAT   UNSAT       67.9ms       47.8ms     OK
+510 uuf50-0345.cnf                                    50     218   UNSAT   UNSAT       59.0ms       50.8ms     OK
+511 uuf50-0402.cnf                                    50     218   UNSAT   UNSAT       75.2ms       45.1ms     OK
+512 uuf50-036.cnf                                     50     218   UNSAT   UNSAT       45.1ms       84.5ms     OK
+513 uuf50-023.cnf                                     50     218   UNSAT   UNSAT       51.2ms       79.0ms     OK
+514 uuf50-0330.cnf                                    50     218   UNSAT   UNSAT       70.6ms       53.7ms     OK
+515 uuf50-0503.cnf                                    50     218   UNSAT   UNSAT       63.0ms       55.7ms     OK
+516 uuf50-0200.cnf                                    50     218   UNSAT   UNSAT       78.0ms       54.0ms     OK
+517 uuf50-0244.cnf                                    50     218   UNSAT   UNSAT       64.3ms       72.0ms     OK
+518 uuf50-0417.cnf                                    50     218   UNSAT   UNSAT       75.1ms       46.2ms     OK
+519 uuf50-0475.cnf                                    50     218   UNSAT   UNSAT       68.6ms       49.1ms     OK
+520 uuf50-0532.cnf                                    50     218   UNSAT   UNSAT       66.9ms       50.9ms     OK
+521 uuf50-0389.cnf                                    50     218   UNSAT   UNSAT       78.2ms       48.2ms     OK
+522 uuf50-0288.cnf                                    50     218   UNSAT   UNSAT       88.5ms       46.3ms     OK
+523 uuf50-0301.cnf                                    50     218   UNSAT   UNSAT       76.5ms       61.1ms     OK
+524 uuf50-0316.cnf                                    50     218   UNSAT   UNSAT       89.8ms       47.1ms     OK
+525 uuf50-0547.cnf                                    50     218   UNSAT   UNSAT       69.8ms       58.3ms     OK
+526 uuf50-0518.cnf                                    50     218   UNSAT   UNSAT       64.0ms       67.9ms     OK
+527 uuf50-049.cnf                                     50     218   UNSAT   UNSAT       65.5ms       64.2ms     OK
+528 uuf50-0259.cnf                                    50     218   UNSAT   UNSAT       86.8ms       60.3ms     OK
+529 uuf50-0460.cnf                                    50     218   UNSAT   UNSAT       92.9ms       31.5ms     OK
+530 uuf50-0561.cnf                                    50     218   UNSAT   UNSAT       48.8ms       43.7ms     OK
+531 uuf50-0374.cnf                                    50     218   UNSAT   UNSAT       92.3ms       62.7ms     OK
+532 uuf50-0576.cnf                                    50     218   UNSAT   UNSAT       66.4ms       33.7ms     OK
+533 uuf50-0590.cnf                                    50     218   UNSAT   UNSAT       47.3ms        7.3ms     OK
+534 uuf50-0604.cnf                                    50     218   UNSAT   UNSAT       46.4ms       12.6ms     OK
+535 uuf50-0778.cnf                                    50     218   UNSAT   UNSAT       38.9ms       17.5ms     OK
+536 uuf50-0792.cnf                                    50     218   UNSAT   UNSAT       30.3ms       33.0ms     OK
+537 uuf50-0936.cnf                                    50     218   UNSAT   UNSAT       49.0ms       22.6ms     OK
+538 uuf50-0648.cnf                                    50     218   UNSAT   UNSAT       51.8ms       37.5ms     OK
+539 uuf50-0763.cnf                                    50     218   UNSAT   UNSAT       39.5ms       41.6ms     OK
+540 uuf50-0806.cnf                                    50     218   UNSAT   UNSAT       40.3ms       41.2ms     OK
+541 uuf50-0734.cnf                                    50     218   UNSAT   UNSAT       19.9ms       64.0ms     OK
+542 uuf50-0662.cnf                                    50     218   UNSAT   UNSAT       15.7ms       68.4ms     OK
+543 uuf50-0921.cnf                                    50     218   UNSAT   UNSAT       25.3ms       63.0ms     OK
+544 uuf50-0705.cnf                                    50     218   UNSAT   UNSAT       32.4ms       63.1ms     OK
+545 uuf50-0691.cnf                                    50     218   UNSAT   UNSAT       37.7ms       65.6ms     OK
+546 uuf50-0907.cnf                                    50     218   UNSAT   UNSAT       43.4ms       66.7ms     OK
+547 uuf50-0619.cnf                                    50     218   UNSAT   UNSAT       42.8ms       60.1ms     OK
+548 uuf50-0820.cnf                                    50     218   UNSAT   UNSAT       64.0ms       32.2ms     OK
+549 uuf50-0749.cnf                                    50     218   UNSAT   UNSAT       33.8ms       67.1ms     OK
+550 uuf50-0879.cnf                                    50     218   UNSAT   UNSAT       54.5ms       46.6ms     OK
+551 uuf50-072.cnf                                     50     218   UNSAT   UNSAT       64.1ms       37.4ms     OK
+552 uuf50-0677.cnf                                    50     218   UNSAT   UNSAT       65.8ms       47.2ms     OK
+553 uuf50-085.cnf                                     50     218   UNSAT   UNSAT       68.3ms       47.3ms     OK
+554 uuf50-0835.cnf                                    50     218   UNSAT   UNSAT       37.5ms       96.9ms     OK
+555 uuf50-098.cnf                                     50     218   UNSAT   UNSAT       44.7ms       90.6ms     OK
+556 uuf50-0864.cnf                                    50     218   UNSAT   UNSAT       80.5ms       47.6ms     OK
+557 uuf50-0633.cnf                                    50     218   UNSAT   UNSAT       55.0ms       26.6ms     OK
+558 uuf50-0994.cnf                                    50     218   UNSAT   UNSAT       76.8ms       46.2ms     OK
+559 uuf50-0893.cnf                                    50     218   UNSAT   UNSAT       79.7ms       46.9ms     OK
+560 uuf50-0950.cnf                                    50     218   UNSAT   UNSAT       79.3ms       47.3ms     OK
+561 uuf50-0965.cnf                                    50     218   UNSAT   UNSAT       13.5ms       33.7ms     OK
+562 uuf50-0245.cnf                                    50     218   UNSAT   UNSAT       45.8ms       68.4ms     OK
+563 uuf50-0461.cnf                                    50     218   UNSAT   UNSAT       48.1ms       64.9ms     OK
+564 uuf50-0346.cnf                                    50     218   UNSAT   UNSAT       53.2ms       64.2ms     OK
+565 uuf50-0274.cnf                                    50     218   UNSAT   UNSAT       49.4ms       74.7ms     OK
+566 uuf50-0159.cnf                                    50     218   UNSAT   UNSAT       66.5ms       64.1ms     OK
+567 uuf50-039.cnf                                     50     218   UNSAT   UNSAT       54.7ms       79.2ms     OK
+568 uuf50-0115.cnf                                    50     218   UNSAT   UNSAT       64.6ms       66.6ms     OK
+569 uuf50-013.cnf                                     50     218   UNSAT   UNSAT       64.1ms       66.6ms     OK
+570 uuf50-0144.cnf                                    50     218   UNSAT   UNSAT       48.9ms       85.1ms     OK
+571 uuf50-0317.cnf                                    50     218   UNSAT   UNSAT       45.8ms       91.2ms     OK
+572 uuf50-026.cnf                                     50     218   UNSAT   UNSAT       48.0ms       90.4ms     OK
+573 uuf50-0302.cnf                                    50     218   UNSAT   UNSAT       52.8ms       89.7ms     OK
+574 uuf50-0173.cnf                                    50     218   UNSAT   UNSAT       53.3ms       79.8ms     OK
+575 uuf50-01000.cnf                                   50     218   UNSAT   UNSAT       61.0ms       83.8ms     OK
+576 uuf50-0216.cnf                                    50     218   UNSAT   UNSAT       70.9ms       80.7ms     OK
+577 uuf50-0188.cnf                                    50     218   UNSAT   UNSAT       54.1ms       99.4ms     OK
+578 uuf50-0533.cnf                                    50     218   UNSAT   UNSAT       74.0ms       81.8ms     OK
+579 uuf50-0519.cnf                                    50     218   UNSAT   UNSAT       68.1ms       84.7ms     OK
+580 uuf50-0447.cnf                                    50     218   UNSAT   UNSAT       61.7ms       96.2ms     OK
+581 uuf50-0504.cnf                                    50     218   UNSAT   UNSAT       45.9ms      114.1ms     OK
+582 uuf50-0201.cnf                                    50     218   UNSAT   UNSAT       71.7ms       86.5ms     OK
+583 uuf50-0230.cnf                                    50     218   UNSAT   UNSAT       92.5ms       55.8ms     OK
+584 uuf50-0331.cnf                                    50     218   UNSAT   UNSAT       85.1ms       57.4ms     OK
+585 uuf50-0375.cnf                                    50     218   UNSAT   UNSAT       87.2ms       71.3ms     OK
+586 uuf50-0403.cnf                                    50     218   UNSAT   UNSAT       88.3ms       61.3ms     OK
+587 uuf50-0490.cnf                                    50     218   UNSAT   UNSAT      111.2ms       49.6ms     OK
+588 uuf50-0418.cnf                                    50     218   UNSAT   UNSAT       80.9ms       78.9ms     OK
+589 uuf50-0548.cnf                                    50     218   UNSAT   UNSAT       86.2ms       51.8ms     OK
+590 uuf50-0289.cnf                                    50     218   UNSAT   UNSAT       85.0ms       75.6ms     OK
+591 uuf50-0360.cnf                                    50     218   UNSAT   UNSAT      100.2ms       62.3ms     OK
+592 uuf50-0432.cnf                                    50     218   UNSAT   UNSAT       83.6ms       84.9ms     OK
+593 uuf50-0476.cnf                                    50     218   UNSAT   UNSAT       93.3ms       74.5ms     OK
+594 uuf50-0577.cnf                                    50     218   UNSAT   UNSAT       50.1ms       40.0ms     OK
+595 uuf50-0634.cnf                                    50     218   UNSAT   UNSAT       49.6ms       31.4ms     OK
+596 uuf50-0562.cnf                                    50     218   UNSAT   UNSAT       61.3ms       39.1ms     OK
+597 uuf50-0649.cnf                                    50     218   UNSAT   UNSAT       49.2ms       39.8ms     OK
+598 uuf50-0735.cnf                                    50     218   UNSAT   UNSAT       43.2ms       35.9ms     OK
+599 uuf50-0591.cnf                                    50     218   UNSAT   UNSAT       62.9ms       43.4ms     OK
+600 uuf50-075.cnf                                     50     218   UNSAT   UNSAT       42.2ms       36.9ms     OK
+601 uuf50-0605.cnf                                    50     218   UNSAT   UNSAT       50.7ms       50.0ms     OK
+602 uuf50-0821.cnf                                    50     218   UNSAT   UNSAT       37.0ms       50.0ms     OK
+603 uuf50-0663.cnf                                    50     218   UNSAT   UNSAT       68.3ms       39.1ms     OK
+604 uuf50-0908.cnf                                    50     218   UNSAT   UNSAT       50.3ms       41.8ms     OK
+605 uuf50-0951.cnf                                    50     218   UNSAT   UNSAT       40.3ms       48.8ms     OK
+606 uuf50-0706.cnf                                    50     218   UNSAT   UNSAT       35.4ms       46.0ms     OK
+607 uuf50-088.cnf                                     50     218   UNSAT   UNSAT       44.4ms       52.5ms     OK
+608 uuf50-0937.cnf                                    50     218   UNSAT   UNSAT       50.4ms       43.5ms     OK
+609 uuf50-062.cnf                                     50     218   UNSAT   UNSAT       69.9ms       61.1ms     OK
+610 uuf50-0720.cnf                                    50     218   UNSAT   UNSAT       36.5ms       55.0ms     OK
+611 uuf50-0692.cnf                                    50     218   UNSAT   UNSAT       72.0ms       50.7ms     OK
+612 uuf50-0764.cnf                                    50     218   UNSAT   UNSAT       47.0ms       60.2ms     OK
+613 uuf50-0779.cnf                                    50     218   UNSAT   UNSAT       41.0ms       74.5ms     OK
+614 uuf50-0850.cnf                                    50     218   UNSAT   UNSAT       41.9ms       44.1ms     OK
+615 uuf50-0995.cnf                                    50     218   UNSAT   UNSAT       35.6ms       46.1ms     OK
+616 uuf50-0966.cnf                                    50     218   UNSAT   UNSAT       38.1ms       48.3ms     OK
+617 uuf50-0793.cnf                                    50     218   UNSAT   UNSAT       55.7ms       44.5ms     OK
+618 uuf50-0678.cnf                                    50     218   UNSAT   UNSAT       56.4ms       45.1ms     OK
+619 uuf50-0894.cnf                                    50     218   UNSAT   UNSAT       66.1ms       34.4ms     OK
+620 uuf50-0922.cnf                                    50     218   UNSAT   UNSAT       54.0ms       60.8ms     OK
+621 uuf50-0807.cnf                                    50     218   UNSAT   UNSAT       61.6ms       60.8ms     OK
+622 uuf50-0865.cnf                                    50     218   UNSAT   UNSAT       74.6ms       24.7ms     OK
+623 uuf50-0836.cnf                                    50     218   UNSAT   UNSAT       63.2ms       44.3ms     OK
+624 uuf50-0980.cnf                                    50     218   UNSAT   UNSAT       51.9ms       35.4ms     OK
+625 uuf50-0145.cnf                                    50     218   UNSAT   UNSAT       35.3ms       59.8ms     OK
+626 uuf50-0318.cnf                                    50     218   UNSAT   UNSAT       32.4ms       64.2ms     OK
+627 uuf50-0202.cnf                                    50     218   UNSAT   UNSAT       40.9ms       60.1ms     OK
+628 uuf50-0231.cnf                                    50     218   UNSAT   UNSAT       36.4ms       65.6ms     OK
+629 uuf50-0260.cnf                                    50     218   UNSAT   UNSAT       33.1ms       68.3ms     OK
+630 uuf50-0246.cnf                                    50     218   UNSAT   UNSAT       37.5ms       67.5ms     OK
+631 uuf50-0189.cnf                                    50     218   UNSAT   UNSAT       56.9ms       68.8ms     OK
+632 uuf50-016.cnf                                     50     218   UNSAT   UNSAT       48.3ms       70.3ms     OK
+633 uuf50-0505.cnf                                    50     218   UNSAT   UNSAT       45.3ms       76.5ms     OK
+634 uuf50-0116.cnf                                    50     218   UNSAT   UNSAT       56.7ms       70.0ms     OK
+635 uuf50-0275.cnf                                    50     218   UNSAT   UNSAT       62.8ms       70.5ms     OK
+636 uuf50-0332.cnf                                    50     218   UNSAT   UNSAT       59.7ms       74.3ms     OK
+637 uuf50-0376.cnf                                    50     218   UNSAT   UNSAT       76.0ms       64.4ms     OK
+638 uuf50-0101.cnf                                    50     218   UNSAT   UNSAT       81.0ms       49.8ms     OK
+639 uuf50-0534.cnf                                    50     218   UNSAT   UNSAT       84.4ms       51.8ms     OK
+640 uuf50-0419.cnf                                    50     218   UNSAT   UNSAT       72.4ms       70.2ms     OK
+641 uuf50-0404.cnf                                    50     218   UNSAT   UNSAT       82.3ms       62.5ms     OK
+642 uuf50-0174.cnf                                    50     218   UNSAT   UNSAT       86.1ms       69.5ms     OK
+643 uuf50-029.cnf                                     50     218   UNSAT   UNSAT       81.0ms       64.4ms     OK
+644 uuf50-0448.cnf                                    50     218   UNSAT   UNSAT       77.8ms       69.8ms     OK
+645 uuf50-0390.cnf                                    50     218   UNSAT   UNSAT       83.9ms       63.1ms     OK
+646 uuf50-0433.cnf                                    50     218   UNSAT   UNSAT       72.3ms       65.7ms     OK
+647 uuf50-0491.cnf                                    50     218   UNSAT   UNSAT       83.5ms       71.2ms     OK
+648 uuf50-052.cnf                                     50     218   UNSAT   UNSAT       80.9ms       72.2ms     OK
+649 uuf50-0361.cnf                                    50     218   UNSAT   UNSAT       83.5ms       82.8ms     OK
+650 uuf50-0347.cnf                                    50     218   UNSAT   UNSAT       85.2ms       71.8ms     OK
+651 uuf50-0462.cnf                                    50     218   UNSAT   UNSAT       94.3ms       83.5ms     OK
+652 uuf50-0477.cnf                                    50     218   UNSAT   UNSAT       93.1ms       80.1ms     OK
+653 uuf50-0217.cnf                                    50     218   UNSAT   UNSAT       95.7ms       77.3ms     OK
+654 uuf50-0549.cnf                                    50     218   UNSAT   UNSAT       91.9ms       77.1ms     OK
+655 uuf50-0303.cnf                                    50     218   UNSAT   UNSAT      103.5ms       94.1ms     OK
+656 uuf50-0130.cnf                                    50     218   UNSAT   UNSAT       81.5ms      102.5ms     OK
+657 uuf50-0578.cnf                                    50     218   UNSAT   UNSAT       62.4ms       63.6ms     OK
+658 uuf50-065.cnf                                     50     218   UNSAT   UNSAT       67.8ms       41.0ms     OK
+659 uuf50-0707.cnf                                    50     218   UNSAT   UNSAT       57.1ms       36.6ms     OK
+660 uuf50-0635.cnf                                    50     218   UNSAT   UNSAT       77.9ms       58.2ms     OK
+661 uuf50-0563.cnf                                    50     218   UNSAT   UNSAT       82.9ms       70.0ms     OK
+662 uuf50-0606.cnf                                    50     218   UNSAT   UNSAT       77.0ms       55.5ms     OK
+663 uuf50-0721.cnf                                    50     218   UNSAT   UNSAT       57.0ms       50.7ms     OK
+664 uuf50-0620.cnf                                    50     218   UNSAT   UNSAT       78.3ms       73.8ms     OK
+665 uuf50-0592.cnf                                    50     218   UNSAT   UNSAT       66.3ms       62.9ms     OK
+666 uuf50-0736.cnf                                    50     218   UNSAT   UNSAT       61.3ms       54.9ms     OK
+667 uuf50-0750.cnf                                    50     218   UNSAT   UNSAT       64.0ms       57.6ms     OK
+668 uuf50-0693.cnf                                    50     218   UNSAT   UNSAT       60.2ms       58.1ms     OK
+669 uuf50-0923.cnf                                    50     218   UNSAT   UNSAT       49.0ms       51.4ms     OK
+670 uuf50-0880.cnf                                    50     218   UNSAT   UNSAT       55.0ms       49.6ms     OK
+671 uuf50-0909.cnf                                    50     218   UNSAT   UNSAT       54.7ms       48.8ms     OK
+672 uuf50-0679.cnf                                    50     218   UNSAT   UNSAT       79.8ms       67.6ms     OK
+673 uuf50-0765.cnf                                    50     218   UNSAT   UNSAT       70.9ms       66.2ms     OK
+674 uuf50-0664.cnf                                    50     218   UNSAT   UNSAT       75.8ms       76.9ms     OK
+675 uuf50-0851.cnf                                    50     218   UNSAT   UNSAT       46.0ms       51.9ms     OK
+676 uuf50-0822.cnf                                    50     218   UNSAT   UNSAT       58.2ms       47.6ms     OK
+677 uuf50-0808.cnf                                    50     218   UNSAT   UNSAT       48.6ms       64.4ms     OK
+678 uuf50-0895.cnf                                    50     218   UNSAT   UNSAT       63.8ms       44.0ms     OK
+679 uuf50-0794.cnf                                    50     218   UNSAT   UNSAT       70.6ms       46.2ms     OK
+680 uuf50-0952.cnf                                    50     218   UNSAT   UNSAT       47.8ms       50.5ms     OK
+681 uuf50-078.cnf                                     50     218   UNSAT   UNSAT       58.4ms       80.9ms     OK
+682 uuf50-0866.cnf                                    50     218   UNSAT   UNSAT       52.7ms       74.6ms     OK
+683 uuf50-0938.cnf                                    50     218   UNSAT   UNSAT       40.7ms       57.6ms     OK
+684 uuf50-0967.cnf                                    50     218   UNSAT   UNSAT       60.2ms       44.0ms     OK
+685 uuf50-0837.cnf                                    50     218   UNSAT   UNSAT       61.6ms       57.4ms     OK
+686 uuf50-0996.cnf                                    50     218   UNSAT   UNSAT       69.6ms       28.8ms     OK
+687 uuf50-0981.cnf                                    50     218   UNSAT   UNSAT       55.1ms       49.3ms     OK
+688 uuf50-0117.cnf                                    50     218   UNSAT   UNSAT       18.0ms       36.4ms     OK
+689 uuf50-0377.cnf                                    50     218   UNSAT   UNSAT       20.2ms       22.4ms     OK
+690 uuf50-0160.cnf                                    50     218   UNSAT   UNSAT       22.0ms       26.2ms     OK
+691 uuf50-0131.cnf                                    50     218   UNSAT   UNSAT       27.7ms       16.0ms     OK
+692 uuf50-0391.cnf                                    50     218   UNSAT   UNSAT       35.3ms       16.2ms     OK
+693 uuf50-0203.cnf                                    50     218   UNSAT   UNSAT       33.8ms       18.9ms     OK
+694 uuf50-0362.cnf                                    50     218   UNSAT   UNSAT       37.9ms       21.7ms     OK
+695 uuf50-042.cnf                                     50     218   UNSAT   UNSAT       37.5ms       24.9ms     OK
+696 uuf50-0478.cnf                                    50     218   UNSAT   UNSAT       39.8ms       12.6ms     OK
+697 uuf50-0621.cnf                                    50     218   UNSAT   UNSAT       33.7ms       23.4ms     OK
+698 uuf50-0607.cnf                                    50     218   UNSAT   UNSAT       16.9ms       80.4ms     OK
+699 uuf50-0463.cnf                                    50     218   UNSAT   UNSAT       31.3ms       70.3ms     OK
+700 uuf50-0506.cnf                                    50     218   UNSAT   UNSAT       29.7ms       76.8ms     OK
+701 uuf50-0665.cnf                                    50     218   UNSAT   UNSAT       18.8ms       96.2ms     OK
+702 uuf50-0102.cnf                                    50     218   UNSAT   UNSAT       43.3ms       74.1ms     OK
+703 uuf50-0290.cnf                                    50     218   UNSAT   UNSAT       41.0ms       86.3ms     OK
+704 uuf50-0636.cnf                                    50     218   UNSAT   UNSAT       57.5ms       66.5ms     OK
+705 uuf50-0535.cnf                                    50     218   UNSAT   UNSAT       45.0ms       85.1ms     OK
+706 uuf50-0564.cnf                                    50     218   UNSAT   UNSAT       68.4ms       64.9ms     OK
+707 uuf50-019.cnf                                     50     218   UNSAT   UNSAT       63.5ms       64.6ms     OK
+708 uuf50-0405.cnf                                    50     218   UNSAT   UNSAT       74.4ms       46.2ms     OK
+709 uuf50-0434.cnf                                    50     218   UNSAT   UNSAT       67.6ms       56.2ms     OK
+710 uuf50-0304.cnf                                    50     218   UNSAT   UNSAT       71.2ms       65.2ms     OK
+711 uuf50-0247.cnf                                    50     218   UNSAT   UNSAT       62.9ms       64.1ms     OK
+712 uuf50-0261.cnf                                    50     218   UNSAT   UNSAT       70.4ms       62.5ms     OK
+713 uuf50-0520.cnf                                    50     218   UNSAT   UNSAT       89.7ms       57.3ms     OK
+714 uuf50-0593.cnf                                    50     218   UNSAT   UNSAT       78.4ms       55.9ms     OK
+715 uuf50-0319.cnf                                    50     218   UNSAT   UNSAT       87.1ms       46.9ms     OK
+716 uuf50-0333.cnf                                    50     218   UNSAT   UNSAT       83.9ms       58.2ms     OK
+717 uuf50-0694.cnf                                    50     218   UNSAT   UNSAT       61.5ms       93.7ms     OK
+718 uuf50-0276.cnf                                    50     218   UNSAT   UNSAT       95.4ms       48.6ms     OK
+719 uuf50-0175.cnf                                    50     218   UNSAT   UNSAT       77.7ms       76.1ms     OK
+720 uuf50-0232.cnf                                    50     218   UNSAT   UNSAT       91.2ms       49.1ms     OK
+721 uuf50-055.cnf                                     50     218   UNSAT   UNSAT       82.1ms       66.8ms     OK
+722 uuf50-0449.cnf                                    50     218   UNSAT   UNSAT       99.0ms       57.3ms     OK
+723 uuf50-0492.cnf                                    50     218   UNSAT   UNSAT      101.6ms       63.6ms     OK
+724 uuf50-0650.cnf                                    50     218   UNSAT   UNSAT       75.0ms       54.6ms     OK
+725 uuf50-0146.cnf                                    50     218   UNSAT   UNSAT       69.7ms       62.5ms     OK
+726 uuf50-0579.cnf                                    50     218   UNSAT   UNSAT       98.4ms       78.9ms     OK
+727 uuf50-068.cnf                                     50     218   UNSAT   UNSAT      126.4ms       58.6ms     OK
+728 uuf50-0218.cnf                                    50     218   UNSAT   UNSAT       85.3ms       60.3ms     OK
+729 uuf50-0348.cnf                                    50     218   UNSAT   UNSAT       84.9ms       63.8ms     OK
+730 uuf50-0722.cnf                                    50     218   UNSAT   UNSAT       59.5ms       51.9ms     OK
+731 uuf50-0751.cnf                                    50     218   UNSAT   UNSAT       57.3ms       62.3ms     OK
+732 uuf50-0737.cnf                                    50     218   UNSAT   UNSAT       71.3ms       55.2ms     OK
+733 uuf50-0896.cnf                                    50     218   UNSAT   UNSAT       54.3ms       36.7ms     OK
+734 uuf50-091.cnf                                     50     218   UNSAT   UNSAT       48.9ms       36.7ms     OK
+735 uuf50-0809.cnf                                    50     218   UNSAT   UNSAT       54.9ms       42.4ms     OK
+736 uuf50-0708.cnf                                    50     218   UNSAT   UNSAT       81.8ms       55.0ms     OK
+737 uuf50-0823.cnf                                    50     218   UNSAT   UNSAT       48.2ms       43.3ms     OK
+738 uuf50-0795.cnf                                    50     218   UNSAT   UNSAT       62.4ms       52.5ms     OK
+739 uuf50-0852.cnf                                    50     218   UNSAT   UNSAT       69.3ms       20.7ms     OK
+740 uuf50-0953.cnf                                    50     218   UNSAT   UNSAT       76.3ms       23.1ms     OK
+741 uuf50-0766.cnf                                    50     218   UNSAT   UNSAT       53.2ms       55.6ms     OK
+742 uuf50-0867.cnf                                    50     218   UNSAT   UNSAT       53.9ms       54.0ms     OK
+743 uuf50-0838.cnf                                    50     218   UNSAT   UNSAT       52.9ms       56.0ms     OK
+744 uuf50-0997.cnf                                    50     218   UNSAT   UNSAT       62.1ms       25.5ms     OK
+745 uuf50-0780.cnf                                    50     218   UNSAT   UNSAT       69.2ms       48.9ms     OK
+746 uuf50-0939.cnf                                    50     218   UNSAT   UNSAT       64.4ms       37.3ms     OK
+747 uuf50-0968.cnf                                    50     218   UNSAT   UNSAT       80.5ms       31.9ms     OK
+748 uuf50-0982.cnf                                    50     218   UNSAT   UNSAT       80.4ms       21.0ms     OK
+749 uuf50-0924.cnf                                    50     218   UNSAT   UNSAT       67.6ms       47.9ms     OK
+750 uuf50-0881.cnf                                    50     218   UNSAT   UNSAT       73.3ms       47.1ms     OK
+751 uuf50-0118.cnf                                    50     218   UNSAT   UNSAT       17.8ms        9.1ms     OK
+752 uuf50-0420.cnf                                    50     218   UNSAT   UNSAT       14.4ms       41.6ms     OK
+753 uuf50-0406.cnf                                    50     218   UNSAT   UNSAT       16.0ms       51.7ms     OK
+754 uuf50-0219.cnf                                    50     218   UNSAT   UNSAT       17.0ms       50.0ms     OK
+755 uuf50-0378.cnf                                    50     218   UNSAT   UNSAT       18.3ms       46.8ms     OK
+756 uuf50-0176.cnf                                    50     218   UNSAT   UNSAT       28.7ms       48.5ms     OK
+757 uuf50-0479.cnf                                    50     218   UNSAT   UNSAT       23.6ms       50.4ms     OK
+758 uuf50-0248.cnf                                    50     218   UNSAT   UNSAT       26.4ms       48.3ms     OK
+759 uuf50-0190.cnf                                    50     218   UNSAT   UNSAT       24.4ms       49.3ms     OK
+760 uuf50-0233.cnf                                    50     218   UNSAT   UNSAT       39.8ms       38.9ms     OK
+761 uuf50-0363.cnf                                    50     218   UNSAT   UNSAT       40.3ms       33.8ms     OK
+762 uuf50-0392.cnf                                    50     218   UNSAT   UNSAT       40.3ms       42.6ms     OK
+763 uuf50-0521.cnf                                    50     218   UNSAT   UNSAT       50.8ms       33.1ms     OK
+764 uuf50-0262.cnf                                    50     218   UNSAT   UNSAT       49.4ms       41.5ms     OK
+765 uuf50-0132.cnf                                    50     218   UNSAT   UNSAT       55.7ms       37.0ms     OK
+766 uuf50-0550.cnf                                    50     218   UNSAT   UNSAT       56.8ms       37.4ms     OK
+767 uuf50-0204.cnf                                    50     218   UNSAT   UNSAT       53.0ms       42.1ms     OK
+768 uuf50-0103.cnf                                    50     218   UNSAT   UNSAT       52.9ms       42.5ms     OK
+769 uuf50-0435.cnf                                    50     218   UNSAT   UNSAT       57.3ms       37.5ms     OK
+770 uuf50-0291.cnf                                    50     218   UNSAT   UNSAT       53.2ms       36.9ms     OK
+771 uuf50-0464.cnf                                    50     218   UNSAT   UNSAT       52.2ms       29.8ms     OK
+772 uuf50-0349.cnf                                    50     218   UNSAT   UNSAT       51.5ms       36.6ms     OK
+773 uuf50-045.cnf                                     50     218   UNSAT   UNSAT       47.1ms       43.8ms     OK
+774 uuf50-0161.cnf                                    50     218   UNSAT   UNSAT       56.3ms       50.9ms     OK
+775 uuf50-0147.cnf                                    50     218   UNSAT   UNSAT       56.7ms       49.9ms     OK
+776 uuf50-0334.cnf                                    50     218   UNSAT   UNSAT       52.3ms       39.6ms     OK
+777 uuf50-0305.cnf                                    50     218   UNSAT   UNSAT       51.2ms       46.9ms     OK
+778 uuf50-0277.cnf                                    50     218   UNSAT   UNSAT       53.5ms       45.1ms     OK
+779 uuf50-0536.cnf                                    50     218   UNSAT   UNSAT       53.8ms       35.6ms     OK
+780 uuf50-0493.cnf                                    50     218   UNSAT   UNSAT       54.2ms       39.7ms     OK
+781 uuf50-0507.cnf                                    50     218   UNSAT   UNSAT       59.5ms       48.2ms     OK
+782 uuf50-0565.cnf                                    50     218   UNSAT   UNSAT       46.1ms       50.0ms     OK
+783 uuf50-0622.cnf                                    50     218   UNSAT   UNSAT       38.7ms       18.2ms     OK
+784 uuf50-0853.cnf                                    50     218   UNSAT   UNSAT       19.8ms       14.2ms     OK
+785 uuf50-0954.cnf                                    50     218   UNSAT   UNSAT       13.9ms        9.6ms     OK
+786 uuf50-0608.cnf                                    50     218   UNSAT   UNSAT       14.1ms       45.6ms     OK
+787 uuf50-0824.cnf                                    50     218   UNSAT   UNSAT       17.4ms       48.6ms     OK
+788 uuf50-0637.cnf                                    50     218   UNSAT   UNSAT       22.7ms       44.7ms     OK
+789 uuf50-0594.cnf                                    50     218   UNSAT   UNSAT       23.6ms       47.0ms     OK
+790 uuf50-081.cnf                                     50     218   UNSAT   UNSAT       25.6ms       42.2ms     OK
+791 uuf50-032.cnf                                     50     218   UNSAT   UNSAT       27.9ms       44.2ms     OK
+792 uuf50-058.cnf                                     50     218   UNSAT   UNSAT       30.5ms       44.6ms     OK
+793 uuf50-0882.cnf                                    50     218   UNSAT   UNSAT       29.4ms       38.9ms     OK
+794 uuf50-0651.cnf                                    50     218   UNSAT   UNSAT       47.9ms       21.0ms     OK
+795 uuf50-0796.cnf                                    50     218   UNSAT   UNSAT       46.5ms       32.0ms     OK
+796 uuf50-0723.cnf                                    50     218   UNSAT   UNSAT       43.1ms       19.3ms     OK
+797 uuf50-0666.cnf                                    50     218   UNSAT   UNSAT       44.8ms       34.7ms     OK
+798 uuf50-0695.cnf                                    50     218   UNSAT   UNSAT       47.6ms       40.2ms     OK
+799 uuf50-0752.cnf                                    50     218   UNSAT   UNSAT       41.2ms       39.1ms     OK
+800 uuf50-0680.cnf                                    50     218   UNSAT   UNSAT       50.0ms       46.2ms     OK
+801 uuf50-094.cnf                                     50     218   UNSAT   UNSAT       41.6ms       35.7ms     OK
+802 uuf50-0868.cnf                                    50     218   UNSAT   UNSAT       48.1ms       37.6ms     OK
+803 uuf50-0910.cnf                                    50     218   UNSAT   UNSAT       41.3ms       35.2ms     OK
+804 uuf50-0969.cnf                                    50     218   UNSAT   UNSAT       37.2ms       33.1ms     OK
+805 uuf50-0738.cnf                                    50     218   UNSAT   UNSAT       46.4ms       40.3ms     OK
+806 uuf50-0709.cnf                                    50     218   UNSAT   UNSAT       48.4ms       37.2ms     OK
+807 uuf50-0925.cnf                                    50     218   UNSAT   UNSAT       37.5ms       34.1ms     OK
+808 uuf50-0767.cnf                                    50     218   UNSAT   UNSAT       45.9ms       39.2ms     OK
+809 uuf50-0998.cnf                                    50     218   UNSAT   UNSAT       47.4ms       37.5ms     OK
+810 uuf50-0839.cnf                                    50     218   UNSAT   UNSAT       49.9ms       38.5ms     OK
+811 uuf50-0983.cnf                                    50     218   UNSAT   UNSAT       36.6ms       28.6ms     OK
+812 uuf50-0897.cnf                                    50     218   UNSAT   UNSAT       44.8ms       37.7ms     OK
+813 uuf50-0781.cnf                                    50     218   UNSAT   UNSAT       50.8ms       38.1ms     OK
+814 uuf50-0133.cnf                                    50     218   UNSAT   UNSAT       23.1ms       75.1ms     OK
+815 uuf50-0306.cnf                                    50     218   UNSAT   UNSAT       36.9ms       57.6ms     OK
+816 uuf50-0263.cnf                                    50     218   UNSAT   UNSAT       36.6ms       67.7ms     OK
+817 uuf50-0104.cnf                                    50     218   UNSAT   UNSAT       51.4ms       74.7ms     OK
+818 uuf50-022.cnf                                     50     218   UNSAT   UNSAT       57.8ms       62.4ms     OK
+819 uuf50-0436.cnf                                    50     218   UNSAT   UNSAT       53.5ms       64.2ms     OK
+820 uuf50-0148.cnf                                    50     218   UNSAT   UNSAT       43.2ms       89.0ms     OK
+821 uuf50-0292.cnf                                    50     218   UNSAT   UNSAT       40.0ms       90.3ms     OK
+822 uuf50-0421.cnf                                    50     218   UNSAT   UNSAT       54.6ms       69.2ms     OK
+823 uuf50-0407.cnf                                    50     218   UNSAT   UNSAT       44.4ms       84.3ms     OK
+824 uuf50-0119.cnf                                    50     218   UNSAT   UNSAT       61.8ms       67.5ms     OK
+825 uuf50-0278.cnf                                    50     218   UNSAT   UNSAT       48.2ms       84.4ms     OK
+826 uuf50-0320.cnf                                    50     218   UNSAT   UNSAT       77.4ms       57.8ms     OK
+827 uuf50-0393.cnf                                    50     218   UNSAT   UNSAT       79.3ms       46.1ms     OK
+828 uuf50-0191.cnf                                    50     218   UNSAT   UNSAT       55.3ms       86.7ms     OK
+829 uuf50-0522.cnf                                    50     218   UNSAT   UNSAT       76.9ms       39.2ms     OK
+830 uuf50-0494.cnf                                    50     218   UNSAT   UNSAT       86.3ms       38.5ms     OK
+831 uuf50-0234.cnf                                    50     218   UNSAT   UNSAT       86.4ms       39.0ms     OK
+832 uuf50-035.cnf                                     50     218   UNSAT   UNSAT       63.0ms       36.8ms     OK
+833 uuf50-0508.cnf                                    50     218   UNSAT   UNSAT       76.6ms       37.2ms     OK
+834 uuf50-0205.cnf                                    50     218   UNSAT   UNSAT       56.7ms       80.0ms     OK
+835 uuf50-0379.cnf                                    50     218   UNSAT   UNSAT      109.0ms       28.5ms     OK
+836 uuf50-048.cnf                                     50     218   UNSAT   UNSAT       84.6ms       41.7ms     OK
+837 uuf50-0551.cnf                                    50     218   UNSAT   UNSAT      102.9ms       30.7ms     OK
+838 uuf50-0335.cnf                                    50     218   UNSAT   UNSAT       78.0ms       50.8ms     OK
+839 uuf50-0450.cnf                                    50     218   UNSAT   UNSAT       79.4ms       49.4ms     OK
+840 uuf50-0177.cnf                                    50     218   UNSAT   UNSAT       81.7ms       60.3ms     OK
+841 uuf50-0537.cnf                                    50     218   UNSAT   UNSAT       96.8ms       25.9ms     OK
+842 uuf50-0364.cnf                                    50     218   UNSAT   UNSAT      111.4ms       30.4ms     OK
+843 uuf50-0162.cnf                                    50     218   UNSAT   UNSAT      103.3ms       30.8ms     OK
+844 uuf50-0465.cnf                                    50     218   UNSAT   UNSAT       98.3ms       30.9ms     OK
+845 uuf50-0249.cnf                                    50     218   UNSAT   UNSAT       78.1ms       61.0ms     OK
+846 uuf50-084.cnf                                     50     218   UNSAT   UNSAT       11.2ms       20.9ms     OK
+847 uuf50-071.cnf                                     50     218   UNSAT   UNSAT       20.4ms       35.3ms     OK
+848 uuf50-0667.cnf                                    50     218   UNSAT   UNSAT       14.2ms       41.9ms     OK
+849 uuf50-0898.cnf                                    50     218   UNSAT   UNSAT       30.5ms       34.5ms     OK
+850 uuf50-0580.cnf                                    50     218   UNSAT   UNSAT       30.8ms       48.2ms     OK
+851 uuf50-0810.cnf                                    50     218   UNSAT   UNSAT       43.0ms       49.5ms     OK
+852 uuf50-0739.cnf                                    50     218   UNSAT   UNSAT       44.9ms       49.2ms     OK
+853 uuf50-0609.cnf                                    50     218   UNSAT   UNSAT       47.2ms       51.6ms     OK
+854 uuf50-0652.cnf                                    50     218   UNSAT   UNSAT       45.7ms       43.1ms     OK
+855 uuf50-0825.cnf                                    50     218   UNSAT   UNSAT       48.3ms       44.4ms     OK
+856 uuf50-0595.cnf                                    50     218   UNSAT   UNSAT       48.7ms       49.8ms     OK
+857 uuf50-0724.cnf                                    50     218   UNSAT   UNSAT       53.2ms       44.1ms     OK
+858 uuf50-0940.cnf                                    50     218   UNSAT   UNSAT       50.0ms       51.7ms     OK
+859 uuf50-0883.cnf                                    50     218   UNSAT   UNSAT       44.3ms       48.3ms     OK
+860 uuf50-0638.cnf                                    50     218   UNSAT   UNSAT       45.2ms       47.4ms     OK
+861 uuf50-0681.cnf                                    50     218   UNSAT   UNSAT       49.6ms       42.8ms     OK
+862 uuf50-097.cnf                                     50     218   UNSAT   UNSAT       44.5ms       47.4ms     OK
+863 uuf50-0768.cnf                                    50     218   UNSAT   UNSAT       57.0ms       48.0ms     OK
+864 uuf50-0753.cnf                                    50     218   UNSAT   UNSAT       40.7ms       55.1ms     OK
+865 uuf50-0623.cnf                                    50     218   UNSAT   UNSAT       37.3ms       58.5ms     OK
+866 uuf50-0911.cnf                                    50     218   UNSAT   UNSAT       41.5ms       73.2ms     OK
+867 uuf50-0797.cnf                                    50     218   UNSAT   UNSAT       61.4ms       28.2ms     OK
+868 uuf50-0566.cnf                                    50     218   UNSAT   UNSAT       72.9ms       26.3ms     OK
+869 uuf50-0696.cnf                                    50     218   UNSAT   UNSAT       57.7ms       33.3ms     OK
+870 uuf50-0854.cnf                                    50     218   UNSAT   UNSAT       51.5ms       68.0ms     OK
+871 uuf50-0955.cnf                                    50     218   UNSAT   UNSAT       66.9ms       27.0ms     OK
+872 uuf50-0984.cnf                                    50     218   UNSAT   UNSAT       52.4ms       62.0ms     OK
+873 uuf50-0782.cnf                                    50     218   UNSAT   UNSAT       77.2ms       14.6ms     OK
+874 uuf50-0926.cnf                                    50     218   UNSAT   UNSAT       51.3ms       63.0ms     OK
+875 uuf50-0869.cnf                                    50     218   UNSAT   UNSAT       76.4ms       35.7ms     OK
+876 uuf50-0999.cnf                                    50     218   UNSAT   UNSAT       14.1ms       11.4ms     OK
+877 uuf50-0134.cnf                                    50     218   UNSAT   UNSAT       30.9ms       27.1ms     OK
+878 uuf50-0206.cnf                                    50     218   UNSAT   UNSAT       25.6ms       43.4ms     OK
+879 uuf50-0408.cnf                                    50     218   UNSAT   UNSAT       36.9ms       79.3ms     OK
+880 uuf50-0422.cnf                                    50     218   UNSAT   UNSAT       45.6ms       77.4ms     OK
+881 uuf50-0220.cnf                                    50     218   UNSAT   UNSAT       42.5ms       79.3ms     OK
+882 uuf50-0321.cnf                                    50     218   UNSAT   UNSAT       40.0ms       73.9ms     OK
+883 uuf50-0307.cnf                                    50     218   UNSAT   UNSAT       46.4ms       75.9ms     OK
+884 uuf50-0279.cnf                                    50     218   UNSAT   UNSAT       48.9ms       75.6ms     OK
+885 uuf50-0163.cnf                                    50     218   UNSAT   UNSAT       66.0ms       59.3ms     OK
+886 uuf50-025.cnf                                     50     218   UNSAT   UNSAT       62.7ms       57.7ms     OK
+887 uuf50-0336.cnf                                    50     218   UNSAT   UNSAT       62.1ms       59.8ms     OK
+888 uuf50-0495.cnf                                    50     218   UNSAT   UNSAT       63.1ms       57.3ms     OK
+889 uuf50-0365.cnf                                    50     218   UNSAT   UNSAT       59.6ms       59.3ms     OK
+890 uuf50-0149.cnf                                    50     218   UNSAT   UNSAT       80.2ms       66.3ms     OK
+891 uuf50-0394.cnf                                    50     218   UNSAT   UNSAT       61.8ms       66.5ms     OK
+892 uuf50-012.cnf                                     50     218   UNSAT   UNSAT       44.1ms       91.6ms     OK
+893 uuf50-0451.cnf                                    50     218   UNSAT   UNSAT       66.0ms       57.1ms     OK
+894 uuf50-0178.cnf                                    50     218   UNSAT   UNSAT       79.8ms       63.0ms     OK
+895 uuf50-0466.cnf                                    50     218   UNSAT   UNSAT       66.0ms       60.8ms     OK
+896 uuf50-0235.cnf                                    50     218   UNSAT   UNSAT       67.8ms       64.8ms     OK
+897 uuf50-038.cnf                                     50     218   UNSAT   UNSAT       66.7ms       63.0ms     OK
+898 uuf50-0509.cnf                                    50     218   UNSAT   UNSAT       63.9ms       63.9ms     OK
+899 uuf50-0293.cnf                                    50     218   UNSAT   UNSAT       77.7ms       60.9ms     OK
+900 uuf50-0192.cnf                                    50     218   UNSAT   UNSAT       70.4ms       84.2ms     OK
+901 uuf50-0105.cnf                                    50     218   UNSAT   UNSAT       59.8ms       93.8ms     OK
+902 uuf50-0264.cnf                                    50     218   UNSAT   UNSAT       83.0ms       82.5ms     OK
+903 uuf50-0437.cnf                                    50     218   UNSAT   UNSAT       69.6ms       80.8ms     OK
+904 uuf50-0480.cnf                                    50     218   UNSAT   UNSAT       65.3ms       90.7ms     OK
+905 uuf50-0523.cnf                                    50     218   UNSAT   UNSAT       75.8ms       71.1ms     OK
+906 uuf50-0350.cnf                                    50     218   UNSAT   UNSAT       75.6ms       79.7ms     OK
+907 uuf50-0552.cnf                                    50     218   UNSAT   UNSAT      102.7ms       55.6ms     OK
+908 uuf50-0581.cnf                                    50     218   UNSAT   UNSAT       57.6ms       47.3ms     OK
+909 uuf50-0567.cnf                                    50     218   UNSAT   UNSAT       79.0ms       50.7ms     OK
+910 uuf50-0596.cnf                                    50     218   UNSAT   UNSAT       44.3ms       46.7ms     OK
+911 uuf50-0668.cnf                                    50     218   UNSAT   UNSAT       43.1ms       44.8ms     OK
+912 uuf50-0710.cnf                                    50     218   UNSAT   UNSAT       37.6ms       41.5ms     OK
+913 uuf50-0538.cnf                                    50     218   UNSAT   UNSAT      131.7ms       67.1ms     OK
+914 uuf50-0682.cnf                                    50     218   UNSAT   UNSAT       48.4ms       50.3ms     OK
+915 uuf50-0624.cnf                                    50     218   UNSAT   UNSAT       54.5ms       51.1ms     OK
+916 uuf50-061.cnf                                     50     218   UNSAT   UNSAT       50.5ms       51.4ms     OK
+917 uuf50-0697.cnf                                    50     218   UNSAT   UNSAT       49.4ms       63.4ms     OK
+918 uuf50-0639.cnf                                    50     218   UNSAT   UNSAT       57.8ms       53.2ms     OK
+919 uuf50-0840.cnf                                    50     218   UNSAT   UNSAT       50.8ms       49.5ms     OK
+920 uuf50-0798.cnf                                    50     218   UNSAT   UNSAT       52.7ms       52.8ms     OK
+921 uuf50-0653.cnf                                    50     218   UNSAT   UNSAT       54.5ms       50.9ms     OK
+922 uuf50-0855.cnf                                    50     218   UNSAT   UNSAT       56.9ms       44.9ms     OK
+923 uuf50-0754.cnf                                    50     218   UNSAT   UNSAT       56.2ms       54.2ms     OK
+924 uuf50-074.cnf                                     50     218   UNSAT   UNSAT       64.2ms       43.9ms     OK
+925 uuf50-0811.cnf                                    50     218   UNSAT   UNSAT       57.6ms       56.6ms     OK
+926 uuf50-0769.cnf                                    50     218   UNSAT   UNSAT       64.4ms       50.0ms     OK
+927 uuf50-0725.cnf                                    50     218   UNSAT   UNSAT       54.8ms       51.7ms     OK
+928 uuf50-087.cnf                                     50     218   UNSAT   UNSAT       67.2ms       43.6ms     OK
+929 uuf50-0912.cnf                                    50     218   UNSAT   UNSAT       66.5ms       34.2ms     OK
+930 uuf50-0826.cnf                                    50     218   UNSAT   UNSAT       64.1ms       51.3ms     OK
+931 uuf50-0884.cnf                                    50     218   UNSAT   UNSAT       52.5ms       49.0ms     OK
+932 uuf50-0956.cnf                                    50     218   UNSAT   UNSAT       59.8ms       36.4ms     OK
+933 uuf50-0941.cnf                                    50     218   UNSAT   UNSAT       42.1ms       53.5ms     OK
+934 uuf50-0783.cnf                                    50     218   UNSAT   UNSAT       54.3ms       61.5ms     OK
+935 uuf50-0899.cnf                                    50     218   UNSAT   UNSAT       55.5ms       51.1ms     OK
+936 uuf50-0927.cnf                                    50     218   UNSAT   UNSAT       76.7ms       32.9ms     OK
+937 uuf50-0985.cnf                                    50     218   UNSAT   UNSAT       52.8ms       35.0ms     OK
+938 uuf50-0970.cnf                                    50     218   UNSAT   UNSAT       48.0ms       45.9ms     OK
+939 uuf50-0395.cnf                                    50     218   UNSAT   UNSAT       10.0ms        7.4ms     OK
+940 uuf50-0524.cnf                                    50     218   UNSAT   UNSAT       10.2ms        7.1ms     OK
+941 uuf50-0553.cnf                                    50     218   UNSAT   UNSAT       16.6ms       13.6ms     OK
+942 uuf50-0308.cnf                                    50     218   UNSAT   UNSAT       14.3ms       13.0ms     OK
+943 uuf50-0582.cnf                                    50     218   UNSAT   UNSAT        8.3ms        5.4ms     OK
+944 uuf50-0610.cnf                                    50     218   UNSAT   UNSAT       11.8ms       11.3ms     OK
+945 uuf50-064.cnf                                     50     218   UNSAT   UNSAT       11.0ms       11.0ms     OK
+946 uuf50-0625.cnf                                    50     218   UNSAT   UNSAT       18.6ms       17.1ms     OK
+947 uuf50-0164.cnf                                    50     218   UNSAT   UNSAT       26.9ms       12.0ms     OK
+948 uuf50-0120.cnf                                    50     218   UNSAT   UNSAT       24.2ms        9.6ms     OK
+949 uuf50-0236.cnf                                    50     218   UNSAT   UNSAT       23.9ms        9.6ms     OK
+950 uuf50-0265.cnf                                    50     218   UNSAT   UNSAT       27.9ms        9.9ms     OK
+951 uuf50-0409.cnf                                    50     218   UNSAT   UNSAT       19.9ms       20.6ms     OK
+952 uuf50-028.cnf                                     50     218   UNSAT   UNSAT       22.3ms       11.8ms     OK
+953 uuf50-0597.cnf                                    50     218   UNSAT   UNSAT       24.4ms       11.3ms     OK
+954 uuf50-0423.cnf                                    50     218   UNSAT   UNSAT       21.5ms       11.6ms     OK
+955 uuf50-0366.cnf                                    50     218   UNSAT   UNSAT       32.9ms       13.5ms     OK
+956 uuf50-0496.cnf                                    50     218   UNSAT   UNSAT       30.8ms       20.8ms     OK
+957 uuf50-0221.cnf                                    50     218   UNSAT   UNSAT       24.6ms       14.3ms     OK
+958 uuf50-051.cnf                                     50     218   UNSAT   UNSAT       22.1ms       14.6ms     OK
+959 uuf50-0380.cnf                                    50     218   UNSAT   UNSAT       25.1ms       16.4ms     OK
+960 uuf50-0207.cnf                                    50     218   UNSAT   UNSAT       25.1ms       15.9ms     OK
+961 uuf50-0568.cnf                                    50     218   UNSAT   UNSAT       30.6ms       14.2ms     OK
+962 uuf50-0438.cnf                                    50     218   UNSAT   UNSAT       25.9ms       15.1ms     OK
+963 uuf50-0179.cnf                                    50     218   UNSAT   UNSAT       28.6ms       15.0ms     OK
+964 uuf50-0337.cnf                                    50     218   UNSAT   UNSAT       33.9ms       23.4ms     OK
+965 uuf50-0135.cnf                                    50     218   UNSAT   UNSAT       35.1ms       22.8ms     OK
+966 uuf50-0250.cnf                                    50     218   UNSAT   UNSAT       34.9ms       24.0ms     OK
+967 uuf50-0481.cnf                                    50     218   UNSAT   UNSAT       35.0ms       23.6ms     OK
+968 uuf50-0452.cnf                                    50     218   UNSAT   UNSAT       30.8ms       13.1ms     OK
+969 uuf50-0654.cnf                                    50     218   UNSAT   UNSAT       24.8ms       25.4ms     OK
+970 uuf50-0193.cnf                                    50     218   UNSAT   UNSAT       22.7ms       27.3ms     OK
+971 uuf50-015.cnf                                     50     218   UNSAT   UNSAT       23.4ms       26.2ms     OK
+972 uuf50-0351.cnf                                    50     218   UNSAT   UNSAT       23.9ms       27.7ms     OK
+973 uuf50-0539.cnf                                    50     218   UNSAT   UNSAT       34.7ms       28.9ms     OK
+974 uuf50-0294.cnf                                    50     218   UNSAT   UNSAT       33.7ms       19.6ms     OK
+975 uuf50-0322.cnf                                    50     218   UNSAT   UNSAT       32.1ms       20.2ms     OK
+976 uuf50-0711.cnf                                    50     218   UNSAT   UNSAT       13.9ms       12.1ms     OK
+977 uuf50-0726.cnf                                    50     218   UNSAT   UNSAT       11.3ms       10.6ms     OK
+978 uuf50-0106.cnf                                    50     218   UNSAT   UNSAT       13.1ms       10.7ms     OK
+979 uuf50-077.cnf                                     50     218   UNSAT   UNSAT       12.4ms        9.3ms     OK
+980 uuf50-0812.cnf                                    50     218   UNSAT   UNSAT       13.1ms        9.6ms     OK
+981 uuf50-0870.cnf                                    50     218   UNSAT   UNSAT       13.6ms        9.4ms     OK
+982 uuf50-0740.cnf                                    50     218   UNSAT   UNSAT       14.5ms       20.6ms     OK
+983 uuf50-0856.cnf                                    50     218   UNSAT   UNSAT       14.1ms       10.2ms     OK
+984 uuf50-0755.cnf                                    50     218   UNSAT   UNSAT       14.1ms       19.8ms     OK
+985 uuf50-0827.cnf                                    50     218   UNSAT   UNSAT       12.5ms        8.9ms     OK
+986 uuf50-09.cnf                                      50     218   UNSAT   UNSAT       13.5ms        9.9ms     OK
+987 uuf50-0799.cnf                                    50     218   UNSAT   UNSAT       12.7ms       20.2ms     OK
+988 uuf50-0683.cnf                                    50     218   UNSAT   UNSAT       19.5ms       20.1ms     OK
+989 uuf50-0669.cnf                                    50     218   UNSAT   UNSAT       22.9ms        9.7ms     OK
+990 uuf50-0467.cnf                                    50     218   UNSAT   UNSAT       23.3ms        8.4ms     OK
+991 uuf50-0698.cnf                                    50     218   UNSAT   UNSAT       12.2ms       17.8ms     OK
+992 uuf50-0841.cnf                                    50     218   UNSAT   UNSAT       23.4ms        6.5ms     OK
+993 uuf50-0885.cnf                                    50     218   UNSAT   UNSAT       23.3ms        6.6ms     OK
+994 uuf50-0957.cnf                                    50     218   UNSAT   UNSAT       11.5ms        6.4ms     OK
+995 uuf50-0784.cnf                                    50     218   UNSAT   UNSAT       13.2ms       17.2ms     OK
+996 uuf50-0913.cnf                                    50     218   UNSAT   UNSAT        9.1ms        5.7ms     OK
+997 uuf50-0928.cnf                                    50     218   UNSAT   UNSAT       12.8ms       15.5ms     OK
+998 uuf50-0942.cnf                                    50     218   UNSAT   UNSAT       21.4ms        6.4ms     OK
+999 uuf50-0971.cnf                                    50     218   UNSAT   UNSAT       10.4ms       13.3ms     OK
+1000 uuf50-0986.cnf                                    50     218   UNSAT   UNSAT       17.3ms        4.9ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 1000
+  Both agree            : 1000
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 378 / 1000
+  MiniSat faster        : 618 / 1000
+  CDCL total time       : 201.0s
+  MiniSat total time    : 97.8s
+  Speedup (MS/CDCL)     : 0.49x
+==========================================================================================

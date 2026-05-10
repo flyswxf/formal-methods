@@ -1,0 +1,1029 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293505
+  Task Name   : medium-uf50-218-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf50-218/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 16  (32 cpus/node)
+  Total Files : 1000
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf50-0141.cnf                                     50     218     SAT     SAT       13.3ms       39.0ms     OK
+  2 uf50-0127.cnf                                     50     218     SAT     SAT       16.8ms       38.9ms     OK
+  3 uf50-0156.cnf                                     50     218     SAT     SAT       20.6ms       40.9ms     OK
+  4 uf50-030.cnf                                      50     218     SAT     SAT       24.4ms       44.6ms     OK
+  5 uf50-0242.cnf                                     50     218     SAT     SAT       27.8ms       43.1ms     OK
+  6 uf50-0112.cnf                                     50     218     SAT     SAT       31.3ms       44.5ms     OK
+  7 uf50-01.cnf                                       50     218     SAT     SAT       38.1ms       51.3ms     OK
+  8 uf50-0286.cnf                                     50     218     SAT     SAT       41.4ms       49.8ms     OK
+  9 uf50-0501.cnf                                     50     218     SAT     SAT       41.6ms       44.6ms     OK
+ 10 uf50-0415.cnf                                     50     218     SAT     SAT       40.2ms       41.8ms     OK
+ 11 uf50-0314.cnf                                     50     218     SAT     SAT       44.3ms       41.6ms     OK
+ 12 uf50-0488.cnf                                     50     218     SAT     SAT       44.3ms       47.6ms     OK
+ 13 uf50-0170.cnf                                     50     218     SAT     SAT       44.0ms       46.5ms     OK
+ 14 uf50-0358.cnf                                     50     218     SAT     SAT       43.6ms       43.9ms     OK
+ 15 uf50-0372.cnf                                     50     218     SAT     SAT       46.7ms       46.5ms     OK
+ 16 uf50-0516.cnf                                     50     218     SAT     SAT       49.0ms       43.3ms     OK
+ 17 uf50-0213.cnf                                     50     218     SAT     SAT       43.8ms       45.2ms     OK
+ 18 uf50-0228.cnf                                     50     218     SAT     SAT       46.7ms       44.8ms     OK
+ 19 uf50-0444.cnf                                     50     218     SAT     SAT       44.6ms       42.8ms     OK
+ 20 uf50-0343.cnf                                     50     218     SAT     SAT       50.7ms       43.3ms     OK
+ 21 uf50-0473.cnf                                     50     218     SAT     SAT       53.2ms       31.1ms     OK
+ 22 uf50-02.cnf                                       50     218     SAT     SAT       45.2ms       38.8ms     OK
+ 23 uf50-0329.cnf                                     50     218     SAT     SAT       48.0ms       36.8ms     OK
+ 24 uf50-0530.cnf                                     50     218     SAT     SAT       49.5ms       36.1ms     OK
+ 25 uf50-0271.cnf                                     50     218     SAT     SAT       49.9ms       39.3ms     OK
+ 26 uf50-0257.cnf                                     50     218     SAT     SAT       50.1ms       42.7ms     OK
+ 27 uf50-0185.cnf                                     50     218     SAT     SAT       47.2ms       42.9ms     OK
+ 28 uf50-0400.cnf                                     50     218     SAT     SAT       51.5ms       45.5ms     OK
+ 29 uf50-043.cnf                                      50     218     SAT     SAT       44.9ms       45.8ms     OK
+ 30 uf50-056.cnf                                      50     218     SAT     SAT       49.3ms       42.5ms     OK
+ 31 uf50-0545.cnf                                     50     218     SAT     SAT       54.1ms       45.5ms     OK
+ 32 uf50-0459.cnf                                     50     218     SAT     SAT       48.3ms       34.4ms     OK
+ 33 uf50-0387.cnf                                     50     218     SAT     SAT       44.3ms       45.4ms     OK
+ 34 uf50-0703.cnf                                     50     218     SAT     SAT       28.9ms       40.1ms     OK
+ 35 uf50-069.cnf                                      50     218     SAT     SAT       34.9ms       42.8ms     OK
+ 36 uf50-0617.cnf                                     50     218     SAT     SAT       35.1ms       42.7ms     OK
+ 37 uf50-0646.cnf                                     50     218     SAT     SAT       32.9ms       41.0ms     OK
+ 38 uf50-0589.cnf                                     50     218     SAT     SAT       37.2ms       42.0ms     OK
+ 39 uf50-0574.cnf                                     50     218     SAT     SAT       44.0ms       37.0ms     OK
+ 40 uf50-0747.cnf                                     50     218     SAT     SAT       37.6ms       43.4ms     OK
+ 41 uf50-0732.cnf                                     50     218     SAT     SAT       41.4ms       40.1ms     OK
+ 42 uf50-0761.cnf                                     50     218     SAT     SAT       46.0ms       43.7ms     OK
+ 43 uf50-0776.cnf                                     50     218     SAT     SAT       42.4ms       44.8ms     OK
+ 44 uf50-0602.cnf                                     50     218     SAT     SAT       51.7ms       45.0ms     OK
+ 45 uf50-0631.cnf                                     50     218     SAT     SAT       50.6ms       42.4ms     OK
+ 46 uf50-0891.cnf                                     50     218     SAT     SAT       51.8ms       36.8ms     OK
+ 47 uf50-0660.cnf                                     50     218     SAT     SAT       56.3ms       39.8ms     OK
+ 48 uf50-0819.cnf                                     50     218     SAT     SAT       59.5ms       40.6ms     OK
+ 49 uf50-0833.cnf                                     50     218     SAT     SAT       58.9ms       40.1ms     OK
+ 50 uf50-0978.cnf                                     50     218     SAT     SAT       37.3ms       29.2ms     OK
+ 51 uf50-0675.cnf                                     50     218     SAT     SAT       59.7ms       42.7ms     OK
+ 52 uf50-0790.cnf                                     50     218     SAT     SAT       45.2ms       39.4ms     OK
+ 53 uf50-0862.cnf                                     50     218     SAT     SAT       41.3ms       40.5ms     OK
+ 54 uf50-0718.cnf                                     50     218     SAT     SAT       46.8ms       40.8ms     OK
+ 55 uf50-0949.cnf                                     50     218     SAT     SAT       44.2ms       35.8ms     OK
+ 56 uf50-0905.cnf                                     50     218     SAT     SAT       38.8ms       31.5ms     OK
+ 57 uf50-0963.cnf                                     50     218     SAT     SAT       39.3ms       36.8ms     OK
+ 58 uf50-0877.cnf                                     50     218     SAT     SAT       36.4ms       37.7ms     OK
+ 59 uf50-0804.cnf                                     50     218     SAT     SAT       49.2ms       32.5ms     OK
+ 60 uf50-0934.cnf                                     50     218     SAT     SAT       39.4ms       28.4ms     OK
+ 61 uf50-0848.cnf                                     50     218     SAT     SAT       42.7ms       38.0ms     OK
+ 62 uf50-092.cnf                                      50     218     SAT     SAT       42.2ms       12.4ms     OK
+ 63 uf50-0992.cnf                                     50     218     SAT     SAT       40.6ms       12.0ms     OK
+ 64 uf50-0258.cnf                                     50     218     SAT     SAT       12.3ms       1.297s     OK
+ 65 uf50-0171.cnf                                     50     218     SAT     SAT       22.6ms       1.503s     OK
+ 66 uf50-0186.cnf                                     50     218     SAT     SAT       23.3ms       1.577s     OK
+ 67 uf50-0243.cnf                                     50     218     SAT     SAT       66.0ms       1.568s     OK
+ 68 uf50-0388.cnf                                     50     218     SAT     SAT       43.5ms       1.585s     OK
+ 69 uf50-0373.cnf                                     50     218     SAT     SAT       95.4ms       1.673s     OK
+ 70 uf50-0315.cnf                                     50     218     SAT     SAT      148.3ms       2.674s     OK
+ 71 uf50-0344.cnf                                     50     218     SAT     SAT       1.329s       1.670s     OK
+ 72 uf50-0287.cnf                                     50     218     SAT     SAT       1.521s       1.494s     OK
+ 73 uf50-0229.cnf                                     50     218     SAT     SAT       1.519s       1.522s     OK
+ 74 uf50-020.cnf                                      50     218     SAT     SAT       1.531s       1.554s     OK
+ 75 uf50-0430.cnf                                     50     218     SAT     SAT       1.516s       1.586s     OK
+ 76 uf50-0359.cnf                                     50     218     SAT     SAT       1.520s       1.623s     OK
+ 77 uf50-0157.cnf                                     50     218     SAT     SAT       1.768s       1.388s     OK
+ 78 uf50-0401.cnf                                     50     218     SAT     SAT       1.518s       1.622s     OK
+ 79 uf50-033.cnf                                      50     218     SAT     SAT       2.715s      890.9ms     OK
+ 80 uf50-0502.cnf                                     50     218     SAT     SAT       2.917s      827.7ms     OK
+ 81 uf50-0416.cnf                                     50     218     SAT     SAT       1.722s       2.212s     OK
+ 82 uf50-0546.cnf                                     50     218     SAT     SAT       2.943s      924.3ms     OK
+ 83 uf50-0445.cnf                                     50     218     SAT     SAT       2.957s      922.6ms     OK
+ 84 uf50-0489.cnf                                     50     218     SAT     SAT       2.955s      926.1ms     OK
+ 85 uf50-0214.cnf                                     50     218     SAT     SAT       2.973s      952.0ms     OK
+ 86 uf50-0142.cnf                                     50     218     SAT     SAT       3.064s      960.0ms     OK
+ 87 uf50-0517.cnf                                     50     218     SAT     SAT       2.960s      968.6ms     OK
+ 88 uf50-046.cnf                                      50     218     SAT     SAT       2.943s      996.2ms     OK
+ 89 uf50-0474.cnf                                     50     218     SAT     SAT       3.020s      983.9ms     OK
+ 90 uf50-0531.cnf                                     50     218     SAT     SAT       2.964s      969.3ms     OK
+ 91 uf50-0560.cnf                                     50     218     SAT     SAT       1.423s      875.4ms     OK
+ 92 uf50-0575.cnf                                     50     218     SAT     SAT       1.708s      208.5ms     OK
+ 93 uf50-0603.cnf                                     50     218     SAT     SAT       1.097s      294.8ms     OK
+ 94 uf50-0272.cnf                                     50     218     SAT     SAT       1.297s       2.805s     OK
+ 95 uf50-0690.cnf                                     50     218     SAT     SAT      956.3ms      119.2ms     OK
+ 96 uf50-0618.cnf                                     50     218     SAT     SAT      939.8ms      163.3ms     OK
+ 97 uf50-059.cnf                                      50     218     SAT     SAT      960.1ms      181.0ms     OK
+ 98 uf50-0661.cnf                                     50     218     SAT     SAT       1.102s       32.2ms     OK
+ 99 uf50-0805.cnf                                     50     218     SAT     SAT      111.1ms        8.8ms     OK
+100 uf50-0719.cnf                                     50     218     SAT     SAT      552.9ms       14.6ms     OK
+101 uf50-082.cnf                                      50     218     SAT     SAT       98.5ms       18.8ms     OK
+102 uf50-0733.cnf                                     50     218     SAT     SAT      945.1ms      433.2ms     OK
+103 uf50-0849.cnf                                     50     218     SAT     SAT       35.2ms      415.6ms     OK
+104 uf50-0632.cnf                                     50     218     SAT     SAT       1.096s      449.1ms     OK
+105 uf50-0892.cnf                                     50     218     SAT     SAT       35.4ms      462.7ms     OK
+106 uf50-095.cnf                                      50     218     SAT     SAT      697.9ms      224.7ms     OK
+107 uf50-0113.cnf                                     50     218     SAT     SAT      13.736s       34.3ms     OK
+108 uf50-0128.cnf                                     50     218     SAT     SAT       40.3ms      13.811s     OK
+109 uf50-010.cnf                                      50     218     SAT     SAT       50.2ms      13.979s     OK
+110 uf50-0300.cnf                                     50     218     SAT     SAT       2.822s      15.132s     OK
+111 uf50-0791.cnf                                     50     218     SAT     SAT      15.072s      298.2ms     OK
+112 uf50-0676.cnf                                     50     218     SAT     SAT       1.098s      15.416s     OK
+113 uf50-0777.cnf                                     50     218     SAT     SAT      117.8ms      15.945s     OK
+114 uf50-0647.cnf                                     50     218     SAT     SAT       1.038s      16.046s     OK
+115 uf50-0762.cnf                                     50     218     SAT     SAT      172.3ms      16.120s     OK
+116 uf50-0993.cnf                                     50     218     SAT     SAT       36.6ms      16.136s     OK
+117 uf50-0920.cnf                                     50     218     SAT     SAT      16.109s       32.0ms     OK
+118 uf50-0906.cnf                                     50     218     SAT     SAT      16.147s       22.8ms     OK
+119 uf50-0878.cnf                                     50     218     SAT     SAT       34.7ms      16.355s     OK
+120 uf50-0935.cnf                                     50     218     SAT     SAT       14.5ms      16.662s     OK
+121 uf50-0704.cnf                                     50     218     SAT     SAT      886.2ms      16.687s     OK
+122 uf50-0748.cnf                                     50     218     SAT     SAT      260.0ms      16.848s     OK
+123 uf50-0964.cnf                                     50     218     SAT     SAT        8.5ms      16.923s     OK
+124 uf50-0834.cnf                                     50     218     SAT     SAT       51.0ms      16.999s     OK
+125 uf50-0863.cnf                                     50     218     SAT     SAT      16.726s      15.537s     OK
+126 uf50-0979.cnf                                     50     218     SAT     SAT      16.847s      16.088s     OK
+127 uf50-0121.cnf                                     50     218     SAT     SAT       22.6ms       23.4ms     OK
+128 uf50-0323.cnf                                     50     218     SAT     SAT       16.7ms       42.7ms     OK
+129 uf50-0165.cnf                                     50     218     SAT     SAT       39.1ms       42.0ms     OK
+130 uf50-0295.cnf                                     50     218     SAT     SAT       36.4ms       39.6ms     OK
+131 uf50-0367.cnf                                     50     218     SAT     SAT       35.4ms       37.0ms     OK
+132 uf50-0525.cnf                                     50     218     SAT     SAT       36.1ms       32.8ms     OK
+133 uf50-0136.cnf                                     50     218     SAT     SAT       33.4ms       40.5ms     OK
+134 uf50-0208.cnf                                     50     218     SAT     SAT       38.8ms       44.3ms     OK
+135 uf50-018.cnf                                      50     218     SAT     SAT       42.6ms       40.3ms     OK
+136 uf50-0194.cnf                                     50     218     SAT     SAT       41.9ms       58.5ms     OK
+137 uf50-0222.cnf                                     50     218     SAT     SAT       48.2ms       65.6ms     OK
+138 uf50-0510.cnf                                     50     218     SAT     SAT       69.4ms       56.0ms     OK
+139 uf50-0107.cnf                                     50     218     SAT     SAT       67.5ms       65.2ms     OK
+140 uf50-0381.cnf                                     50     218     SAT     SAT       80.7ms       56.6ms     OK
+141 uf50-0280.cnf                                     50     218     SAT     SAT       75.3ms       67.1ms     OK
+142 uf50-0482.cnf                                     50     218     SAT     SAT       77.9ms       72.6ms     OK
+143 uf50-0453.cnf                                     50     218     SAT     SAT       62.8ms       91.0ms     OK
+144 uf50-0251.cnf                                     50     218     SAT     SAT       74.2ms       78.1ms     OK
+145 uf50-0309.cnf                                     50     218     SAT     SAT       86.1ms       94.8ms     OK
+146 uf50-0497.cnf                                     50     218     SAT     SAT       76.9ms       90.9ms     OK
+147 uf50-0150.cnf                                     50     218     SAT     SAT       80.3ms       89.9ms     OK
+148 uf50-0396.cnf                                     50     218     SAT     SAT       81.6ms       84.7ms     OK
+149 uf50-0352.cnf                                     50     218     SAT     SAT       80.4ms       87.9ms     OK
+150 uf50-0424.cnf                                     50     218     SAT     SAT       78.4ms      111.5ms     OK
+151 uf50-041.cnf                                      50     218     SAT     SAT       84.1ms       88.3ms     OK
+152 uf50-0468.cnf                                     50     218     SAT     SAT       78.3ms      101.6ms     OK
+153 uf50-0439.cnf                                     50     218     SAT     SAT       82.8ms      114.1ms     OK
+154 uf50-0237.cnf                                     50     218     SAT     SAT       83.3ms      103.1ms     OK
+155 uf50-0266.cnf                                     50     218     SAT     SAT       91.9ms       91.3ms     OK
+156 uf50-0583.cnf                                     50     218     SAT     SAT       62.5ms       77.0ms     OK
+157 uf50-0640.cnf                                     50     218     SAT     SAT       54.1ms       78.6ms     OK
+158 uf50-0626.cnf                                     50     218     SAT     SAT       59.4ms       65.1ms     OK
+159 uf50-0569.cnf                                     50     218     SAT     SAT       79.6ms       64.2ms     OK
+160 uf50-0338.cnf                                     50     218     SAT     SAT      111.5ms       72.5ms     OK
+161 uf50-0655.cnf                                     50     218     SAT     SAT       83.4ms       45.5ms     OK
+162 uf50-0554.cnf                                     50     218     SAT     SAT      111.6ms       71.1ms     OK
+163 uf50-054.cnf                                      50     218     SAT     SAT      126.5ms       68.8ms     OK
+164 uf50-067.cnf                                      50     218     SAT     SAT       87.7ms       56.4ms     OK
+165 uf50-0598.cnf                                     50     218     SAT     SAT       87.1ms       52.3ms     OK
+166 uf50-0611.cnf                                     50     218     SAT     SAT      105.8ms       51.4ms     OK
+167 uf50-0684.cnf                                     50     218     SAT     SAT       83.9ms       58.2ms     OK
+168 uf50-0712.cnf                                     50     218     SAT     SAT       78.1ms       66.6ms     OK
+169 uf50-0699.cnf                                     50     218     SAT     SAT       92.3ms       81.4ms     OK
+170 uf50-0770.cnf                                     50     218     SAT     SAT       52.8ms       83.3ms     OK
+171 uf50-0756.cnf                                     50     218     SAT     SAT       72.2ms       84.6ms     OK
+172 uf50-0741.cnf                                     50     218     SAT     SAT       71.0ms       84.3ms     OK
+173 uf50-0727.cnf                                     50     218     SAT     SAT       74.6ms       93.8ms     OK
+174 uf50-0828.cnf                                     50     218     SAT     SAT       60.3ms       58.3ms     OK
+175 uf50-0813.cnf                                     50     218     SAT     SAT       64.6ms       76.7ms     OK
+176 uf50-0929.cnf                                     50     218     SAT     SAT       73.8ms       49.1ms     OK
+177 uf50-0871.cnf                                     50     218     SAT     SAT       59.3ms       74.6ms     OK
+178 uf50-0785.cnf                                     50     218     SAT     SAT       58.6ms       95.5ms     OK
+179 uf50-08.cnf                                       50     218     SAT     SAT       63.9ms       82.1ms     OK
+180 uf50-0857.cnf                                     50     218     SAT     SAT       74.0ms       54.7ms     OK
+181 uf50-0958.cnf                                     50     218     SAT     SAT       74.6ms       45.0ms     OK
+182 uf50-0886.cnf                                     50     218     SAT     SAT       67.3ms       56.0ms     OK
+183 uf50-0943.cnf                                     50     218     SAT     SAT       74.1ms       50.3ms     OK
+184 uf50-0987.cnf                                     50     218     SAT     SAT       70.7ms       50.6ms     OK
+185 uf50-0842.cnf                                     50     218     SAT     SAT       68.5ms       67.6ms     OK
+186 uf50-0972.cnf                                     50     218     SAT     SAT      102.4ms       10.2ms     OK
+187 uf50-090.cnf                                      50     218     SAT     SAT      100.1ms       39.9ms     OK
+188 uf50-0914.cnf                                     50     218     SAT     SAT       96.6ms       11.5ms     OK
+189 uf50-0166.cnf                                     50     218     SAT     SAT       18.5ms       49.1ms     OK
+190 uf50-0108.cnf                                     50     218     SAT     SAT       22.7ms       50.3ms     OK
+191 uf50-0122.cnf                                     50     218     SAT     SAT       43.8ms       57.7ms     OK
+192 uf50-0353.cnf                                     50     218     SAT     SAT       34.9ms       60.2ms     OK
+193 uf50-0151.cnf                                     50     218     SAT     SAT       40.1ms       59.0ms     OK
+194 uf50-0454.cnf                                     50     218     SAT     SAT       30.9ms       60.2ms     OK
+195 uf50-0180.cnf                                     50     218     SAT     SAT       43.2ms       60.2ms     OK
+196 uf50-0281.cnf                                     50     218     SAT     SAT       33.1ms       69.1ms     OK
+197 uf50-0267.cnf                                     50     218     SAT     SAT       39.1ms       64.9ms     OK
+198 uf50-0223.cnf                                     50     218     SAT     SAT       52.1ms       55.2ms     OK
+199 uf50-0209.cnf                                     50     218     SAT     SAT       59.0ms       52.0ms     OK
+200 uf50-0252.cnf                                     50     218     SAT     SAT       56.3ms       56.2ms     OK
+201 uf50-044.cnf                                      50     218     SAT     SAT       61.7ms       44.2ms     OK
+202 uf50-0368.cnf                                     50     218     SAT     SAT       70.2ms       45.3ms     OK
+203 uf50-0238.cnf                                     50     218     SAT     SAT       60.2ms       58.8ms     OK
+204 uf50-0137.cnf                                     50     218     SAT     SAT       61.1ms       64.1ms     OK
+205 uf50-0425.cnf                                     50     218     SAT     SAT       97.3ms       36.9ms     OK
+206 uf50-0526.cnf                                     50     218     SAT     SAT       82.5ms       49.6ms     OK
+207 uf50-0195.cnf                                     50     218     SAT     SAT       80.8ms       63.5ms     OK
+208 uf50-0498.cnf                                     50     218     SAT     SAT       91.7ms       53.0ms     OK
+209 uf50-0469.cnf                                     50     218     SAT     SAT       88.8ms       64.9ms     OK
+210 uf50-0339.cnf                                     50     218     SAT     SAT       83.3ms       57.2ms     OK
+211 uf50-0511.cnf                                     50     218     SAT     SAT       83.4ms       51.3ms     OK
+212 uf50-0397.cnf                                     50     218     SAT     SAT       94.3ms       60.0ms     OK
+213 uf50-0296.cnf                                     50     218     SAT     SAT       90.0ms       78.8ms     OK
+214 uf50-0410.cnf                                     50     218     SAT     SAT       91.5ms       80.1ms     OK
+215 uf50-057.cnf                                      50     218     SAT     SAT       52.7ms       66.4ms     OK
+216 uf50-0483.cnf                                     50     218     SAT     SAT       99.3ms       69.0ms     OK
+217 uf50-0540.cnf                                     50     218     SAT     SAT       90.7ms       72.9ms     OK
+218 uf50-0555.cnf                                     50     218     SAT     SAT       92.8ms       75.6ms     OK
+219 uf50-031.cnf                                      50     218     SAT     SAT       99.1ms       86.1ms     OK
+220 uf50-0324.cnf                                     50     218     SAT     SAT       97.0ms       85.9ms     OK
+221 uf50-0382.cnf                                     50     218     SAT     SAT       92.0ms       82.3ms     OK
+222 uf50-0584.cnf                                     50     218     SAT     SAT       62.4ms       60.9ms     OK
+223 uf50-0656.cnf                                     50     218     SAT     SAT       35.6ms       73.9ms     OK
+224 uf50-0757.cnf                                     50     218     SAT     SAT       59.5ms       34.3ms     OK
+225 uf50-0670.cnf                                     50     218     SAT     SAT       52.0ms       61.4ms     OK
+226 uf50-0612.cnf                                     50     218     SAT     SAT       78.5ms       37.6ms     OK
+227 uf50-0742.cnf                                     50     218     SAT     SAT       66.9ms       35.4ms     OK
+228 uf50-0713.cnf                                     50     218     SAT     SAT       64.3ms       44.7ms     OK
+229 uf50-0685.cnf                                     50     218     SAT     SAT       74.3ms       38.9ms     OK
+230 uf50-0599.cnf                                     50     218     SAT     SAT       92.9ms       31.2ms     OK
+231 uf50-0627.cnf                                     50     218     SAT     SAT       92.4ms       30.3ms     OK
+232 uf50-0771.cnf                                     50     218     SAT     SAT       82.4ms       32.3ms     OK
+233 uf50-0814.cnf                                     50     218     SAT     SAT       51.3ms       32.1ms     OK
+234 uf50-07.cnf                                       50     218     SAT     SAT       93.8ms       34.4ms     OK
+235 uf50-0829.cnf                                     50     218     SAT     SAT       37.9ms       22.9ms     OK
+236 uf50-0915.cnf                                     50     218     SAT     SAT       33.4ms       23.4ms     OK
+237 uf50-080.cnf                                      50     218     SAT     SAT       71.9ms       24.5ms     OK
+238 uf50-0786.cnf                                     50     218     SAT     SAT       66.5ms       46.8ms     OK
+239 uf50-0728.cnf                                     50     218     SAT     SAT       92.5ms       31.7ms     OK
+240 uf50-0973.cnf                                     50     218     SAT     SAT       42.7ms       20.5ms     OK
+241 uf50-0641.cnf                                     50     218     SAT     SAT       82.9ms       37.1ms     OK
+242 uf50-0887.cnf                                     50     218     SAT     SAT       48.6ms       33.4ms     OK
+243 uf50-0872.cnf                                     50     218     SAT     SAT       57.0ms       29.1ms     OK
+244 uf50-0900.cnf                                     50     218     SAT     SAT       66.8ms       35.6ms     OK
+245 uf50-0858.cnf                                     50     218     SAT     SAT       49.5ms       37.6ms     OK
+246 uf50-0944.cnf                                     50     218     SAT     SAT       58.7ms       29.5ms     OK
+247 uf50-093.cnf                                      50     218     SAT     SAT       47.6ms       42.5ms     OK
+248 uf50-0843.cnf                                     50     218     SAT     SAT       56.0ms       34.7ms     OK
+249 uf50-0959.cnf                                     50     218     SAT     SAT       45.6ms       40.9ms     OK
+250 uf50-0988.cnf                                     50     218     SAT     SAT       46.2ms       40.2ms     OK
+251 uf50-0152.cnf                                     50     218     SAT     SAT       17.8ms       68.9ms     OK
+252 uf50-0167.cnf                                     50     218     SAT     SAT       21.7ms       67.6ms     OK
+253 uf50-0109.cnf                                     50     218     SAT     SAT       22.3ms       74.6ms     OK
+254 uf50-021.cnf                                      50     218     SAT     SAT       50.0ms       35.1ms     OK
+255 uf50-0196.cnf                                     50     218     SAT     SAT       51.9ms       49.7ms     OK
+256 uf50-0224.cnf                                     50     218     SAT     SAT       50.8ms       49.5ms     OK
+257 uf50-0297.cnf                                     50     218     SAT     SAT       49.4ms       52.0ms     OK
+258 uf50-0354.cnf                                     50     218     SAT     SAT       48.5ms       60.6ms     OK
+259 uf50-0282.cnf                                     50     218     SAT     SAT       50.9ms       57.8ms     OK
+260 uf50-047.cnf                                      50     218     SAT     SAT       67.6ms       30.2ms     OK
+261 uf50-0123.cnf                                     50     218     SAT     SAT       57.7ms       62.8ms     OK
+262 uf50-0253.cnf                                     50     218     SAT     SAT       61.6ms       61.1ms     OK
+263 uf50-0268.cnf                                     50     218     SAT     SAT       48.1ms       77.6ms     OK
+264 uf50-0239.cnf                                     50     218     SAT     SAT       69.6ms       56.5ms     OK
+265 uf50-0512.cnf                                     50     218     SAT     SAT       74.5ms       36.2ms     OK
+266 uf50-0369.cnf                                     50     218     SAT     SAT       72.2ms       48.7ms     OK
+267 uf50-034.cnf                                      50     218     SAT     SAT       79.7ms       40.7ms     OK
+268 uf50-0440.cnf                                     50     218     SAT     SAT       86.6ms       42.6ms     OK
+269 uf50-0383.cnf                                     50     218     SAT     SAT       69.6ms       52.4ms     OK
+270 uf50-0138.cnf                                     50     218     SAT     SAT       91.3ms       42.7ms     OK
+271 uf50-0398.cnf                                     50     218     SAT     SAT       91.1ms       44.3ms     OK
+272 uf50-0325.cnf                                     50     218     SAT     SAT       78.2ms       54.1ms     OK
+273 uf50-0484.cnf                                     50     218     SAT     SAT       88.9ms       38.8ms     OK
+274 uf50-0310.cnf                                     50     218     SAT     SAT       92.0ms       46.9ms     OK
+275 uf50-0426.cnf                                     50     218     SAT     SAT       85.3ms       48.7ms     OK
+276 uf50-0181.cnf                                     50     218     SAT     SAT       74.2ms       56.0ms     OK
+277 uf50-0527.cnf                                     50     218     SAT     SAT       73.6ms       54.5ms     OK
+278 uf50-0411.cnf                                     50     218     SAT     SAT       91.3ms       56.1ms     OK
+279 uf50-0556.cnf                                     50     218     SAT     SAT       82.3ms       50.6ms     OK
+280 uf50-0455.cnf                                     50     218     SAT     SAT       89.6ms       53.2ms     OK
+281 uf50-0570.cnf                                     50     218     SAT     SAT       49.0ms       32.0ms     OK
+282 uf50-0541.cnf                                     50     218     SAT     SAT       81.0ms       60.9ms     OK
+283 uf50-0499.cnf                                     50     218     SAT     SAT       91.9ms       33.4ms     OK
+284 uf50-0613.cnf                                     50     218     SAT     SAT       42.9ms       28.1ms     OK
+285 uf50-0642.cnf                                     50     218     SAT     SAT       43.1ms       25.7ms     OK
+286 uf50-0585.cnf                                     50     218     SAT     SAT       54.2ms       31.0ms     OK
+287 uf50-0657.cnf                                     50     218     SAT     SAT       41.8ms       31.3ms     OK
+288 uf50-0686.cnf                                     50     218     SAT     SAT       42.9ms       39.5ms     OK
+289 uf50-070.cnf                                      50     218     SAT     SAT       38.8ms       47.6ms     OK
+290 uf50-06.cnf                                       50     218     SAT     SAT       56.9ms       46.4ms     OK
+291 uf50-0714.cnf                                     50     218     SAT     SAT       39.7ms       50.5ms     OK
+292 uf50-0815.cnf                                     50     218     SAT     SAT       39.3ms       37.6ms     OK
+293 uf50-0671.cnf                                     50     218     SAT     SAT       47.1ms       55.0ms     OK
+294 uf50-0901.cnf                                     50     218     SAT     SAT       31.3ms       49.0ms     OK
+295 uf50-0628.cnf                                     50     218     SAT     SAT       49.1ms       48.3ms     OK
+296 uf50-0844.cnf                                     50     218     SAT     SAT       31.3ms       52.6ms     OK
+297 uf50-0888.cnf                                     50     218     SAT     SAT       41.8ms       31.4ms     OK
+298 uf50-0787.cnf                                     50     218     SAT     SAT       48.9ms       46.3ms     OK
+299 uf50-0729.cnf                                     50     218     SAT     SAT       31.7ms       65.1ms     OK
+300 uf50-0772.cnf                                     50     218     SAT     SAT       40.4ms       51.7ms     OK
+301 uf50-0800.cnf                                     50     218     SAT     SAT       36.5ms       58.3ms     OK
+302 uf50-0916.cnf                                     50     218     SAT     SAT       37.3ms       20.0ms     OK
+303 uf50-0743.cnf                                     50     218     SAT     SAT       60.3ms       19.2ms     OK
+304 uf50-0945.cnf                                     50     218     SAT     SAT       38.0ms       20.9ms     OK
+305 uf50-083.cnf                                      50     218     SAT     SAT       44.1ms       30.0ms     OK
+306 uf50-0873.cnf                                     50     218     SAT     SAT       40.2ms       36.3ms     OK
+307 uf50-096.cnf                                      50     218     SAT     SAT       43.0ms       34.1ms     OK
+308 uf50-0859.cnf                                     50     218     SAT     SAT       41.8ms       42.8ms     OK
+309 uf50-0930.cnf                                     50     218     SAT     SAT       55.8ms       23.3ms     OK
+310 uf50-0974.cnf                                     50     218     SAT     SAT       50.5ms       28.7ms     OK
+311 uf50-0758.cnf                                     50     218     SAT     SAT       66.0ms       46.6ms     OK
+312 uf50-0989.cnf                                     50     218     SAT     SAT       56.2ms       26.3ms     OK
+313 uf50-0124.cnf                                     50     218     SAT     SAT       16.0ms       40.8ms     OK
+314 uf50-0139.cnf                                     50     218     SAT     SAT       29.6ms       59.3ms     OK
+315 uf50-011.cnf                                      50     218     SAT     SAT       43.9ms       56.9ms     OK
+316 uf50-0182.cnf                                     50     218     SAT     SAT       29.1ms       67.9ms     OK
+317 uf50-0384.cnf                                     50     218     SAT     SAT       47.6ms       52.8ms     OK
+318 uf50-037.cnf                                      50     218     SAT     SAT       44.4ms       57.4ms     OK
+319 uf50-0269.cnf                                     50     218     SAT     SAT       46.9ms       58.0ms     OK
+320 uf50-0326.cnf                                     50     218     SAT     SAT       43.0ms       56.7ms     OK
+321 uf50-0355.cnf                                     50     218     SAT     SAT       56.8ms       52.9ms     OK
+322 uf50-0197.cnf                                     50     218     SAT     SAT       59.1ms       57.0ms     OK
+323 uf50-0210.cnf                                     50     218     SAT     SAT       53.8ms       49.4ms     OK
+324 uf50-0528.cnf                                     50     218     SAT     SAT       45.1ms       61.7ms     OK
+325 uf50-0225.cnf                                     50     218     SAT     SAT       53.3ms       51.5ms     OK
+326 uf50-0168.cnf                                     50     218     SAT     SAT       48.7ms       62.9ms     OK
+327 uf50-0470.cnf                                     50     218     SAT     SAT       54.2ms       57.6ms     OK
+328 uf50-0557.cnf                                     50     218     SAT     SAT       51.5ms       53.4ms     OK
+329 uf50-0513.cnf                                     50     218     SAT     SAT       61.1ms       41.5ms     OK
+330 uf50-0485.cnf                                     50     218     SAT     SAT       62.4ms       47.4ms     OK
+331 uf50-05.cnf                                       50     218     SAT     SAT       44.1ms       61.1ms     OK
+332 uf50-0298.cnf                                     50     218     SAT     SAT       50.2ms       68.3ms     OK
+333 uf50-0283.cnf                                     50     218     SAT     SAT       31.6ms       83.9ms     OK
+334 uf50-0254.cnf                                     50     218     SAT     SAT       61.0ms       50.9ms     OK
+335 uf50-0340.cnf                                     50     218     SAT     SAT       58.3ms       59.8ms     OK
+336 uf50-024.cnf                                      50     218     SAT     SAT       76.0ms       30.7ms     OK
+337 uf50-0311.cnf                                     50     218     SAT     SAT       75.6ms       36.1ms     OK
+338 uf50-0427.cnf                                     50     218     SAT     SAT       65.5ms       45.9ms     OK
+339 uf50-0153.cnf                                     50     218     SAT     SAT       68.9ms       54.6ms     OK
+340 uf50-0542.cnf                                     50     218     SAT     SAT       80.0ms       32.2ms     OK
+341 uf50-0399.cnf                                     50     218     SAT     SAT       84.6ms       39.8ms     OK
+342 uf50-0571.cnf                                     50     218     SAT     SAT       63.2ms       28.4ms     OK
+343 uf50-0412.cnf                                     50     218     SAT     SAT       88.7ms       37.0ms     OK
+344 uf50-0441.cnf                                     50     218     SAT     SAT       97.8ms       42.8ms     OK
+345 uf50-0456.cnf                                     50     218     SAT     SAT       91.8ms       44.8ms     OK
+346 uf50-060.cnf                                      50     218     SAT     SAT       33.8ms       29.3ms     OK
+347 uf50-0586.cnf                                     50     218     SAT     SAT       35.6ms       34.4ms     OK
+348 uf50-0614.cnf                                     50     218     SAT     SAT       46.3ms       48.5ms     OK
+349 uf50-0845.cnf                                     50     218     SAT     SAT       33.8ms       44.8ms     OK
+350 uf50-0672.cnf                                     50     218     SAT     SAT       41.0ms       44.4ms     OK
+351 uf50-0715.cnf                                     50     218     SAT     SAT       32.1ms       45.0ms     OK
+352 uf50-0759.cnf                                     50     218     SAT     SAT       36.1ms       44.5ms     OK
+353 uf50-0816.cnf                                     50     218     SAT     SAT       35.8ms       44.8ms     OK
+354 uf50-0700.cnf                                     50     218     SAT     SAT       41.0ms       41.4ms     OK
+355 uf50-0830.cnf                                     50     218     SAT     SAT       33.1ms       59.3ms     OK
+356 uf50-0773.cnf                                     50     218     SAT     SAT       32.8ms       54.0ms     OK
+357 uf50-0687.cnf                                     50     218     SAT     SAT       36.0ms       70.8ms     OK
+358 uf50-0917.cnf                                     50     218     SAT     SAT       58.5ms       39.9ms     OK
+359 uf50-0629.cnf                                     50     218     SAT     SAT       46.4ms       65.2ms     OK
+360 uf50-099.cnf                                      50     218     SAT     SAT       51.0ms       28.8ms     OK
+361 uf50-0643.cnf                                     50     218     SAT     SAT       85.4ms       34.8ms     OK
+362 uf50-0801.cnf                                     50     218     SAT     SAT       62.2ms       40.1ms     OK
+363 uf50-0658.cnf                                     50     218     SAT     SAT       74.4ms       37.4ms     OK
+364 uf50-0874.cnf                                     50     218     SAT     SAT       64.3ms       42.3ms     OK
+365 uf50-0744.cnf                                     50     218     SAT     SAT       76.7ms       34.2ms     OK
+366 uf50-0902.cnf                                     50     218     SAT     SAT       40.8ms       27.6ms     OK
+367 uf50-0788.cnf                                     50     218     SAT     SAT       41.2ms       27.3ms     OK
+368 uf50-086.cnf                                      50     218     SAT     SAT       57.9ms       43.0ms     OK
+369 uf50-0931.cnf                                     50     218     SAT     SAT       60.6ms       46.4ms     OK
+370 uf50-0889.cnf                                     50     218     SAT     SAT       60.5ms       29.1ms     OK
+371 uf50-073.cnf                                      50     218     SAT     SAT       62.2ms       48.1ms     OK
+372 uf50-0975.cnf                                     50     218     SAT     SAT       29.3ms       23.4ms     OK
+373 uf50-0946.cnf                                     50     218     SAT     SAT       72.1ms       43.7ms     OK
+374 uf50-0960.cnf                                     50     218     SAT     SAT       68.3ms       47.8ms     OK
+375 uf50-0125.cnf                                     50     218     SAT     SAT       15.6ms       11.5ms     OK
+376 uf50-0110.cnf                                     50     218     SAT     SAT       18.6ms       13.6ms     OK
+377 uf50-0413.cnf                                     50     218     SAT     SAT       39.6ms       42.0ms     OK
+378 uf50-0356.cnf                                     50     218     SAT     SAT       35.5ms       45.8ms     OK
+379 uf50-0471.cnf                                     50     218     SAT     SAT       35.2ms       51.1ms     OK
+380 uf50-0226.cnf                                     50     218     SAT     SAT       52.5ms       51.7ms     OK
+381 uf50-0514.cnf                                     50     218     SAT     SAT       37.7ms       52.4ms     OK
+382 uf50-014.cnf                                      50     218     SAT     SAT       54.7ms       51.7ms     OK
+383 uf50-0341.cnf                                     50     218     SAT     SAT       38.3ms       68.4ms     OK
+384 uf50-0385.cnf                                     50     218     SAT     SAT       58.3ms       44.9ms     OK
+385 uf50-0370.cnf                                     50     218     SAT     SAT       53.2ms       46.7ms     OK
+386 uf50-0529.cnf                                     50     218     SAT     SAT       52.1ms       45.1ms     OK
+387 uf50-0543.cnf                                     50     218     SAT     SAT       45.2ms       65.0ms     OK
+388 uf50-0154.cnf                                     50     218     SAT     SAT       42.8ms       72.1ms     OK
+389 uf50-0284.cnf                                     50     218     SAT     SAT       43.4ms       70.7ms     OK
+390 uf50-0299.cnf                                     50     218     SAT     SAT       67.8ms       46.9ms     OK
+391 uf50-0183.cnf                                     50     218     SAT     SAT       64.5ms       52.9ms     OK
+392 uf50-0211.cnf                                     50     218     SAT     SAT       42.7ms       82.7ms     OK
+393 uf50-0558.cnf                                     50     218     SAT     SAT       59.2ms       52.8ms     OK
+394 uf50-050.cnf                                      50     218     SAT     SAT       57.7ms       60.5ms     OK
+395 uf50-0198.cnf                                     50     218     SAT     SAT       57.5ms       69.7ms     OK
+396 uf50-04.cnf                                       50     218     SAT     SAT       57.8ms       65.9ms     OK
+397 uf50-0327.cnf                                     50     218     SAT     SAT       63.3ms       63.5ms     OK
+398 uf50-0240.cnf                                     50     218     SAT     SAT       69.8ms       60.6ms     OK
+399 uf50-0428.cnf                                     50     218     SAT     SAT       77.0ms       50.0ms     OK
+400 uf50-0169.cnf                                     50     218     SAT     SAT       58.6ms       74.6ms     OK
+401 uf50-0457.cnf                                     50     218     SAT     SAT       65.6ms       60.5ms     OK
+402 uf50-0442.cnf                                     50     218     SAT     SAT       73.3ms       50.3ms     OK
+403 uf50-0486.cnf                                     50     218     SAT     SAT       55.6ms       73.1ms     OK
+404 uf50-027.cnf                                      50     218     SAT     SAT       65.9ms       72.3ms     OK
+405 uf50-0587.cnf                                     50     218     SAT     SAT       57.9ms       50.4ms     OK
+406 uf50-0312.cnf                                     50     218     SAT     SAT       65.5ms       60.4ms     OK
+407 uf50-0255.cnf                                     50     218     SAT     SAT       72.0ms       68.1ms     OK
+408 uf50-0572.cnf                                     50     218     SAT     SAT       75.7ms       75.8ms     OK
+409 uf50-0615.cnf                                     50     218     SAT     SAT       45.0ms       63.0ms     OK
+410 uf50-0644.cnf                                     50     218     SAT     SAT       50.7ms       58.7ms     OK
+411 uf50-0659.cnf                                     50     218     SAT     SAT       55.7ms       46.9ms     OK
+412 uf50-0673.cnf                                     50     218     SAT     SAT       52.7ms       59.0ms     OK
+413 uf50-0600.cnf                                     50     218     SAT     SAT       71.7ms       44.8ms     OK
+414 uf50-0730.cnf                                     50     218     SAT     SAT       62.2ms       33.0ms     OK
+415 uf50-0716.cnf                                     50     218     SAT     SAT       68.1ms       33.2ms     OK
+416 uf50-0688.cnf                                     50     218     SAT     SAT       76.8ms       34.9ms     OK
+417 uf50-076.cnf                                      50     218     SAT     SAT       64.4ms       44.1ms     OK
+418 uf50-063.cnf                                      50     218     SAT     SAT       93.5ms       37.7ms     OK
+419 uf50-0802.cnf                                     50     218     SAT     SAT       73.7ms       37.0ms     OK
+420 uf50-0831.cnf                                     50     218     SAT     SAT       65.1ms       39.6ms     OK
+421 uf50-0918.cnf                                     50     218     SAT     SAT       69.1ms       34.5ms     OK
+422 uf50-0701.cnf                                     50     218     SAT     SAT       64.3ms       33.5ms     OK
+423 uf50-0976.cnf                                     50     218     SAT     SAT       55.9ms       31.7ms     OK
+424 uf50-089.cnf                                      50     218     SAT     SAT       69.6ms       34.1ms     OK
+425 uf50-0860.cnf                                     50     218     SAT     SAT       79.3ms       25.1ms     OK
+426 uf50-0875.cnf                                     50     218     SAT     SAT       80.2ms       31.3ms     OK
+427 uf50-0903.cnf                                     50     218     SAT     SAT       71.9ms       35.9ms     OK
+428 uf50-0961.cnf                                     50     218     SAT     SAT       73.8ms       24.2ms     OK
+429 uf50-0789.cnf                                     50     218     SAT     SAT       72.6ms       51.4ms     OK
+430 uf50-0745.cnf                                     50     218     SAT     SAT       96.3ms       39.4ms     OK
+431 uf50-0817.cnf                                     50     218     SAT     SAT       64.1ms       36.3ms     OK
+432 uf50-0774.cnf                                     50     218     SAT     SAT       80.2ms       47.4ms     OK
+433 uf50-0846.cnf                                     50     218     SAT     SAT       75.9ms       52.9ms     OK
+434 uf50-0947.cnf                                     50     218     SAT     SAT       77.2ms       50.5ms     OK
+435 uf50-0990.cnf                                     50     218     SAT     SAT       70.7ms       56.3ms     OK
+436 uf50-0932.cnf                                     50     218     SAT     SAT       44.5ms       46.7ms     OK
+437 uf50-0270.cnf                                     50     218     SAT     SAT       15.7ms       31.4ms     OK
+438 uf50-0126.cnf                                     50     218     SAT     SAT       23.7ms       26.6ms     OK
+439 uf50-0313.cnf                                     50     218     SAT     SAT       18.8ms       28.8ms     OK
+440 uf50-0241.cnf                                     50     218     SAT     SAT       19.2ms       28.9ms     OK
+441 uf50-0184.cnf                                     50     218     SAT     SAT       23.3ms       32.4ms     OK
+442 uf50-0140.cnf                                     50     218     SAT     SAT       23.7ms       42.6ms     OK
+443 uf50-0227.cnf                                     50     218     SAT     SAT       39.7ms       53.7ms     OK
+444 uf50-0342.cnf                                     50     218     SAT     SAT       46.6ms       51.8ms     OK
+445 uf50-0371.cnf                                     50     218     SAT     SAT       47.1ms       61.2ms     OK
+446 uf50-0386.cnf                                     50     218     SAT     SAT       43.7ms       60.2ms     OK
+447 uf50-017.cnf                                      50     218     SAT     SAT       59.1ms       61.0ms     OK
+448 uf50-0328.cnf                                     50     218     SAT     SAT       49.0ms       73.8ms     OK
+449 uf50-03.cnf                                       50     218     SAT     SAT       54.5ms       81.7ms     OK
+450 uf50-0256.cnf                                     50     218     SAT     SAT       65.4ms       77.3ms     OK
+451 uf50-0111.cnf                                     50     218     SAT     SAT       57.3ms       73.6ms     OK
+452 uf50-0414.cnf                                     50     218     SAT     SAT       67.0ms       72.7ms     OK
+453 uf50-0199.cnf                                     50     218     SAT     SAT       45.8ms       99.0ms     OK
+454 uf50-0429.cnf                                     50     218     SAT     SAT       73.4ms       76.3ms     OK
+455 uf50-0155.cnf                                     50     218     SAT     SAT       72.8ms       76.4ms     OK
+456 uf50-0472.cnf                                     50     218     SAT     SAT       54.4ms       92.9ms     OK
+457 uf50-0357.cnf                                     50     218     SAT     SAT       59.6ms       99.4ms     OK
+458 uf50-040.cnf                                      50     218     SAT     SAT       71.7ms       85.5ms     OK
+459 uf50-0573.cnf                                     50     218     SAT     SAT       75.2ms       48.5ms     OK
+460 uf50-0559.cnf                                     50     218     SAT     SAT       86.9ms       63.6ms     OK
+461 uf50-0212.cnf                                     50     218     SAT     SAT       97.3ms       65.1ms     OK
+462 uf50-0588.cnf                                     50     218     SAT     SAT       72.1ms       55.3ms     OK
+463 uf50-0616.cnf                                     50     218     SAT     SAT       65.9ms       55.0ms     OK
+464 uf50-0285.cnf                                     50     218     SAT     SAT       53.9ms      122.8ms     OK
+465 uf50-0458.cnf                                     50     218     SAT     SAT       83.4ms       67.9ms     OK
+466 uf50-0443.cnf                                     50     218     SAT     SAT       78.0ms       93.9ms     OK
+467 uf50-0500.cnf                                     50     218     SAT     SAT       81.4ms       81.8ms     OK
+468 uf50-0544.cnf                                     50     218     SAT     SAT      101.4ms       54.2ms     OK
+469 uf50-0601.cnf                                     50     218     SAT     SAT       57.8ms       72.1ms     OK
+470 uf50-053.cnf                                      50     218     SAT     SAT       86.0ms       72.9ms     OK
+471 uf50-0487.cnf                                     50     218     SAT     SAT       95.6ms       69.1ms     OK
+472 uf50-0515.cnf                                     50     218     SAT     SAT       83.1ms       74.8ms     OK
+473 uf50-066.cnf                                      50     218     SAT     SAT       60.8ms       37.6ms     OK
+474 uf50-0674.cnf                                     50     218     SAT     SAT       53.4ms       37.7ms     OK
+475 uf50-0645.cnf                                     50     218     SAT     SAT       74.6ms       48.4ms     OK
+476 uf50-0630.cnf                                     50     218     SAT     SAT       78.8ms       61.2ms     OK
+477 uf50-0702.cnf                                     50     218     SAT     SAT       56.4ms       39.0ms     OK
+478 uf50-0689.cnf                                     50     218     SAT     SAT       56.0ms       44.6ms     OK
+479 uf50-0731.cnf                                     50     218     SAT     SAT       63.4ms       34.1ms     OK
+480 uf50-0746.cnf                                     50     218     SAT     SAT       48.3ms       25.5ms     OK
+481 uf50-0818.cnf                                     50     218     SAT     SAT       37.2ms       29.6ms     OK
+482 uf50-0775.cnf                                     50     218     SAT     SAT       44.4ms       32.9ms     OK
+483 uf50-0803.cnf                                     50     218     SAT     SAT       42.4ms       27.6ms     OK
+484 uf50-0832.cnf                                     50     218     SAT     SAT       42.1ms       28.8ms     OK
+485 uf50-079.cnf                                      50     218     SAT     SAT       38.0ms       34.2ms     OK
+486 uf50-0717.cnf                                     50     218     SAT     SAT       57.6ms       46.0ms     OK
+487 uf50-0760.cnf                                     50     218     SAT     SAT       53.0ms       36.5ms     OK
+488 uf50-0904.cnf                                     50     218     SAT     SAT       45.1ms       22.5ms     OK
+489 uf50-0890.cnf                                     50     218     SAT     SAT       44.7ms       26.2ms     OK
+490 uf50-0919.cnf                                     50     218     SAT     SAT       45.7ms       28.8ms     OK
+491 uf50-0948.cnf                                     50     218     SAT     SAT       42.6ms       28.7ms     OK
+492 uf50-0933.cnf                                     50     218     SAT     SAT       29.9ms       22.9ms     OK
+493 uf50-0847.cnf                                     50     218     SAT     SAT       65.6ms       35.0ms     OK
+494 uf50-0991.cnf                                     50     218     SAT     SAT       37.4ms       29.1ms     OK
+495 uf50-0861.cnf                                     50     218     SAT     SAT       47.6ms       41.7ms     OK
+496 uf50-0962.cnf                                     50     218     SAT     SAT       47.8ms       35.4ms     OK
+497 uf50-0876.cnf                                     50     218     SAT     SAT       54.6ms       46.5ms     OK
+498 uf50-0977.cnf                                     50     218     SAT     SAT       39.1ms       23.4ms     OK
+499 uf50-0114.cnf                                     50     218     SAT     SAT       26.2ms       57.7ms     OK
+500 uf50-036.cnf                                      50     218     SAT     SAT       24.2ms       63.7ms     OK
+501 uf50-0259.cnf                                     50     218     SAT     SAT       26.3ms       82.7ms     OK
+502 uf50-0143.cnf                                     50     218     SAT     SAT       51.1ms       61.7ms     OK
+503 uf50-0273.cnf                                     50     218     SAT     SAT       54.5ms       58.5ms     OK
+504 uf50-0402.cnf                                     50     218     SAT     SAT       50.9ms       71.6ms     OK
+505 uf50-0316.cnf                                     50     218     SAT     SAT       61.8ms       71.3ms     OK
+506 uf50-0244.cnf                                     50     218     SAT     SAT       54.6ms       83.9ms     OK
+507 uf50-0475.cnf                                     50     218     SAT     SAT       44.5ms       76.0ms     OK
+508 uf50-0187.cnf                                     50     218     SAT     SAT       60.8ms       77.4ms     OK
+509 uf50-0129.cnf                                     50     218     SAT     SAT       62.3ms       79.4ms     OK
+510 uf50-0345.cnf                                     50     218     SAT     SAT       61.9ms       71.8ms     OK
+511 uf50-0431.cnf                                     50     218     SAT     SAT       47.9ms       88.0ms     OK
+512 uf50-0330.cnf                                     50     218     SAT     SAT       62.2ms       58.4ms     OK
+513 uf50-0158.cnf                                     50     218     SAT     SAT       51.8ms       82.8ms     OK
+514 uf50-0215.cnf                                     50     218     SAT     SAT       71.6ms       70.9ms     OK
+515 uf50-0460.cnf                                     50     218     SAT     SAT       58.6ms       77.1ms     OK
+516 uf50-023.cnf                                      50     218     SAT     SAT       62.2ms       69.9ms     OK
+517 uf50-0374.cnf                                     50     218     SAT     SAT       65.9ms       59.2ms     OK
+518 uf50-0389.cnf                                     50     218     SAT     SAT       77.4ms       55.0ms     OK
+519 uf50-0532.cnf                                     50     218     SAT     SAT       69.0ms       69.4ms     OK
+520 uf50-0100.cnf                                     50     218     SAT     SAT       68.1ms       74.6ms     OK
+521 uf50-0417.cnf                                     50     218     SAT     SAT       78.7ms       67.4ms     OK
+522 uf50-0446.cnf                                     50     218     SAT     SAT       86.9ms       55.2ms     OK
+523 uf50-0200.cnf                                     50     218     SAT     SAT       78.1ms       68.7ms     OK
+524 uf50-0503.cnf                                     50     218     SAT     SAT       70.3ms       66.0ms     OK
+525 uf50-0172.cnf                                     50     218     SAT     SAT       71.9ms       73.0ms     OK
+526 uf50-0301.cnf                                     50     218     SAT     SAT       69.9ms       73.3ms     OK
+527 uf50-0518.cnf                                     50     218     SAT     SAT       64.9ms       97.1ms     OK
+528 uf50-049.cnf                                      50     218     SAT     SAT       67.1ms       85.3ms     OK
+529 uf50-0547.cnf                                     50     218     SAT     SAT       85.1ms       72.0ms     OK
+530 uf50-0288.cnf                                     50     218     SAT     SAT       91.1ms       74.4ms     OK
+531 uf50-0561.cnf                                     50     218     SAT     SAT       64.9ms       36.8ms     OK
+532 uf50-0576.cnf                                     50     218     SAT     SAT       53.9ms       38.7ms     OK
+533 uf50-0604.cnf                                     50     218     SAT     SAT       60.3ms       48.1ms     OK
+534 uf50-0749.cnf                                     50     218     SAT     SAT       36.0ms       41.5ms     OK
+535 uf50-0778.cnf                                     50     218     SAT     SAT       34.7ms       39.2ms     OK
+536 uf50-0590.cnf                                     50     218     SAT     SAT       61.5ms       37.3ms     OK
+537 uf50-0648.cnf                                     50     218     SAT     SAT       30.1ms       40.5ms     OK
+538 uf50-0734.cnf                                     50     218     SAT     SAT       32.3ms       40.6ms     OK
+539 uf50-0633.cnf                                     50     218     SAT     SAT       39.6ms       50.8ms     OK
+540 uf50-072.cnf                                      50     218     SAT     SAT       38.0ms       63.5ms     OK
+541 uf50-0864.cnf                                     50     218     SAT     SAT       36.6ms       60.2ms     OK
+542 uf50-0662.cnf                                     50     218     SAT     SAT       42.0ms       65.0ms     OK
+543 uf50-0820.cnf                                     50     218     SAT     SAT       34.4ms       64.5ms     OK
+544 uf50-0619.cnf                                     50     218     SAT     SAT       62.5ms       75.4ms     OK
+545 uf50-0835.cnf                                     50     218     SAT     SAT       40.4ms       55.3ms     OK
+546 uf50-0677.cnf                                     50     218     SAT     SAT       37.4ms       77.1ms     OK
+547 uf50-0763.cnf                                     50     218     SAT     SAT       43.7ms       75.1ms     OK
+548 uf50-0705.cnf                                     50     218     SAT     SAT       38.1ms       70.9ms     OK
+549 uf50-0879.cnf                                     50     218     SAT     SAT       54.0ms       57.2ms     OK
+550 uf50-0921.cnf                                     50     218     SAT     SAT       45.5ms       55.0ms     OK
+551 uf50-0907.cnf                                     50     218     SAT     SAT       73.5ms       28.9ms     OK
+552 uf50-0792.cnf                                     50     218     SAT     SAT       61.3ms       57.5ms     OK
+553 uf50-0691.cnf                                     50     218     SAT     SAT       59.6ms       59.6ms     OK
+554 uf50-0893.cnf                                     50     218     SAT     SAT       42.8ms       71.3ms     OK
+555 uf50-085.cnf                                      50     218     SAT     SAT       51.9ms       62.7ms     OK
+556 uf50-0965.cnf                                     50     218     SAT     SAT       75.9ms       27.2ms     OK
+557 uf50-0994.cnf                                     50     218     SAT     SAT       75.3ms       25.8ms     OK
+558 uf50-0950.cnf                                     50     218     SAT     SAT       66.7ms       26.2ms     OK
+559 uf50-0806.cnf                                     50     218     SAT     SAT       53.9ms       71.7ms     OK
+560 uf50-098.cnf                                      50     218     SAT     SAT       81.5ms       22.6ms     OK
+561 uf50-0936.cnf                                     50     218     SAT     SAT       77.5ms       29.9ms     OK
+562 uf50-01000.cnf                                    50     218     SAT     SAT       21.5ms       55.9ms     OK
+563 uf50-0115.cnf                                     50     218     SAT     SAT       15.1ms       73.7ms     OK
+564 uf50-0144.cnf                                     50     218     SAT     SAT       33.4ms       58.7ms     OK
+565 uf50-0173.cnf                                     50     218     SAT     SAT       39.3ms       60.9ms     OK
+566 uf50-0201.cnf                                     50     218     SAT     SAT       21.1ms       77.7ms     OK
+567 uf50-0490.cnf                                     50     218     SAT     SAT       47.9ms       47.7ms     OK
+568 uf50-0216.cnf                                     50     218     SAT     SAT       41.9ms       60.9ms     OK
+569 uf50-013.cnf                                      50     218     SAT     SAT       54.6ms       68.7ms     OK
+570 uf50-0461.cnf                                     50     218     SAT     SAT       55.1ms       53.8ms     OK
+571 uf50-0317.cnf                                     50     218     SAT     SAT       49.9ms       66.1ms     OK
+572 uf50-0230.cnf                                     50     218     SAT     SAT       51.2ms       59.5ms     OK
+573 uf50-0519.cnf                                     50     218     SAT     SAT       54.3ms       60.4ms     OK
+574 uf50-026.cnf                                      50     218     SAT     SAT       58.2ms       55.9ms     OK
+575 uf50-0289.cnf                                     50     218     SAT     SAT       60.2ms       69.9ms     OK
+576 uf50-0432.cnf                                     50     218     SAT     SAT       66.7ms       52.4ms     OK
+577 uf50-0302.cnf                                     50     218     SAT     SAT       63.2ms       58.8ms     OK
+578 uf50-0331.cnf                                     50     218     SAT     SAT       59.4ms       68.3ms     OK
+579 uf50-0476.cnf                                     50     218     SAT     SAT       64.9ms       63.0ms     OK
+580 uf50-0418.cnf                                     50     218     SAT     SAT       62.9ms       61.4ms     OK
+581 uf50-0188.cnf                                     50     218     SAT     SAT       87.5ms       62.3ms     OK
+582 uf50-0375.cnf                                     50     218     SAT     SAT       61.8ms       62.5ms     OK
+583 uf50-0504.cnf                                     50     218     SAT     SAT       58.2ms       66.5ms     OK
+584 uf50-0360.cnf                                     50     218     SAT     SAT       57.8ms       76.3ms     OK
+585 uf50-0346.cnf                                     50     218     SAT     SAT       76.9ms       80.3ms     OK
+586 uf50-0403.cnf                                     50     218     SAT     SAT       64.0ms       73.9ms     OK
+587 uf50-0274.cnf                                     50     218     SAT     SAT       81.4ms       70.2ms     OK
+588 uf50-0548.cnf                                     50     218     SAT     SAT       79.7ms       71.4ms     OK
+589 uf50-039.cnf                                      50     218     SAT     SAT       82.4ms       60.3ms     OK
+590 uf50-0245.cnf                                     50     218     SAT     SAT       47.7ms      119.2ms     OK
+591 uf50-0447.cnf                                     50     218     SAT     SAT       55.4ms       97.4ms     OK
+592 uf50-0533.cnf                                     50     218     SAT     SAT       80.6ms       63.9ms     OK
+593 uf50-0159.cnf                                     50     218     SAT     SAT       85.4ms       70.0ms     OK
+594 uf50-0591.cnf                                     50     218     SAT     SAT       68.4ms       58.5ms     OK
+595 uf50-0562.cnf                                     50     218     SAT     SAT       90.7ms       57.2ms     OK
+596 uf50-0577.cnf                                     50     218     SAT     SAT       61.6ms       68.0ms     OK
+597 uf50-0706.cnf                                     50     218     SAT     SAT       49.8ms       67.6ms     OK
+598 uf50-0649.cnf                                     50     218     SAT     SAT       61.8ms       70.0ms     OK
+599 uf50-0779.cnf                                     50     218     SAT     SAT       42.6ms       72.8ms     OK
+600 uf50-0764.cnf                                     50     218     SAT     SAT       47.2ms       73.3ms     OK
+601 uf50-0793.cnf                                     50     218     SAT     SAT       40.0ms       70.3ms     OK
+602 uf50-0663.cnf                                     50     218     SAT     SAT       61.8ms       78.5ms     OK
+603 uf50-0634.cnf                                     50     218     SAT     SAT       71.0ms       68.0ms     OK
+604 uf50-0678.cnf                                     50     218     SAT     SAT       64.7ms       72.9ms     OK
+605 uf50-0605.cnf                                     50     218     SAT     SAT       64.7ms       99.6ms     OK
+606 uf50-0720.cnf                                     50     218     SAT     SAT       55.8ms       73.8ms     OK
+607 uf50-0692.cnf                                     50     218     SAT     SAT       54.3ms       77.4ms     OK
+608 uf50-062.cnf                                      50     218     SAT     SAT       70.8ms       94.6ms     OK
+609 uf50-075.cnf                                      50     218     SAT     SAT       50.7ms       70.1ms     OK
+610 uf50-0807.cnf                                     50     218     SAT     SAT       53.0ms       61.4ms     OK
+611 uf50-0735.cnf                                     50     218     SAT     SAT       67.8ms       66.3ms     OK
+612 uf50-0836.cnf                                     50     218     SAT     SAT       53.7ms       77.0ms     OK
+613 uf50-0966.cnf                                     50     218     SAT     SAT       64.9ms       47.8ms     OK
+614 uf50-0951.cnf                                     50     218     SAT     SAT       56.7ms       57.9ms     OK
+615 uf50-0821.cnf                                     50     218     SAT     SAT       61.2ms       77.6ms     OK
+616 uf50-0894.cnf                                     50     218     SAT     SAT       54.7ms       71.6ms     OK
+617 uf50-0850.cnf                                     50     218     SAT     SAT       58.5ms       79.7ms     OK
+618 uf50-088.cnf                                      50     218     SAT     SAT       71.6ms       52.9ms     OK
+619 uf50-0922.cnf                                     50     218     SAT     SAT       87.0ms       44.8ms     OK
+620 uf50-0995.cnf                                     50     218     SAT     SAT       87.8ms       25.9ms     OK
+621 uf50-0980.cnf                                     50     218     SAT     SAT       54.8ms       76.2ms     OK
+622 uf50-0908.cnf                                     50     218     SAT     SAT       83.7ms       29.9ms     OK
+623 uf50-0865.cnf                                     50     218     SAT     SAT       78.2ms       59.1ms     OK
+624 uf50-0937.cnf                                     50     218     SAT     SAT       78.7ms       49.1ms     OK
+625 uf50-0101.cnf                                     50     218     SAT     SAT       14.6ms       27.1ms     OK
+626 uf50-0130.cnf                                     50     218     SAT     SAT       27.2ms       64.7ms     OK
+627 uf50-0246.cnf                                     50     218     SAT     SAT       43.0ms       52.8ms     OK
+628 uf50-0491.cnf                                     50     218     SAT     SAT       36.9ms       62.1ms     OK
+629 uf50-0116.cnf                                     50     218     SAT     SAT       53.0ms       53.0ms     OK
+630 uf50-0145.cnf                                     50     218     SAT     SAT       47.6ms       54.0ms     OK
+631 uf50-0347.cnf                                     50     218     SAT     SAT       55.9ms       65.2ms     OK
+632 uf50-0361.cnf                                     50     218     SAT     SAT       67.8ms       68.5ms     OK
+633 uf50-0202.cnf                                     50     218     SAT     SAT       60.1ms       66.6ms     OK
+634 uf50-0332.cnf                                     50     218     SAT     SAT       63.2ms       65.8ms     OK
+635 uf50-0404.cnf                                     50     218     SAT     SAT       54.4ms       65.2ms     OK
+636 uf50-0275.cnf                                     50     218     SAT     SAT       59.7ms       69.8ms     OK
+637 uf50-029.cnf                                      50     218     SAT     SAT       56.0ms       65.7ms     OK
+638 uf50-0419.cnf                                     50     218     SAT     SAT       64.3ms       66.5ms     OK
+639 uf50-052.cnf                                      50     218     SAT     SAT       54.4ms       73.0ms     OK
+640 uf50-0231.cnf                                     50     218     SAT     SAT       73.2ms       52.6ms     OK
+641 uf50-0189.cnf                                     50     218     SAT     SAT       83.0ms       64.1ms     OK
+642 uf50-0462.cnf                                     50     218     SAT     SAT       83.8ms       57.3ms     OK
+643 uf50-0448.cnf                                     50     218     SAT     SAT       64.6ms       68.9ms     OK
+644 uf50-016.cnf                                      50     218     SAT     SAT       67.8ms       51.1ms     OK
+645 uf50-0563.cnf                                     50     218     SAT     SAT       59.8ms       55.3ms     OK
+646 uf50-0477.cnf                                     50     218     SAT     SAT       56.5ms       54.3ms     OK
+647 uf50-0318.cnf                                     50     218     SAT     SAT       68.3ms       53.8ms     OK
+648 uf50-0505.cnf                                     50     218     SAT     SAT       78.2ms       71.8ms     OK
+649 uf50-0433.cnf                                     50     218     SAT     SAT       74.0ms       70.3ms     OK
+650 uf50-0376.cnf                                     50     218     SAT     SAT       62.4ms       68.4ms     OK
+651 uf50-0549.cnf                                     50     218     SAT     SAT       85.6ms       57.8ms     OK
+652 uf50-0174.cnf                                     50     218     SAT     SAT       85.1ms       67.3ms     OK
+653 uf50-0260.cnf                                     50     218     SAT     SAT       69.1ms       73.8ms     OK
+654 uf50-0217.cnf                                     50     218     SAT     SAT       81.3ms       73.0ms     OK
+655 uf50-0303.cnf                                     50     218     SAT     SAT       82.4ms       57.0ms     OK
+656 uf50-0534.cnf                                     50     218     SAT     SAT       82.3ms       88.0ms     OK
+657 uf50-0390.cnf                                     50     218     SAT     SAT       77.2ms       78.7ms     OK
+658 uf50-0578.cnf                                     50     218     SAT     SAT       72.0ms       50.7ms     OK
+659 uf50-065.cnf                                      50     218     SAT     SAT       43.9ms       46.3ms     OK
+660 uf50-0620.cnf                                     50     218     SAT     SAT       72.2ms       45.4ms     OK
+661 uf50-0606.cnf                                     50     218     SAT     SAT       61.0ms       51.9ms     OK
+662 uf50-0693.cnf                                     50     218     SAT     SAT       41.1ms       43.3ms     OK
+663 uf50-0635.cnf                                     50     218     SAT     SAT       60.0ms       56.5ms     OK
+664 uf50-0592.cnf                                     50     218     SAT     SAT       71.8ms       64.2ms     OK
+665 uf50-0736.cnf                                     50     218     SAT     SAT       44.3ms       50.5ms     OK
+666 uf50-0794.cnf                                     50     218     SAT     SAT       55.7ms       48.5ms     OK
+667 uf50-0909.cnf                                     50     218     SAT     SAT       57.0ms       45.1ms     OK
+668 uf50-0952.cnf                                     50     218     SAT     SAT       48.4ms       37.8ms     OK
+669 uf50-0707.cnf                                     50     218     SAT     SAT       79.5ms       42.7ms     OK
+670 uf50-0938.cnf                                     50     218     SAT     SAT       48.9ms       33.3ms     OK
+671 uf50-0967.cnf                                     50     218     SAT     SAT       47.7ms       33.8ms     OK
+672 uf50-0880.cnf                                     50     218     SAT     SAT       57.2ms       34.4ms     OK
+673 uf50-0664.cnf                                     50     218     SAT     SAT       81.5ms       35.6ms     OK
+674 uf50-0679.cnf                                     50     218     SAT     SAT       87.9ms       31.9ms     OK
+675 uf50-0750.cnf                                     50     218     SAT     SAT       58.1ms       35.9ms     OK
+676 uf50-0808.cnf                                     50     218     SAT     SAT       74.5ms       34.5ms     OK
+677 uf50-0765.cnf                                     50     218     SAT     SAT       58.8ms       56.1ms     OK
+678 uf50-0721.cnf                                     50     218     SAT     SAT       58.4ms       55.0ms     OK
+679 uf50-0822.cnf                                     50     218     SAT     SAT       64.1ms       47.8ms     OK
+680 uf50-0851.cnf                                     50     218     SAT     SAT       68.0ms       51.2ms     OK
+681 uf50-0981.cnf                                     50     218     SAT     SAT       44.9ms       39.9ms     OK
+682 uf50-0923.cnf                                     50     218     SAT     SAT       64.8ms       40.8ms     OK
+683 uf50-0866.cnf                                     50     218     SAT     SAT       56.6ms       66.0ms     OK
+684 uf50-0895.cnf                                     50     218     SAT     SAT       58.3ms       60.0ms     OK
+685 uf50-078.cnf                                      50     218     SAT     SAT       59.6ms       67.1ms     OK
+686 uf50-0837.cnf                                     50     218     SAT     SAT       59.7ms       58.8ms     OK
+687 uf50-0996.cnf                                     50     218     SAT     SAT       56.4ms       35.0ms     OK
+688 uf50-0146.cnf                                     50     218     SAT     SAT       15.1ms       53.8ms     OK
+689 uf50-0232.cnf                                     50     218     SAT     SAT       32.8ms       63.5ms     OK
+690 uf50-0203.cnf                                     50     218     SAT     SAT       50.4ms       49.1ms     OK
+691 uf50-019.cnf                                      50     218     SAT     SAT       57.7ms       43.7ms     OK
+692 uf50-0478.cnf                                     50     218     SAT     SAT       48.7ms       55.1ms     OK
+693 uf50-0247.cnf                                     50     218     SAT     SAT       66.0ms       51.5ms     OK
+694 uf50-0261.cnf                                     50     218     SAT     SAT       36.2ms       75.1ms     OK
+695 uf50-0160.cnf                                     50     218     SAT     SAT       43.2ms       85.6ms     OK
+696 uf50-0377.cnf                                     50     218     SAT     SAT       48.2ms       54.4ms     OK
+697 uf50-0348.cnf                                     50     218     SAT     SAT       50.9ms       52.4ms     OK
+698 uf50-0506.cnf                                     50     218     SAT     SAT       48.2ms       57.5ms     OK
+699 uf50-0405.cnf                                     50     218     SAT     SAT       56.0ms       61.9ms     OK
+700 uf50-0333.cnf                                     50     218     SAT     SAT       63.0ms       53.9ms     OK
+701 uf50-0520.cnf                                     50     218     SAT     SAT       50.1ms       60.4ms     OK
+702 uf50-0362.cnf                                     50     218     SAT     SAT       52.1ms       58.2ms     OK
+703 uf50-0290.cnf                                     50     218     SAT     SAT       67.1ms       57.9ms     OK
+704 uf50-042.cnf                                      50     218     SAT     SAT       59.7ms       50.2ms     OK
+705 uf50-0391.cnf                                     50     218     SAT     SAT       49.0ms       60.2ms     OK
+706 uf50-0319.cnf                                     50     218     SAT     SAT       68.8ms       59.3ms     OK
+707 uf50-0117.cnf                                     50     218     SAT     SAT       80.1ms       60.3ms     OK
+708 uf50-0463.cnf                                     50     218     SAT     SAT       49.0ms       76.6ms     OK
+709 uf50-0175.cnf                                     50     218     SAT     SAT       59.9ms       72.4ms     OK
+710 uf50-0304.cnf                                     50     218     SAT     SAT       48.7ms       68.3ms     OK
+711 uf50-0434.cnf                                     50     218     SAT     SAT       47.7ms       78.2ms     OK
+712 uf50-0276.cnf                                     50     218     SAT     SAT       57.2ms       56.4ms     OK
+713 uf50-0131.cnf                                     50     218     SAT     SAT       60.6ms       65.2ms     OK
+714 uf50-0449.cnf                                     50     218     SAT     SAT       50.8ms       96.2ms     OK
+715 uf50-0535.cnf                                     50     218     SAT     SAT       64.2ms       69.2ms     OK
+716 uf50-0102.cnf                                     50     218     SAT     SAT       74.5ms       58.7ms     OK
+717 uf50-0492.cnf                                     50     218     SAT     SAT       61.5ms       80.0ms     OK
+718 uf50-0218.cnf                                     50     218     SAT     SAT       80.6ms       58.2ms     OK
+719 uf50-055.cnf                                      50     218     SAT     SAT       71.1ms       76.0ms     OK
+720 uf50-0564.cnf                                     50     218     SAT     SAT       57.0ms       50.9ms     OK
+721 uf50-0579.cnf                                     50     218     SAT     SAT       59.8ms       26.8ms     OK
+722 uf50-0593.cnf                                     50     218     SAT     SAT       63.9ms       32.3ms     OK
+723 uf50-0708.cnf                                     50     218     SAT     SAT       46.6ms       41.4ms     OK
+724 uf50-0621.cnf                                     50     218     SAT     SAT       56.8ms       44.0ms     OK
+725 uf50-0766.cnf                                     50     218     SAT     SAT       43.3ms       43.3ms     OK
+726 uf50-0780.cnf                                     50     218     SAT     SAT       40.8ms       46.7ms     OK
+727 uf50-0737.cnf                                     50     218     SAT     SAT       51.5ms       39.8ms     OK
+728 uf50-091.cnf                                      50     218     SAT     SAT       44.9ms       44.3ms     OK
+729 uf50-0809.cnf                                     50     218     SAT     SAT       44.8ms       47.9ms     OK
+730 uf50-0823.cnf                                     50     218     SAT     SAT       29.3ms       45.3ms     OK
+731 uf50-0722.cnf                                     50     218     SAT     SAT       46.8ms       45.8ms     OK
+732 uf50-0795.cnf                                     50     218     SAT     SAT       40.8ms       45.8ms     OK
+733 uf50-0636.cnf                                     50     218     SAT     SAT       64.3ms       49.1ms     OK
+734 uf50-0694.cnf                                     50     218     SAT     SAT       57.8ms       44.7ms     OK
+735 uf50-0650.cnf                                     50     218     SAT     SAT       60.9ms       51.6ms     OK
+736 uf50-068.cnf                                      50     218     SAT     SAT       48.9ms       52.8ms     OK
+737 uf50-0881.cnf                                     50     218     SAT     SAT       43.7ms       51.4ms     OK
+738 uf50-0607.cnf                                     50     218     SAT     SAT       79.9ms       55.2ms     OK
+739 uf50-0867.cnf                                     50     218     SAT     SAT       45.1ms       42.2ms     OK
+740 uf50-0751.cnf                                     50     218     SAT     SAT       38.0ms       44.0ms     OK
+741 uf50-0665.cnf                                     50     218     SAT     SAT       59.1ms       56.4ms     OK
+742 uf50-0968.cnf                                     50     218     SAT     SAT       34.8ms       50.8ms     OK
+743 uf50-0852.cnf                                     50     218     SAT     SAT       51.9ms       42.6ms     OK
+744 uf50-0997.cnf                                     50     218     SAT     SAT       42.5ms       35.2ms     OK
+745 uf50-0939.cnf                                     50     218     SAT     SAT       60.5ms       28.1ms     OK
+746 uf50-0924.cnf                                     50     218     SAT     SAT       51.1ms       39.8ms     OK
+747 uf50-0982.cnf                                     50     218     SAT     SAT       55.5ms       19.7ms     OK
+748 uf50-0953.cnf                                     50     218     SAT     SAT       64.6ms       27.1ms     OK
+749 uf50-0896.cnf                                     50     218     SAT     SAT       46.2ms       64.3ms     OK
+750 uf50-0838.cnf                                     50     218     SAT     SAT       44.0ms       76.3ms     OK
+751 uf50-0248.cnf                                     50     218     SAT     SAT       12.6ms       33.7ms     OK
+752 uf50-0103.cnf                                     50     218     SAT     SAT       15.2ms       42.6ms     OK
+753 uf50-0161.cnf                                     50     218     SAT     SAT       36.5ms       34.7ms     OK
+754 uf50-0219.cnf                                     50     218     SAT     SAT       36.8ms       30.1ms     OK
+755 uf50-0190.cnf                                     50     218     SAT     SAT       34.1ms       27.5ms     OK
+756 uf50-0118.cnf                                     50     218     SAT     SAT       40.6ms       31.2ms     OK
+757 uf50-0536.cnf                                     50     218     SAT     SAT       39.2ms       26.8ms     OK
+758 uf50-0291.cnf                                     50     218     SAT     SAT       38.7ms       30.7ms     OK
+759 uf50-0378.cnf                                     50     218     SAT     SAT       44.4ms       27.5ms     OK
+760 uf50-0132.cnf                                     50     218     SAT     SAT       34.6ms       45.0ms     OK
+761 uf50-0349.cnf                                     50     218     SAT     SAT       40.1ms       45.7ms     OK
+762 uf50-0334.cnf                                     50     218     SAT     SAT       41.1ms       47.4ms     OK
+763 uf50-0147.cnf                                     50     218     SAT     SAT       38.3ms       47.8ms     OK
+764 uf50-0277.cnf                                     50     218     SAT     SAT       39.3ms       48.3ms     OK
+765 uf50-0392.cnf                                     50     218     SAT     SAT       55.9ms       33.1ms     OK
+766 uf50-0521.cnf                                     50     218     SAT     SAT       37.6ms       34.9ms     OK
+767 uf50-0479.cnf                                     50     218     SAT     SAT       52.4ms       32.1ms     OK
+768 uf50-045.cnf                                      50     218     SAT     SAT       61.4ms       31.3ms     OK
+769 uf50-0507.cnf                                     50     218     SAT     SAT       52.3ms       36.0ms     OK
+770 uf50-0363.cnf                                     50     218     SAT     SAT       51.3ms       30.3ms     OK
+771 uf50-0204.cnf                                     50     218     SAT     SAT       51.8ms       30.9ms     OK
+772 uf50-0420.cnf                                     50     218     SAT     SAT       62.0ms       30.3ms     OK
+773 uf50-0550.cnf                                     50     218     SAT     SAT       31.5ms       33.9ms     OK
+774 uf50-032.cnf                                      50     218     SAT     SAT       55.5ms       40.5ms     OK
+775 uf50-0305.cnf                                     50     218     SAT     SAT       33.4ms       40.5ms     OK
+776 uf50-0262.cnf                                     50     218     SAT     SAT       35.5ms       38.7ms     OK
+777 uf50-0233.cnf                                     50     218     SAT     SAT       53.5ms       41.0ms     OK
+778 uf50-0176.cnf                                     50     218     SAT     SAT       43.1ms       35.4ms     OK
+779 uf50-0406.cnf                                     50     218     SAT     SAT       47.1ms       30.2ms     OK
+780 uf50-0493.cnf                                     50     218     SAT     SAT       41.1ms       36.3ms     OK
+781 uf50-0435.cnf                                     50     218     SAT     SAT       43.0ms       35.8ms     OK
+782 uf50-0464.cnf                                     50     218     SAT     SAT       46.8ms       34.8ms     OK
+783 uf50-0565.cnf                                     50     218     SAT     SAT       47.4ms       31.8ms     OK
+784 uf50-0651.cnf                                     50     218     SAT     SAT       35.6ms       28.2ms     OK
+785 uf50-0666.cnf                                     50     218     SAT     SAT       34.8ms       28.8ms     OK
+786 uf50-0608.cnf                                     50     218     SAT     SAT       32.4ms       38.8ms     OK
+787 uf50-0695.cnf                                     50     218     SAT     SAT       29.6ms       38.6ms     OK
+788 uf50-0594.cnf                                     50     218     SAT     SAT       30.6ms       39.4ms     OK
+789 uf50-0637.cnf                                     50     218     SAT     SAT       29.3ms       44.1ms     OK
+790 uf50-058.cnf                                      50     218     SAT     SAT       31.6ms       45.8ms     OK
+791 uf50-0622.cnf                                     50     218     SAT     SAT       25.8ms       47.4ms     OK
+792 uf50-0680.cnf                                     50     218     SAT     SAT       32.6ms       47.2ms     OK
+793 uf50-0709.cnf                                     50     218     SAT     SAT       31.6ms       46.5ms     OK
+794 uf50-0723.cnf                                     50     218     SAT     SAT       30.0ms       43.0ms     OK
+795 uf50-0796.cnf                                     50     218     SAT     SAT       40.6ms       38.5ms     OK
+796 uf50-0824.cnf                                     50     218     SAT     SAT       42.7ms       36.5ms     OK
+797 uf50-0868.cnf                                     50     218     SAT     SAT       40.4ms       38.9ms     OK
+798 uf50-081.cnf                                      50     218     SAT     SAT       34.5ms       33.5ms     OK
+799 uf50-0738.cnf                                     50     218     SAT     SAT       38.6ms       38.0ms     OK
+800 uf50-0882.cnf                                     50     218     SAT     SAT       43.7ms       41.3ms     OK
+801 uf50-0954.cnf                                     50     218     SAT     SAT       38.9ms       45.5ms     OK
+802 uf50-0781.cnf                                     50     218     SAT     SAT       38.9ms       40.3ms     OK
+803 uf50-0839.cnf                                     50     218     SAT     SAT       41.1ms       42.6ms     OK
+804 uf50-0897.cnf                                     50     218     SAT     SAT       42.1ms       37.0ms     OK
+805 uf50-0983.cnf                                     50     218     SAT     SAT       34.3ms       39.7ms     OK
+806 uf50-0752.cnf                                     50     218     SAT     SAT       36.3ms       45.4ms     OK
+807 uf50-0767.cnf                                     50     218     SAT     SAT       50.2ms       39.1ms     OK
+808 uf50-0853.cnf                                     50     218     SAT     SAT       48.2ms       32.3ms     OK
+809 uf50-0925.cnf                                     50     218     SAT     SAT       44.5ms       34.3ms     OK
+810 uf50-0910.cnf                                     50     218     SAT     SAT       45.3ms       43.6ms     OK
+811 uf50-0969.cnf                                     50     218     SAT     SAT       44.3ms       45.3ms     OK
+812 uf50-094.cnf                                      50     218     SAT     SAT       47.4ms       33.1ms     OK
+813 uf50-0998.cnf                                     50     218     SAT     SAT       39.9ms       32.0ms     OK
+814 uf50-0119.cnf                                     50     218     SAT     SAT       15.9ms       63.5ms     OK
+815 uf50-0148.cnf                                     50     218     SAT     SAT       19.5ms       64.0ms     OK
+816 uf50-0104.cnf                                     50     218     SAT     SAT       23.3ms       66.2ms     OK
+817 uf50-035.cnf                                      50     218     SAT     SAT       26.3ms       64.7ms     OK
+818 uf50-022.cnf                                      50     218     SAT     SAT       26.5ms       75.2ms     OK
+819 uf50-0205.cnf                                     50     218     SAT     SAT       31.3ms       78.2ms     OK
+820 uf50-0177.cnf                                     50     218     SAT     SAT       33.7ms       79.6ms     OK
+821 uf50-0263.cnf                                     50     218     SAT     SAT       40.7ms       77.2ms     OK
+822 uf50-0320.cnf                                     50     218     SAT     SAT       41.8ms       72.3ms     OK
+823 uf50-0249.cnf                                     50     218     SAT     SAT       43.7ms       78.7ms     OK
+824 uf50-0364.cnf                                     50     218     SAT     SAT       50.8ms       77.4ms     OK
+825 uf50-0278.cnf                                     50     218     SAT     SAT       52.4ms       75.6ms     OK
+826 uf50-0133.cnf                                     50     218     SAT     SAT       41.0ms       82.0ms     OK
+827 uf50-0421.cnf                                     50     218     SAT     SAT       56.2ms       77.3ms     OK
+828 uf50-0335.cnf                                     50     218     SAT     SAT       28.0ms      100.3ms     OK
+829 uf50-0450.cnf                                     50     218     SAT     SAT       88.0ms       33.1ms     OK
+830 uf50-0191.cnf                                     50     218     SAT     SAT       43.9ms      103.0ms     OK
+831 uf50-0407.cnf                                     50     218     SAT     SAT       69.1ms       60.0ms     OK
+832 uf50-0162.cnf                                     50     218     SAT     SAT       77.0ms       47.4ms     OK
+833 uf50-0436.cnf                                     50     218     SAT     SAT       90.3ms       70.0ms     OK
+834 uf50-0234.cnf                                     50     218     SAT     SAT       89.2ms       71.6ms     OK
+835 uf50-0522.cnf                                     50     218     SAT     SAT       92.2ms       64.6ms     OK
+836 uf50-0551.cnf                                     50     218     SAT     SAT       93.3ms       64.5ms     OK
+837 uf50-0306.cnf                                     50     218     SAT     SAT      103.5ms       64.7ms     OK
+838 uf50-0494.cnf                                     50     218     SAT     SAT       99.9ms       70.7ms     OK
+839 uf50-0393.cnf                                     50     218     SAT     SAT       89.7ms       93.6ms     OK
+840 uf50-0292.cnf                                     50     218     SAT     SAT      109.5ms       74.3ms     OK
+841 uf50-0465.cnf                                     50     218     SAT     SAT       99.1ms       89.1ms     OK
+842 uf50-0508.cnf                                     50     218     SAT     SAT      113.8ms       71.4ms     OK
+843 uf50-0537.cnf                                     50     218     SAT     SAT       86.9ms      105.8ms     OK
+844 uf50-0609.cnf                                     50     218     SAT     SAT       38.0ms       86.0ms     OK
+845 uf50-0566.cnf                                     50     218     SAT     SAT       67.7ms       86.6ms     OK
+846 uf50-0379.cnf                                     50     218     SAT     SAT      115.1ms       98.2ms     OK
+847 uf50-0580.cnf                                     50     218     SAT     SAT       58.5ms      101.0ms     OK
+848 uf50-0667.cnf                                     50     218     SAT     SAT       80.1ms       39.8ms     OK
+849 uf50-048.cnf                                      50     218     SAT     SAT      113.1ms      121.2ms     OK
+850 uf50-0595.cnf                                     50     218     SAT     SAT       47.3ms      105.5ms     OK
+851 uf50-0782.cnf                                     50     218     SAT     SAT       73.3ms       39.5ms     OK
+852 uf50-0638.cnf                                     50     218     SAT     SAT       59.7ms       81.8ms     OK
+853 uf50-0739.cnf                                     50     218     SAT     SAT       61.7ms       54.3ms     OK
+854 uf50-0623.cnf                                     50     218     SAT     SAT       64.3ms       78.0ms     OK
+855 uf50-0696.cnf                                     50     218     SAT     SAT       94.0ms       28.6ms     OK
+856 uf50-0797.cnf                                     50     218     SAT     SAT       93.6ms       25.4ms     OK
+857 uf50-0753.cnf                                     50     218     SAT     SAT       93.9ms       28.6ms     OK
+858 uf50-0724.cnf                                     50     218     SAT     SAT       91.3ms       32.7ms     OK
+859 uf50-0768.cnf                                     50     218     SAT     SAT      110.6ms       23.5ms     OK
+860 uf50-0898.cnf                                     50     218     SAT     SAT       54.6ms       26.4ms     OK
+861 uf50-0652.cnf                                     50     218     SAT     SAT      109.4ms       54.7ms     OK
+862 uf50-0681.cnf                                     50     218     SAT     SAT      104.7ms       47.7ms     OK
+863 uf50-0825.cnf                                     50     218     SAT     SAT       94.6ms       37.4ms     OK
+864 uf50-0926.cnf                                     50     218     SAT     SAT       47.4ms       34.1ms     OK
+865 uf50-0810.cnf                                     50     218     SAT     SAT      102.6ms       47.6ms     OK
+866 uf50-0940.cnf                                     50     218     SAT     SAT       39.6ms       39.4ms     OK
+867 uf50-084.cnf                                      50     218     SAT     SAT       58.7ms       39.8ms     OK
+868 uf50-071.cnf                                      50     218     SAT     SAT      116.5ms       43.5ms     OK
+869 uf50-0999.cnf                                     50     218     SAT     SAT       33.4ms       23.7ms     OK
+870 uf50-0869.cnf                                     50     218     SAT     SAT       65.4ms       35.0ms     OK
+871 uf50-0955.cnf                                     50     218     SAT     SAT       38.6ms       28.2ms     OK
+872 uf50-0984.cnf                                     50     218     SAT     SAT       31.9ms       26.2ms     OK
+873 uf50-0911.cnf                                     50     218     SAT     SAT       60.0ms       47.6ms     OK
+874 uf50-0854.cnf                                     50     218     SAT     SAT       63.8ms       48.5ms     OK
+875 uf50-0883.cnf                                     50     218     SAT     SAT       62.4ms       41.2ms     OK
+876 uf50-097.cnf                                      50     218     SAT     SAT       49.9ms       10.6ms     OK
+877 uf50-0192.cnf                                     50     218     SAT     SAT       34.3ms       57.2ms     OK
+878 uf50-0178.cnf                                     50     218     SAT     SAT       43.3ms       56.5ms     OK
+879 uf50-0220.cnf                                     50     218     SAT     SAT       50.7ms       71.1ms     OK
+880 uf50-0408.cnf                                     50     218     SAT     SAT       43.0ms       72.7ms     OK
+881 uf50-012.cnf                                      50     218     SAT     SAT       43.7ms       85.5ms     OK
+882 uf50-0149.cnf                                     50     218     SAT     SAT       60.5ms       73.8ms     OK
+883 uf50-0350.cnf                                     50     218     SAT     SAT       44.0ms       82.3ms     OK
+884 uf50-0437.cnf                                     50     218     SAT     SAT       44.6ms       77.2ms     OK
+885 uf50-0394.cnf                                     50     218     SAT     SAT       48.3ms       85.3ms     OK
+886 uf50-0321.cnf                                     50     218     SAT     SAT       47.1ms       83.9ms     OK
+887 uf50-038.cnf                                      50     218     SAT     SAT       50.7ms       87.3ms     OK
+888 uf50-0466.cnf                                     50     218     SAT     SAT       62.8ms       72.8ms     OK
+889 uf50-0307.cnf                                     50     218     SAT     SAT       66.8ms       72.2ms     OK
+890 uf50-0293.cnf                                     50     218     SAT     SAT       63.3ms       74.0ms     OK
+891 uf50-0538.cnf                                     50     218     SAT     SAT       62.0ms       82.1ms     OK
+892 uf50-0105.cnf                                     50     218     SAT     SAT       72.0ms       84.6ms     OK
+893 uf50-0279.cnf                                     50     218     SAT     SAT       71.4ms       77.5ms     OK
+894 uf50-0336.cnf                                     50     218     SAT     SAT       68.6ms       76.6ms     OK
+895 uf50-025.cnf                                      50     218     SAT     SAT       67.2ms       77.6ms     OK
+896 uf50-0495.cnf                                     50     218     SAT     SAT       76.0ms       64.5ms     OK
+897 uf50-0422.cnf                                     50     218     SAT     SAT       92.1ms       61.4ms     OK
+898 uf50-0134.cnf                                     50     218     SAT     SAT       64.1ms       98.1ms     OK
+899 uf50-0523.cnf                                     50     218     SAT     SAT       64.5ms       93.7ms     OK
+900 uf50-0206.cnf                                     50     218     SAT     SAT       66.7ms       83.9ms     OK
+901 uf50-0163.cnf                                     50     218     SAT     SAT       68.6ms       85.4ms     OK
+902 uf50-0552.cnf                                     50     218     SAT     SAT       66.7ms       86.9ms     OK
+903 uf50-0480.cnf                                     50     218     SAT     SAT       88.3ms       67.0ms     OK
+904 uf50-0264.cnf                                     50     218     SAT     SAT       90.9ms       61.3ms     OK
+905 uf50-0509.cnf                                     50     218     SAT     SAT      102.1ms       51.7ms     OK
+906 uf50-0365.cnf                                     50     218     SAT     SAT       76.1ms       51.6ms     OK
+907 uf50-0451.cnf                                     50     218     SAT     SAT       82.5ms       76.5ms     OK
+908 uf50-0235.cnf                                     50     218     SAT     SAT       78.9ms       91.5ms     OK
+909 uf50-0567.cnf                                     50     218     SAT     SAT       59.5ms       41.8ms     OK
+910 uf50-0668.cnf                                     50     218     SAT     SAT       46.9ms       65.0ms     OK
+911 uf50-0581.cnf                                     50     218     SAT     SAT       45.8ms       66.0ms     OK
+912 uf50-0596.cnf                                     50     218     SAT     SAT       56.1ms       66.3ms     OK
+913 uf50-061.cnf                                      50     218     SAT     SAT       51.2ms       75.1ms     OK
+914 uf50-0682.cnf                                     50     218     SAT     SAT       54.4ms       68.9ms     OK
+915 uf50-0710.cnf                                     50     218     SAT     SAT       59.8ms       60.0ms     OK
+916 uf50-0624.cnf                                     50     218     SAT     SAT       81.0ms       67.4ms     OK
+917 uf50-0884.cnf                                     50     218     SAT     SAT       57.3ms       47.4ms     OK
+918 uf50-0826.cnf                                     50     218     SAT     SAT       40.4ms       69.9ms     OK
+919 uf50-0769.cnf                                     50     218     SAT     SAT       56.4ms       63.0ms     OK
+920 uf50-074.cnf                                      50     218     SAT     SAT       56.6ms       67.3ms     OK
+921 uf50-0725.cnf                                     50     218     SAT     SAT       63.6ms       55.0ms     OK
+922 uf50-0754.cnf                                     50     218     SAT     SAT       50.2ms       65.7ms     OK
+923 uf50-0811.cnf                                     50     218     SAT     SAT       65.8ms       54.4ms     OK
+924 uf50-0639.cnf                                     50     218     SAT     SAT       59.6ms       83.3ms     OK
+925 uf50-0653.cnf                                     50     218     SAT     SAT       82.0ms       75.6ms     OK
+926 uf50-0697.cnf                                     50     218     SAT     SAT       55.8ms       76.1ms     OK
+927 uf50-0956.cnf                                     50     218     SAT     SAT       70.1ms       51.8ms     OK
+928 uf50-0941.cnf                                     50     218     SAT     SAT       65.3ms       53.0ms     OK
+929 uf50-0855.cnf                                     50     218     SAT     SAT       70.0ms       53.6ms     OK
+930 uf50-0840.cnf                                     50     218     SAT     SAT       72.9ms       49.3ms     OK
+931 uf50-0985.cnf                                     50     218     SAT     SAT       69.2ms       45.9ms     OK
+932 uf50-0927.cnf                                     50     218     SAT     SAT       96.0ms       24.9ms     OK
+933 uf50-0899.cnf                                     50     218     SAT     SAT       69.7ms       58.3ms     OK
+934 uf50-0798.cnf                                     50     218     SAT     SAT       77.6ms       61.1ms     OK
+935 uf50-0912.cnf                                     50     218     SAT     SAT       69.7ms       60.1ms     OK
+936 uf50-087.cnf                                      50     218     SAT     SAT      106.7ms       27.0ms     OK
+937 uf50-0970.cnf                                     50     218     SAT     SAT       69.5ms       59.5ms     OK
+938 uf50-0783.cnf                                     50     218     SAT     SAT       93.8ms       44.7ms     OK
+939 uf50-015.cnf                                      50     218     SAT     SAT       10.9ms       27.4ms     OK
+940 uf50-0294.cnf                                     50     218     SAT     SAT       16.7ms       19.1ms     OK
+941 uf50-0207.cnf                                     50     218     SAT     SAT       14.9ms       21.6ms     OK
+942 uf50-0221.cnf                                     50     218     SAT     SAT       17.6ms       19.7ms     OK
+943 uf50-0135.cnf                                     50     218     SAT     SAT       18.6ms       20.2ms     OK
+944 uf50-0452.cnf                                     50     218     SAT     SAT       18.8ms       19.6ms     OK
+945 uf50-028.cnf                                      50     218     SAT     SAT       27.9ms       10.8ms     OK
+946 uf50-0179.cnf                                     50     218     SAT     SAT       24.6ms       19.9ms     OK
+947 uf50-0193.cnf                                     50     218     SAT     SAT       18.6ms       21.8ms     OK
+948 uf50-0322.cnf                                     50     218     SAT     SAT       26.1ms       10.7ms     OK
+949 uf50-0106.cnf                                     50     218     SAT     SAT       26.4ms       10.8ms     OK
+950 uf50-0467.cnf                                     50     218     SAT     SAT       25.0ms        9.5ms     OK
+951 uf50-0265.cnf                                     50     218     SAT     SAT       14.2ms       33.5ms     OK
+952 uf50-0236.cnf                                     50     218     SAT     SAT       24.1ms        9.9ms     OK
+953 uf50-0120.cnf                                     50     218     SAT     SAT       22.3ms       29.5ms     OK
+954 uf50-0337.cnf                                     50     218     SAT     SAT       17.8ms       29.1ms     OK
+955 uf50-0423.cnf                                     50     218     SAT     SAT       33.3ms       12.0ms     OK
+956 uf50-0409.cnf                                     50     218     SAT     SAT       24.6ms       13.7ms     OK
+957 uf50-0395.cnf                                     50     218     SAT     SAT       23.9ms       14.2ms     OK
+958 uf50-0380.cnf                                     50     218     SAT     SAT       34.9ms       16.6ms     OK
+959 uf50-0496.cnf                                     50     218     SAT     SAT       38.2ms       16.5ms     OK
+960 uf50-051.cnf                                      50     218     SAT     SAT       24.6ms       17.4ms     OK
+961 uf50-0351.cnf                                     50     218     SAT     SAT       34.7ms       23.8ms     OK
+962 uf50-0438.cnf                                     50     218     SAT     SAT       34.2ms       16.9ms     OK
+963 uf50-0308.cnf                                     50     218     SAT     SAT       34.1ms       23.4ms     OK
+964 uf50-0481.cnf                                     50     218     SAT     SAT       32.8ms       17.3ms     OK
+965 uf50-0164.cnf                                     50     218     SAT     SAT       34.9ms       24.2ms     OK
+966 uf50-0539.cnf                                     50     218     SAT     SAT       32.7ms       24.9ms     OK
+967 uf50-0553.cnf                                     50     218     SAT     SAT       32.4ms       26.1ms     OK
+968 uf50-0250.cnf                                     50     218     SAT     SAT       31.8ms       25.8ms     OK
+969 uf50-0610.cnf                                     50     218     SAT     SAT       16.8ms        8.8ms     OK
+970 uf50-0524.cnf                                     50     218     SAT     SAT       31.3ms       24.2ms     OK
+971 uf50-0366.cnf                                     50     218     SAT     SAT       33.4ms       24.1ms     OK
+972 uf50-064.cnf                                      50     218     SAT     SAT       17.8ms        8.6ms     OK
+973 uf50-0683.cnf                                     50     218     SAT     SAT       18.1ms        8.6ms     OK
+974 uf50-0568.cnf                                     50     218     SAT     SAT       18.8ms        8.8ms     OK
+975 uf50-0654.cnf                                     50     218     SAT     SAT       18.6ms        9.3ms     OK
+976 uf50-0698.cnf                                     50     218     SAT     SAT       14.4ms        9.7ms     OK
+977 uf50-0799.cnf                                     50     218     SAT     SAT       11.9ms       11.1ms     OK
+978 uf50-0625.cnf                                     50     218     SAT     SAT       24.2ms       11.3ms     OK
+979 uf50-0841.cnf                                     50     218     SAT     SAT       11.9ms       11.8ms     OK
+980 uf50-0597.cnf                                     50     218     SAT     SAT       21.6ms       17.2ms     OK
+981 uf50-0870.cnf                                     50     218     SAT     SAT       10.6ms       11.7ms     OK
+982 uf50-0755.cnf                                     50     218     SAT     SAT       23.1ms       11.8ms     OK
+983 uf50-0711.cnf                                     50     218     SAT     SAT       26.9ms       12.9ms     OK
+984 uf50-0582.cnf                                     50     218     SAT     SAT       27.1ms       12.0ms     OK
+985 uf50-09.cnf                                       50     218     SAT     SAT        8.3ms       12.1ms     OK
+986 uf50-0812.cnf                                     50     218     SAT     SAT       16.3ms       19.6ms     OK
+987 uf50-0669.cnf                                     50     218     SAT     SAT       16.4ms       22.6ms     OK
+988 uf50-0885.cnf                                     50     218     SAT     SAT       13.6ms        7.0ms     OK
+989 uf50-0856.cnf                                     50     218     SAT     SAT       13.4ms        7.3ms     OK
+990 uf50-0784.cnf                                     50     218     SAT     SAT       24.2ms       18.8ms     OK
+991 uf50-077.cnf                                      50     218     SAT     SAT       25.7ms       17.8ms     OK
+992 uf50-0740.cnf                                     50     218     SAT     SAT       25.7ms       19.2ms     OK
+993 uf50-0726.cnf                                     50     218     SAT     SAT       22.0ms       18.2ms     OK
+994 uf50-0928.cnf                                     50     218     SAT     SAT       13.0ms        9.1ms     OK
+995 uf50-0913.cnf                                     50     218     SAT     SAT       21.6ms        5.1ms     OK
+996 uf50-0942.cnf                                     50     218     SAT     SAT       21.5ms        5.4ms     OK
+997 uf50-0827.cnf                                     50     218     SAT     SAT        8.0ms        4.4ms     OK
+998 uf50-0971.cnf                                     50     218     SAT     SAT       15.8ms        7.6ms     OK
+999 uf50-0986.cnf                                     50     218     SAT     SAT       19.3ms       12.1ms     OK
+1000 uf50-0957.cnf                                     50     218     SAT     SAT       19.1ms       12.5ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 1000
+  Both agree            : 1000
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 429 / 1000
+  MiniSat faster        : 568 / 1000
+  CDCL total time       : 213.1s
+  MiniSat total time    : 346.9s
+  Speedup (MS/CDCL)     : 1.63x
+==========================================================================================

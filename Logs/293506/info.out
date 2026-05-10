@@ -1,0 +1,24 @@
+[INFO] job_id=293506 task=medium-uf50-218-UNSAT nodes=16 tasks=16
+[INFO] dataset=Datasets/cdcl_dimacs/medium/uf50-218/UNSAT
+[INFO] job_dir=Logs/293506
+[INFO] shard=6/16 host=node127 log=Logs/293506/shard6.log
+[INFO] shard=0/16 host=node120 log=Logs/293506/shard0.log
+[INFO] shard=12/16 host=node133 log=Logs/293506/shard12.log
+[INFO] shard=14/16 host=node135 log=Logs/293506/shard14.log
+[INFO] shard=15/16 host=node136 log=Logs/293506/shard15.log
+[INFO] shard=8/16 host=node129 log=Logs/293506/shard8.log
+[INFO] shard=11/16 host=node132 log=Logs/293506/shard11.log
+[INFO] shard=13/16 host=node134 log=Logs/293506/shard13.log
+[INFO] shard=5/16 host=node126 log=Logs/293506/shard5.log
+[INFO] shard=2/16 host=node123 log=Logs/293506/shard2.log
+[INFO] shard=9/16 host=node130 log=Logs/293506/shard9.log
+[INFO] shard=4/16 host=node125 log=Logs/293506/shard4.log
+[INFO] shard=10/16 host=node131 log=Logs/293506/shard10.log
+[INFO] shard=1/16 host=node122 log=Logs/293506/shard1.log
+[INFO] shard=7/16 host=node128 log=Logs/293506/shard7.log
+[INFO] shard=3/16 host=node124 log=Logs/293506/shard3.log
+[INFO] merged 16 shard files, total records=1000
+[INFO] detail.json => Logs/293506/detail.json
+[INFO] Deleted 16 shard JSON files.
+[INFO] result.out => Logs/293506/result.out
+[INFO] Deleted 16 shard log files.

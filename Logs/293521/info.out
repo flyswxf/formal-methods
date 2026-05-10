@@ -1,0 +1,12 @@
+[INFO] job_id=293521 task=medium-uf250-1065-SAT nodes=4 tasks=4
+[INFO] dataset=Datasets/cdcl_dimacs/medium/uf250-1065/SAT
+[INFO] job_dir=Logs/293521
+[INFO] shard=0/4 host=node109 log=Logs/293521/shard0.log
+[INFO] shard=1/4 host=node110 log=Logs/293521/shard1.log
+[INFO] shard=3/4 host=node112 log=Logs/293521/shard3.log
+[INFO] shard=2/4 host=node111 log=Logs/293521/shard2.log
+[INFO] merged 4 shard files, total records=100
+[INFO] detail.json => Logs/293521/detail.json
+[INFO] Deleted 4 shard JSON files.
+[INFO] result.out => Logs/293521/result.out
+[INFO] Deleted 4 shard log files.

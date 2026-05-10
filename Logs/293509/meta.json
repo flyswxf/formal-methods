@@ -1,0 +1,10 @@
+{
+  "job_id": 293509,
+  "task_name": "medium-uf100-430-SAT",
+  "dataset": "Datasets/cdcl_dimacs/medium/uf100-430/SAT",
+  "cdcl": "Checkers/cdcl_solver",
+  "minisat": "Baseline/minisat/build/release/bin/minisat",
+  "timeout": 5000,
+  "nodes": 16,
+  "cpus_per_node": 32
+}

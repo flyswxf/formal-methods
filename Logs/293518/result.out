@@ -1,0 +1,128 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293518
+  Task Name   : medium-uf200-860-UNSAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf200-860/UNSAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 99
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uuf200-020.cnf                                   200     860   UNSAT   UNSAT      661.2ms      267.6ms     OK
+  2 uuf200-017.cnf                                   200     860   UNSAT   UNSAT      630.6ms      382.1ms     OK
+  3 uuf200-060.cnf                                   200     860   UNSAT   UNSAT      804.2ms      390.2ms     OK
+  4 uuf200-082.cnf                                   200     860   UNSAT   UNSAT       1.000s      334.4ms     OK
+  5 uuf200-093.cnf                                   200     860   UNSAT   UNSAT       1.000s      491.0ms     OK
+  6 uuf200-042.cnf                                   200     860   UNSAT   UNSAT       1.311s      352.8ms     OK
+  7 uuf200-079.cnf                                   200     860   UNSAT   UNSAT       1.790s      302.8ms     OK
+  8 uuf200-097.cnf                                   200     860   UNSAT   UNSAT       1.876s      283.7ms     OK
+  9 uuf200-035.cnf                                   200     860   UNSAT   UNSAT       2.491s      498.3ms     OK
+ 10 uuf200-039.cnf                                   200     860   UNSAT   UNSAT       4.379s      260.4ms     OK
+ 11 uuf200-013.cnf                                   200     860   UNSAT   UNSAT       4.479s      484.9ms     OK
+ 12 uuf200-031.cnf                                   200     860   UNSAT   UNSAT       5.901s      435.4ms     OK
+ 13 uuf200-01.cnf                                    200     860   UNSAT   UNSAT       6.043s      438.3ms     OK
+ 14 uuf200-024.cnf                                   200     860   UNSAT   UNSAT       6.912s      673.9ms     OK
+ 15 uuf200-068.cnf                                   200     860   UNSAT   UNSAT      12.352s      556.1ms     OK
+ 16 uuf200-075.cnf                                   200     860   UNSAT   UNSAT      13.213s      744.4ms     OK
+ 17 uuf200-09.cnf                                    200     860   UNSAT   UNSAT      24.143s      437.2ms     OK
+ 18 uuf200-086.cnf                                   200     860   UNSAT   UNSAT      24.319s      442.9ms     OK
+ 19 uuf200-071.cnf                                   200     860   UNSAT   UNSAT      39.255s      483.3ms     OK
+ 20 uuf200-046.cnf                                   200     860   UNSAT   UNSAT        61.8s       1.011s     OK
+ 21 uuf200-064.cnf                                   200     860   UNSAT   UNSAT        76.0s      852.2ms     OK
+ 22 uuf200-028.cnf                                   200     860   UNSAT   UNSAT        81.6s      667.4ms     OK
+ 23 uuf200-05.cnf                                    200     860   UNSAT   UNSAT        86.3s      469.2ms     OK
+ 24 uuf200-053.cnf                                   200     860   UNSAT   UNSAT        89.1s      401.8ms     OK
+ 25 uuf200-057.cnf                                   200     860   UNSAT   UNSAT       184.2s      396.4ms     OK
+ 26 uuf200-076.cnf                                   200     860   UNSAT   UNSAT      653.1ms      230.4ms     OK
+ 27 uuf200-069.cnf                                   200     860   UNSAT   UNSAT      513.6ms      655.0ms     OK
+ 28 uuf200-029.cnf                                   200     860   UNSAT   UNSAT       1.543s       2.261s     OK
+ 29 uuf200-018.cnf                                   200     860   UNSAT   UNSAT       3.473s      738.5ms     OK
+ 30 uuf200-061.cnf                                   200     860   UNSAT   UNSAT       5.190s       1.019s     OK
+ 31 uuf200-08.cnf                                    200     860   UNSAT   UNSAT       6.169s      510.9ms     OK
+ 32 uuf200-065.cnf                                   200     860   UNSAT   UNSAT       9.435s      642.6ms     OK
+ 33 uuf200-050.cnf                                   200     860   UNSAT   UNSAT      17.689s      459.0ms     OK
+ 34 uuf200-087.cnf                                   200     860   UNSAT   UNSAT      16.660s       2.359s     OK
+ 35 uuf200-090.cnf                                   200     860   UNSAT   UNSAT      27.710s      496.1ms     OK
+ 36 uuf200-094.cnf                                   200     860   UNSAT   UNSAT      26.735s       2.963s     OK
+ 37 uuf200-072.cnf                                   200     860   UNSAT   UNSAT      29.724s      674.4ms     OK
+ 38 uuf200-047.cnf                                   200     860   UNSAT   UNSAT      29.416s       1.364s     OK
+ 39 uuf200-036.cnf                                   200     860   UNSAT   UNSAT      37.700s      960.3ms     OK
+ 40 uuf200-032.cnf                                   200     860   UNSAT   UNSAT      41.003s      794.8ms     OK
+ 41 uuf200-054.cnf                                   200     860   UNSAT   UNSAT      49.841s       3.074s     OK
+ 42 uuf200-058.cnf                                   200     860   UNSAT   UNSAT        71.9s      659.2ms     OK
+ 43 uuf200-021.cnf                                   200     860   UNSAT   UNSAT        74.2s      443.9ms     OK
+ 44 uuf200-098.cnf                                   200     860   UNSAT   UNSAT        80.9s       2.804s     OK
+ 45 uuf200-083.cnf                                   200     860   UNSAT   UNSAT        97.5s      731.2ms     OK
+ 46 uuf200-043.cnf                                   200     860   UNSAT   UNSAT       125.0s      482.6ms     OK
+ 47 uuf200-010.cnf                                   200     860   UNSAT   UNSAT       129.4s      722.7ms     OK
+ 48 uuf200-04.cnf                                    200     860   UNSAT   UNSAT       202.6s       6.003s     OK
+ 49 uuf200-014.cnf                                   200     860   UNSAT   UNSAT       312.3s       3.681s     OK
+ 50 uuf200-025.cnf                                   200     860   UNSAT   UNSAT       404.9s      871.8ms     OK
+ 51 uuf200-073.cnf                                   200     860   UNSAT   UNSAT      846.7ms      467.0ms     OK
+ 52 uuf200-084.cnf                                   200     860   UNSAT   UNSAT      784.3ms      807.1ms     OK
+ 53 uuf200-062.cnf                                   200     860   UNSAT   UNSAT       1.147s      597.9ms     OK
+ 54 uuf200-033.cnf                                   200     860   UNSAT   UNSAT      709.7ms       1.280s     OK
+ 55 uuf200-088.cnf                                   200     860   UNSAT   UNSAT       2.159s      805.3ms     OK
+ 56 uuf200-077.cnf                                   200     860   UNSAT   UNSAT       2.359s       1.010s     OK
+ 57 uuf200-03.cnf                                    200     860   UNSAT   UNSAT       2.525s      929.3ms     OK
+ 58 uuf200-019.cnf                                   200     860   UNSAT   UNSAT       4.126s      329.5ms     OK
+ 59 uuf200-040.cnf                                   200     860   UNSAT   UNSAT       7.364s       2.475s     OK
+ 60 uuf200-059.cnf                                   200     860   UNSAT   UNSAT      10.212s       1.285s     OK
+ 61 uuf200-011.cnf                                   200     860   UNSAT   UNSAT      10.124s       3.085s     OK
+ 62 uuf200-055.cnf                                   200     860   UNSAT   UNSAT      11.703s       1.674s     OK
+ 63 uuf200-022.cnf                                   200     860   UNSAT   UNSAT      14.930s       2.590s     OK
+ 64 uuf200-037.cnf                                   200     860   UNSAT   UNSAT      22.673s       3.684s     OK
+ 65 uuf200-080.cnf                                   200     860   UNSAT   UNSAT      28.022s       3.129s     OK
+ 66 uuf200-044.cnf                                   200     860   UNSAT   UNSAT      31.575s      376.0ms     OK
+ 67 uuf200-091.cnf                                   200     860   UNSAT   UNSAT      55.237s      597.8ms     OK
+ 68 uuf200-07.cnf                                    200     860   UNSAT   UNSAT        77.0s      653.1ms     OK
+ 69 uuf200-066.cnf                                   200     860   UNSAT   UNSAT       181.6s       1.783s     OK
+ 70 uuf200-015.cnf                                   200     860   UNSAT   UNSAT       184.2s       2.239s     OK
+ 71 uuf200-048.cnf                                   200     860   UNSAT   UNSAT       214.1s      592.8ms     OK
+ 72 uuf200-099.cnf                                   200     860   UNSAT   UNSAT       226.5s      829.5ms     OK
+ 73 uuf200-095.cnf                                   200     860   UNSAT   UNSAT       227.5s      559.7ms     OK
+ 74 uuf200-051.cnf                                   200     860   UNSAT   UNSAT       240.3s      553.6ms     OK
+ 75 uuf200-026.cnf                                   200     860   UNSAT   UNSAT       281.9s      624.8ms     OK
+ 76 uuf200-023.cnf                                   200     860   UNSAT   UNSAT      589.6ms       1.042s     OK
+ 77 uuf200-030.cnf                                   200     860   UNSAT   UNSAT       2.094s      919.6ms     OK
+ 78 uuf200-096.cnf                                   200     860   UNSAT   UNSAT       2.623s       1.125s     OK
+ 79 uuf200-027.cnf                                   200     860   UNSAT   UNSAT       4.086s       1.357s     OK
+ 80 uuf200-06.cnf                                    200     860   UNSAT   UNSAT       4.931s      633.5ms     OK
+ 81 uuf200-089.cnf                                   200     860   UNSAT   UNSAT       4.449s       2.059s     OK
+ 82 uuf200-052.cnf                                   200     860   UNSAT   UNSAT       4.902s       3.205s     OK
+ 83 uuf200-016.cnf                                   200     860   UNSAT   UNSAT      13.734s       3.204s     OK
+ 84 uuf200-067.cnf                                   200     860   UNSAT   UNSAT      14.917s       2.387s     OK
+ 85 uuf200-034.cnf                                   200     860   UNSAT   UNSAT      18.703s      294.1ms     OK
+ 86 uuf200-041.cnf                                   200     860   UNSAT   UNSAT      17.964s       1.264s     OK
+ 87 uuf200-02.cnf                                    200     860   UNSAT   UNSAT      30.372s       2.135s     OK
+ 88 uuf200-012.cnf                                   200     860   UNSAT   UNSAT      35.559s       1.106s     OK
+ 89 uuf200-092.cnf                                   200     860   UNSAT   UNSAT      35.181s       1.605s     OK
+ 90 uuf200-085.cnf                                   200     860   UNSAT   UNSAT        68.2s      839.0ms     OK
+ 91 uuf200-038.cnf                                   200     860   UNSAT   UNSAT        81.2s      561.4ms     OK
+ 92 uuf200-081.cnf                                   200     860   UNSAT   UNSAT        99.0s      825.1ms     OK
+ 93 uuf200-045.cnf                                   200     860   UNSAT   UNSAT       101.7s       3.120s     OK
+ 94 uuf200-078.cnf                                   200     860   UNSAT   UNSAT       112.4s      718.2ms     OK
+ 95 uuf200-056.cnf                                   200     860   UNSAT   UNSAT       124.9s      998.7ms     OK
+ 96 uuf200-070.cnf                                   200     860   UNSAT   UNSAT       129.5s      355.6ms     OK
+ 97 uuf200-074.cnf                                   200     860   UNSAT   UNSAT       147.4s       2.425s     OK
+ 98 uuf200-049.cnf                                   200     860   UNSAT   UNSAT       161.2s      559.3ms     OK
+ 99 uuf200-063.cnf                                   200     860   UNSAT   UNSAT       710.2s      635.7ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 99
+  Both agree            : 99
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 5 / 99
+  MiniSat faster        : 94 / 99
+  CDCL total time       : 6299.1s
+  MiniSat total time    : 114.0s
+  Speedup (MS/CDCL)     : 0.02x
+==========================================================================================

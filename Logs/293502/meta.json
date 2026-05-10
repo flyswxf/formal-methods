@@ -1,0 +1,10 @@
+{
+  "job_id": 293502,
+  "task_name": "large-2022",
+  "dataset": "Datasets/cdcl_dimacs/large/cnfs/2022",
+  "cdcl": "Checkers/cdcl_solver",
+  "minisat": "Baseline/minisat/build/release/bin/minisat",
+  "timeout": 5000,
+  "nodes": 10,
+  "cpus_per_node": 32
+}

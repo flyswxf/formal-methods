@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293513
+  Task Name   : medium-uf150-645-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf150-645/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf150-089.cnf                                    150     645     SAT     SAT       17.6ms       20.6ms     OK
+  2 uf150-01.cnf                                     150     645     SAT     SAT       31.6ms       14.6ms     OK
+  3 uf150-049.cnf                                    150     645     SAT     SAT       36.2ms       56.2ms     OK
+  4 uf150-063.cnf                                    150     645     SAT     SAT       88.9ms       12.5ms     OK
+  5 uf150-045.cnf                                    150     645     SAT     SAT       53.7ms       48.8ms     OK
+  6 uf150-016.cnf                                    150     645     SAT     SAT       38.8ms       37.3ms     OK
+  7 uf150-06.cnf                                     150     645     SAT     SAT       41.1ms       35.4ms     OK
+  8 uf150-074.cnf                                    150     645     SAT     SAT       26.9ms       49.7ms     OK
+  9 uf150-034.cnf                                    150     645     SAT     SAT       53.0ms       41.2ms     OK
+ 10 uf150-012.cnf                                    150     645     SAT     SAT       55.1ms       44.3ms     OK
+ 11 uf150-02.cnf                                     150     645     SAT     SAT       54.0ms       46.5ms     OK
+ 12 uf150-030.cnf                                    150     645     SAT     SAT       56.2ms       44.1ms     OK
+ 13 uf150-056.cnf                                    150     645     SAT     SAT       62.2ms       54.6ms     OK
+ 14 uf150-067.cnf                                    150     645     SAT     SAT       83.0ms       32.3ms     OK
+ 15 uf150-023.cnf                                    150     645     SAT     SAT       80.7ms       48.7ms     OK
+ 16 uf150-052.cnf                                    150     645     SAT     SAT       80.7ms       49.0ms     OK
+ 17 uf150-070.cnf                                    150     645     SAT     SAT       90.7ms        9.7ms     OK
+ 18 uf150-085.cnf                                    150     645     SAT     SAT       73.7ms       33.5ms     OK
+ 19 uf150-027.cnf                                    150     645     SAT     SAT       67.1ms       55.1ms     OK
+ 20 uf150-092.cnf                                    150     645     SAT     SAT      110.7ms       15.1ms     OK
+ 21 uf150-041.cnf                                    150     645     SAT     SAT      114.1ms       31.0ms     OK
+ 22 uf150-096.cnf                                    150     645     SAT     SAT       98.4ms       50.6ms     OK
+ 23 uf150-038.cnf                                    150     645     SAT     SAT      129.9ms       27.4ms     OK
+ 24 uf150-081.cnf                                    150     645     SAT     SAT      130.5ms       46.3ms     OK
+ 25 uf150-078.cnf                                    150     645     SAT     SAT      205.4ms       52.7ms     OK
+ 26 uf150-017.cnf                                    150     645     SAT     SAT       35.0ms       12.6ms     OK
+ 27 uf150-020.cnf                                    150     645     SAT     SAT       46.9ms       14.7ms     OK
+ 28 uf150-060.cnf                                    150     645     SAT     SAT       36.2ms       33.4ms     OK
+ 29 uf150-09.cnf                                     150     645     SAT     SAT       41.6ms       23.3ms     OK
+ 30 uf150-086.cnf                                    150     645     SAT     SAT       62.6ms       13.9ms     OK
+ 31 uf150-068.cnf                                    150     645     SAT     SAT       47.7ms       39.1ms     OK
+ 32 uf150-057.cnf                                    150     645     SAT     SAT       82.8ms       13.0ms     OK
+ 33 uf150-035.cnf                                    150     645     SAT     SAT       83.0ms       29.8ms     OK
+ 34 uf150-064.cnf                                    150     645     SAT     SAT       41.3ms       66.1ms     OK
+ 35 uf150-082.cnf                                    150     645     SAT     SAT       85.3ms       13.7ms     OK
+ 36 uf150-013.cnf                                    150     645     SAT     SAT      121.1ms       13.3ms     OK
+ 37 uf150-010.cnf                                    150     645     SAT     SAT      130.1ms       25.3ms     OK
+ 38 uf150-039.cnf                                    150     645     SAT     SAT       24.0ms       58.1ms     OK
+ 39 uf150-075.cnf                                    150     645     SAT     SAT       19.8ms       78.3ms     OK
+ 40 uf150-028.cnf                                    150     645     SAT     SAT       25.6ms       71.0ms     OK
+ 41 uf150-046.cnf                                    150     645     SAT     SAT       57.8ms       33.7ms     OK
+ 42 uf150-093.cnf                                    150     645     SAT     SAT       22.8ms      112.6ms     OK
+ 43 uf150-071.cnf                                    150     645     SAT     SAT       23.0ms      122.2ms     OK
+ 44 uf150-042.cnf                                    150     645     SAT     SAT      359.2ms       22.3ms     OK
+ 45 uf150-097.cnf                                    150     645     SAT     SAT      142.0ms       15.3ms     OK
+ 46 uf150-053.cnf                                    150     645     SAT     SAT      109.3ms       69.7ms     OK
+ 47 uf150-05.cnf                                     150     645     SAT     SAT      210.5ms       17.0ms     OK
+ 48 uf150-031.cnf                                    150     645     SAT     SAT      224.3ms       23.9ms     OK
+ 49 uf150-024.cnf                                    150     645     SAT     SAT      266.4ms       13.1ms     OK
+ 50 uf150-079.cnf                                    150     645     SAT     SAT      347.3ms       66.4ms     OK
+ 51 uf150-065.cnf                                    150     645     SAT     SAT       26.5ms       29.9ms     OK
+ 52 uf150-050.cnf                                    150     645     SAT     SAT       42.3ms       10.3ms     OK
+ 53 uf150-072.cnf                                    150     645     SAT     SAT       34.4ms       13.3ms     OK
+ 54 uf150-083.cnf                                    150     645     SAT     SAT       39.8ms       17.8ms     OK
+ 55 uf150-08.cnf                                     150     645     SAT     SAT       50.4ms       26.3ms     OK
+ 56 uf150-036.cnf                                    150     645     SAT     SAT       60.5ms       47.4ms     OK
+ 57 uf150-04.cnf                                     150     645     SAT     SAT       82.4ms       52.8ms     OK
+ 58 uf150-061.cnf                                    150     645     SAT     SAT      122.8ms       24.0ms     OK
+ 59 uf150-047.cnf                                    150     645     SAT     SAT       35.9ms       57.7ms     OK
+ 60 uf150-032.cnf                                    150     645     SAT     SAT       61.2ms       30.4ms     OK
+ 61 uf150-021.cnf                                    150     645     SAT     SAT       40.2ms       54.1ms     OK
+ 62 uf150-069.cnf                                    150     645     SAT     SAT       63.7ms       32.1ms     OK
+ 63 uf150-018.cnf                                    150     645     SAT     SAT       72.2ms       29.1ms     OK
+ 64 uf150-058.cnf                                    150     645     SAT     SAT       86.8ms       23.3ms     OK
+ 65 uf150-094.cnf                                    150     645     SAT     SAT       53.0ms       44.4ms     OK
+ 66 uf150-029.cnf                                    150     645     SAT     SAT       54.5ms       40.1ms     OK
+ 67 uf150-076.cnf                                    150     645     SAT     SAT       98.8ms       30.0ms     OK
+ 68 uf150-014.cnf                                    150     645     SAT     SAT       59.1ms       68.3ms     OK
+ 69 uf150-087.cnf                                    150     645     SAT     SAT       63.0ms       55.7ms     OK
+ 70 uf150-098.cnf                                    150     645     SAT     SAT      108.4ms       20.2ms     OK
+ 71 uf150-025.cnf                                    150     645     SAT     SAT       78.2ms       72.2ms     OK
+ 72 uf150-0100.cnf                                   150     645     SAT     SAT       96.0ms       47.9ms     OK
+ 73 uf150-054.cnf                                    150     645     SAT     SAT      137.6ms       16.5ms     OK
+ 74 uf150-090.cnf                                    150     645     SAT     SAT      155.3ms       15.0ms     OK
+ 75 uf150-043.cnf                                    150     645     SAT     SAT      503.9ms       52.7ms     OK
+ 76 uf150-026.cnf                                    150     645     SAT     SAT       59.1ms       47.3ms     OK
+ 77 uf150-022.cnf                                    150     645     SAT     SAT       53.2ms       53.8ms     OK
+ 78 uf150-011.cnf                                    150     645     SAT     SAT       61.1ms       53.0ms     OK
+ 79 uf150-015.cnf                                    150     645     SAT     SAT       60.1ms       52.3ms     OK
+ 80 uf150-080.cnf                                    150     645     SAT     SAT       78.6ms       54.8ms     OK
+ 81 uf150-066.cnf                                    150     645     SAT     SAT       44.2ms       66.0ms     OK
+ 82 uf150-059.cnf                                    150     645     SAT     SAT       75.2ms       62.3ms     OK
+ 83 uf150-037.cnf                                    150     645     SAT     SAT       55.2ms       81.3ms     OK
+ 84 uf150-088.cnf                                    150     645     SAT     SAT       54.4ms       96.1ms     OK
+ 85 uf150-073.cnf                                    150     645     SAT     SAT       65.8ms       77.5ms     OK
+ 86 uf150-019.cnf                                    150     645     SAT     SAT      104.0ms       51.5ms     OK
+ 87 uf150-051.cnf                                    150     645     SAT     SAT      141.7ms       20.9ms     OK
+ 88 uf150-07.cnf                                     150     645     SAT     SAT       73.6ms       92.6ms     OK
+ 89 uf150-062.cnf                                    150     645     SAT     SAT       73.7ms       69.7ms     OK
+ 90 uf150-040.cnf                                    150     645     SAT     SAT       85.8ms       86.8ms     OK
+ 91 uf150-084.cnf                                    150     645     SAT     SAT      180.8ms       12.4ms     OK
+ 92 uf150-03.cnf                                     150     645     SAT     SAT      167.0ms       31.4ms     OK
+ 93 uf150-055.cnf                                    150     645     SAT     SAT      126.1ms       79.1ms     OK
+ 94 uf150-033.cnf                                    150     645     SAT     SAT      220.7ms       14.6ms     OK
+ 95 uf150-048.cnf                                    150     645     SAT     SAT      257.2ms       12.0ms     OK
+ 96 uf150-077.cnf                                    150     645     SAT     SAT      272.2ms       27.5ms     OK
+ 97 uf150-091.cnf                                    150     645     SAT     SAT      306.4ms       29.2ms     OK
+ 98 uf150-044.cnf                                    150     645     SAT     SAT      353.5ms       50.7ms     OK
+ 99 uf150-099.cnf                                    150     645     SAT     SAT      387.5ms       47.1ms     OK
+100 uf150-095.cnf                                    150     645     SAT     SAT      573.0ms      119.3ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 20 / 100
+  MiniSat faster        : 80 / 100
+  CDCL total time       : 10.683s
+  MiniSat total time    : 4.260s
+  Speedup (MS/CDCL)     : 0.40x
+==========================================================================================

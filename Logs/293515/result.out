@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293515
+  Task Name   : medium-uf175-753-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf175-753/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf175-063.cnf                                    175     753     SAT     SAT       79.7ms       28.5ms     OK
+  2 uf175-045.cnf                                    175     753     SAT     SAT       92.7ms       75.6ms     OK
+  3 uf175-041.cnf                                    175     753     SAT     SAT       29.3ms       93.1ms     OK
+  4 uf175-01.cnf                                     175     753     SAT     SAT       44.6ms       79.3ms     OK
+  5 uf175-016.cnf                                    175     753     SAT     SAT       60.8ms       64.5ms     OK
+  6 uf175-038.cnf                                    175     753     SAT     SAT       62.6ms       49.2ms     OK
+  7 uf175-070.cnf                                    175     753     SAT     SAT       60.2ms       57.6ms     OK
+  8 uf175-078.cnf                                    175     753     SAT     SAT       50.6ms       53.4ms     OK
+  9 uf175-012.cnf                                    175     753     SAT     SAT       64.2ms       76.1ms     OK
+ 10 uf175-023.cnf                                    175     753     SAT     SAT       64.0ms       51.7ms     OK
+ 11 uf175-096.cnf                                    175     753     SAT     SAT       71.0ms       85.8ms     OK
+ 12 uf175-089.cnf                                    175     753     SAT     SAT      129.4ms       53.3ms     OK
+ 13 uf175-02.cnf                                     175     753     SAT     SAT       90.3ms       98.3ms     OK
+ 14 uf175-056.cnf                                    175     753     SAT     SAT      148.7ms       34.7ms     OK
+ 15 uf175-074.cnf                                    175     753     SAT     SAT      163.1ms       74.7ms     OK
+ 16 uf175-052.cnf                                    175     753     SAT     SAT      208.3ms       87.6ms     OK
+ 17 uf175-034.cnf                                    175     753     SAT     SAT      211.8ms       86.1ms     OK
+ 18 uf175-06.cnf                                     175     753     SAT     SAT      309.5ms       35.0ms     OK
+ 19 uf175-085.cnf                                    175     753     SAT     SAT      282.7ms       70.4ms     OK
+ 20 uf175-067.cnf                                    175     753     SAT     SAT      288.6ms      130.9ms     OK
+ 21 uf175-092.cnf                                    175     753     SAT     SAT      171.6ms      228.9ms     OK
+ 22 uf175-049.cnf                                    175     753     SAT     SAT      345.3ms       95.3ms     OK
+ 23 uf175-081.cnf                                    175     753     SAT     SAT      253.9ms      192.1ms     OK
+ 24 uf175-027.cnf                                    175     753     SAT     SAT      391.2ms      112.6ms     OK
+ 25 uf175-030.cnf                                    175     753     SAT     SAT       1.080s      148.7ms     OK
+ 26 uf175-046.cnf                                    175     753     SAT     SAT      233.3ms       20.0ms     OK
+ 27 uf175-042.cnf                                    175     753     SAT     SAT      133.9ms       31.3ms     OK
+ 28 uf175-071.cnf                                    175     753     SAT     SAT      133.0ms      162.5ms     OK
+ 29 uf175-079.cnf                                    175     753     SAT     SAT      114.4ms      107.9ms     OK
+ 30 uf175-068.cnf                                    175     753     SAT     SAT      209.3ms      157.4ms     OK
+ 31 uf175-093.cnf                                    175     753     SAT     SAT      164.7ms       78.6ms     OK
+ 32 uf175-010.cnf                                    175     753     SAT     SAT      240.4ms       43.5ms     OK
+ 33 uf175-060.cnf                                    175     753     SAT     SAT      211.0ms       66.8ms     OK
+ 34 uf175-053.cnf                                    175     753     SAT     SAT      248.1ms       41.9ms     OK
+ 35 uf175-075.cnf                                    175     753     SAT     SAT      362.3ms       54.5ms     OK
+ 36 uf175-039.cnf                                    175     753     SAT     SAT      268.4ms       37.3ms     OK
+ 37 uf175-035.cnf                                    175     753     SAT     SAT      281.0ms       13.6ms     OK
+ 38 uf175-020.cnf                                    175     753     SAT     SAT      284.8ms       15.5ms     OK
+ 39 uf175-05.cnf                                     175     753     SAT     SAT      206.6ms      116.2ms     OK
+ 40 uf175-028.cnf                                    175     753     SAT     SAT      410.0ms       53.6ms     OK
+ 41 uf175-097.cnf                                    175     753     SAT     SAT      414.7ms       78.3ms     OK
+ 42 uf175-064.cnf                                    175     753     SAT     SAT      366.0ms       30.6ms     OK
+ 43 uf175-086.cnf                                    175     753     SAT     SAT      410.8ms       31.0ms     OK
+ 44 uf175-017.cnf                                    175     753     SAT     SAT      513.0ms       33.4ms     OK
+ 45 uf175-057.cnf                                    175     753     SAT     SAT      718.6ms       31.9ms     OK
+ 46 uf175-031.cnf                                    175     753     SAT     SAT      638.2ms       33.5ms     OK
+ 47 uf175-082.cnf                                    175     753     SAT     SAT      441.7ms      261.1ms     OK
+ 48 uf175-09.cnf                                     175     753     SAT     SAT      719.9ms       34.8ms     OK
+ 49 uf175-013.cnf                                    175     753     SAT     SAT      700.0ms       57.4ms     OK
+ 50 uf175-024.cnf                                    175     753     SAT     SAT       2.447s       72.1ms     OK
+ 51 uf175-058.cnf                                    175     753     SAT     SAT       17.3ms       38.0ms     OK
+ 52 uf175-043.cnf                                    175     753     SAT     SAT       40.7ms       46.3ms     OK
+ 53 uf175-090.cnf                                    175     753     SAT     SAT       32.8ms       57.7ms     OK
+ 54 uf175-061.cnf                                    175     753     SAT     SAT       64.9ms       29.4ms     OK
+ 55 uf175-065.cnf                                    175     753     SAT     SAT       73.2ms       29.3ms     OK
+ 56 uf175-014.cnf                                    175     753     SAT     SAT      208.6ms       48.9ms     OK
+ 57 uf175-08.cnf                                     175     753     SAT     SAT      109.9ms       32.4ms     OK
+ 58 uf175-0100.cnf                                   175     753     SAT     SAT       98.3ms       54.9ms     OK
+ 59 uf175-018.cnf                                    175     753     SAT     SAT       67.7ms       55.4ms     OK
+ 60 uf175-025.cnf                                    175     753     SAT     SAT       79.7ms       91.0ms     OK
+ 61 uf175-083.cnf                                    175     753     SAT     SAT      122.8ms       70.7ms     OK
+ 62 uf175-087.cnf                                    175     753     SAT     SAT      199.2ms       39.6ms     OK
+ 63 uf175-098.cnf                                    175     753     SAT     SAT      263.6ms       96.6ms     OK
+ 64 uf175-076.cnf                                    175     753     SAT     SAT      186.9ms       51.9ms     OK
+ 65 uf175-029.cnf                                    175     753     SAT     SAT      192.6ms       84.2ms     OK
+ 66 uf175-047.cnf                                    175     753     SAT     SAT      184.9ms      109.7ms     OK
+ 67 uf175-04.cnf                                     175     753     SAT     SAT      321.4ms       33.5ms     OK
+ 68 uf175-021.cnf                                    175     753     SAT     SAT       95.0ms      303.9ms     OK
+ 69 uf175-072.cnf                                    175     753     SAT     SAT      366.4ms       63.2ms     OK
+ 70 uf175-054.cnf                                    175     753     SAT     SAT      474.6ms       87.2ms     OK
+ 71 uf175-069.cnf                                    175     753     SAT     SAT      690.8ms      114.5ms     OK
+ 72 uf175-094.cnf                                    175     753     SAT     SAT       1.122s       15.4ms     OK
+ 73 uf175-050.cnf                                    175     753     SAT     SAT       1.242s      188.1ms     OK
+ 74 uf175-036.cnf                                    175     753     SAT     SAT       1.943s       32.0ms     OK
+ 75 uf175-032.cnf                                    175     753     SAT     SAT       2.057s       47.7ms     OK
+ 76 uf175-07.cnf                                     175     753     SAT     SAT       62.2ms       37.5ms     OK
+ 77 uf175-011.cnf                                    175     753     SAT     SAT       93.2ms       41.5ms     OK
+ 78 uf175-015.cnf                                    175     753     SAT     SAT      121.1ms       30.7ms     OK
+ 79 uf175-073.cnf                                    175     753     SAT     SAT      140.9ms       41.5ms     OK
+ 80 uf175-095.cnf                                    175     753     SAT     SAT      121.0ms       65.3ms     OK
+ 81 uf175-062.cnf                                    175     753     SAT     SAT      115.6ms       87.2ms     OK
+ 82 uf175-048.cnf                                    175     753     SAT     SAT       70.2ms      209.5ms     OK
+ 83 uf175-022.cnf                                    175     753     SAT     SAT      243.1ms       65.5ms     OK
+ 84 uf175-03.cnf                                     175     753     SAT     SAT      242.6ms       91.5ms     OK
+ 85 uf175-059.cnf                                    175     753     SAT     SAT      216.4ms      117.1ms     OK
+ 86 uf175-099.cnf                                    175     753     SAT     SAT      268.6ms       72.3ms     OK
+ 87 uf175-055.cnf                                    175     753     SAT     SAT      138.5ms      221.0ms     OK
+ 88 uf175-088.cnf                                    175     753     SAT     SAT      283.0ms       68.4ms     OK
+ 89 uf175-040.cnf                                    175     753     SAT     SAT      205.1ms      180.6ms     OK
+ 90 uf175-091.cnf                                    175     753     SAT     SAT      270.6ms      119.3ms     OK
+ 91 uf175-051.cnf                                    175     753     SAT     SAT      381.9ms       45.6ms     OK
+ 92 uf175-077.cnf                                    175     753     SAT     SAT      429.2ms       12.5ms     OK
+ 93 uf175-066.cnf                                    175     753     SAT     SAT      435.1ms       19.1ms     OK
+ 94 uf175-033.cnf                                    175     753     SAT     SAT      313.6ms      167.3ms     OK
+ 95 uf175-080.cnf                                    175     753     SAT     SAT      541.4ms       24.0ms     OK
+ 96 uf175-026.cnf                                    175     753     SAT     SAT      564.7ms       52.2ms     OK
+ 97 uf175-044.cnf                                    175     753     SAT     SAT      703.6ms       71.9ms     OK
+ 98 uf175-019.cnf                                    175     753     SAT     SAT      824.5ms      100.9ms     OK
+ 99 uf175-037.cnf                                    175     753     SAT     SAT      333.0ms      671.8ms     OK
+100 uf175-084.cnf                                    175     753     SAT     SAT       4.571s      162.2ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 17 / 100
+  MiniSat faster        : 83 / 100
+  CDCL total time       : 37.572s
+  MiniSat total time    : 8.426s
+  Speedup (MS/CDCL)     : 0.22x
+==========================================================================================

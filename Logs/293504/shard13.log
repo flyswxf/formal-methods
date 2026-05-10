@@ -1,0 +1,100 @@
+[INFO] shard=13/16 host=node134 log=Logs/293504/shard13.log
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/medium/uf20-91/SAT (62 files)
+  Shard       : 13/16
+  Timeout     : 5000s
+  Workers     : 32
+==========================================================================================
+
+[INFO] Submitting 62 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+ 27 uf20-0485.cnf                                     20      91     SAT     SAT      269.5ms       47.2ms     OK
+  3 uf20-0139.cnf                                     20      91     SAT     SAT      294.1ms       47.6ms     OK
+ 29 uf20-0513.cnf                                     20      91     SAT     SAT      277.7ms       47.0ms     OK
+ 12 uf20-0269.cnf                                     20      91     SAT     SAT      293.6ms       40.2ms     OK
+ 24 uf20-0441.cnf                                     20      91     SAT     SAT      268.2ms       43.5ms     OK
+ 15 uf20-0311.cnf                                     20      91     SAT     SAT      271.0ms       45.4ms     OK
+  5 uf20-0168.cnf                                     20      91     SAT     SAT      280.0ms       45.6ms     OK
+  2 uf20-0124.cnf                                     20      91     SAT     SAT      280.4ms       43.5ms     OK
+ 31 uf20-0542.cnf                                     20      91     SAT     SAT      276.6ms       40.9ms     OK
+ 16 uf20-0326.cnf                                     20      91     SAT     SAT      288.8ms       42.9ms     OK
+[INFO] Completed 10/62
+ 19 uf20-037.cnf                                      20      91     SAT     SAT      292.7ms       45.4ms     OK
+  4 uf20-0153.cnf                                     20      91     SAT     SAT      298.2ms       51.8ms     OK
+ 26 uf20-0470.cnf                                     20      91     SAT     SAT      276.8ms       60.4ms     OK
+ 13 uf20-0283.cnf                                     20      91     SAT     SAT      278.0ms       64.1ms     OK
+  6 uf20-0182.cnf                                     20      91     SAT     SAT      276.7ms       66.7ms     OK
+ 18 uf20-0355.cnf                                     20      91     SAT     SAT      294.3ms       61.1ms     OK
+  9 uf20-0225.cnf                                     20      91     SAT     SAT      292.8ms       41.1ms     OK
+ 25 uf20-0456.cnf                                     20      91     SAT     SAT      289.4ms       46.4ms     OK
+ 17 uf20-0340.cnf                                     20      91     SAT     SAT      293.7ms       51.8ms     OK
+  7 uf20-0197.cnf                                     20      91     SAT     SAT      321.7ms       39.9ms     OK
+[INFO] Completed 20/62
+ 20 uf20-0384.cnf                                     20      91     SAT     SAT      290.8ms       53.2ms     OK
+ 32 uf20-0557.cnf                                     20      91     SAT     SAT      300.9ms       44.9ms     OK
+  1 uf20-011.cnf                                      20      91     SAT     SAT      309.7ms       50.6ms     OK
+ 11 uf20-0254.cnf                                     20      91     SAT     SAT      287.4ms       52.4ms     OK
+ 21 uf20-0399.cnf                                     20      91     SAT     SAT      312.1ms       48.2ms     OK
+ 10 uf20-024.cnf                                      20      91     SAT     SAT      301.0ms       59.5ms     OK
+ 14 uf20-0298.cnf                                     20      91     SAT     SAT      308.0ms       54.4ms     OK
+ 23 uf20-0427.cnf                                     20      91     SAT     SAT      320.2ms       42.6ms     OK
+  8 uf20-0210.cnf                                     20      91     SAT     SAT      304.8ms       58.0ms     OK
+ 22 uf20-0412.cnf                                     20      91     SAT     SAT      306.2ms       52.6ms     OK
+[INFO] Completed 30/62
+ 30 uf20-0528.cnf                                     20      91     SAT     SAT      294.4ms       68.6ms     OK
+ 28 uf20-05.cnf                                       20      91     SAT     SAT      291.5ms       79.4ms     OK
+ 37 uf20-0629.cnf                                     20      91     SAT     SAT       45.5ms       80.5ms     OK
+ 36 uf20-0614.cnf                                     20      91     SAT     SAT       60.9ms       62.4ms     OK
+ 39 uf20-0658.cnf                                     20      91     SAT     SAT       76.6ms       57.4ms     OK
+ 42 uf20-0700.cnf                                     20      91     SAT     SAT       63.4ms       73.6ms     OK
+ 33 uf20-0571.cnf                                     20      91     SAT     SAT       60.3ms       67.8ms     OK
+ 38 uf20-0643.cnf                                     20      91     SAT     SAT       62.1ms       69.7ms     OK
+ 41 uf20-0687.cnf                                     20      91     SAT     SAT       55.6ms       69.2ms     OK
+ 45 uf20-0744.cnf                                     20      91     SAT     SAT       67.0ms       60.3ms     OK
+[INFO] Completed 40/62
+ 34 uf20-0586.cnf                                     20      91     SAT     SAT       71.8ms       63.6ms     OK
+ 50 uf20-0816.cnf                                     20      91     SAT     SAT       60.4ms       63.0ms     OK
+ 43 uf20-0715.cnf                                     20      91     SAT     SAT       64.9ms       72.8ms     OK
+ 60 uf20-0960.cnf                                     20      91     SAT     SAT       71.2ms       37.0ms     OK
+ 56 uf20-0902.cnf                                     20      91     SAT     SAT       90.6ms       33.3ms     OK
+ 53 uf20-086.cnf                                      20      91     SAT     SAT       90.2ms       33.0ms     OK
+ 46 uf20-0759.cnf                                     20      91     SAT     SAT       87.6ms       36.6ms     OK
+ 52 uf20-0845.cnf                                     20      91     SAT     SAT       92.9ms       29.5ms     OK
+ 40 uf20-0672.cnf                                     20      91     SAT     SAT       75.5ms       72.3ms     OK
+ 44 uf20-073.cnf                                      20      91     SAT     SAT       63.0ms       72.8ms     OK
+[INFO] Completed 50/62
+ 47 uf20-0773.cnf                                     20      91     SAT     SAT       89.4ms       33.4ms     OK
+ 57 uf20-0917.cnf                                     20      91     SAT     SAT       83.6ms       28.8ms     OK
+ 48 uf20-0788.cnf                                     20      91     SAT     SAT       86.4ms       49.6ms     OK
+ 49 uf20-0801.cnf                                     20      91     SAT     SAT       86.3ms       42.3ms     OK
+ 51 uf20-0830.cnf                                     20      91     SAT     SAT      106.5ms       33.7ms     OK
+ 58 uf20-0931.cnf                                     20      91     SAT     SAT       90.7ms       31.3ms     OK
+ 59 uf20-0946.cnf                                     20      91     SAT     SAT       90.7ms       40.7ms     OK
+ 54 uf20-0874.cnf                                     20      91     SAT     SAT       82.0ms       43.9ms     OK
+ 35 uf20-060.cnf                                      20      91     SAT     SAT      125.2ms       24.4ms     OK
+ 55 uf20-0889.cnf                                     20      91     SAT     SAT       85.7ms       51.5ms     OK
+[INFO] Completed 60/62
+ 61 uf20-0975.cnf                                     20      91     SAT     SAT       76.6ms       45.2ms     OK
+ 62 uf20-099.cnf                                      20      91     SAT     SAT       93.4ms       25.3ms     OK
+[INFO] Completed 62/62
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 62
+  Both agree            : 62
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 9 / 62
+  MiniSat faster        : 53 / 62
+  CDCL total time       : 11.697s
+  MiniSat total time    : 3.142s
+  Speedup (MS/CDCL)     : 0.27x
+==========================================================================================
+
+  Results saved to: Logs/293504/shard13.json

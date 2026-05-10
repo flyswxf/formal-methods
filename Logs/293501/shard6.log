@@ -1,0 +1,15 @@
+[INFO] shard=6/12 host=node127 log=Logs/293501/shard6.log
+==========================================================================================
+  SAT Solver Benchmark: CDCLSolver vs MiniSat (Parallel)
+==========================================================================================
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Dataset     : Datasets/cdcl_dimacs/large/cnfs/2023 (30 files)
+  Shard       : 6/12
+  Timeout     : 5000s
+  Workers     : 30
+==========================================================================================
+
+[INFO] Submitting 30 instances ...
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------

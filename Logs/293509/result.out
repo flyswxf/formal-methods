@@ -1,0 +1,1029 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293509
+  Task Name   : medium-uf100-430-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf100-430/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 16  (32 cpus/node)
+  Total Files : 1000
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf100-0112.cnf                                   100     430     SAT     SAT       15.6ms        8.2ms     OK
+  2 uf100-02.cnf                                     100     430     SAT     SAT       22.7ms       39.2ms     OK
+  3 uf100-01.cnf                                     100     430     SAT     SAT       22.1ms       51.1ms     OK
+  4 uf100-0156.cnf                                   100     430     SAT     SAT       15.2ms       49.4ms     OK
+  5 uf100-0228.cnf                                   100     430     SAT     SAT       20.0ms       43.3ms     OK
+  6 uf100-0314.cnf                                   100     430     SAT     SAT       25.6ms       41.4ms     OK
+  7 uf100-0286.cnf                                   100     430     SAT     SAT       26.0ms       49.6ms     OK
+  8 uf100-0141.cnf                                   100     430     SAT     SAT       45.0ms       48.1ms     OK
+  9 uf100-0170.cnf                                   100     430     SAT     SAT       48.9ms       52.9ms     OK
+ 10 uf100-0329.cnf                                   100     430     SAT     SAT       45.8ms       54.3ms     OK
+ 11 uf100-0213.cnf                                   100     430     SAT     SAT       48.1ms       55.8ms     OK
+ 12 uf100-0415.cnf                                   100     430     SAT     SAT       51.7ms       47.1ms     OK
+ 13 uf100-0242.cnf                                   100     430     SAT     SAT       50.5ms       56.1ms     OK
+ 14 uf100-0127.cnf                                   100     430     SAT     SAT       48.6ms       54.2ms     OK
+ 15 uf100-030.cnf                                    100     430     SAT     SAT       51.2ms       53.8ms     OK
+ 16 uf100-0530.cnf                                   100     430     SAT     SAT       51.8ms       51.4ms     OK
+ 17 uf100-0343.cnf                                   100     430     SAT     SAT       48.1ms       60.5ms     OK
+ 18 uf100-0271.cnf                                   100     430     SAT     SAT       51.6ms       55.3ms     OK
+ 19 uf100-043.cnf                                    100     430     SAT     SAT       50.7ms       54.9ms     OK
+ 20 uf100-0444.cnf                                   100     430     SAT     SAT       57.6ms       53.5ms     OK
+ 21 uf100-0516.cnf                                   100     430     SAT     SAT       56.5ms       52.0ms     OK
+ 22 uf100-0459.cnf                                   100     430     SAT     SAT       52.1ms       56.3ms     OK
+ 23 uf100-0400.cnf                                   100     430     SAT     SAT       61.0ms       57.6ms     OK
+ 24 uf100-0387.cnf                                   100     430     SAT     SAT       47.6ms       59.1ms     OK
+ 25 uf100-0372.cnf                                   100     430     SAT     SAT       47.8ms       48.5ms     OK
+ 26 uf100-0501.cnf                                   100     430     SAT     SAT       47.5ms       59.1ms     OK
+ 27 uf100-0257.cnf                                   100     430     SAT     SAT       53.1ms       58.8ms     OK
+ 28 uf100-0185.cnf                                   100     430     SAT     SAT       50.6ms       49.5ms     OK
+ 29 uf100-0358.cnf                                   100     430     SAT     SAT       50.2ms       62.7ms     OK
+ 30 uf100-0473.cnf                                   100     430     SAT     SAT       58.4ms       34.8ms     OK
+ 31 uf100-0545.cnf                                   100     430     SAT     SAT       58.4ms       46.7ms     OK
+ 32 uf100-0488.cnf                                   100     430     SAT     SAT       63.0ms       44.0ms     OK
+ 33 uf100-0617.cnf                                   100     430     SAT     SAT       61.6ms       33.6ms     OK
+ 34 uf100-056.cnf                                    100     430     SAT     SAT       61.7ms       48.0ms     OK
+ 35 uf100-0574.cnf                                   100     430     SAT     SAT       68.9ms       30.7ms     OK
+ 36 uf100-0589.cnf                                   100     430     SAT     SAT       66.0ms       37.2ms     OK
+ 37 uf100-0631.cnf                                   100     430     SAT     SAT       70.7ms       32.8ms     OK
+ 38 uf100-0646.cnf                                   100     430     SAT     SAT       64.7ms       33.3ms     OK
+ 39 uf100-0602.cnf                                   100     430     SAT     SAT       69.3ms       39.3ms     OK
+ 40 uf100-0660.cnf                                   100     430     SAT     SAT       46.7ms       36.9ms     OK
+ 41 uf100-0703.cnf                                   100     430     SAT     SAT       43.3ms       30.5ms     OK
+ 42 uf100-0675.cnf                                   100     430     SAT     SAT       44.5ms       33.5ms     OK
+ 43 uf100-069.cnf                                    100     430     SAT     SAT       42.4ms       38.8ms     OK
+ 44 uf100-0747.cnf                                   100     430     SAT     SAT       40.2ms       30.6ms     OK
+ 45 uf100-0776.cnf                                   100     430     SAT     SAT       42.5ms       33.6ms     OK
+ 46 uf100-0761.cnf                                   100     430     SAT     SAT       45.2ms       33.9ms     OK
+ 47 uf100-0732.cnf                                   100     430     SAT     SAT       43.0ms       35.6ms     OK
+ 48 uf100-0718.cnf                                   100     430     SAT     SAT       51.7ms       42.6ms     OK
+ 49 uf100-0804.cnf                                   100     430     SAT     SAT       36.7ms       40.5ms     OK
+ 50 uf100-0848.cnf                                   100     430     SAT     SAT       29.8ms       34.8ms     OK
+ 51 uf100-0877.cnf                                   100     430     SAT     SAT       39.8ms       33.3ms     OK
+ 52 uf100-0790.cnf                                   100     430     SAT     SAT       36.0ms       33.0ms     OK
+ 53 uf100-0833.cnf                                   100     430     SAT     SAT       34.8ms       40.9ms     OK
+ 54 uf100-0905.cnf                                   100     430     SAT     SAT       35.5ms       27.1ms     OK
+ 55 uf100-0862.cnf                                   100     430     SAT     SAT       40.0ms       26.1ms     OK
+ 56 uf100-0891.cnf                                   100     430     SAT     SAT       35.2ms       29.2ms     OK
+ 57 uf100-0934.cnf                                   100     430     SAT     SAT       41.8ms       22.9ms     OK
+ 58 uf100-0949.cnf                                   100     430     SAT     SAT       30.1ms       27.6ms     OK
+ 59 uf100-0963.cnf                                   100     430     SAT     SAT       38.2ms       30.1ms     OK
+ 60 uf100-092.cnf                                    100     430     SAT     SAT       41.1ms       35.8ms     OK
+ 61 uf100-0978.cnf                                   100     430     SAT     SAT       43.8ms       28.9ms     OK
+ 62 uf100-0819.cnf                                   100     430     SAT     SAT       39.1ms       47.9ms     OK
+ 63 uf100-0992.cnf                                   100     430     SAT     SAT       42.8ms       22.8ms     OK
+ 64 uf100-0229.cnf                                   100     430     SAT     SAT      911.0ms      109.3ms     OK
+ 65 uf100-0315.cnf                                   100     430     SAT     SAT       1.001s      143.8ms     OK
+ 66 uf100-0359.cnf                                   100     430     SAT     SAT       1.179s       58.4ms     OK
+ 67 uf100-0243.cnf                                   100     430     SAT     SAT       1.191s       32.3ms     OK
+ 68 uf100-0287.cnf                                   100     430     SAT     SAT       1.153s      141.0ms     OK
+ 69 uf100-0186.cnf                                   100     430     SAT     SAT       1.152s      169.5ms     OK
+ 70 uf100-0388.cnf                                   100     430     SAT     SAT       1.273s      124.4ms     OK
+ 71 uf100-0416.cnf                                   100     430     SAT     SAT       1.232s      302.7ms     OK
+ 72 uf100-0157.cnf                                   100     430     SAT     SAT       1.443s      371.8ms     OK
+ 73 uf100-033.cnf                                    100     430     SAT     SAT       1.771s       64.6ms     OK
+ 74 uf100-0373.cnf                                   100     430     SAT     SAT       1.587s      270.8ms     OK
+ 75 uf100-0142.cnf                                   100     430     SAT     SAT       1.831s       59.1ms     OK
+ 76 uf100-0344.cnf                                   100     430     SAT     SAT       1.772s      210.9ms     OK
+ 77 uf100-0113.cnf                                   100     430     SAT     SAT       2.066s       31.1ms     OK
+ 78 uf100-010.cnf                                    100     430     SAT     SAT       2.011s       13.9ms     OK
+ 79 uf100-0401.cnf                                   100     430     SAT     SAT       1.895s       14.2ms     OK
+ 80 uf100-0445.cnf                                   100     430     SAT     SAT       1.966s       22.4ms     OK
+ 81 uf100-0272.cnf                                   100     430     SAT     SAT       2.075s       35.7ms     OK
+ 82 uf100-0214.cnf                                   100     430     SAT     SAT       1.804s      408.4ms     OK
+ 83 uf100-0128.cnf                                   100     430     SAT     SAT       2.187s       27.5ms     OK
+ 84 uf100-0300.cnf                                   100     430     SAT     SAT       1.788s      508.2ms     OK
+ 85 uf100-0502.cnf                                   100     430     SAT     SAT       1.051s      255.4ms     OK
+ 86 uf100-0171.cnf                                   100     430     SAT     SAT       2.446s       99.7ms     OK
+ 87 uf100-0546.cnf                                   100     430     SAT     SAT       1.256s       57.7ms     OK
+ 88 uf100-0531.cnf                                   100     430     SAT     SAT       1.500s      149.3ms     OK
+ 89 uf100-0517.cnf                                   100     430     SAT     SAT       1.327s      183.4ms     OK
+ 90 uf100-020.cnf                                    100     430     SAT     SAT       2.827s      297.9ms     OK
+ 91 uf100-0661.cnf                                   100     430     SAT     SAT       1.293s      111.6ms     OK
+ 92 uf100-0474.cnf                                   100     430     SAT     SAT       1.529s      645.2ms     OK
+ 93 uf100-0618.cnf                                   100     430     SAT     SAT      855.4ms       62.6ms     OK
+ 94 uf100-0863.cnf                                   100     430     SAT     SAT      883.1ms       31.9ms     OK
+ 95 uf100-0632.cnf                                   100     430     SAT     SAT      934.5ms      108.2ms     OK
+ 96 uf100-0690.cnf                                   100     430     SAT     SAT      164.4ms      192.5ms     OK
+ 97 uf100-0560.cnf                                   100     430     SAT     SAT      935.3ms      293.7ms     OK
+ 98 uf100-0575.cnf                                   100     430     SAT     SAT       1.145s      134.7ms     OK
+ 99 uf100-0647.cnf                                   100     430     SAT     SAT       1.038s       41.3ms     OK
+100 uf100-0603.cnf                                   100     430     SAT     SAT       1.272s      393.7ms     OK
+101 uf100-0719.cnf                                   100     430     SAT     SAT      872.9ms      106.4ms     OK
+102 uf100-0748.cnf                                   100     430     SAT     SAT      884.2ms      114.8ms     OK
+103 uf100-0704.cnf                                   100     430     SAT     SAT       1.020s       61.2ms     OK
+104 uf100-0777.cnf                                   100     430     SAT     SAT       1.065s      139.3ms     OK
+105 uf100-082.cnf                                    100     430     SAT     SAT       1.335s       32.6ms     OK
+106 uf100-0878.cnf                                   100     430     SAT     SAT       1.091s      128.1ms     OK
+107 uf100-0964.cnf                                   100     430     SAT     SAT       80.3ms      148.5ms     OK
+108 uf100-0676.cnf                                   100     430     SAT     SAT       1.137s      140.4ms     OK
+109 uf100-0834.cnf                                   100     430     SAT     SAT       1.388s      138.2ms     OK
+110 uf100-0892.cnf                                   100     430     SAT     SAT      674.6ms       50.2ms     OK
+111 uf100-0920.cnf                                   100     430     SAT     SAT       1.132s       94.5ms     OK
+112 uf100-0805.cnf                                   100     430     SAT     SAT       1.484s      116.7ms     OK
+113 uf100-0762.cnf                                   100     430     SAT     SAT      987.3ms      672.7ms     OK
+114 uf100-0979.cnf                                   100     430     SAT     SAT       1.131s      165.3ms     OK
+115 uf100-0906.cnf                                   100     430     SAT     SAT      808.8ms      114.5ms     OK
+116 uf100-0733.cnf                                   100     430     SAT     SAT       1.525s      313.2ms     OK
+117 uf100-095.cnf                                    100     430     SAT     SAT      803.8ms      215.8ms     OK
+118 uf100-0993.cnf                                   100     430     SAT     SAT      913.3ms      211.8ms     OK
+119 uf100-0849.cnf                                   100     430     SAT     SAT       1.134s      713.0ms     OK
+120 uf100-0489.cnf                                   100     430     SAT     SAT      28.247s       99.2ms     OK
+121 uf100-0258.cnf                                   100     430     SAT     SAT      28.797s      175.5ms     OK
+122 uf100-046.cnf                                    100     430     SAT     SAT      28.670s       83.7ms     OK
+123 uf100-0430.cnf                                   100     430     SAT     SAT       2.035s      27.349s     OK
+124 uf100-059.cnf                                    100     430     SAT     SAT      27.571s       53.5ms     OK
+125 uf100-0791.cnf                                   100     430     SAT     SAT      27.072s       35.6ms     OK
+126 uf100-0935.cnf                                   100     430     SAT     SAT      666.5ms      27.508s     OK
+127 uf100-0280.cnf                                   100     430     SAT     SAT       21.8ms       85.7ms     OK
+128 uf100-0309.cnf                                   100     430     SAT     SAT       30.6ms       87.9ms     OK
+129 uf100-0121.cnf                                   100     430     SAT     SAT       30.0ms       97.9ms     OK
+130 uf100-0323.cnf                                   100     430     SAT     SAT       57.5ms       60.1ms     OK
+131 uf100-0165.cnf                                   100     430     SAT     SAT       65.8ms       71.6ms     OK
+132 uf100-0222.cnf                                   100     430     SAT     SAT       63.5ms       69.6ms     OK
+133 uf100-0136.cnf                                   100     430     SAT     SAT       72.0ms       72.9ms     OK
+134 uf100-0525.cnf                                   100     430     SAT     SAT       80.1ms       68.0ms     OK
+135 uf100-0107.cnf                                   100     430     SAT     SAT      100.2ms       70.0ms     OK
+136 uf100-0194.cnf                                   100     430     SAT     SAT       27.2ms      139.5ms     OK
+137 uf100-018.cnf                                    100     430     SAT     SAT       56.9ms      112.2ms     OK
+138 uf100-0208.cnf                                   100     430     SAT     SAT       84.1ms       74.1ms     OK
+139 uf100-0251.cnf                                   100     430     SAT     SAT       68.7ms       98.5ms     OK
+140 uf100-0424.cnf                                   100     430     SAT     SAT       84.3ms       73.9ms     OK
+141 uf100-0439.cnf                                   100     430     SAT     SAT       88.1ms       77.8ms     OK
+142 uf100-0237.cnf                                   100     430     SAT     SAT       77.5ms      104.8ms     OK
+143 uf100-0396.cnf                                   100     430     SAT     SAT      103.8ms       65.2ms     OK
+144 uf100-0150.cnf                                   100     430     SAT     SAT       86.9ms       98.5ms     OK
+145 uf100-0266.cnf                                   100     430     SAT     SAT      105.8ms       78.4ms     OK
+146 uf100-041.cnf                                    100     430     SAT     SAT      107.3ms       68.1ms     OK
+147 uf100-0482.cnf                                   100     430     SAT     SAT      120.5ms       60.8ms     OK
+148 uf100-0352.cnf                                   100     430     SAT     SAT       97.0ms       97.2ms     OK
+149 uf100-054.cnf                                    100     430     SAT     SAT      113.4ms       82.4ms     OK
+150 uf100-0338.cnf                                   100     430     SAT     SAT      120.2ms       74.2ms     OK
+151 uf100-0554.cnf                                   100     430     SAT     SAT      115.0ms       70.2ms     OK
+152 uf100-0295.cnf                                   100     430     SAT     SAT      132.0ms       62.7ms     OK
+153 uf100-0497.cnf                                   100     430     SAT     SAT      144.7ms       53.6ms     OK
+154 uf100-0381.cnf                                   100     430     SAT     SAT      116.2ms       78.2ms     OK
+155 uf100-0453.cnf                                   100     430     SAT     SAT      143.0ms       56.9ms     OK
+156 uf100-0510.cnf                                   100     430     SAT     SAT      122.5ms       86.4ms     OK
+157 uf100-0367.cnf                                   100     430     SAT     SAT      141.7ms       63.7ms     OK
+158 uf100-0598.cnf                                   100     430     SAT     SAT       70.6ms       56.0ms     OK
+159 uf100-0583.cnf                                   100     430     SAT     SAT       78.9ms       54.2ms     OK
+160 uf100-0468.cnf                                   100     430     SAT     SAT      154.7ms       88.8ms     OK
+161 uf100-0611.cnf                                   100     430     SAT     SAT       74.7ms       65.5ms     OK
+162 uf100-067.cnf                                    100     430     SAT     SAT       56.5ms       54.9ms     OK
+163 uf100-0569.cnf                                   100     430     SAT     SAT       84.2ms       71.2ms     OK
+164 uf100-0640.cnf                                   100     430     SAT     SAT       70.3ms       68.0ms     OK
+165 uf100-0626.cnf                                   100     430     SAT     SAT       75.0ms       87.4ms     OK
+166 uf100-0684.cnf                                   100     430     SAT     SAT       57.3ms       82.1ms     OK
+167 uf100-0712.cnf                                   100     430     SAT     SAT       64.0ms       76.0ms     OK
+168 uf100-0727.cnf                                   100     430     SAT     SAT       63.0ms       73.1ms     OK
+169 uf100-0770.cnf                                   100     430     SAT     SAT       64.5ms       71.6ms     OK
+170 uf100-0785.cnf                                   100     430     SAT     SAT       59.6ms       69.6ms     OK
+171 uf100-0813.cnf                                   100     430     SAT     SAT       72.9ms       62.9ms     OK
+172 uf100-0756.cnf                                   100     430     SAT     SAT       88.4ms       62.2ms     OK
+173 uf100-0699.cnf                                   100     430     SAT     SAT      113.4ms       45.5ms     OK
+174 uf100-0655.cnf                                   100     430     SAT     SAT       67.6ms      118.2ms     OK
+175 uf100-0886.cnf                                   100     430     SAT     SAT       71.6ms       59.7ms     OK
+176 uf100-08.cnf                                     100     430     SAT     SAT       69.7ms       89.2ms     OK
+177 uf100-0741.cnf                                   100     430     SAT     SAT       69.3ms      107.3ms     OK
+178 uf100-0929.cnf                                   100     430     SAT     SAT       78.4ms       77.1ms     OK
+179 uf100-0842.cnf                                   100     430     SAT     SAT       73.8ms       86.4ms     OK
+180 uf100-0972.cnf                                   100     430     SAT     SAT       80.8ms       66.5ms     OK
+181 uf100-0828.cnf                                   100     430     SAT     SAT       95.6ms       79.3ms     OK
+182 uf100-0871.cnf                                   100     430     SAT     SAT       75.3ms       81.7ms     OK
+183 uf100-0958.cnf                                   100     430     SAT     SAT       81.2ms       62.3ms     OK
+184 uf100-090.cnf                                    100     430     SAT     SAT       66.5ms       84.6ms     OK
+185 uf100-0987.cnf                                   100     430     SAT     SAT       87.3ms       50.1ms     OK
+186 uf100-0857.cnf                                   100     430     SAT     SAT      103.3ms       74.1ms     OK
+187 uf100-0914.cnf                                   100     430     SAT     SAT      115.6ms       42.2ms     OK
+188 uf100-0943.cnf                                   100     430     SAT     SAT      120.2ms       55.7ms     OK
+189 uf100-0122.cnf                                   100     430     SAT     SAT       46.1ms       19.6ms     OK
+190 uf100-0166.cnf                                   100     430     SAT     SAT       46.8ms       31.2ms     OK
+191 uf100-0151.cnf                                   100     430     SAT     SAT       47.5ms       38.5ms     OK
+192 uf100-0137.cnf                                   100     430     SAT     SAT       40.8ms       74.9ms     OK
+193 uf100-0238.cnf                                   100     430     SAT     SAT       60.6ms       61.5ms     OK
+194 uf100-0180.cnf                                   100     430     SAT     SAT       59.8ms       69.4ms     OK
+195 uf100-0410.cnf                                   100     430     SAT     SAT       67.2ms       62.0ms     OK
+196 uf100-0281.cnf                                   100     430     SAT     SAT       71.6ms       61.0ms     OK
+197 uf100-0223.cnf                                   100     430     SAT     SAT       72.1ms       56.2ms     OK
+198 uf100-0368.cnf                                   100     430     SAT     SAT       68.8ms       61.6ms     OK
+199 uf100-0397.cnf                                   100     430     SAT     SAT       71.8ms       61.4ms     OK
+200 uf100-0425.cnf                                   100     430     SAT     SAT       69.6ms       66.0ms     OK
+201 uf100-0267.cnf                                   100     430     SAT     SAT       89.2ms       85.5ms     OK
+202 uf100-0195.cnf                                   100     430     SAT     SAT       99.4ms       82.5ms     OK
+203 uf100-0511.cnf                                   100     430     SAT     SAT      101.1ms       71.3ms     OK
+204 uf100-0108.cnf                                   100     430     SAT     SAT      102.0ms       86.6ms     OK
+205 uf100-0339.cnf                                   100     430     SAT     SAT       73.7ms      109.5ms     OK
+206 uf100-0324.cnf                                   100     430     SAT     SAT      103.1ms       69.1ms     OK
+207 uf100-0498.cnf                                   100     430     SAT     SAT      121.9ms       68.5ms     OK
+208 uf100-0540.cnf                                   100     430     SAT     SAT       90.2ms      122.9ms     OK
+209 uf100-0382.cnf                                   100     430     SAT     SAT      104.2ms      108.8ms     OK
+210 uf100-0454.cnf                                   100     430     SAT     SAT      130.7ms       82.8ms     OK
+211 uf100-0469.cnf                                   100     430     SAT     SAT      144.9ms       57.7ms     OK
+212 uf100-0296.cnf                                   100     430     SAT     SAT      106.6ms      104.8ms     OK
+213 uf100-0353.cnf                                   100     430     SAT     SAT      147.9ms       65.5ms     OK
+214 uf100-0483.cnf                                   100     430     SAT     SAT      134.9ms       92.9ms     OK
+215 uf100-0252.cnf                                   100     430     SAT     SAT      156.0ms       58.3ms     OK
+216 uf100-031.cnf                                    100     430     SAT     SAT      121.1ms      115.8ms     OK
+217 uf100-057.cnf                                    100     430     SAT     SAT      120.0ms       66.7ms     OK
+218 uf100-0555.cnf                                   100     430     SAT     SAT      136.8ms      103.7ms     OK
+219 uf100-0584.cnf                                   100     430     SAT     SAT       97.4ms       63.9ms     OK
+220 uf100-0599.cnf                                   100     430     SAT     SAT       86.1ms       77.9ms     OK
+221 uf100-0526.cnf                                   100     430     SAT     SAT      146.1ms       84.4ms     OK
+222 uf100-044.cnf                                    100     430     SAT     SAT      143.6ms       71.3ms     OK
+223 uf100-0612.cnf                                   100     430     SAT     SAT       73.9ms       67.8ms     OK
+224 uf100-0641.cnf                                   100     430     SAT     SAT       66.7ms       66.0ms     OK
+225 uf100-0209.cnf                                   100     430     SAT     SAT      156.7ms       80.3ms     OK
+226 uf100-0713.cnf                                   100     430     SAT     SAT       71.2ms       63.2ms     OK
+227 uf100-0685.cnf                                   100     430     SAT     SAT       83.8ms       62.5ms     OK
+228 uf100-0670.cnf                                   100     430     SAT     SAT       97.7ms       70.6ms     OK
+229 uf100-07.cnf                                     100     430     SAT     SAT       88.1ms       79.9ms     OK
+230 uf100-0728.cnf                                   100     430     SAT     SAT       95.7ms       64.9ms     OK
+231 uf100-0627.cnf                                   100     430     SAT     SAT      126.3ms       55.0ms     OK
+232 uf100-0814.cnf                                   100     430     SAT     SAT       75.6ms       50.9ms     OK
+233 uf100-080.cnf                                    100     430     SAT     SAT       76.1ms       57.4ms     OK
+234 uf100-0829.cnf                                   100     430     SAT     SAT       75.8ms       48.6ms     OK
+235 uf100-0771.cnf                                   100     430     SAT     SAT       72.3ms       47.7ms     OK
+236 uf100-0900.cnf                                   100     430     SAT     SAT       71.5ms       28.0ms     OK
+237 uf100-0858.cnf                                   100     430     SAT     SAT       75.2ms       28.9ms     OK
+238 uf100-0742.cnf                                   100     430     SAT     SAT      109.4ms       47.7ms     OK
+239 uf100-0786.cnf                                   100     430     SAT     SAT       66.6ms       76.1ms     OK
+240 uf100-0915.cnf                                   100     430     SAT     SAT       68.0ms       24.4ms     OK
+241 uf100-093.cnf                                    100     430     SAT     SAT       57.3ms       36.1ms     OK
+242 uf100-0656.cnf                                   100     430     SAT     SAT      140.4ms       74.6ms     OK
+243 uf100-0757.cnf                                   100     430     SAT     SAT       79.0ms       79.3ms     OK
+244 uf100-0843.cnf                                   100     430     SAT     SAT       87.5ms       40.7ms     OK
+245 uf100-0973.cnf                                   100     430     SAT     SAT       60.1ms       38.2ms     OK
+246 uf100-0872.cnf                                   100     430     SAT     SAT       88.7ms       38.1ms     OK
+247 uf100-0944.cnf                                   100     430     SAT     SAT       69.5ms       46.0ms     OK
+248 uf100-0959.cnf                                   100     430     SAT     SAT       91.4ms       20.4ms     OK
+249 uf100-0887.cnf                                   100     430     SAT     SAT      109.4ms       21.4ms     OK
+250 uf100-0988.cnf                                   100     430     SAT     SAT       84.0ms       20.0ms     OK
+251 uf100-0224.cnf                                   100     430     SAT     SAT       17.4ms       33.8ms     OK
+252 uf100-0196.cnf                                   100     430     SAT     SAT       25.1ms       49.2ms     OK
+253 uf100-0138.cnf                                   100     430     SAT     SAT       43.1ms       34.8ms     OK
+254 uf100-021.cnf                                    100     430     SAT     SAT       42.2ms       41.7ms     OK
+255 uf100-0109.cnf                                   100     430     SAT     SAT       21.3ms       77.3ms     OK
+256 uf100-034.cnf                                    100     430     SAT     SAT       50.8ms       35.9ms     OK
+257 uf100-0383.cnf                                   100     430     SAT     SAT       40.2ms       59.9ms     OK
+258 uf100-0541.cnf                                   100     430     SAT     SAT       52.4ms       58.2ms     OK
+259 uf100-0253.cnf                                   100     430     SAT     SAT       59.2ms       54.9ms     OK
+260 uf100-0440.cnf                                   100     430     SAT     SAT       57.0ms       50.5ms     OK
+261 uf100-0310.cnf                                   100     430     SAT     SAT       63.0ms       48.7ms     OK
+262 uf100-0152.cnf                                   100     430     SAT     SAT       52.6ms       58.6ms     OK
+263 uf100-0499.cnf                                   100     430     SAT     SAT       56.5ms       45.3ms     OK
+264 uf100-0167.cnf                                   100     430     SAT     SAT       70.0ms       50.5ms     OK
+265 uf100-0556.cnf                                   100     430     SAT     SAT       55.2ms       46.7ms     OK
+266 uf100-0181.cnf                                   100     430     SAT     SAT       41.0ms       82.4ms     OK
+267 uf100-0239.cnf                                   100     430     SAT     SAT       54.0ms       72.4ms     OK
+268 uf100-0123.cnf                                   100     430     SAT     SAT       57.2ms       73.8ms     OK
+269 uf100-0398.cnf                                   100     430     SAT     SAT       45.0ms       76.8ms     OK
+270 uf100-0325.cnf                                   100     430     SAT     SAT       78.7ms       52.0ms     OK
+271 uf100-0282.cnf                                   100     430     SAT     SAT       79.7ms       75.8ms     OK
+272 uf100-0297.cnf                                   100     430     SAT     SAT       73.9ms       73.4ms     OK
+273 uf100-0369.cnf                                   100     430     SAT     SAT       85.5ms       78.4ms     OK
+274 uf100-0354.cnf                                   100     430     SAT     SAT       68.8ms       94.4ms     OK
+275 uf100-0484.cnf                                   100     430     SAT     SAT       69.1ms       83.4ms     OK
+276 uf100-0527.cnf                                   100     430     SAT     SAT       97.7ms       86.4ms     OK
+277 uf100-0268.cnf                                   100     430     SAT     SAT       94.6ms       88.2ms     OK
+278 uf100-0455.cnf                                   100     430     SAT     SAT       85.3ms      107.1ms     OK
+279 uf100-0585.cnf                                   100     430     SAT     SAT       51.8ms       84.2ms     OK
+280 uf100-0426.cnf                                   100     430     SAT     SAT       85.4ms      118.0ms     OK
+281 uf100-0411.cnf                                   100     430     SAT     SAT      101.7ms       92.2ms     OK
+282 uf100-0570.cnf                                   100     430     SAT     SAT       74.9ms       83.3ms     OK
+283 uf100-047.cnf                                    100     430     SAT     SAT      111.8ms       86.9ms     OK
+284 uf100-0642.cnf                                   100     430     SAT     SAT       41.3ms       85.1ms     OK
+285 uf100-06.cnf                                     100     430     SAT     SAT       96.3ms       45.2ms     OK
+286 uf100-0512.cnf                                   100     430     SAT     SAT      114.0ms      107.9ms     OK
+287 uf100-0628.cnf                                   100     430     SAT     SAT      119.6ms       33.9ms     OK
+288 uf100-0686.cnf                                   100     430     SAT     SAT       90.5ms       48.2ms     OK
+289 uf100-0613.cnf                                   100     430     SAT     SAT      112.6ms       55.7ms     OK
+290 uf100-0844.cnf                                   100     430     SAT     SAT       61.7ms       49.5ms     OK
+291 uf100-0743.cnf                                   100     430     SAT     SAT       90.6ms       54.3ms     OK
+292 uf100-0657.cnf                                   100     430     SAT     SAT       82.2ms       54.9ms     OK
+293 uf100-0787.cnf                                   100     430     SAT     SAT       88.6ms       51.6ms     OK
+294 uf100-0815.cnf                                   100     430     SAT     SAT       85.7ms       54.1ms     OK
+295 uf100-0758.cnf                                   100     430     SAT     SAT       83.2ms       58.3ms     OK
+296 uf100-083.cnf                                    100     430     SAT     SAT       87.1ms       54.3ms     OK
+297 uf100-070.cnf                                    100     430     SAT     SAT      113.5ms       41.2ms     OK
+298 uf100-0729.cnf                                   100     430     SAT     SAT      109.6ms       35.4ms     OK
+299 uf100-0714.cnf                                   100     430     SAT     SAT      108.2ms       23.1ms     OK
+300 uf100-0859.cnf                                   100     430     SAT     SAT       64.1ms       50.7ms     OK
+301 uf100-0800.cnf                                   100     430     SAT     SAT      103.4ms       41.9ms     OK
+302 uf100-0901.cnf                                   100     430     SAT     SAT       54.4ms       46.2ms     OK
+303 uf100-0671.cnf                                   100     430     SAT     SAT       91.3ms       65.2ms     OK
+304 uf100-0916.cnf                                   100     430     SAT     SAT       56.1ms       27.8ms     OK
+305 uf100-0772.cnf                                   100     430     SAT     SAT       89.3ms       69.7ms     OK
+306 uf100-0930.cnf                                   100     430     SAT     SAT       65.5ms       20.1ms     OK
+307 uf100-0989.cnf                                   100     430     SAT     SAT       55.5ms       15.3ms     OK
+308 uf100-0945.cnf                                   100     430     SAT     SAT       72.9ms       14.0ms     OK
+309 uf100-0974.cnf                                   100     430     SAT     SAT       18.8ms       11.4ms     OK
+310 uf100-0873.cnf                                   100     430     SAT     SAT       94.6ms       42.5ms     OK
+311 uf100-0888.cnf                                   100     430     SAT     SAT       72.5ms       42.8ms     OK
+312 uf100-096.cnf                                    100     430     SAT     SAT       76.1ms       43.8ms     OK
+313 uf100-0168.cnf                                   100     430     SAT     SAT       17.6ms      100.9ms     OK
+314 uf100-0254.cnf                                   100     430     SAT     SAT       45.3ms       79.0ms     OK
+315 uf100-0210.cnf                                   100     430     SAT     SAT       40.3ms      100.2ms     OK
+316 uf100-0124.cnf                                   100     430     SAT     SAT       67.8ms       78.6ms     OK
+317 uf100-0182.cnf                                   100     430     SAT     SAT       68.5ms       65.7ms     OK
+318 uf100-0197.cnf                                   100     430     SAT     SAT       61.2ms       85.7ms     OK
+319 uf100-0139.cnf                                   100     430     SAT     SAT       54.3ms      104.0ms     OK
+320 uf100-0399.cnf                                   100     430     SAT     SAT       71.4ms       76.7ms     OK
+321 uf100-0269.cnf                                   100     430     SAT     SAT       45.8ms      104.3ms     OK
+322 uf100-037.cnf                                    100     430     SAT     SAT       69.0ms       75.6ms     OK
+323 uf100-0326.cnf                                   100     430     SAT     SAT       56.8ms       91.1ms     OK
+324 uf100-0485.cnf                                   100     430     SAT     SAT       90.9ms       38.8ms     OK
+325 uf100-0456.cnf                                   100     430     SAT     SAT       69.2ms       72.8ms     OK
+326 uf100-024.cnf                                    100     430     SAT     SAT       72.7ms       85.2ms     OK
+327 uf100-0153.cnf                                   100     430     SAT     SAT       90.4ms       75.4ms     OK
+328 uf100-0225.cnf                                   100     430     SAT     SAT       87.4ms       82.3ms     OK
+329 uf100-0557.cnf                                   100     430     SAT     SAT       87.2ms       68.9ms     OK
+330 uf100-0384.cnf                                   100     430     SAT     SAT       90.3ms       86.5ms     OK
+331 uf100-0311.cnf                                   100     430     SAT     SAT       79.5ms       90.6ms     OK
+332 uf100-0470.cnf                                   100     430     SAT     SAT      102.1ms       83.4ms     OK
+333 uf100-0441.cnf                                   100     430     SAT     SAT       96.7ms       82.9ms     OK
+334 uf100-0427.cnf                                   100     430     SAT     SAT      103.0ms       73.7ms     OK
+335 uf100-05.cnf                                     100     430     SAT     SAT       64.8ms      128.4ms     OK
+336 uf100-0355.cnf                                   100     430     SAT     SAT      118.0ms       69.6ms     OK
+337 uf100-0513.cnf                                   100     430     SAT     SAT       97.4ms      110.7ms     OK
+338 uf100-0298.cnf                                   100     430     SAT     SAT      112.0ms       87.0ms     OK
+339 uf100-0542.cnf                                   100     430     SAT     SAT       99.9ms       93.1ms     OK
+340 uf100-0528.cnf                                   100     430     SAT     SAT       88.3ms      104.3ms     OK
+341 uf100-011.cnf                                    100     430     SAT     SAT       83.7ms      132.4ms     OK
+342 uf100-0340.cnf                                   100     430     SAT     SAT      108.9ms      105.3ms     OK
+343 uf100-0412.cnf                                   100     430     SAT     SAT      103.8ms      103.4ms     OK
+344 uf100-0283.cnf                                   100     430     SAT     SAT      121.2ms      109.7ms     OK
+345 uf100-0571.cnf                                   100     430     SAT     SAT       84.4ms       57.4ms     OK
+346 uf100-060.cnf                                    100     430     SAT     SAT       80.3ms       35.5ms     OK
+347 uf100-0586.cnf                                   100     430     SAT     SAT       76.3ms       52.7ms     OK
+348 uf100-0629.cnf                                   100     430     SAT     SAT       81.5ms       41.0ms     OK
+349 uf100-0614.cnf                                   100     430     SAT     SAT       72.4ms       53.8ms     OK
+350 uf100-0715.cnf                                   100     430     SAT     SAT       65.2ms       36.7ms     OK
+351 uf100-0744.cnf                                   100     430     SAT     SAT       65.0ms       41.3ms     OK
+352 uf100-073.cnf                                    100     430     SAT     SAT       59.7ms       44.3ms     OK
+353 uf100-0816.cnf                                   100     430     SAT     SAT       55.1ms       41.4ms     OK
+354 uf100-0773.cnf                                   100     430     SAT     SAT       67.2ms       51.6ms     OK
+355 uf100-0672.cnf                                   100     430     SAT     SAT       93.9ms       45.9ms     OK
+356 uf100-0830.cnf                                   100     430     SAT     SAT       51.6ms       49.7ms     OK
+357 uf100-0788.cnf                                   100     430     SAT     SAT       61.9ms       53.1ms     OK
+358 uf100-0801.cnf                                   100     430     SAT     SAT       54.6ms       52.8ms     OK
+359 uf100-086.cnf                                    100     430     SAT     SAT       47.0ms       38.6ms     OK
+360 uf100-0658.cnf                                   100     430     SAT     SAT       88.9ms       40.4ms     OK
+361 uf100-0960.cnf                                   100     430     SAT     SAT       40.3ms       32.0ms     OK
+362 uf100-0845.cnf                                   100     430     SAT     SAT       51.4ms       40.9ms     OK
+363 uf100-0759.cnf                                   100     430     SAT     SAT       78.1ms       65.9ms     OK
+364 uf100-0643.cnf                                   100     430     SAT     SAT       74.9ms       76.3ms     OK
+365 uf100-0700.cnf                                   100     430     SAT     SAT       77.3ms       75.9ms     OK
+366 uf100-0874.cnf                                   100     430     SAT     SAT       52.7ms       43.8ms     OK
+367 uf100-0902.cnf                                   100     430     SAT     SAT       48.2ms       46.3ms     OK
+368 uf100-0917.cnf                                   100     430     SAT     SAT       49.5ms       47.1ms     OK
+369 uf100-0687.cnf                                   100     430     SAT     SAT       65.6ms       79.5ms     OK
+370 uf100-0975.cnf                                   100     430     SAT     SAT       52.4ms       21.6ms     OK
+371 uf100-0946.cnf                                   100     430     SAT     SAT       72.4ms       13.1ms     OK
+372 uf100-0889.cnf                                   100     430     SAT     SAT       70.5ms       26.4ms     OK
+373 uf100-099.cnf                                    100     430     SAT     SAT       49.3ms       31.2ms     OK
+374 uf100-0931.cnf                                   100     430     SAT     SAT       42.2ms       59.5ms     OK
+375 uf100-0226.cnf                                   100     430     SAT     SAT       23.8ms       15.2ms     OK
+376 uf100-0211.cnf                                   100     430     SAT     SAT       34.9ms       43.2ms     OK
+377 uf100-0240.cnf                                   100     430     SAT     SAT       32.5ms       52.1ms     OK
+378 uf100-0198.cnf                                   100     430     SAT     SAT       45.6ms       70.1ms     OK
+379 uf100-0110.cnf                                   100     430     SAT     SAT       48.0ms       68.9ms     OK
+380 uf100-0154.cnf                                   100     430     SAT     SAT       37.4ms       87.2ms     OK
+381 uf100-014.cnf                                    100     430     SAT     SAT       42.4ms       82.8ms     OK
+382 uf100-027.cnf                                    100     430     SAT     SAT       55.9ms       82.9ms     OK
+383 uf100-0125.cnf                                   100     430     SAT     SAT       51.6ms       85.9ms     OK
+384 uf100-0183.cnf                                   100     430     SAT     SAT       70.4ms       69.2ms     OK
+385 uf100-0385.cnf                                   100     430     SAT     SAT       72.3ms       70.7ms     OK
+386 uf100-0457.cnf                                   100     430     SAT     SAT      101.0ms       43.6ms     OK
+387 uf100-0370.cnf                                   100     430     SAT     SAT       72.1ms       73.4ms     OK
+388 uf100-0327.cnf                                   100     430     SAT     SAT       77.1ms       71.5ms     OK
+389 uf100-0312.cnf                                   100     430     SAT     SAT       97.8ms       46.1ms     OK
+390 uf100-0442.cnf                                   100     430     SAT     SAT       91.3ms       55.0ms     OK
+391 uf100-0169.cnf                                   100     430     SAT     SAT       93.3ms       66.3ms     OK
+392 uf100-0413.cnf                                   100     430     SAT     SAT       95.7ms       46.7ms     OK
+393 uf100-0255.cnf                                   100     430     SAT     SAT      104.3ms       57.0ms     OK
+394 uf100-0299.cnf                                   100     430     SAT     SAT       78.0ms       90.7ms     OK
+395 uf100-0341.cnf                                   100     430     SAT     SAT       35.4ms      132.5ms     OK
+396 uf100-0529.cnf                                   100     430     SAT     SAT       97.0ms       59.3ms     OK
+397 uf100-0356.cnf                                   100     430     SAT     SAT       98.1ms       70.8ms     OK
+398 uf100-0486.cnf                                   100     430     SAT     SAT      111.1ms       55.2ms     OK
+399 uf100-0572.cnf                                   100     430     SAT     SAT       84.3ms       64.7ms     OK
+400 uf100-0514.cnf                                   100     430     SAT     SAT       94.6ms       75.6ms     OK
+401 uf100-0428.cnf                                   100     430     SAT     SAT      120.3ms       66.0ms     OK
+402 uf100-0587.cnf                                   100     430     SAT     SAT       61.3ms       72.6ms     OK
+403 uf100-0543.cnf                                   100     430     SAT     SAT      119.8ms       69.1ms     OK
+404 uf100-0600.cnf                                   100     430     SAT     SAT       52.1ms       65.4ms     OK
+405 uf100-0284.cnf                                   100     430     SAT     SAT       75.5ms       76.7ms     OK
+406 uf100-0471.cnf                                   100     430     SAT     SAT      134.9ms       85.8ms     OK
+407 uf100-050.cnf                                    100     430     SAT     SAT      108.8ms      105.8ms     OK
+408 uf100-0558.cnf                                   100     430     SAT     SAT      109.9ms       99.2ms     OK
+409 uf100-04.cnf                                     100     430     SAT     SAT      152.6ms       78.2ms     OK
+410 uf100-0701.cnf                                   100     430     SAT     SAT       60.7ms       41.4ms     OK
+411 uf100-0615.cnf                                   100     430     SAT     SAT       91.2ms       41.5ms     OK
+412 uf100-0774.cnf                                   100     430     SAT     SAT       64.0ms       41.3ms     OK
+413 uf100-076.cnf                                    100     430     SAT     SAT       55.1ms       42.8ms     OK
+414 uf100-0716.cnf                                   100     430     SAT     SAT       58.4ms       39.6ms     OK
+415 uf100-063.cnf                                    100     430     SAT     SAT       65.5ms       52.9ms     OK
+416 uf100-0730.cnf                                   100     430     SAT     SAT       60.2ms       38.9ms     OK
+417 uf100-0673.cnf                                   100     430     SAT     SAT       87.9ms       38.6ms     OK
+418 uf100-0688.cnf                                   100     430     SAT     SAT       75.3ms       43.1ms     OK
+419 uf100-0831.cnf                                   100     430     SAT     SAT       55.3ms       42.9ms     OK
+420 uf100-0659.cnf                                   100     430     SAT     SAT       87.8ms       40.1ms     OK
+421 uf100-0903.cnf                                   100     430     SAT     SAT       65.7ms       32.2ms     OK
+422 uf100-0802.cnf                                   100     430     SAT     SAT       67.4ms       42.4ms     OK
+423 uf100-0644.cnf                                   100     430     SAT     SAT       89.9ms       71.8ms     OK
+424 uf100-0745.cnf                                   100     430     SAT     SAT       59.6ms       63.9ms     OK
+425 uf100-089.cnf                                    100     430     SAT     SAT       74.6ms       32.9ms     OK
+426 uf100-0918.cnf                                   100     430     SAT     SAT       49.5ms       33.5ms     OK
+427 uf100-0860.cnf                                   100     430     SAT     SAT       65.4ms       38.2ms     OK
+428 uf100-0932.cnf                                   100     430     SAT     SAT       54.2ms       29.0ms     OK
+429 uf100-0875.cnf                                   100     430     SAT     SAT       64.2ms       51.3ms     OK
+430 uf100-0961.cnf                                   100     430     SAT     SAT       47.5ms       26.9ms     OK
+431 uf100-0947.cnf                                   100     430     SAT     SAT       63.5ms       23.9ms     OK
+432 uf100-0976.cnf                                   100     430     SAT     SAT       48.3ms       23.2ms     OK
+433 uf100-0789.cnf                                   100     430     SAT     SAT       94.6ms       40.9ms     OK
+434 uf100-0817.cnf                                   100     430     SAT     SAT       88.4ms       48.7ms     OK
+435 uf100-0846.cnf                                   100     430     SAT     SAT      102.0ms       32.7ms     OK
+436 uf100-0990.cnf                                   100     430     SAT     SAT       60.1ms       42.4ms     OK
+437 uf100-0111.cnf                                   100     430     SAT     SAT       21.8ms       31.8ms     OK
+438 uf100-0443.cnf                                   100     430     SAT     SAT       21.3ms       39.7ms     OK
+439 uf100-0270.cnf                                   100     430     SAT     SAT       35.2ms       35.4ms     OK
+440 uf100-0227.cnf                                   100     430     SAT     SAT       46.1ms       30.3ms     OK
+441 uf100-0140.cnf                                   100     430     SAT     SAT       35.8ms       31.3ms     OK
+442 uf100-0458.cnf                                   100     430     SAT     SAT       37.1ms       29.0ms     OK
+443 uf100-0184.cnf                                   100     430     SAT     SAT       26.7ms       45.8ms     OK
+444 uf100-0155.cnf                                   100     430     SAT     SAT       46.4ms       39.2ms     OK
+445 uf100-0487.cnf                                   100     430     SAT     SAT       57.8ms       28.2ms     OK
+446 uf100-0429.cnf                                   100     430     SAT     SAT       54.1ms       27.3ms     OK
+447 uf100-0544.cnf                                   100     430     SAT     SAT       61.2ms       27.6ms     OK
+448 uf100-0313.cnf                                   100     430     SAT     SAT       53.7ms       47.3ms     OK
+449 uf100-0559.cnf                                   100     430     SAT     SAT       52.1ms       47.6ms     OK
+450 uf100-0386.cnf                                   100     430     SAT     SAT       60.9ms       46.8ms     OK
+451 uf100-0342.cnf                                   100     430     SAT     SAT       59.3ms       41.7ms     OK
+452 uf100-0199.cnf                                   100     430     SAT     SAT       63.0ms       45.1ms     OK
+453 uf100-053.cnf                                    100     430     SAT     SAT       63.5ms       44.7ms     OK
+454 uf100-0328.cnf                                   100     430     SAT     SAT       65.3ms       45.8ms     OK
+455 uf100-040.cnf                                    100     430     SAT     SAT       64.7ms       54.5ms     OK
+456 uf100-03.cnf                                     100     430     SAT     SAT       85.7ms       56.0ms     OK
+457 uf100-0241.cnf                                   100     430     SAT     SAT       74.0ms       60.2ms     OK
+458 uf100-0357.cnf                                   100     430     SAT     SAT       83.3ms       55.9ms     OK
+459 uf100-0515.cnf                                   100     430     SAT     SAT       65.6ms       51.7ms     OK
+460 uf100-0414.cnf                                   100     430     SAT     SAT       73.1ms       51.9ms     OK
+461 uf100-0472.cnf                                   100     430     SAT     SAT       72.9ms       51.8ms     OK
+462 uf100-0256.cnf                                   100     430     SAT     SAT       66.7ms       85.8ms     OK
+463 uf100-0285.cnf                                   100     430     SAT     SAT       81.7ms       71.8ms     OK
+464 uf100-017.cnf                                    100     430     SAT     SAT       91.4ms       70.4ms     OK
+465 uf100-0126.cnf                                   100     430     SAT     SAT       83.5ms       58.4ms     OK
+466 uf100-0371.cnf                                   100     430     SAT     SAT       75.6ms       61.1ms     OK
+467 uf100-0212.cnf                                   100     430     SAT     SAT       67.1ms       81.3ms     OK
+468 uf100-0588.cnf                                   100     430     SAT     SAT       43.7ms       63.8ms     OK
+469 uf100-0573.cnf                                   100     430     SAT     SAT       56.4ms       75.0ms     OK
+470 uf100-0616.cnf                                   100     430     SAT     SAT       52.1ms       58.4ms     OK
+471 uf100-0500.cnf                                   100     430     SAT     SAT       88.4ms       77.4ms     OK
+472 uf100-0630.cnf                                   100     430     SAT     SAT       53.4ms       66.4ms     OK
+473 uf100-0674.cnf                                   100     430     SAT     SAT       59.7ms       60.0ms     OK
+474 uf100-0601.cnf                                   100     430     SAT     SAT       86.9ms       77.4ms     OK
+475 uf100-066.cnf                                    100     430     SAT     SAT       60.5ms       81.5ms     OK
+476 uf100-0702.cnf                                   100     430     SAT     SAT       71.2ms       62.3ms     OK
+477 uf100-0760.cnf                                   100     430     SAT     SAT       64.9ms       70.2ms     OK
+478 uf100-079.cnf                                    100     430     SAT     SAT       62.0ms       72.6ms     OK
+479 uf100-0645.cnf                                   100     430     SAT     SAT       99.7ms       81.5ms     OK
+480 uf100-0775.cnf                                   100     430     SAT     SAT       81.0ms       68.2ms     OK
+481 uf100-0746.cnf                                   100     430     SAT     SAT       91.6ms       77.8ms     OK
+482 uf100-0731.cnf                                   100     430     SAT     SAT       91.1ms       66.4ms     OK
+483 uf100-0717.cnf                                   100     430     SAT     SAT       85.9ms       87.2ms     OK
+484 uf100-0890.cnf                                   100     430     SAT     SAT       68.5ms       59.9ms     OK
+485 uf100-0818.cnf                                   100     430     SAT     SAT       76.0ms       73.9ms     OK
+486 uf100-0904.cnf                                   100     430     SAT     SAT       65.0ms       68.6ms     OK
+487 uf100-0861.cnf                                   100     430     SAT     SAT       79.2ms       48.4ms     OK
+488 uf100-0847.cnf                                   100     430     SAT     SAT       75.2ms       43.3ms     OK
+489 uf100-0991.cnf                                   100     430     SAT     SAT       73.6ms       45.2ms     OK
+490 uf100-0962.cnf                                   100     430     SAT     SAT       67.5ms       26.6ms     OK
+491 uf100-0977.cnf                                   100     430     SAT     SAT       92.0ms       26.5ms     OK
+492 uf100-0919.cnf                                   100     430     SAT     SAT       68.3ms       69.6ms     OK
+493 uf100-0832.cnf                                   100     430     SAT     SAT       60.7ms       82.7ms     OK
+494 uf100-0803.cnf                                   100     430     SAT     SAT       85.1ms       65.0ms     OK
+495 uf100-0933.cnf                                   100     430     SAT     SAT      111.3ms       19.4ms     OK
+496 uf100-0948.cnf                                   100     430     SAT     SAT      106.5ms       17.7ms     OK
+497 uf100-0689.cnf                                   100     430     SAT     SAT       65.0ms      104.7ms     OK
+498 uf100-0876.cnf                                   100     430     SAT     SAT       74.4ms       57.4ms     OK
+499 uf100-0244.cnf                                   100     430     SAT     SAT       36.5ms       55.8ms     OK
+500 uf100-0172.cnf                                   100     430     SAT     SAT       35.5ms       64.3ms     OK
+501 uf100-0330.cnf                                   100     430     SAT     SAT       44.7ms       70.8ms     OK
+502 uf100-0389.cnf                                   100     430     SAT     SAT       53.2ms       61.5ms     OK
+503 uf100-0129.cnf                                   100     430     SAT     SAT       56.1ms       67.2ms     OK
+504 uf100-0316.cnf                                   100     430     SAT     SAT       65.6ms       58.7ms     OK
+505 uf100-0187.cnf                                   100     430     SAT     SAT       70.0ms       61.3ms     OK
+506 uf100-0446.cnf                                   100     430     SAT     SAT       69.4ms       63.2ms     OK
+507 uf100-0158.cnf                                   100     430     SAT     SAT       74.0ms       60.8ms     OK
+508 uf100-0215.cnf                                   100     430     SAT     SAT       67.4ms       74.2ms     OK
+509 uf100-049.cnf                                    100     430     SAT     SAT       75.5ms       77.4ms     OK
+510 uf100-0114.cnf                                   100     430     SAT     SAT       67.8ms       86.0ms     OK
+511 uf100-0518.cnf                                   100     430     SAT     SAT       70.5ms       93.9ms     OK
+512 uf100-0200.cnf                                   100     430     SAT     SAT       75.7ms       97.8ms     OK
+513 uf100-0143.cnf                                   100     430     SAT     SAT       87.2ms       91.5ms     OK
+514 uf100-0259.cnf                                   100     430     SAT     SAT       72.3ms       95.2ms     OK
+515 uf100-0273.cnf                                   100     430     SAT     SAT       92.5ms       83.7ms     OK
+516 uf100-0431.cnf                                   100     430     SAT     SAT       73.5ms       92.0ms     OK
+517 uf100-0417.cnf                                   100     430     SAT     SAT       76.0ms       95.6ms     OK
+518 uf100-0547.cnf                                   100     430     SAT     SAT       89.2ms       79.9ms     OK
+519 uf100-0374.cnf                                   100     430     SAT     SAT       81.0ms       99.7ms     OK
+520 uf100-0475.cnf                                   100     430     SAT     SAT       72.9ms       77.8ms     OK
+521 uf100-0301.cnf                                   100     430     SAT     SAT       90.0ms      104.9ms     OK
+522 uf100-0460.cnf                                   100     430     SAT     SAT       81.2ms       83.1ms     OK
+523 uf100-0532.cnf                                   100     430     SAT     SAT       85.5ms       73.8ms     OK
+524 uf100-0100.cnf                                   100     430     SAT     SAT       82.1ms      119.7ms     OK
+525 uf100-0288.cnf                                   100     430     SAT     SAT      119.4ms       64.9ms     OK
+526 uf100-023.cnf                                    100     430     SAT     SAT      106.2ms       76.9ms     OK
+527 uf100-0503.cnf                                   100     430     SAT     SAT       74.4ms      121.6ms     OK
+528 uf100-0402.cnf                                   100     430     SAT     SAT       87.5ms       80.7ms     OK
+529 uf100-0345.cnf                                   100     430     SAT     SAT      101.6ms      103.5ms     OK
+530 uf100-036.cnf                                    100     430     SAT     SAT      109.8ms       93.9ms     OK
+531 uf100-0604.cnf                                   100     430     SAT     SAT       67.7ms       50.8ms     OK
+532 uf100-0576.cnf                                   100     430     SAT     SAT       80.2ms       55.7ms     OK
+533 uf100-0561.cnf                                   100     430     SAT     SAT      110.7ms       80.7ms     OK
+534 uf100-0691.cnf                                   100     430     SAT     SAT       72.6ms       84.2ms     OK
+535 uf100-0633.cnf                                   100     430     SAT     SAT       81.7ms       94.9ms     OK
+536 uf100-0590.cnf                                   100     430     SAT     SAT       85.2ms      105.4ms     OK
+537 uf100-072.cnf                                    100     430     SAT     SAT       59.0ms       77.5ms     OK
+538 uf100-0677.cnf                                   100     430     SAT     SAT       86.9ms       93.6ms     OK
+539 uf100-0749.cnf                                   100     430     SAT     SAT       66.7ms       80.4ms     OK
+540 uf100-0705.cnf                                   100     430     SAT     SAT       62.7ms       76.0ms     OK
+541 uf100-0662.cnf                                   100     430     SAT     SAT       84.6ms       84.2ms     OK
+542 uf100-0820.cnf                                   100     430     SAT     SAT       61.9ms       81.1ms     OK
+543 uf100-0806.cnf                                   100     430     SAT     SAT       67.5ms       78.9ms     OK
+544 uf100-0965.cnf                                   100     430     SAT     SAT       71.8ms       49.6ms     OK
+545 uf100-0864.cnf                                   100     430     SAT     SAT       69.7ms       67.4ms     OK
+546 uf100-0778.cnf                                   100     430     SAT     SAT       65.5ms       71.4ms     OK
+547 uf100-0648.cnf                                   100     430     SAT     SAT       92.6ms       83.7ms     OK
+548 uf100-0619.cnf                                   100     430     SAT     SAT      105.0ms      107.7ms     OK
+549 uf100-0792.cnf                                   100     430     SAT     SAT       67.3ms       79.9ms     OK
+550 uf100-085.cnf                                    100     430     SAT     SAT       75.7ms       64.4ms     OK
+551 uf100-0921.cnf                                   100     430     SAT     SAT       76.8ms       63.6ms     OK
+552 uf100-0763.cnf                                   100     430     SAT     SAT       87.8ms       85.6ms     OK
+553 uf100-0734.cnf                                   100     430     SAT     SAT      106.0ms       68.9ms     OK
+554 uf100-0835.cnf                                   100     430     SAT     SAT       69.0ms       94.3ms     OK
+555 uf100-098.cnf                                    100     430     SAT     SAT       88.0ms       47.8ms     OK
+556 uf100-0950.cnf                                   100     430     SAT     SAT       98.4ms       54.7ms     OK
+557 uf100-0936.cnf                                   100     430     SAT     SAT       79.2ms       66.8ms     OK
+558 uf100-0879.cnf                                   100     430     SAT     SAT       76.3ms       91.3ms     OK
+559 uf100-0994.cnf                                   100     430     SAT     SAT      100.4ms       47.8ms     OK
+560 uf100-0893.cnf                                   100     430     SAT     SAT       75.1ms       91.0ms     OK
+561 uf100-0907.cnf                                   100     430     SAT     SAT      114.4ms       31.7ms     OK
+562 uf100-026.cnf                                    100     430     SAT     SAT       69.4ms       28.7ms     OK
+563 uf100-0302.cnf                                   100     430     SAT     SAT       71.8ms       28.3ms     OK
+564 uf100-013.cnf                                    100     430     SAT     SAT       58.4ms       47.2ms     OK
+565 uf100-0230.cnf                                   100     430     SAT     SAT       68.0ms       29.4ms     OK
+566 uf100-0115.cnf                                   100     430     SAT     SAT       83.7ms       57.2ms     OK
+567 uf100-0331.cnf                                   100     430     SAT     SAT       83.0ms       40.7ms     OK
+568 uf100-0245.cnf                                   100     430     SAT     SAT       90.3ms       39.9ms     OK
+569 uf100-0201.cnf                                   100     430     SAT     SAT       86.6ms       47.3ms     OK
+570 uf100-0144.cnf                                   100     430     SAT     SAT       78.5ms       36.8ms     OK
+571 uf100-0375.cnf                                   100     430     SAT     SAT       77.6ms       36.3ms     OK
+572 uf100-0447.cnf                                   100     430     SAT     SAT       73.6ms       37.2ms     OK
+573 uf100-0533.cnf                                   100     430     SAT     SAT       46.6ms       37.6ms     OK
+574 uf100-0159.cnf                                   100     430     SAT     SAT       87.8ms       53.3ms     OK
+575 uf100-0173.cnf                                   100     430     SAT     SAT       87.2ms       45.9ms     OK
+576 uf100-0346.cnf                                   100     430     SAT     SAT       85.3ms       43.8ms     OK
+577 uf100-0289.cnf                                   100     430     SAT     SAT       82.7ms       55.3ms     OK
+578 uf100-0274.cnf                                   100     430     SAT     SAT       90.2ms       48.4ms     OK
+579 uf100-0519.cnf                                   100     430     SAT     SAT       58.1ms       49.5ms     OK
+580 uf100-0432.cnf                                   100     430     SAT     SAT       68.6ms       49.5ms     OK
+581 uf100-0461.cnf                                   100     430     SAT     SAT       69.1ms       53.6ms     OK
+582 uf100-0403.cnf                                   100     430     SAT     SAT       71.7ms       53.9ms     OK
+583 uf100-0418.cnf                                   100     430     SAT     SAT       69.3ms       60.0ms     OK
+584 uf100-0490.cnf                                   100     430     SAT     SAT       31.7ms       54.8ms     OK
+585 uf100-0317.cnf                                   100     430     SAT     SAT       89.3ms       63.4ms     OK
+586 uf100-039.cnf                                    100     430     SAT     SAT       88.6ms       67.6ms     OK
+587 uf100-01000.cnf                                  100     430     SAT     SAT      102.7ms       69.7ms     OK
+588 uf100-0216.cnf                                   100     430     SAT     SAT      105.6ms       68.5ms     OK
+589 uf100-0504.cnf                                   100     430     SAT     SAT       62.1ms       63.1ms     OK
+590 uf100-0360.cnf                                   100     430     SAT     SAT       85.5ms       86.1ms     OK
+591 uf100-0548.cnf                                   100     430     SAT     SAT       56.2ms       86.3ms     OK
+592 uf100-0188.cnf                                   100     430     SAT     SAT       62.1ms       82.0ms     OK
+593 uf100-0476.cnf                                   100     430     SAT     SAT       76.9ms       73.9ms     OK
+594 uf100-0562.cnf                                   100     430     SAT     SAT       79.2ms       56.7ms     OK
+595 uf100-0577.cnf                                   100     430     SAT     SAT       82.5ms       63.0ms     OK
+596 uf100-0649.cnf                                   100     430     SAT     SAT       68.9ms       61.9ms     OK
+597 uf100-075.cnf                                    100     430     SAT     SAT       49.0ms       63.9ms     OK
+598 uf100-0605.cnf                                   100     430     SAT     SAT       81.5ms       62.7ms     OK
+599 uf100-0735.cnf                                   100     430     SAT     SAT       64.7ms       54.7ms     OK
+600 uf100-0591.cnf                                   100     430     SAT     SAT       83.1ms       69.9ms     OK
+601 uf100-0692.cnf                                   100     430     SAT     SAT       69.9ms       63.3ms     OK
+602 uf100-0764.cnf                                   100     430     SAT     SAT       79.1ms       46.6ms     OK
+603 uf100-0793.cnf                                   100     430     SAT     SAT       55.4ms       56.7ms     OK
+604 uf100-0706.cnf                                   100     430     SAT     SAT       65.3ms       61.8ms     OK
+605 uf100-088.cnf                                    100     430     SAT     SAT       52.2ms       56.0ms     OK
+606 uf100-0663.cnf                                   100     430     SAT     SAT       85.9ms       54.6ms     OK
+607 uf100-062.cnf                                    100     430     SAT     SAT       59.1ms       83.1ms     OK
+608 uf100-0634.cnf                                   100     430     SAT     SAT       96.0ms       59.8ms     OK
+609 uf100-0779.cnf                                   100     430     SAT     SAT       80.7ms       68.7ms     OK
+610 uf100-0720.cnf                                   100     430     SAT     SAT       77.6ms       70.9ms     OK
+611 uf100-0937.cnf                                   100     430     SAT     SAT       75.7ms       50.9ms     OK
+612 uf100-0894.cnf                                   100     430     SAT     SAT       76.0ms       59.7ms     OK
+613 uf100-0922.cnf                                   100     430     SAT     SAT       76.9ms       55.5ms     OK
+614 uf100-0836.cnf                                   100     430     SAT     SAT       83.9ms       63.5ms     OK
+615 uf100-0850.cnf                                   100     430     SAT     SAT       62.2ms       75.4ms     OK
+616 uf100-0865.cnf                                   100     430     SAT     SAT       83.6ms       50.2ms     OK
+617 uf100-0951.cnf                                   100     430     SAT     SAT       80.5ms       67.7ms     OK
+618 uf100-0966.cnf                                   100     430     SAT     SAT       86.2ms       42.3ms     OK
+619 uf100-0807.cnf                                   100     430     SAT     SAT       93.8ms       74.6ms     OK
+620 uf100-0678.cnf                                   100     430     SAT     SAT      104.2ms       73.4ms     OK
+621 uf100-0980.cnf                                   100     430     SAT     SAT       65.6ms       39.0ms     OK
+622 uf100-0908.cnf                                   100     430     SAT     SAT       80.3ms       81.0ms     OK
+623 uf100-0995.cnf                                   100     430     SAT     SAT       62.5ms       75.9ms     OK
+624 uf100-0821.cnf                                   100     430     SAT     SAT      122.2ms       74.3ms     OK
+625 uf100-029.cnf                                    100     430     SAT     SAT       21.4ms       58.7ms     OK
+626 uf100-0174.cnf                                   100     430     SAT     SAT       36.3ms       62.1ms     OK
+627 uf100-0116.cnf                                   100     430     SAT     SAT       47.1ms       58.6ms     OK
+628 uf100-0145.cnf                                   100     430     SAT     SAT       46.8ms       72.5ms     OK
+629 uf100-0217.cnf                                   100     430     SAT     SAT       22.3ms       95.4ms     OK
+630 uf100-0246.cnf                                   100     430     SAT     SAT       67.6ms       60.7ms     OK
+631 uf100-0101.cnf                                   100     430     SAT     SAT       69.9ms       57.0ms     OK
+632 uf100-0260.cnf                                   100     430     SAT     SAT       64.9ms       66.0ms     OK
+633 uf100-0202.cnf                                   100     430     SAT     SAT       66.7ms       67.0ms     OK
+634 uf100-0433.cnf                                   100     430     SAT     SAT       62.7ms       67.6ms     OK
+635 uf100-0332.cnf                                   100     430     SAT     SAT       76.5ms       71.3ms     OK
+636 uf100-0448.cnf                                   100     430     SAT     SAT       67.6ms       67.4ms     OK
+637 uf100-0318.cnf                                   100     430     SAT     SAT       66.4ms       49.6ms     OK
+638 uf100-0477.cnf                                   100     430     SAT     SAT       63.4ms       72.7ms     OK
+639 uf100-052.cnf                                    100     430     SAT     SAT       67.1ms       78.0ms     OK
+640 uf100-0376.cnf                                   100     430     SAT     SAT       78.6ms       79.3ms     OK
+641 uf100-0419.cnf                                   100     430     SAT     SAT       72.7ms       76.0ms     OK
+642 uf100-016.cnf                                    100     430     SAT     SAT       75.0ms       76.5ms     OK
+643 uf100-0491.cnf                                   100     430     SAT     SAT       67.3ms       75.6ms     OK
+644 uf100-0390.cnf                                   100     430     SAT     SAT       64.8ms       66.3ms     OK
+645 uf100-0505.cnf                                   100     430     SAT     SAT       64.3ms       67.0ms     OK
+646 uf100-0275.cnf                                   100     430     SAT     SAT       91.9ms       69.6ms     OK
+647 uf100-0404.cnf                                   100     430     SAT     SAT       75.1ms       71.0ms     OK
+648 uf100-0130.cnf                                   100     430     SAT     SAT       69.1ms       79.6ms     OK
+649 uf100-0303.cnf                                   100     430     SAT     SAT       61.7ms       86.7ms     OK
+650 uf100-0189.cnf                                   100     430     SAT     SAT       77.8ms      118.2ms     OK
+651 uf100-0549.cnf                                   100     430     SAT     SAT       70.8ms       91.4ms     OK
+652 uf100-0534.cnf                                   100     430     SAT     SAT       91.5ms       62.7ms     OK
+653 uf100-0361.cnf                                   100     430     SAT     SAT      105.7ms       89.3ms     OK
+654 uf100-0231.cnf                                   100     430     SAT     SAT      106.7ms       93.0ms     OK
+655 uf100-0462.cnf                                   100     430     SAT     SAT       87.5ms       76.7ms     OK
+656 uf100-0347.cnf                                   100     430     SAT     SAT       64.3ms       99.1ms     OK
+657 uf100-0563.cnf                                   100     430     SAT     SAT       62.2ms       74.8ms     OK
+658 uf100-0620.cnf                                   100     430     SAT     SAT       66.2ms       58.8ms     OK
+659 uf100-0592.cnf                                   100     430     SAT     SAT       74.8ms       63.7ms     OK
+660 uf100-065.cnf                                    100     430     SAT     SAT       58.4ms       51.4ms     OK
+661 uf100-0578.cnf                                   100     430     SAT     SAT      100.0ms       55.5ms     OK
+662 uf100-0664.cnf                                   100     430     SAT     SAT       54.1ms       57.8ms     OK
+663 uf100-0635.cnf                                   100     430     SAT     SAT       60.2ms       50.3ms     OK
+664 uf100-0679.cnf                                   100     430     SAT     SAT       57.3ms       69.4ms     OK
+665 uf100-0721.cnf                                   100     430     SAT     SAT       57.9ms       63.5ms     OK
+666 uf100-0606.cnf                                   100     430     SAT     SAT       94.3ms       76.2ms     OK
+667 uf100-0736.cnf                                   100     430     SAT     SAT       65.8ms       71.0ms     OK
+668 uf100-078.cnf                                    100     430     SAT     SAT       63.3ms       59.4ms     OK
+669 uf100-0693.cnf                                   100     430     SAT     SAT       67.8ms       73.0ms     OK
+670 uf100-0808.cnf                                   100     430     SAT     SAT       61.8ms       58.5ms     OK
+671 uf100-0851.cnf                                   100     430     SAT     SAT       66.4ms       58.3ms     OK
+672 uf100-0765.cnf                                   100     430     SAT     SAT       71.8ms       55.9ms     OK
+673 uf100-0822.cnf                                   100     430     SAT     SAT       76.7ms       52.7ms     OK
+674 uf100-0895.cnf                                   100     430     SAT     SAT       56.5ms       55.4ms     OK
+675 uf100-0909.cnf                                   100     430     SAT     SAT       52.9ms       55.5ms     OK
+676 uf100-0707.cnf                                   100     430     SAT     SAT      111.0ms       59.6ms     OK
+677 uf100-0750.cnf                                   100     430     SAT     SAT       72.9ms       81.5ms     OK
+678 uf100-0880.cnf                                   100     430     SAT     SAT       62.2ms       65.4ms     OK
+679 uf100-0837.cnf                                   100     430     SAT     SAT       66.1ms       79.2ms     OK
+680 uf100-0794.cnf                                   100     430     SAT     SAT       76.7ms       78.7ms     OK
+681 uf100-0866.cnf                                   100     430     SAT     SAT       59.0ms       79.2ms     OK
+682 uf100-0952.cnf                                   100     430     SAT     SAT       55.7ms       78.1ms     OK
+683 uf100-0938.cnf                                   100     430     SAT     SAT       99.9ms       34.5ms     OK
+684 uf100-0996.cnf                                   100     430     SAT     SAT       74.7ms       45.7ms     OK
+685 uf100-0967.cnf                                   100     430     SAT     SAT       95.2ms       41.4ms     OK
+686 uf100-0981.cnf                                   100     430     SAT     SAT       92.0ms       41.9ms     OK
+687 uf100-0923.cnf                                   100     430     SAT     SAT       79.6ms       74.3ms     OK
+688 uf100-019.cnf                                    100     430     SAT     SAT       48.7ms       32.5ms     OK
+689 uf100-0449.cnf                                   100     430     SAT     SAT       52.0ms       47.5ms     OK
+690 uf100-0247.cnf                                   100     430     SAT     SAT       45.4ms       54.4ms     OK
+691 uf100-0160.cnf                                   100     430     SAT     SAT       51.1ms       50.4ms     OK
+692 uf100-0333.cnf                                   100     430     SAT     SAT       44.0ms       45.2ms     OK
+693 uf100-0304.cnf                                   100     430     SAT     SAT       48.1ms       47.8ms     OK
+694 uf100-0146.cnf                                   100     430     SAT     SAT       53.1ms       53.4ms     OK
+695 uf100-0362.cnf                                   100     430     SAT     SAT       48.6ms       67.2ms     OK
+696 uf100-0290.cnf                                   100     430     SAT     SAT       54.0ms       61.7ms     OK
+697 uf100-042.cnf                                    100     430     SAT     SAT       48.4ms       62.0ms     OK
+698 uf100-0131.cnf                                   100     430     SAT     SAT       53.4ms       66.7ms     OK
+699 uf100-0535.cnf                                   100     430     SAT     SAT       44.4ms       69.2ms     OK
+700 uf100-0348.cnf                                   100     430     SAT     SAT       62.3ms       64.4ms     OK
+701 uf100-0319.cnf                                   100     430     SAT     SAT       54.1ms       71.6ms     OK
+702 uf100-0102.cnf                                   100     430     SAT     SAT       68.1ms       74.6ms     OK
+703 uf100-0261.cnf                                   100     430     SAT     SAT       53.7ms       91.9ms     OK
+704 uf100-0478.cnf                                   100     430     SAT     SAT       51.9ms       91.9ms     OK
+705 uf100-0232.cnf                                   100     430     SAT     SAT       75.6ms       77.8ms     OK
+706 uf100-0506.cnf                                   100     430     SAT     SAT       70.8ms       79.0ms     OK
+707 uf100-0405.cnf                                   100     430     SAT     SAT       48.7ms       98.8ms     OK
+708 uf100-0175.cnf                                   100     430     SAT     SAT       76.7ms       81.1ms     OK
+709 uf100-0377.cnf                                   100     430     SAT     SAT       59.1ms       82.7ms     OK
+710 uf100-0218.cnf                                   100     430     SAT     SAT       63.7ms       85.7ms     OK
+711 uf100-0434.cnf                                   100     430     SAT     SAT       44.1ms       80.5ms     OK
+712 uf100-0391.cnf                                   100     430     SAT     SAT       72.9ms       80.4ms     OK
+713 uf100-0492.cnf                                   100     430     SAT     SAT       69.7ms       74.1ms     OK
+714 uf100-055.cnf                                    100     430     SAT     SAT       70.3ms       82.0ms     OK
+715 uf100-0203.cnf                                   100     430     SAT     SAT       78.0ms       76.1ms     OK
+716 uf100-0520.cnf                                   100     430     SAT     SAT       67.2ms       96.1ms     OK
+717 uf100-0276.cnf                                   100     430     SAT     SAT       62.3ms      109.5ms     OK
+718 uf100-0117.cnf                                   100     430     SAT     SAT       83.5ms      112.7ms     OK
+719 uf100-0463.cnf                                   100     430     SAT     SAT       56.1ms      111.3ms     OK
+720 uf100-0564.cnf                                   100     430     SAT     SAT       71.9ms       59.6ms     OK
+721 uf100-0665.cnf                                   100     430     SAT     SAT       68.4ms       47.0ms     OK
+722 uf100-0708.cnf                                   100     430     SAT     SAT       58.5ms       57.6ms     OK
+723 uf100-0636.cnf                                   100     430     SAT     SAT       90.3ms       49.4ms     OK
+724 uf100-0607.cnf                                   100     430     SAT     SAT       94.5ms       48.5ms     OK
+725 uf100-0593.cnf                                   100     430     SAT     SAT       80.3ms       76.4ms     OK
+726 uf100-0722.cnf                                   100     430     SAT     SAT       69.2ms       58.9ms     OK
+727 uf100-0621.cnf                                   100     430     SAT     SAT       87.7ms       56.8ms     OK
+728 uf100-0579.cnf                                   100     430     SAT     SAT       64.2ms       61.6ms     OK
+729 uf100-0766.cnf                                   100     430     SAT     SAT       62.8ms       51.5ms     OK
+730 uf100-0650.cnf                                   100     430     SAT     SAT       88.6ms       66.8ms     OK
+731 uf100-0694.cnf                                   100     430     SAT     SAT       78.0ms       65.7ms     OK
+732 uf100-0795.cnf                                   100     430     SAT     SAT       67.8ms       51.2ms     OK
+733 uf100-0751.cnf                                   100     430     SAT     SAT       69.8ms       77.4ms     OK
+734 uf100-0924.cnf                                   100     430     SAT     SAT       75.3ms       50.9ms     OK
+735 uf100-0997.cnf                                   100     430     SAT     SAT       54.8ms       47.9ms     OK
+736 uf100-0896.cnf                                   100     430     SAT     SAT       61.2ms       68.9ms     OK
+737 uf100-091.cnf                                    100     430     SAT     SAT       62.6ms       70.6ms     OK
+738 uf100-0982.cnf                                   100     430     SAT     SAT       54.3ms       53.5ms     OK
+739 uf100-0968.cnf                                   100     430     SAT     SAT       64.1ms       50.7ms     OK
+740 uf100-0737.cnf                                   100     430     SAT     SAT       92.7ms       70.1ms     OK
+741 uf100-0838.cnf                                   100     430     SAT     SAT       69.0ms       70.7ms     OK
+742 uf100-0809.cnf                                   100     430     SAT     SAT       70.7ms       71.1ms     OK
+743 uf100-0867.cnf                                   100     430     SAT     SAT       75.4ms       68.1ms     OK
+744 uf100-0780.cnf                                   100     430     SAT     SAT       80.5ms       80.9ms     OK
+745 uf100-0852.cnf                                   100     430     SAT     SAT      110.6ms       46.6ms     OK
+746 uf100-0823.cnf                                   100     430     SAT     SAT      106.7ms       47.5ms     OK
+747 uf100-0881.cnf                                   100     430     SAT     SAT       75.7ms       75.1ms     OK
+748 uf100-0953.cnf                                   100     430     SAT     SAT      106.1ms       30.3ms     OK
+749 uf100-0939.cnf                                   100     430     SAT     SAT       70.4ms       84.8ms     OK
+750 uf100-068.cnf                                    100     430     SAT     SAT      119.9ms       63.2ms     OK
+751 uf100-0435.cnf                                   100     430     SAT     SAT       18.8ms       38.5ms     OK
+752 uf100-0161.cnf                                   100     430     SAT     SAT       15.2ms       53.8ms     OK
+753 uf100-0103.cnf                                   100     430     SAT     SAT       22.2ms       55.5ms     OK
+754 uf100-0420.cnf                                   100     430     SAT     SAT       23.4ms       53.6ms     OK
+755 uf100-0176.cnf                                   100     430     SAT     SAT       21.4ms       53.7ms     OK
+756 uf100-0190.cnf                                   100     430     SAT     SAT       19.2ms       54.5ms     OK
+757 uf100-0305.cnf                                   100     430     SAT     SAT       37.8ms       50.4ms     OK
+758 uf100-0363.cnf                                   100     430     SAT     SAT       40.4ms       61.0ms     OK
+759 uf100-0277.cnf                                   100     430     SAT     SAT       50.9ms       49.0ms     OK
+760 uf100-0349.cnf                                   100     430     SAT     SAT       47.6ms       52.3ms     OK
+761 uf100-0147.cnf                                   100     430     SAT     SAT       44.5ms       59.4ms     OK
+762 uf100-0118.cnf                                   100     430     SAT     SAT       49.1ms       50.9ms     OK
+763 uf100-0334.cnf                                   100     430     SAT     SAT       45.1ms       55.8ms     OK
+764 uf100-0204.cnf                                   100     430     SAT     SAT       54.7ms       46.4ms     OK
+765 uf100-0262.cnf                                   100     430     SAT     SAT       46.4ms       55.0ms     OK
+766 uf100-0291.cnf                                   100     430     SAT     SAT       52.1ms       55.3ms     OK
+767 uf100-0233.cnf                                   100     430     SAT     SAT       45.9ms       59.0ms     OK
+768 uf100-0219.cnf                                   100     430     SAT     SAT       58.4ms       46.1ms     OK
+769 uf100-0507.cnf                                   100     430     SAT     SAT       58.5ms       42.4ms     OK
+770 uf100-0392.cnf                                   100     430     SAT     SAT       57.1ms       43.2ms     OK
+771 uf100-0479.cnf                                   100     430     SAT     SAT       57.7ms       52.9ms     OK
+772 uf100-0378.cnf                                   100     430     SAT     SAT       63.8ms       53.7ms     OK
+773 uf100-0248.cnf                                   100     430     SAT     SAT       54.6ms       53.5ms     OK
+774 uf100-0132.cnf                                   100     430     SAT     SAT       58.0ms       49.4ms     OK
+775 uf100-0550.cnf                                   100     430     SAT     SAT       55.5ms       51.6ms     OK
+776 uf100-0464.cnf                                   100     430     SAT     SAT       49.0ms       48.6ms     OK
+777 uf100-045.cnf                                    100     430     SAT     SAT       53.9ms       42.6ms     OK
+778 uf100-0521.cnf                                   100     430     SAT     SAT       53.4ms       50.3ms     OK
+779 uf100-032.cnf                                    100     430     SAT     SAT       53.4ms       54.3ms     OK
+780 uf100-0493.cnf                                   100     430     SAT     SAT       59.2ms       45.9ms     OK
+781 uf100-0565.cnf                                   100     430     SAT     SAT       48.4ms       45.7ms     OK
+782 uf100-0406.cnf                                   100     430     SAT     SAT       58.0ms       50.1ms     OK
+783 uf100-0536.cnf                                   100     430     SAT     SAT       58.4ms       49.2ms     OK
+784 uf100-058.cnf                                    100     430     SAT     SAT       56.4ms       57.2ms     OK
+785 uf100-0622.cnf                                   100     430     SAT     SAT       49.1ms       59.8ms     OK
+786 uf100-0594.cnf                                   100     430     SAT     SAT       59.7ms       56.3ms     OK
+787 uf100-0608.cnf                                   100     430     SAT     SAT       54.4ms       62.7ms     OK
+788 uf100-0637.cnf                                   100     430     SAT     SAT       47.0ms       64.0ms     OK
+789 uf100-0651.cnf                                   100     430     SAT     SAT       48.7ms       52.9ms     OK
+790 uf100-0767.cnf                                   100     430     SAT     SAT       46.2ms       49.6ms     OK
+791 uf100-0666.cnf                                   100     430     SAT     SAT       56.9ms       51.8ms     OK
+792 uf100-0709.cnf                                   100     430     SAT     SAT       47.5ms       52.7ms     OK
+793 uf100-0781.cnf                                   100     430     SAT     SAT       45.0ms       50.8ms     OK
+794 uf100-0680.cnf                                   100     430     SAT     SAT       50.8ms       51.6ms     OK
+795 uf100-0824.cnf                                   100     430     SAT     SAT       51.9ms       52.5ms     OK
+796 uf100-0738.cnf                                   100     430     SAT     SAT       51.6ms       59.1ms     OK
+797 uf100-0752.cnf                                   100     430     SAT     SAT       57.3ms       43.4ms     OK
+798 uf100-0695.cnf                                   100     430     SAT     SAT       55.2ms       57.6ms     OK
+799 uf100-0723.cnf                                   100     430     SAT     SAT       60.4ms       40.9ms     OK
+800 uf100-0839.cnf                                   100     430     SAT     SAT       61.7ms       45.2ms     OK
+801 uf100-081.cnf                                    100     430     SAT     SAT       58.6ms       51.1ms     OK
+802 uf100-0796.cnf                                   100     430     SAT     SAT       61.5ms       48.6ms     OK
+803 uf100-0853.cnf                                   100     430     SAT     SAT       63.3ms       41.9ms     OK
+804 uf100-0897.cnf                                   100     430     SAT     SAT       52.6ms       44.2ms     OK
+805 uf100-094.cnf                                    100     430     SAT     SAT       54.9ms       33.1ms     OK
+806 uf100-0882.cnf                                   100     430     SAT     SAT       53.7ms       28.2ms     OK
+807 uf100-0868.cnf                                   100     430     SAT     SAT       55.3ms       47.1ms     OK
+808 uf100-0925.cnf                                   100     430     SAT     SAT       55.2ms       44.5ms     OK
+809 uf100-0998.cnf                                   100     430     SAT     SAT       53.4ms       30.6ms     OK
+810 uf100-0969.cnf                                   100     430     SAT     SAT       53.9ms       22.6ms     OK
+811 uf100-0954.cnf                                   100     430     SAT     SAT       55.8ms       37.9ms     OK
+812 uf100-0983.cnf                                   100     430     SAT     SAT       60.4ms       22.1ms     OK
+813 uf100-0910.cnf                                   100     430     SAT     SAT       63.8ms       43.3ms     OK
+814 uf100-0162.cnf                                   100     430     SAT     SAT       28.6ms       62.0ms     OK
+815 uf100-0177.cnf                                   100     430     SAT     SAT       21.8ms       67.2ms     OK
+816 uf100-0133.cnf                                   100     430     SAT     SAT       25.7ms       70.7ms     OK
+817 uf100-0104.cnf                                   100     430     SAT     SAT       28.6ms       75.3ms     OK
+818 uf100-0148.cnf                                   100     430     SAT     SAT       42.4ms       59.1ms     OK
+819 uf100-022.cnf                                    100     430     SAT     SAT       46.2ms       60.9ms     OK
+820 uf100-0263.cnf                                   100     430     SAT     SAT       48.0ms       61.7ms     OK
+821 uf100-0407.cnf                                   100     430     SAT     SAT       51.9ms       62.0ms     OK
+822 uf100-0551.cnf                                   100     430     SAT     SAT       48.2ms       58.4ms     OK
+823 uf100-048.cnf                                    100     430     SAT     SAT       58.4ms       52.6ms     OK
+824 uf100-0306.cnf                                   100     430     SAT     SAT       50.7ms       62.2ms     OK
+825 uf100-0537.cnf                                   100     430     SAT     SAT       47.0ms       64.8ms     OK
+826 uf100-0205.cnf                                   100     430     SAT     SAT       54.8ms       73.2ms     OK
+827 uf100-0278.cnf                                   100     430     SAT     SAT       62.8ms       52.7ms     OK
+828 uf100-0364.cnf                                   100     430     SAT     SAT       55.3ms       62.6ms     OK
+829 uf100-0335.cnf                                   100     430     SAT     SAT       59.8ms       60.3ms     OK
+830 uf100-0421.cnf                                   100     430     SAT     SAT       54.3ms       68.8ms     OK
+831 uf100-0379.cnf                                   100     430     SAT     SAT       73.0ms       58.5ms     OK
+832 uf100-0436.cnf                                   100     430     SAT     SAT       69.9ms       54.9ms     OK
+833 uf100-0234.cnf                                   100     430     SAT     SAT       76.5ms       58.7ms     OK
+834 uf100-0465.cnf                                   100     430     SAT     SAT       71.7ms       53.8ms     OK
+835 uf100-0522.cnf                                   100     430     SAT     SAT       79.8ms       47.3ms     OK
+836 uf100-0393.cnf                                   100     430     SAT     SAT       61.0ms       45.9ms     OK
+837 uf100-0292.cnf                                   100     430     SAT     SAT       87.8ms       47.8ms     OK
+838 uf100-0249.cnf                                   100     430     SAT     SAT       88.2ms       43.9ms     OK
+839 uf100-0508.cnf                                   100     430     SAT     SAT       51.3ms       84.6ms     OK
+840 uf100-0119.cnf                                   100     430     SAT     SAT       55.3ms       81.5ms     OK
+841 uf100-0320.cnf                                   100     430     SAT     SAT       66.9ms       64.7ms     OK
+842 uf100-0494.cnf                                   100     430     SAT     SAT       65.2ms       65.3ms     OK
+843 uf100-035.cnf                                    100     430     SAT     SAT       87.8ms       55.2ms     OK
+844 uf100-0450.cnf                                   100     430     SAT     SAT       76.6ms       62.4ms     OK
+845 uf100-0191.cnf                                   100     430     SAT     SAT       54.5ms      103.0ms     OK
+846 uf100-0580.cnf                                   100     430     SAT     SAT       39.6ms       55.7ms     OK
+847 uf100-0638.cnf                                   100     430     SAT     SAT       31.3ms       51.6ms     OK
+848 uf100-0595.cnf                                   100     430     SAT     SAT       45.9ms       61.3ms     OK
+849 uf100-0681.cnf                                   100     430     SAT     SAT       47.2ms       62.9ms     OK
+850 uf100-0652.cnf                                   100     430     SAT     SAT       51.2ms       60.6ms     OK
+851 uf100-0667.cnf                                   100     430     SAT     SAT       58.2ms       54.8ms     OK
+852 uf100-0696.cnf                                   100     430     SAT     SAT       42.8ms       76.6ms     OK
+853 uf100-0753.cnf                                   100     430     SAT     SAT       50.4ms       55.6ms     OK
+854 uf100-0854.cnf                                   100     430     SAT     SAT       57.4ms       47.5ms     OK
+855 uf100-084.cnf                                    100     430     SAT     SAT       56.0ms       50.5ms     OK
+856 uf100-0609.cnf                                   100     430     SAT     SAT       79.3ms       59.1ms     OK
+857 uf100-0797.cnf                                   100     430     SAT     SAT       53.3ms       64.9ms     OK
+858 uf100-071.cnf                                    100     430     SAT     SAT       54.9ms       57.9ms     OK
+859 uf100-0566.cnf                                   100     430     SAT     SAT       67.6ms       94.0ms     OK
+860 uf100-0739.cnf                                   100     430     SAT     SAT       62.4ms       60.4ms     OK
+861 uf100-0898.cnf                                   100     430     SAT     SAT       62.0ms       57.5ms     OK
+862 uf100-0940.cnf                                   100     430     SAT     SAT       66.2ms       51.4ms     OK
+863 uf100-0911.cnf                                   100     430     SAT     SAT       70.4ms       46.2ms     OK
+864 uf100-0955.cnf                                   100     430     SAT     SAT       80.5ms       48.5ms     OK
+865 uf100-0926.cnf                                   100     430     SAT     SAT       79.3ms       51.1ms     OK
+866 uf100-0869.cnf                                   100     430     SAT     SAT       85.0ms       48.7ms     OK
+867 uf100-0825.cnf                                   100     430     SAT     SAT       78.3ms       49.0ms     OK
+868 uf100-0724.cnf                                   100     430     SAT     SAT       77.7ms       69.7ms     OK
+869 uf100-0768.cnf                                   100     430     SAT     SAT       90.3ms       66.1ms     OK
+870 uf100-0810.cnf                                   100     430     SAT     SAT       89.2ms       49.7ms     OK
+871 uf100-0883.cnf                                   100     430     SAT     SAT       74.2ms       67.2ms     OK
+872 uf100-0623.cnf                                   100     430     SAT     SAT      123.7ms       47.8ms     OK
+873 uf100-0999.cnf                                   100     430     SAT     SAT       53.4ms       43.2ms     OK
+874 uf100-0782.cnf                                   100     430     SAT     SAT      111.4ms       42.0ms     OK
+875 uf100-097.cnf                                    100     430     SAT     SAT       90.2ms       58.5ms     OK
+876 uf100-0984.cnf                                   100     430     SAT     SAT       54.1ms       66.4ms     OK
+877 uf100-0105.cnf                                   100     430     SAT     SAT       18.6ms       52.0ms     OK
+878 uf100-012.cnf                                    100     430     SAT     SAT       22.1ms       56.0ms     OK
+879 uf100-0279.cnf                                   100     430     SAT     SAT       17.8ms       57.2ms     OK
+880 uf100-0235.cnf                                   100     430     SAT     SAT       21.3ms       68.7ms     OK
+881 uf100-0134.cnf                                   100     430     SAT     SAT       19.3ms       67.2ms     OK
+882 uf100-0365.cnf                                   100     430     SAT     SAT       35.8ms       59.7ms     OK
+883 uf100-0307.cnf                                   100     430     SAT     SAT       34.8ms       60.1ms     OK
+884 uf100-0336.cnf                                   100     430     SAT     SAT       18.9ms       80.3ms     OK
+885 uf100-0466.cnf                                   100     430     SAT     SAT       44.7ms       75.2ms     OK
+886 uf100-0206.cnf                                   100     430     SAT     SAT       62.2ms       70.1ms     OK
+887 uf100-0350.cnf                                   100     430     SAT     SAT       44.0ms       78.1ms     OK
+888 uf100-0149.cnf                                   100     430     SAT     SAT       56.2ms       82.1ms     OK
+889 uf100-025.cnf                                    100     430     SAT     SAT       48.6ms      100.7ms     OK
+890 uf100-0422.cnf                                   100     430     SAT     SAT       56.8ms       95.5ms     OK
+891 uf100-0321.cnf                                   100     430     SAT     SAT       61.3ms       92.0ms     OK
+892 uf100-0437.cnf                                   100     430     SAT     SAT       62.2ms       93.2ms     OK
+893 uf100-0220.cnf                                   100     430     SAT     SAT       59.8ms       88.4ms     OK
+894 uf100-0523.cnf                                   100     430     SAT     SAT       63.7ms       99.9ms     OK
+895 uf100-0163.cnf                                   100     430     SAT     SAT       71.2ms       94.0ms     OK
+896 uf100-0408.cnf                                   100     430     SAT     SAT       68.5ms       99.3ms     OK
+897 uf100-0538.cnf                                   100     430     SAT     SAT       65.0ms       99.5ms     OK
+898 uf100-0480.cnf                                   100     430     SAT     SAT       73.6ms       98.1ms     OK
+899 uf100-038.cnf                                    100     430     SAT     SAT       69.7ms      101.4ms     OK
+900 uf100-0293.cnf                                   100     430     SAT     SAT       95.9ms      104.0ms     OK
+901 uf100-0451.cnf                                   100     430     SAT     SAT       69.2ms      118.6ms     OK
+902 uf100-0192.cnf                                   100     430     SAT     SAT       69.6ms      130.6ms     OK
+903 uf100-0264.cnf                                   100     430     SAT     SAT       94.3ms       93.7ms     OK
+904 uf100-0178.cnf                                   100     430     SAT     SAT       98.3ms      112.8ms     OK
+905 uf100-0552.cnf                                   100     430     SAT     SAT       84.2ms      119.5ms     OK
+906 uf100-0495.cnf                                   100     430     SAT     SAT       93.7ms      100.7ms     OK
+907 uf100-0581.cnf                                   100     430     SAT     SAT       76.7ms       88.7ms     OK
+908 uf100-0509.cnf                                   100     430     SAT     SAT      106.8ms       90.1ms     OK
+909 uf100-0394.cnf                                   100     430     SAT     SAT       90.3ms      105.3ms     OK
+910 uf100-0567.cnf                                   100     430     SAT     SAT      100.7ms       89.4ms     OK
+911 uf100-0624.cnf                                   100     430     SAT     SAT       99.5ms       96.8ms     OK
+912 uf100-0668.cnf                                   100     430     SAT     SAT      113.2ms       78.6ms     OK
+913 uf100-0639.cnf                                   100     430     SAT     SAT      110.5ms       84.2ms     OK
+914 uf100-061.cnf                                    100     430     SAT     SAT      102.1ms       98.4ms     OK
+915 uf100-0596.cnf                                   100     430     SAT     SAT      119.7ms       95.4ms     OK
+916 uf100-0653.cnf                                   100     430     SAT     SAT      109.1ms       94.8ms     OK
+917 uf100-0682.cnf                                   100     430     SAT     SAT      100.0ms       78.5ms     OK
+918 uf100-0710.cnf                                   100     430     SAT     SAT       86.7ms       92.4ms     OK
+919 uf100-074.cnf                                    100     430     SAT     SAT       94.7ms       81.5ms     OK
+920 uf100-0725.cnf                                   100     430     SAT     SAT      108.9ms       80.1ms     OK
+921 uf100-0798.cnf                                   100     430     SAT     SAT       90.5ms       60.6ms     OK
+922 uf100-0769.cnf                                   100     430     SAT     SAT       92.8ms       83.0ms     OK
+923 uf100-0783.cnf                                   100     430     SAT     SAT       92.6ms       76.9ms     OK
+924 uf100-0754.cnf                                   100     430     SAT     SAT      106.1ms       65.3ms     OK
+925 uf100-0697.cnf                                   100     430     SAT     SAT      127.1ms       81.1ms     OK
+926 uf100-0811.cnf                                   100     430     SAT     SAT      113.5ms       53.6ms     OK
+927 uf100-0840.cnf                                   100     430     SAT     SAT      101.9ms       50.1ms     OK
+928 uf100-0884.cnf                                   100     430     SAT     SAT       90.6ms       45.1ms     OK
+929 uf100-0855.cnf                                   100     430     SAT     SAT       94.2ms       36.1ms     OK
+930 uf100-0985.cnf                                   100     430     SAT     SAT       79.5ms       32.1ms     OK
+931 uf100-0826.cnf                                   100     430     SAT     SAT      118.1ms       25.0ms     OK
+932 uf100-087.cnf                                    100     430     SAT     SAT      116.4ms       36.4ms     OK
+933 uf100-0941.cnf                                   100     430     SAT     SAT       85.7ms       52.6ms     OK
+934 uf100-0899.cnf                                   100     430     SAT     SAT       74.5ms       44.2ms     OK
+935 uf100-0956.cnf                                   100     430     SAT     SAT       74.1ms       38.0ms     OK
+936 uf100-0970.cnf                                   100     430     SAT     SAT      118.8ms       37.3ms     OK
+937 uf100-0912.cnf                                   100     430     SAT     SAT      125.9ms       39.1ms     OK
+938 uf100-0927.cnf                                   100     430     SAT     SAT      117.6ms       61.4ms     OK
+939 uf100-0351.cnf                                   100     430     SAT     SAT       19.7ms       11.8ms     OK
+940 uf100-0265.cnf                                   100     430     SAT     SAT       21.0ms       13.0ms     OK
+941 uf100-028.cnf                                    100     430     SAT     SAT       20.3ms       13.1ms     OK
+942 uf100-0221.cnf                                   100     430     SAT     SAT       24.7ms        9.8ms     OK
+943 uf100-0322.cnf                                   100     430     SAT     SAT       32.4ms       11.6ms     OK
+944 uf100-0380.cnf                                   100     430     SAT     SAT       28.5ms       13.1ms     OK
+945 uf100-015.cnf                                    100     430     SAT     SAT       29.0ms       13.3ms     OK
+946 uf100-0308.cnf                                   100     430     SAT     SAT       33.5ms       12.6ms     OK
+947 uf100-0294.cnf                                   100     430     SAT     SAT       27.0ms       12.9ms     OK
+948 uf100-0106.cnf                                   100     430     SAT     SAT       38.3ms       12.7ms     OK
+949 uf100-0337.cnf                                   100     430     SAT     SAT       35.7ms       10.3ms     OK
+950 uf100-0193.cnf                                   100     430     SAT     SAT       24.9ms       19.6ms     OK
+951 uf100-0135.cnf                                   100     430     SAT     SAT       26.1ms       12.0ms     OK
+952 uf100-0467.cnf                                   100     430     SAT     SAT       28.6ms        9.8ms     OK
+953 uf100-0409.cnf                                   100     430     SAT     SAT       34.3ms       11.0ms     OK
+954 uf100-0250.cnf                                   100     430     SAT     SAT       39.9ms       12.7ms     OK
+955 uf100-0236.cnf                                   100     430     SAT     SAT       27.6ms       11.7ms     OK
+956 uf100-0496.cnf                                   100     430     SAT     SAT       16.4ms       11.5ms     OK
+957 uf100-0179.cnf                                   100     430     SAT     SAT       32.9ms       22.9ms     OK
+958 uf100-0207.cnf                                   100     430     SAT     SAT       24.6ms       22.1ms     OK
+959 uf100-051.cnf                                    100     430     SAT     SAT       37.2ms       11.1ms     OK
+960 uf100-0120.cnf                                   100     430     SAT     SAT       27.6ms       23.2ms     OK
+961 uf100-0164.cnf                                   100     430     SAT     SAT       22.3ms       20.3ms     OK
+962 uf100-0524.cnf                                   100     430     SAT     SAT       32.0ms       12.0ms     OK
+963 uf100-0481.cnf                                   100     430     SAT     SAT       24.3ms       24.9ms     OK
+964 uf100-0395.cnf                                   100     430     SAT     SAT       46.0ms       14.7ms     OK
+965 uf100-0452.cnf                                   100     430     SAT     SAT       36.2ms       13.4ms     OK
+966 uf100-0597.cnf                                   100     430     SAT     SAT       11.3ms       12.7ms     OK
+967 uf100-0438.cnf                                   100     430     SAT     SAT       36.8ms       25.3ms     OK
+968 uf100-0553.cnf                                   100     430     SAT     SAT       46.0ms       12.9ms     OK
+969 uf100-0610.cnf                                   100     430     SAT     SAT       17.5ms       12.0ms     OK
+970 uf100-0366.cnf                                   100     430     SAT     SAT       42.6ms       26.3ms     OK
+971 uf100-0698.cnf                                   100     430     SAT     SAT       14.1ms       12.2ms     OK
+972 uf100-0683.cnf                                   100     430     SAT     SAT       14.1ms       16.4ms     OK
+973 uf100-0827.cnf                                   100     430     SAT     SAT       13.3ms       10.3ms     OK
+974 uf100-0423.cnf                                   100     430     SAT     SAT       36.1ms       28.9ms     OK
+975 uf100-0726.cnf                                   100     430     SAT     SAT       15.1ms        9.7ms     OK
+976 uf100-064.cnf                                    100     430     SAT     SAT       23.2ms        9.3ms     OK
+977 uf100-0654.cnf                                   100     430     SAT     SAT       14.0ms        9.7ms     OK
+978 uf100-0582.cnf                                   100     430     SAT     SAT       15.2ms       23.5ms     OK
+979 uf100-0740.cnf                                   100     430     SAT     SAT       15.1ms       20.9ms     OK
+980 uf100-0539.cnf                                   100     430     SAT     SAT       39.0ms       39.6ms     OK
+981 uf100-0625.cnf                                   100     430     SAT     SAT       23.2ms       10.8ms     OK
+982 uf100-09.cnf                                     100     430     SAT     SAT       14.3ms       10.3ms     OK
+983 uf100-0784.cnf                                   100     430     SAT     SAT       16.1ms        9.9ms     OK
+984 uf100-0957.cnf                                   100     430     SAT     SAT       11.5ms        9.0ms     OK
+985 uf100-0669.cnf                                   100     430     SAT     SAT       29.9ms       10.5ms     OK
+986 uf100-0942.cnf                                   100     430     SAT     SAT       14.2ms        9.6ms     OK
+987 uf100-0885.cnf                                   100     430     SAT     SAT       13.6ms        9.6ms     OK
+988 uf100-0928.cnf                                   100     430     SAT     SAT       12.1ms        8.5ms     OK
+989 uf100-0799.cnf                                   100     430     SAT     SAT       10.2ms        9.4ms     OK
+990 uf100-0913.cnf                                   100     430     SAT     SAT       11.9ms        9.3ms     OK
+991 uf100-0711.cnf                                   100     430     SAT     SAT       25.8ms        6.8ms     OK
+992 uf100-0841.cnf                                   100     430     SAT     SAT       24.0ms        8.2ms     OK
+993 uf100-0755.cnf                                   100     430     SAT     SAT       31.6ms        7.9ms     OK
+994 uf100-0812.cnf                                   100     430     SAT     SAT       26.3ms        7.7ms     OK
+995 uf100-0568.cnf                                   100     430     SAT     SAT       40.1ms       18.4ms     OK
+996 uf100-0856.cnf                                   100     430     SAT     SAT       23.9ms       21.4ms     OK
+997 uf100-0971.cnf                                   100     430     SAT     SAT       20.7ms        5.3ms     OK
+998 uf100-0870.cnf                                   100     430     SAT     SAT       35.3ms        6.1ms     OK
+999 uf100-0986.cnf                                   100     430     SAT     SAT       22.4ms        4.6ms     OK
+1000 uf100-077.cnf                                    100     430     SAT     SAT       10.4ms       21.6ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 1000
+  Both agree            : 1000
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 347 / 1000
+  MiniSat faster        : 653 / 1000
+  CDCL total time       : 279.9s
+  MiniSat total time    : 121.0s
+  Speedup (MS/CDCL)     : 0.43x
+==========================================================================================

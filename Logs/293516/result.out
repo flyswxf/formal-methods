@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293516
+  Task Name   : medium-uf175-753-UNSAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf175-753/UNSAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uuf175-041.cnf                                   175     753   UNSAT   UNSAT      110.8ms       66.2ms     OK
+  2 uuf175-089.cnf                                   175     753   UNSAT   UNSAT      151.4ms       90.0ms     OK
+  3 uuf175-030.cnf                                   175     753   UNSAT   UNSAT      170.8ms       73.0ms     OK
+  4 uuf175-045.cnf                                   175     753   UNSAT   UNSAT      180.9ms      106.1ms     OK
+  5 uuf175-038.cnf                                   175     753   UNSAT   UNSAT      225.9ms      103.3ms     OK
+  6 uuf175-034.cnf                                   175     753   UNSAT   UNSAT      252.3ms      119.7ms     OK
+  7 uuf175-085.cnf                                   175     753   UNSAT   UNSAT      245.3ms      144.9ms     OK
+  8 uuf175-096.cnf                                   175     753   UNSAT   UNSAT      305.8ms      105.6ms     OK
+  9 uuf175-012.cnf                                   175     753   UNSAT   UNSAT      225.1ms       93.9ms     OK
+ 10 uuf175-052.cnf                                   175     753   UNSAT   UNSAT      320.3ms      152.2ms     OK
+ 11 uuf175-01.cnf                                    175     753   UNSAT   UNSAT      265.9ms      103.2ms     OK
+ 12 uuf175-092.cnf                                   175     753   UNSAT   UNSAT      397.4ms      128.3ms     OK
+ 13 uuf175-067.cnf                                   175     753   UNSAT   UNSAT      425.4ms      125.5ms     OK
+ 14 uuf175-074.cnf                                   175     753   UNSAT   UNSAT      301.7ms      161.5ms     OK
+ 15 uuf175-078.cnf                                   175     753   UNSAT   UNSAT      399.5ms      186.6ms     OK
+ 16 uuf175-016.cnf                                   175     753   UNSAT   UNSAT      399.3ms      198.7ms     OK
+ 17 uuf175-023.cnf                                   175     753   UNSAT   UNSAT      541.7ms      107.2ms     OK
+ 18 uuf175-056.cnf                                   175     753   UNSAT   UNSAT      459.4ms      188.6ms     OK
+ 19 uuf175-063.cnf                                   175     753   UNSAT   UNSAT      549.3ms      115.3ms     OK
+ 20 uuf175-070.cnf                                   175     753   UNSAT   UNSAT      541.0ms      157.2ms     OK
+ 21 uuf175-027.cnf                                   175     753   UNSAT   UNSAT      588.6ms      153.1ms     OK
+ 22 uuf175-06.cnf                                    175     753   UNSAT   UNSAT      530.6ms      227.4ms     OK
+ 23 uuf175-049.cnf                                   175     753   UNSAT   UNSAT      569.0ms      204.5ms     OK
+ 24 uuf175-081.cnf                                   175     753   UNSAT   UNSAT      754.5ms      140.9ms     OK
+ 25 uuf175-02.cnf                                    175     753   UNSAT   UNSAT      754.5ms      308.5ms     OK
+ 26 uuf175-086.cnf                                   175     753   UNSAT   UNSAT      148.1ms       52.8ms     OK
+ 27 uuf175-097.cnf                                   175     753   UNSAT   UNSAT      172.6ms      206.7ms     OK
+ 28 uuf175-09.cnf                                    175     753   UNSAT   UNSAT      287.3ms      116.2ms     OK
+ 29 uuf175-028.cnf                                   175     753   UNSAT   UNSAT      360.8ms      113.3ms     OK
+ 30 uuf175-079.cnf                                   175     753   UNSAT   UNSAT      413.6ms      108.8ms     OK
+ 31 uuf175-068.cnf                                   175     753   UNSAT   UNSAT      393.3ms      143.1ms     OK
+ 32 uuf175-013.cnf                                   175     753   UNSAT   UNSAT      474.0ms      125.7ms     OK
+ 33 uuf175-031.cnf                                   175     753   UNSAT   UNSAT      262.2ms      379.5ms     OK
+ 34 uuf175-010.cnf                                   175     753   UNSAT   UNSAT      523.0ms      153.8ms     OK
+ 35 uuf175-020.cnf                                   175     753   UNSAT   UNSAT      552.4ms      199.9ms     OK
+ 36 uuf175-046.cnf                                   175     753   UNSAT   UNSAT      593.0ms      190.9ms     OK
+ 37 uuf175-017.cnf                                   175     753   UNSAT   UNSAT      695.9ms      108.5ms     OK
+ 38 uuf175-075.cnf                                   175     753   UNSAT   UNSAT      788.4ms      141.2ms     OK
+ 39 uuf175-060.cnf                                   175     753   UNSAT   UNSAT      774.1ms      228.4ms     OK
+ 40 uuf175-071.cnf                                   175     753   UNSAT   UNSAT      933.3ms      121.6ms     OK
+ 41 uuf175-05.cnf                                    175     753   UNSAT   UNSAT      975.2ms      155.1ms     OK
+ 42 uuf175-035.cnf                                   175     753   UNSAT   UNSAT      999.0ms      163.8ms     OK
+ 43 uuf175-064.cnf                                   175     753   UNSAT   UNSAT       1.357s      105.9ms     OK
+ 44 uuf175-093.cnf                                   175     753   UNSAT   UNSAT       1.295s      204.2ms     OK
+ 45 uuf175-024.cnf                                   175     753   UNSAT   UNSAT       1.505s      150.7ms     OK
+ 46 uuf175-057.cnf                                   175     753   UNSAT   UNSAT       1.592s      199.8ms     OK
+ 47 uuf175-053.cnf                                   175     753   UNSAT   UNSAT       1.954s      172.1ms     OK
+ 48 uuf175-039.cnf                                   175     753   UNSAT   UNSAT       3.516s      142.8ms     OK
+ 49 uuf175-082.cnf                                   175     753   UNSAT   UNSAT       4.217s      190.4ms     OK
+ 50 uuf175-042.cnf                                   175     753   UNSAT   UNSAT      15.556s       2.219s     OK
+ 51 uuf175-061.cnf                                   175     753   UNSAT   UNSAT      217.1ms       73.9ms     OK
+ 52 uuf175-0100.cnf                                  175     753   UNSAT   UNSAT      277.8ms       94.6ms     OK
+ 53 uuf175-098.cnf                                   175     753   UNSAT   UNSAT      240.6ms      105.3ms     OK
+ 54 uuf175-069.cnf                                   175     753   UNSAT   UNSAT      253.2ms      144.4ms     OK
+ 55 uuf175-087.cnf                                   175     753   UNSAT   UNSAT      302.1ms      113.2ms     OK
+ 56 uuf175-065.cnf                                   175     753   UNSAT   UNSAT      336.0ms      127.9ms     OK
+ 57 uuf175-090.cnf                                   175     753   UNSAT   UNSAT      368.9ms       98.2ms     OK
+ 58 uuf175-072.cnf                                   175     753   UNSAT   UNSAT      409.0ms      168.7ms     OK
+ 59 uuf175-036.cnf                                   175     753   UNSAT   UNSAT      451.4ms      148.1ms     OK
+ 60 uuf175-076.cnf                                   175     753   UNSAT   UNSAT      517.2ms      130.5ms     OK
+ 61 uuf175-058.cnf                                   175     753   UNSAT   UNSAT      583.3ms      114.5ms     OK
+ 62 uuf175-025.cnf                                   175     753   UNSAT   UNSAT      878.2ms       65.5ms     OK
+ 63 uuf175-029.cnf                                   175     753   UNSAT   UNSAT      828.7ms      109.1ms     OK
+ 64 uuf175-032.cnf                                   175     753   UNSAT   UNSAT      727.4ms      341.0ms     OK
+ 65 uuf175-04.cnf                                    175     753   UNSAT   UNSAT       1.085s      115.8ms     OK
+ 66 uuf175-018.cnf                                   175     753   UNSAT   UNSAT       1.128s      210.0ms     OK
+ 67 uuf175-043.cnf                                   175     753   UNSAT   UNSAT       1.330s      117.1ms     OK
+ 68 uuf175-094.cnf                                   175     753   UNSAT   UNSAT       1.300s      177.3ms     OK
+ 69 uuf175-047.cnf                                   175     753   UNSAT   UNSAT       1.199s      335.1ms     OK
+ 70 uuf175-021.cnf                                   175     753   UNSAT   UNSAT       1.516s       96.6ms     OK
+ 71 uuf175-08.cnf                                    175     753   UNSAT   UNSAT       2.140s      204.7ms     OK
+ 72 uuf175-054.cnf                                   175     753   UNSAT   UNSAT       1.530s      879.1ms     OK
+ 73 uuf175-050.cnf                                   175     753   UNSAT   UNSAT       2.793s      383.1ms     OK
+ 74 uuf175-014.cnf                                   175     753   UNSAT   UNSAT       3.251s      322.4ms     OK
+ 75 uuf175-083.cnf                                   175     753   UNSAT   UNSAT       6.496s      186.4ms     OK
+ 76 uuf175-051.cnf                                   175     753   UNSAT   UNSAT      210.4ms       61.0ms     OK
+ 77 uuf175-044.cnf                                   175     753   UNSAT   UNSAT      215.5ms       71.3ms     OK
+ 78 uuf175-077.cnf                                   175     753   UNSAT   UNSAT      217.1ms       68.6ms     OK
+ 79 uuf175-011.cnf                                   175     753   UNSAT   UNSAT      179.0ms      119.6ms     OK
+ 80 uuf175-080.cnf                                   175     753   UNSAT   UNSAT      207.8ms      131.0ms     OK
+ 81 uuf175-040.cnf                                   175     753   UNSAT   UNSAT      247.0ms      144.2ms     OK
+ 82 uuf175-022.cnf                                   175     753   UNSAT   UNSAT      385.5ms       99.5ms     OK
+ 83 uuf175-07.cnf                                    175     753   UNSAT   UNSAT      370.7ms      163.4ms     OK
+ 84 uuf175-088.cnf                                   175     753   UNSAT   UNSAT      410.8ms      130.6ms     OK
+ 85 uuf175-084.cnf                                   175     753   UNSAT   UNSAT      409.6ms      185.5ms     OK
+ 86 uuf175-03.cnf                                    175     753   UNSAT   UNSAT      436.8ms      146.9ms     OK
+ 87 uuf175-091.cnf                                   175     753   UNSAT   UNSAT      583.2ms       95.0ms     OK
+ 88 uuf175-033.cnf                                   175     753   UNSAT   UNSAT      659.7ms      128.2ms     OK
+ 89 uuf175-015.cnf                                   175     753   UNSAT   UNSAT      867.4ms       72.4ms     OK
+ 90 uuf175-073.cnf                                   175     753   UNSAT   UNSAT      737.4ms      236.2ms     OK
+ 91 uuf175-099.cnf                                   175     753   UNSAT   UNSAT      914.1ms      100.0ms     OK
+ 92 uuf175-095.cnf                                   175     753   UNSAT   UNSAT      988.0ms      152.9ms     OK
+ 93 uuf175-026.cnf                                   175     753   UNSAT   UNSAT       1.054s       99.9ms     OK
+ 94 uuf175-059.cnf                                   175     753   UNSAT   UNSAT       1.129s      124.2ms     OK
+ 95 uuf175-066.cnf                                   175     753   UNSAT   UNSAT       1.288s      154.6ms     OK
+ 96 uuf175-062.cnf                                   175     753   UNSAT   UNSAT       1.296s      184.7ms     OK
+ 97 uuf175-019.cnf                                   175     753   UNSAT   UNSAT       1.429s      230.6ms     OK
+ 98 uuf175-037.cnf                                   175     753   UNSAT   UNSAT       1.541s      123.7ms     OK
+ 99 uuf175-055.cnf                                   175     753   UNSAT   UNSAT       1.649s      817.0ms     OK
+100 uuf175-048.cnf                                   175     753   UNSAT   UNSAT       2.309s      916.4ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 2 / 100
+  MiniSat faster        : 98 / 100
+  CDCL total time       : 99.9s
+  MiniSat total time    : 19.276s
+  Speedup (MS/CDCL)     : 0.19x
+==========================================================================================

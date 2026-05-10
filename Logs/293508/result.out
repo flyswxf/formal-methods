@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293508
+  Task Name   : medium-uf75-325-UNSAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf75-325/UNSAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uuf75-034.cnf                                     75     325   UNSAT   UNSAT       18.4ms       35.9ms     OK
+  2 uuf75-023.cnf                                     75     325   UNSAT   UNSAT       23.1ms       33.1ms     OK
+  3 uuf75-070.cnf                                     75     325   UNSAT   UNSAT       17.4ms       37.5ms     OK
+  4 uuf75-038.cnf                                     75     325   UNSAT   UNSAT       19.0ms       40.1ms     OK
+  5 uuf75-012.cnf                                     75     325   UNSAT   UNSAT       18.9ms       43.2ms     OK
+  6 uuf75-030.cnf                                     75     325   UNSAT   UNSAT       21.5ms       49.0ms     OK
+  7 uuf75-016.cnf                                     75     325   UNSAT   UNSAT       34.8ms       38.6ms     OK
+  8 uuf75-027.cnf                                     75     325   UNSAT   UNSAT       36.3ms       46.2ms     OK
+  9 uuf75-096.cnf                                     75     325   UNSAT   UNSAT       32.0ms       45.0ms     OK
+ 10 uuf75-074.cnf                                     75     325   UNSAT   UNSAT       39.8ms       40.5ms     OK
+ 11 uuf75-085.cnf                                     75     325   UNSAT   UNSAT       36.5ms       39.8ms     OK
+ 12 uuf75-01.cnf                                      75     325   UNSAT   UNSAT       35.9ms       41.3ms     OK
+ 13 uuf75-045.cnf                                     75     325   UNSAT   UNSAT       34.6ms       39.5ms     OK
+ 14 uuf75-063.cnf                                     75     325   UNSAT   UNSAT       32.6ms       40.3ms     OK
+ 15 uuf75-081.cnf                                     75     325   UNSAT   UNSAT       39.4ms       44.2ms     OK
+ 16 uuf75-02.cnf                                      75     325   UNSAT   UNSAT       37.1ms       41.3ms     OK
+ 17 uuf75-092.cnf                                     75     325   UNSAT   UNSAT       39.4ms       35.0ms     OK
+ 18 uuf75-056.cnf                                     75     325   UNSAT   UNSAT       35.4ms       38.8ms     OK
+ 19 uuf75-089.cnf                                     75     325   UNSAT   UNSAT       45.4ms       29.0ms     OK
+ 20 uuf75-052.cnf                                     75     325   UNSAT   UNSAT       44.8ms       31.6ms     OK
+ 21 uuf75-078.cnf                                     75     325   UNSAT   UNSAT       50.5ms       27.6ms     OK
+ 22 uuf75-041.cnf                                     75     325   UNSAT   UNSAT       46.7ms       31.8ms     OK
+ 23 uuf75-049.cnf                                     75     325   UNSAT   UNSAT       38.9ms       48.3ms     OK
+ 24 uuf75-067.cnf                                     75     325   UNSAT   UNSAT       44.3ms       23.2ms     OK
+ 25 uuf75-06.cnf                                      75     325   UNSAT   UNSAT       49.2ms       24.2ms     OK
+ 26 uuf75-020.cnf                                     75     325   UNSAT   UNSAT       22.9ms       14.5ms     OK
+ 27 uuf75-035.cnf                                     75     325   UNSAT   UNSAT       25.3ms       11.1ms     OK
+ 28 uuf75-046.cnf                                     75     325   UNSAT   UNSAT       16.8ms       22.0ms     OK
+ 29 uuf75-031.cnf                                     75     325   UNSAT   UNSAT       32.8ms       41.3ms     OK
+ 30 uuf75-013.cnf                                     75     325   UNSAT   UNSAT       29.9ms       52.9ms     OK
+ 31 uuf75-057.cnf                                     75     325   UNSAT   UNSAT       42.3ms       53.0ms     OK
+ 32 uuf75-075.cnf                                     75     325   UNSAT   UNSAT       47.8ms       50.3ms     OK
+ 33 uuf75-039.cnf                                     75     325   UNSAT   UNSAT       54.3ms       50.6ms     OK
+ 34 uuf75-017.cnf                                     75     325   UNSAT   UNSAT       61.7ms       51.4ms     OK
+ 35 uuf75-053.cnf                                     75     325   UNSAT   UNSAT       37.4ms       70.1ms     OK
+ 36 uuf75-028.cnf                                     75     325   UNSAT   UNSAT       60.2ms       47.0ms     OK
+ 37 uuf75-060.cnf                                     75     325   UNSAT   UNSAT       43.5ms       69.7ms     OK
+ 38 uuf75-024.cnf                                     75     325   UNSAT   UNSAT       69.6ms       57.6ms     OK
+ 39 uuf75-042.cnf                                     75     325   UNSAT   UNSAT       63.6ms       46.5ms     OK
+ 40 uuf75-082.cnf                                     75     325   UNSAT   UNSAT       59.5ms       45.2ms     OK
+ 41 uuf75-079.cnf                                     75     325   UNSAT   UNSAT       80.3ms       34.8ms     OK
+ 42 uuf75-010.cnf                                     75     325   UNSAT   UNSAT       69.4ms       49.4ms     OK
+ 43 uuf75-071.cnf                                     75     325   UNSAT   UNSAT       84.6ms       35.0ms     OK
+ 44 uuf75-097.cnf                                     75     325   UNSAT   UNSAT       75.3ms       37.2ms     OK
+ 45 uuf75-09.cnf                                      75     325   UNSAT   UNSAT       81.0ms       29.6ms     OK
+ 46 uuf75-086.cnf                                     75     325   UNSAT   UNSAT       73.2ms       30.4ms     OK
+ 47 uuf75-068.cnf                                     75     325   UNSAT   UNSAT       83.4ms       31.9ms     OK
+ 48 uuf75-064.cnf                                     75     325   UNSAT   UNSAT       83.4ms       47.0ms     OK
+ 49 uuf75-05.cnf                                      75     325   UNSAT   UNSAT       89.4ms       38.9ms     OK
+ 50 uuf75-093.cnf                                     75     325   UNSAT   UNSAT       85.3ms       39.4ms     OK
+ 51 uuf75-036.cnf                                     75     325   UNSAT   UNSAT       15.2ms       27.3ms     OK
+ 52 uuf75-058.cnf                                     75     325   UNSAT   UNSAT       48.8ms       33.4ms     OK
+ 53 uuf75-087.cnf                                     75     325   UNSAT   UNSAT       54.9ms       30.3ms     OK
+ 54 uuf75-029.cnf                                     75     325   UNSAT   UNSAT       54.1ms       32.3ms     OK
+ 55 uuf75-047.cnf                                     75     325   UNSAT   UNSAT       64.3ms       29.9ms     OK
+ 56 uuf75-069.cnf                                     75     325   UNSAT   UNSAT       64.9ms       31.6ms     OK
+ 57 uuf75-072.cnf                                     75     325   UNSAT   UNSAT       67.4ms       31.0ms     OK
+ 58 uuf75-021.cnf                                     75     325   UNSAT   UNSAT       57.8ms       43.5ms     OK
+ 59 uuf75-032.cnf                                     75     325   UNSAT   UNSAT       86.8ms       36.3ms     OK
+ 60 uuf75-08.cnf                                      75     325   UNSAT   UNSAT       75.8ms       39.3ms     OK
+ 61 uuf75-025.cnf                                     75     325   UNSAT   UNSAT       66.7ms       32.3ms     OK
+ 62 uuf75-083.cnf                                     75     325   UNSAT   UNSAT       66.7ms       32.4ms     OK
+ 63 uuf75-0100.cnf                                    75     325   UNSAT   UNSAT       76.4ms       31.4ms     OK
+ 64 uuf75-061.cnf                                     75     325   UNSAT   UNSAT       81.7ms       37.1ms     OK
+ 65 uuf75-018.cnf                                     75     325   UNSAT   UNSAT       62.6ms       53.9ms     OK
+ 66 uuf75-043.cnf                                     75     325   UNSAT   UNSAT       84.5ms       36.7ms     OK
+ 67 uuf75-076.cnf                                     75     325   UNSAT   UNSAT       73.4ms       38.6ms     OK
+ 68 uuf75-04.cnf                                      75     325   UNSAT   UNSAT       91.3ms       36.9ms     OK
+ 69 uuf75-098.cnf                                     75     325   UNSAT   UNSAT       72.3ms       49.9ms     OK
+ 70 uuf75-065.cnf                                     75     325   UNSAT   UNSAT       82.4ms       40.7ms     OK
+ 71 uuf75-094.cnf                                     75     325   UNSAT   UNSAT       76.6ms       48.6ms     OK
+ 72 uuf75-054.cnf                                     75     325   UNSAT   UNSAT       83.7ms       47.4ms     OK
+ 73 uuf75-090.cnf                                     75     325   UNSAT   UNSAT       77.3ms       59.2ms     OK
+ 74 uuf75-014.cnf                                     75     325   UNSAT   UNSAT       82.4ms       56.3ms     OK
+ 75 uuf75-050.cnf                                     75     325   UNSAT   UNSAT       84.0ms       63.8ms     OK
+ 76 uuf75-015.cnf                                     75     325   UNSAT   UNSAT       16.2ms       31.6ms     OK
+ 77 uuf75-011.cnf                                     75     325   UNSAT   UNSAT       17.9ms       39.5ms     OK
+ 78 uuf75-033.cnf                                     75     325   UNSAT   UNSAT       32.1ms       45.2ms     OK
+ 79 uuf75-019.cnf                                     75     325   UNSAT   UNSAT       31.4ms       47.5ms     OK
+ 80 uuf75-040.cnf                                     75     325   UNSAT   UNSAT       34.7ms       54.5ms     OK
+ 81 uuf75-048.cnf                                     75     325   UNSAT   UNSAT       39.7ms       59.6ms     OK
+ 82 uuf75-044.cnf                                     75     325   UNSAT   UNSAT       47.3ms       58.9ms     OK
+ 83 uuf75-03.cnf                                      75     325   UNSAT   UNSAT       36.0ms       62.2ms     OK
+ 84 uuf75-051.cnf                                     75     325   UNSAT   UNSAT       58.3ms       59.2ms     OK
+ 85 uuf75-037.cnf                                     75     325   UNSAT   UNSAT       49.9ms       61.9ms     OK
+ 86 uuf75-073.cnf                                     75     325   UNSAT   UNSAT       49.1ms       59.0ms     OK
+ 87 uuf75-077.cnf                                     75     325   UNSAT   UNSAT       53.2ms       57.2ms     OK
+ 88 uuf75-088.cnf                                     75     325   UNSAT   UNSAT       50.3ms       58.3ms     OK
+ 89 uuf75-026.cnf                                     75     325   UNSAT   UNSAT       62.0ms       63.6ms     OK
+ 90 uuf75-059.cnf                                     75     325   UNSAT   UNSAT       64.5ms       58.5ms     OK
+ 91 uuf75-084.cnf                                     75     325   UNSAT   UNSAT       51.0ms       53.8ms     OK
+ 92 uuf75-022.cnf                                     75     325   UNSAT   UNSAT       69.1ms       58.9ms     OK
+ 93 uuf75-091.cnf                                     75     325   UNSAT   UNSAT       50.2ms       58.9ms     OK
+ 94 uuf75-080.cnf                                     75     325   UNSAT   UNSAT       62.5ms       39.5ms     OK
+ 95 uuf75-07.cnf                                      75     325   UNSAT   UNSAT       69.7ms       53.0ms     OK
+ 96 uuf75-055.cnf                                     75     325   UNSAT   UNSAT       59.3ms       72.5ms     OK
+ 97 uuf75-062.cnf                                     75     325   UNSAT   UNSAT       51.1ms       83.9ms     OK
+ 98 uuf75-099.cnf                                     75     325   UNSAT   UNSAT       71.1ms       51.4ms     OK
+ 99 uuf75-066.cnf                                     75     325   UNSAT   UNSAT       63.9ms       62.9ms     OK
+100 uuf75-095.cnf                                     75     325   UNSAT   UNSAT       81.8ms       50.1ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 100
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 44 / 100
+  MiniSat faster        : 56 / 100
+  CDCL total time       : 5.369s
+  MiniSat total time    : 4.404s
+  Speedup (MS/CDCL)     : 0.82x
+==========================================================================================

@@ -1,0 +1,129 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293522
+  Task Name   : medium-uf250-1065-UNSAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf250-1065/UNSAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 4  (32 cpus/node)
+  Total Files : 100
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uuf250-030.cnf                                   250    1065   UNSAT   UNSAT       648.7s       2.599s     OK
+  2 uuf250-038.cnf                                   250    1065   UNSAT   UNSAT      1049.6s       1.092s     OK
+  3 uuf250-045.cnf                                   250    1065   UNSAT   UNSAT      1327.5s       2.207s     OK
+  4 uuf250-056.cnf                                   250    1065   UNSAT   UNSAT      2646.9s       3.071s     OK
+  5 uuf250-023.cnf                                   250    1065   UNSAT   UNSAT      4646.5s       2.193s     OK
+  6 uuf250-027.cnf                                   250    1065   UNSAT   UNSAT      4689.1s       5.207s     OK
+  7 uuf250-016.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       1.788s    N/A
+  8 uuf250-049.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       2.417s    N/A
+  9 uuf250-074.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       2.568s    N/A
+ 10 uuf250-067.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       3.597s    N/A
+ 11 uuf250-06.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       4.309s    N/A
+ 12 uuf250-01.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       4.397s    N/A
+ 13 uuf250-041.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.458s    N/A
+ 14 uuf250-012.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.583s    N/A
+ 15 uuf250-085.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.525s    N/A
+ 16 uuf250-063.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.545s    N/A
+ 17 uuf250-052.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.660s    N/A
+ 18 uuf250-089.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.704s    N/A
+ 19 uuf250-096.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.706s    N/A
+ 20 uuf250-078.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.732s    N/A
+ 21 uuf250-092.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.846s    N/A
+ 22 uuf250-081.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       5.176s    N/A
+ 23 uuf250-02.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       5.955s    N/A
+ 24 uuf250-034.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       7.093s    N/A
+ 25 uuf250-070.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       8.491s    N/A
+ 26 uuf250-017.cnf                                   250    1065   UNSAT   UNSAT      1220.1s       5.641s     OK
+ 27 uuf250-086.cnf                                   250    1065   UNSAT   UNSAT      1500.3s      11.389s     OK
+ 28 uuf250-060.cnf                                   250    1065   UNSAT   UNSAT      1591.5s       4.661s     OK
+ 29 uuf250-024.cnf                                   250    1065   UNSAT   UNSAT      2856.4s       2.221s     OK
+ 30 uuf250-028.cnf                                   250    1065   UNSAT   UNSAT      3634.0s       7.636s     OK
+ 31 uuf250-010.cnf                                   250    1065   UNSAT   UNSAT      4366.9s      14.889s     OK
+ 32 uuf250-097.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       2.046s    N/A
+ 33 uuf250-039.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       2.115s    N/A
+ 34 uuf250-05.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       2.163s    N/A
+ 35 uuf250-068.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       2.307s    N/A
+ 36 uuf250-082.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.505s    N/A
+ 37 uuf250-020.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.614s    N/A
+ 38 uuf250-057.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.801s    N/A
+ 39 uuf250-035.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.869s    N/A
+ 40 uuf250-031.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       5.778s    N/A
+ 41 uuf250-064.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       6.001s    N/A
+ 42 uuf250-042.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       8.005s    N/A
+ 43 uuf250-079.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       9.850s    N/A
+ 44 uuf250-046.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      10.240s    N/A
+ 45 uuf250-013.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      10.667s    N/A
+ 46 uuf250-053.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.367s    N/A
+ 47 uuf250-093.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      12.241s    N/A
+ 48 uuf250-09.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s      12.492s    N/A
+ 49 uuf250-071.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      14.021s    N/A
+ 50 uuf250-075.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      27.135s    N/A
+ 51 uuf250-094.cnf                                   250    1065   UNSAT   UNSAT      1344.3s      13.786s     OK
+ 52 uuf250-036.cnf                                   250    1065   UNSAT   UNSAT      2405.1s      11.169s     OK
+ 53 uuf250-090.cnf                                   250    1065   UNSAT   UNSAT      2825.5s       2.853s     OK
+ 54 uuf250-050.cnf                                   250    1065   UNSAT   UNSAT      3775.4s      16.714s     OK
+ 55 uuf250-083.cnf                                   250    1065   UNSAT   UNSAT      4037.6s       1.412s     OK
+ 56 uuf250-098.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      866.6ms    N/A
+ 57 uuf250-065.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       1.441s    N/A
+ 58 uuf250-018.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.551s    N/A
+ 59 uuf250-047.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.418s    N/A
+ 60 uuf250-054.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.452s    N/A
+ 61 uuf250-025.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.855s    N/A
+ 62 uuf250-014.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       5.147s    N/A
+ 63 uuf250-04.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       5.232s    N/A
+ 64 uuf250-072.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       5.680s    N/A
+ 65 uuf250-0100.cnf                                  250    1065 TIMEOUT   UNSAT      5000.0s       6.467s    N/A
+ 66 uuf250-076.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       7.069s    N/A
+ 67 uuf250-043.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       8.543s    N/A
+ 68 uuf250-061.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       8.866s    N/A
+ 69 uuf250-08.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       9.861s    N/A
+ 70 uuf250-029.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      10.251s    N/A
+ 71 uuf250-032.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      10.945s    N/A
+ 72 uuf250-069.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      11.439s    N/A
+ 73 uuf250-021.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      13.911s    N/A
+ 74 uuf250-087.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      15.894s    N/A
+ 75 uuf250-058.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      24.860s    N/A
+ 76 uuf250-055.cnf                                   250    1065   UNSAT   UNSAT       611.0s       2.637s     OK
+ 77 uuf250-062.cnf                                   250    1065   UNSAT   UNSAT      1488.3s       2.730s     OK
+ 78 uuf250-040.cnf                                   250    1065   UNSAT   UNSAT      1513.0s       1.207s     OK
+ 79 uuf250-099.cnf                                   250    1065   UNSAT   UNSAT      1578.4s      10.370s     OK
+ 80 uuf250-048.cnf                                   250    1065   UNSAT   UNSAT      1668.6s      823.8ms     OK
+ 81 uuf250-095.cnf                                   250    1065   UNSAT   UNSAT      2054.8s       2.140s     OK
+ 82 uuf250-059.cnf                                   250    1065   UNSAT   UNSAT      2430.9s       1.805s     OK
+ 83 uuf250-088.cnf                                   250    1065   UNSAT   UNSAT      4626.8s      15.236s     OK
+ 84 uuf250-026.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       1.487s    N/A
+ 85 uuf250-084.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       2.194s    N/A
+ 86 uuf250-037.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       3.281s    N/A
+ 87 uuf250-07.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s       3.479s    N/A
+ 88 uuf250-091.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       4.856s    N/A
+ 89 uuf250-015.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       5.128s    N/A
+ 90 uuf250-080.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       6.386s    N/A
+ 91 uuf250-033.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       7.391s    N/A
+ 92 uuf250-011.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       8.256s    N/A
+ 93 uuf250-044.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       8.337s    N/A
+ 94 uuf250-073.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s       1.714s    N/A
+ 95 uuf250-077.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      10.268s    N/A
+ 96 uuf250-066.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      12.799s    N/A
+ 97 uuf250-019.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      13.058s    N/A
+ 98 uuf250-022.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      17.213s    N/A
+ 99 uuf250-03.cnf                                    250    1065 TIMEOUT   UNSAT      5000.0s      19.611s    N/A
+100 uuf250-051.cnf                                   250    1065 TIMEOUT   UNSAT      5000.0s      19.848s    N/A
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 100
+  Both agree            : 25
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 0 / 25
+  MiniSat faster        : 25 / 25
+  CDCL total time       : 60537.1s
+  MiniSat total time    : 691.5s
+  Speedup (MS/CDCL)     : 0.01x
+==========================================================================================
