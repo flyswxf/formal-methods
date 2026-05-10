@@ -54,23 +54,43 @@ def main():
     pattern = os.path.join(job_dir, "shard*.json")
     paths = sorted(glob.glob(pattern))
     merged = []
+    skipped = []
     for path in paths:
-        with open(path, "r", encoding="utf-8") as f:
-            merged.extend(json.load(f))
+        size = os.path.getsize(path)
+        if size == 0:
+            print(f"[WARN] Skipping empty shard file: {os.path.basename(path)}")
+            skipped.append(path)
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            merged.extend(data)
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"[WARN] Skipping corrupted shard file {os.path.basename(path)}: {e}")
+            skipped.append(path)
 
     with open(detail_path, "w", encoding="utf-8") as f:
         json.dump(merged, f, indent=2, ensure_ascii=False)
 
-    print(f"[INFO] merged {len(paths)} shard files, total records={len(merged)}")
+    print(
+        f"[INFO] merged {len(paths) - len(skipped)} shard files, total records={len(merged)}"
+    )
+    if skipped:
+        print(
+            f"[WARN] skipped {len(skipped)} shard file(s): {', '.join(os.path.basename(s) for s in skipped)}"
+        )
     print(f"[INFO] detail.json => {detail_path}")
 
     for path in paths:
+        if path in skipped:
+            continue
         try:
             os.remove(path)
         except OSError as e:
             print(f"[WARN] Failed to remove {path}: {e}")
-    if paths:
-        print(f"[INFO] Deleted {len(paths)} shard JSON files.")
+    deleted_count = len(paths) - len(skipped)
+    if deleted_count:
+        print(f"[INFO] Deleted {deleted_count} shard JSON files.")
 
     # 2. Read meta.json if available
     meta_path = os.path.join(job_dir, "meta.json")

@@ -1,0 +1,1029 @@
+==========================================================================================
+  SAT Solver Benchmark: Merged Results
+==========================================================================================
+  Job ID      : 293504
+  Task Name   : medium-uf20-91-SAT
+  Dataset     : Datasets/cdcl_dimacs/medium/uf20-91/SAT
+  CDCL Solver : Checkers/cdcl_solver
+  MiniSat     : Baseline/minisat/build/release/bin/minisat
+  Timeout     : 5000s
+  Nodes       : 16  (32 cpus/node)
+  Total Files : 1000
+==========================================================================================
+
+  # File                                            Vars     Cls    CDCL MiniSat    Time CDCL      Time MS  Match
+-----------------------------------------------------------------------------------------------------------------
+  1 uf20-0112.cnf                                     20      91     SAT     SAT       10.3ms       21.5ms     OK
+  2 uf20-02.cnf                                       20      91     SAT     SAT       12.0ms       34.3ms     OK
+  3 uf20-0213.cnf                                     20      91     SAT     SAT       17.0ms       38.5ms     OK
+  4 uf20-01.cnf                                       20      91     SAT     SAT       25.3ms       32.4ms     OK
+  5 uf20-0343.cnf                                     20      91     SAT     SAT       18.2ms       33.0ms     OK
+  6 uf20-0242.cnf                                     20      91     SAT     SAT       23.2ms       29.6ms     OK
+  7 uf20-0228.cnf                                     20      91     SAT     SAT       34.0ms       46.3ms     OK
+  8 uf20-0271.cnf                                     20      91     SAT     SAT       42.5ms       42.8ms     OK
+  9 uf20-0185.cnf                                     20      91     SAT     SAT       38.6ms       49.9ms     OK
+ 10 uf20-0459.cnf                                     20      91     SAT     SAT       37.6ms       50.1ms     OK
+ 11 uf20-0501.cnf                                     20      91     SAT     SAT       45.9ms       46.2ms     OK
+ 12 uf20-0156.cnf                                     20      91     SAT     SAT       36.2ms       45.7ms     OK
+ 13 uf20-043.cnf                                      20      91     SAT     SAT       41.5ms       46.7ms     OK
+ 14 uf20-0257.cnf                                     20      91     SAT     SAT       47.9ms       40.8ms     OK
+ 15 uf20-0127.cnf                                     20      91     SAT     SAT       45.9ms       45.1ms     OK
+ 16 uf20-0141.cnf                                     20      91     SAT     SAT       47.4ms       46.8ms     OK
+ 17 uf20-0387.cnf                                     20      91     SAT     SAT       47.9ms       47.8ms     OK
+ 18 uf20-0329.cnf                                     20      91     SAT     SAT       51.1ms       48.0ms     OK
+ 19 uf20-0400.cnf                                     20      91     SAT     SAT       45.7ms       46.9ms     OK
+ 20 uf20-0516.cnf                                     20      91     SAT     SAT       47.7ms       49.1ms     OK
+ 21 uf20-030.cnf                                      20      91     SAT     SAT       49.6ms       48.1ms     OK
+ 22 uf20-0444.cnf                                     20      91     SAT     SAT       45.3ms       43.0ms     OK
+ 23 uf20-0488.cnf                                     20      91     SAT     SAT       48.3ms       44.5ms     OK
+ 24 uf20-0170.cnf                                     20      91     SAT     SAT       45.6ms       48.2ms     OK
+ 25 uf20-0545.cnf                                     20      91     SAT     SAT       64.9ms       40.6ms     OK
+ 26 uf20-056.cnf                                      20      91     SAT     SAT       55.0ms       43.4ms     OK
+ 27 uf20-0415.cnf                                     20      91     SAT     SAT       58.2ms       36.9ms     OK
+ 28 uf20-0372.cnf                                     20      91     SAT     SAT       61.4ms       47.0ms     OK
+ 29 uf20-0286.cnf                                     20      91     SAT     SAT       54.9ms       42.9ms     OK
+ 30 uf20-0473.cnf                                     20      91     SAT     SAT       58.7ms       34.0ms     OK
+ 31 uf20-0530.cnf                                     20      91     SAT     SAT       50.7ms       31.8ms     OK
+ 32 uf20-0574.cnf                                     20      91     SAT     SAT       55.0ms       50.7ms     OK
+ 33 uf20-0617.cnf                                     20      91     SAT     SAT       48.8ms       40.9ms     OK
+ 34 uf20-0358.cnf                                     20      91     SAT     SAT       50.8ms       49.7ms     OK
+ 35 uf20-0314.cnf                                     20      91     SAT     SAT       43.2ms       52.0ms     OK
+ 36 uf20-0589.cnf                                     20      91     SAT     SAT       46.1ms       51.4ms     OK
+ 37 uf20-0602.cnf                                     20      91     SAT     SAT       46.8ms       41.9ms     OK
+ 38 uf20-0631.cnf                                     20      91     SAT     SAT       44.3ms       40.6ms     OK
+ 39 uf20-0646.cnf                                     20      91     SAT     SAT       36.9ms       28.1ms     OK
+ 40 uf20-069.cnf                                      20      91     SAT     SAT       51.1ms       35.3ms     OK
+ 41 uf20-0761.cnf                                     20      91     SAT     SAT       47.5ms       36.1ms     OK
+ 42 uf20-0675.cnf                                     20      91     SAT     SAT       45.3ms       40.9ms     OK
+ 43 uf20-0660.cnf                                     20      91     SAT     SAT       32.5ms       35.7ms     OK
+ 44 uf20-0804.cnf                                     20      91     SAT     SAT       40.6ms       38.6ms     OK
+ 45 uf20-0718.cnf                                     20      91     SAT     SAT       46.7ms       37.4ms     OK
+ 46 uf20-0747.cnf                                     20      91     SAT     SAT       44.8ms       45.5ms     OK
+ 47 uf20-0732.cnf                                     20      91     SAT     SAT       45.4ms       48.0ms     OK
+ 48 uf20-0877.cnf                                     20      91     SAT     SAT       29.9ms       39.9ms     OK
+ 49 uf20-0776.cnf                                     20      91     SAT     SAT       40.7ms       39.9ms     OK
+ 50 uf20-0703.cnf                                     20      91     SAT     SAT       44.9ms       41.3ms     OK
+ 51 uf20-0833.cnf                                     20      91     SAT     SAT       45.2ms       43.7ms     OK
+ 52 uf20-0790.cnf                                     20      91     SAT     SAT       42.7ms       43.5ms     OK
+ 53 uf20-0891.cnf                                     20      91     SAT     SAT       30.4ms       43.1ms     OK
+ 54 uf20-0862.cnf                                     20      91     SAT     SAT       31.3ms       43.6ms     OK
+ 55 uf20-0819.cnf                                     20      91     SAT     SAT       48.9ms       44.7ms     OK
+ 56 uf20-0848.cnf                                     20      91     SAT     SAT       32.1ms       40.5ms     OK
+ 57 uf20-0905.cnf                                     20      91     SAT     SAT       36.0ms       31.4ms     OK
+ 58 uf20-0963.cnf                                     20      91     SAT     SAT       27.5ms       44.6ms     OK
+ 59 uf20-0934.cnf                                     20      91     SAT     SAT       40.6ms       31.9ms     OK
+ 60 uf20-092.cnf                                      20      91     SAT     SAT       39.1ms       30.3ms     OK
+ 61 uf20-0992.cnf                                     20      91     SAT     SAT       36.0ms       27.7ms     OK
+ 62 uf20-0978.cnf                                     20      91     SAT     SAT       39.5ms       36.3ms     OK
+ 63 uf20-0949.cnf                                     20      91     SAT     SAT       40.6ms       29.7ms     OK
+ 64 uf20-010.cnf                                      20      91     SAT     SAT        5.1ms        6.4ms     OK
+ 65 uf20-0186.cnf                                     20      91     SAT     SAT        8.7ms        5.7ms     OK
+ 66 uf20-0157.cnf                                     20      91     SAT     SAT      235.7ms        5.0ms     OK
+ 67 uf20-020.cnf                                      20      91     SAT     SAT      237.9ms        7.6ms     OK
+ 68 uf20-0128.cnf                                     20      91     SAT     SAT      262.4ms        6.3ms     OK
+ 69 uf20-0401.cnf                                     20      91     SAT     SAT        9.4ms        8.1ms     OK
+ 70 uf20-0474.cnf                                     20      91     SAT     SAT       10.5ms        4.4ms     OK
+ 71 uf20-0531.cnf                                     20      91     SAT     SAT        8.2ms       11.2ms     OK
+ 72 uf20-0243.cnf                                     20      91     SAT     SAT        8.8ms       22.2ms     OK
+ 73 uf20-0546.cnf                                     20      91     SAT     SAT       15.3ms       20.9ms     OK
+ 74 uf20-0142.cnf                                     20      91     SAT     SAT      102.4ms       31.6ms     OK
+ 75 uf20-0560.cnf                                     20      91     SAT     SAT       58.8ms       24.0ms     OK
+ 76 uf20-0113.cnf                                     20      91     SAT     SAT       95.9ms       75.7ms     OK
+ 77 uf20-0430.cnf                                     20      91     SAT     SAT       66.7ms       54.9ms     OK
+ 78 uf20-0171.cnf                                     20      91     SAT     SAT       91.0ms       79.4ms     OK
+ 79 uf20-0344.cnf                                     20      91     SAT     SAT       11.2ms      113.2ms     OK
+ 80 uf20-0315.cnf                                     20      91     SAT     SAT       93.1ms       20.4ms     OK
+ 81 uf20-0388.cnf                                     20      91     SAT     SAT      111.5ms       21.4ms     OK
+ 82 uf20-0359.cnf                                     20      91     SAT     SAT       57.9ms       76.2ms     OK
+ 83 uf20-0517.cnf                                     20      91     SAT     SAT       66.7ms       77.4ms     OK
+ 84 uf20-0373.cnf                                     20      91     SAT     SAT      130.4ms       59.9ms     OK
+ 85 uf20-0618.cnf                                     20      91     SAT     SAT      386.0ms       33.7ms     OK
+ 86 uf20-0416.cnf                                     20      91     SAT     SAT      394.7ms       24.5ms     OK
+ 87 uf20-0502.cnf                                     20      91     SAT     SAT      390.0ms      103.4ms     OK
+ 88 uf20-0489.cnf                                     20      91     SAT     SAT      573.3ms       12.9ms     OK
+ 89 uf20-0445.cnf                                     20      91     SAT     SAT      594.8ms       80.3ms     OK
+ 90 uf20-046.cnf                                      20      91     SAT     SAT      656.1ms       57.7ms     OK
+ 91 uf20-0690.cnf                                     20      91     SAT     SAT      607.4ms       87.0ms     OK
+ 92 uf20-0575.cnf                                     20      91     SAT     SAT      696.1ms       36.1ms     OK
+ 93 uf20-0632.cnf                                     20      91     SAT     SAT      712.9ms       23.7ms     OK
+ 94 uf20-0647.cnf                                     20      91     SAT     SAT      656.8ms       60.6ms     OK
+ 95 uf20-0300.cnf                                     20      91     SAT     SAT      619.2ms      150.7ms     OK
+ 96 uf20-0661.cnf                                     20      91     SAT     SAT      653.1ms       82.0ms     OK
+ 97 uf20-0676.cnf                                     20      91     SAT     SAT      701.2ms       47.7ms     OK
+ 98 uf20-033.cnf                                      20      91     SAT     SAT      681.9ms      150.3ms     OK
+ 99 uf20-0733.cnf                                     20      91     SAT     SAT      480.1ms      178.3ms     OK
+100 uf20-0603.cnf                                     20      91     SAT     SAT      764.0ms       71.6ms     OK
+101 uf20-0719.cnf                                     20      91     SAT     SAT      793.2ms      119.6ms     OK
+102 uf20-0704.cnf                                     20      91     SAT     SAT      868.5ms       56.9ms     OK
+103 uf20-0762.cnf                                     20      91     SAT     SAT      996.0ms       24.2ms     OK
+104 uf20-0791.cnf                                     20      91     SAT     SAT      900.9ms       13.1ms     OK
+105 uf20-0849.cnf                                     20      91     SAT     SAT      972.4ms      217.8ms     OK
+106 uf20-0805.cnf                                     20      91     SAT     SAT       1.167s       14.0ms     OK
+107 uf20-0935.cnf                                     20      91     SAT     SAT      727.5ms        6.3ms     OK
+108 uf20-0834.cnf                                     20      91     SAT     SAT       1.179s       33.9ms     OK
+109 uf20-0777.cnf                                     20      91     SAT     SAT       1.205s       19.5ms     OK
+110 uf20-082.cnf                                      20      91     SAT     SAT       1.235s       69.3ms     OK
+111 uf20-0906.cnf                                     20      91     SAT     SAT       1.122s       56.2ms     OK
+112 uf20-0964.cnf                                     20      91     SAT     SAT       1.032s       36.1ms     OK
+113 uf20-095.cnf                                      20      91     SAT     SAT       1.030s       94.4ms     OK
+114 uf20-0920.cnf                                     20      91     SAT     SAT      736.2ms        5.8ms     OK
+115 uf20-0979.cnf                                     20      91     SAT     SAT       1.004s      224.3ms     OK
+116 uf20-0892.cnf                                     20      91     SAT     SAT       1.042s      105.5ms     OK
+117 uf20-0993.cnf                                     20      91     SAT     SAT      828.1ms      238.3ms     OK
+118 uf20-0229.cnf                                     20      91     SAT     SAT       7.732s       78.0ms     OK
+119 uf20-0258.cnf                                     20      91     SAT     SAT       8.390s       28.9ms     OK
+120 uf20-0287.cnf                                     20      91     SAT     SAT       8.411s       41.4ms     OK
+121 uf20-0214.cnf                                     20      91     SAT     SAT       39.3ms       8.554s     OK
+122 uf20-0272.cnf                                     20      91     SAT     SAT       8.434s      149.6ms     OK
+123 uf20-059.cnf                                      20      91     SAT     SAT       8.496s       80.7ms     OK
+124 uf20-0878.cnf                                     20      91     SAT     SAT       1.175s       8.212s     OK
+125 uf20-0863.cnf                                     20      91     SAT     SAT       1.178s       8.293s     OK
+126 uf20-0748.cnf                                     20      91     SAT     SAT       8.366s      10.585s     OK
+127 uf20-0165.cnf                                     20      91     SAT     SAT       11.5ms       54.7ms     OK
+128 uf20-0136.cnf                                     20      91     SAT     SAT       26.2ms       51.8ms     OK
+129 uf20-0121.cnf                                     20      91     SAT     SAT       33.2ms       47.8ms     OK
+130 uf20-018.cnf                                      20      91     SAT     SAT       55.5ms       57.7ms     OK
+131 uf20-0266.cnf                                     20      91     SAT     SAT       32.1ms       78.3ms     OK
+132 uf20-0208.cnf                                     20      91     SAT     SAT       53.8ms       69.5ms     OK
+133 uf20-0194.cnf                                     20      91     SAT     SAT       58.2ms       69.2ms     OK
+134 uf20-0338.cnf                                     20      91     SAT     SAT       55.6ms       72.1ms     OK
+135 uf20-0280.cnf                                     20      91     SAT     SAT       60.6ms       72.4ms     OK
+136 uf20-0237.cnf                                     20      91     SAT     SAT       71.1ms       68.3ms     OK
+137 uf20-0107.cnf                                     20      91     SAT     SAT       79.4ms       63.4ms     OK
+138 uf20-0381.cnf                                     20      91     SAT     SAT       78.5ms       60.7ms     OK
+139 uf20-0352.cnf                                     20      91     SAT     SAT       63.3ms       80.7ms     OK
+140 uf20-0251.cnf                                     20      91     SAT     SAT       91.2ms       61.1ms     OK
+141 uf20-0323.cnf                                     20      91     SAT     SAT       85.7ms       56.4ms     OK
+142 uf20-0222.cnf                                     20      91     SAT     SAT      100.7ms       46.1ms     OK
+143 uf20-0309.cnf                                     20      91     SAT     SAT       97.8ms       47.5ms     OK
+144 uf20-0367.cnf                                     20      91     SAT     SAT       98.3ms       48.6ms     OK
+145 uf20-0554.cnf                                     20      91     SAT     SAT       76.7ms       48.4ms     OK
+146 uf20-0150.cnf                                     20      91     SAT     SAT       85.8ms       66.9ms     OK
+147 uf20-0295.cnf                                     20      91     SAT     SAT       92.6ms       73.2ms     OK
+148 uf20-0424.cnf                                     20      91     SAT     SAT       83.5ms       52.2ms     OK
+149 uf20-0482.cnf                                     20      91     SAT     SAT       92.7ms       60.0ms     OK
+150 uf20-0453.cnf                                     20      91     SAT     SAT       91.2ms       61.7ms     OK
+151 uf20-0497.cnf                                     20      91     SAT     SAT       82.2ms       71.5ms     OK
+152 uf20-0468.cnf                                     20      91     SAT     SAT       92.0ms       53.7ms     OK
+153 uf20-054.cnf                                      20      91     SAT     SAT       94.4ms       57.4ms     OK
+154 uf20-0439.cnf                                     20      91     SAT     SAT      116.6ms       46.2ms     OK
+155 uf20-041.cnf                                      20      91     SAT     SAT       92.3ms       73.0ms     OK
+156 uf20-0569.cnf                                     20      91     SAT     SAT       86.2ms       56.1ms     OK
+157 uf20-0510.cnf                                     20      91     SAT     SAT      111.9ms       53.2ms     OK
+158 uf20-0598.cnf                                     20      91     SAT     SAT       67.3ms       57.5ms     OK
+159 uf20-0525.cnf                                     20      91     SAT     SAT      115.2ms       57.6ms     OK
+160 uf20-0583.cnf                                     20      91     SAT     SAT       77.4ms       64.3ms     OK
+161 uf20-0396.cnf                                     20      91     SAT     SAT      110.2ms       65.5ms     OK
+162 uf20-0611.cnf                                     20      91     SAT     SAT       60.5ms       32.9ms     OK
+163 uf20-0640.cnf                                     20      91     SAT     SAT       57.1ms       33.7ms     OK
+164 uf20-0626.cnf                                     20      91     SAT     SAT       50.8ms       45.2ms     OK
+165 uf20-067.cnf                                      20      91     SAT     SAT       64.2ms       20.0ms     OK
+166 uf20-0741.cnf                                     20      91     SAT     SAT       54.3ms       31.4ms     OK
+167 uf20-0684.cnf                                     20      91     SAT     SAT       56.9ms       28.7ms     OK
+168 uf20-0727.cnf                                     20      91     SAT     SAT       46.1ms       24.8ms     OK
+169 uf20-0655.cnf                                     20      91     SAT     SAT       67.9ms       40.8ms     OK
+170 uf20-0785.cnf                                     20      91     SAT     SAT       45.5ms       28.3ms     OK
+171 uf20-0929.cnf                                     20      91     SAT     SAT       32.6ms       26.8ms     OK
+172 uf20-0828.cnf                                     20      91     SAT     SAT       49.7ms       28.5ms     OK
+173 uf20-0813.cnf                                     20      91     SAT     SAT       38.0ms       28.4ms     OK
+174 uf20-0699.cnf                                     20      91     SAT     SAT       65.3ms       29.1ms     OK
+175 uf20-0842.cnf                                     20      91     SAT     SAT       44.5ms       36.8ms     OK
+176 uf20-0770.cnf                                     20      91     SAT     SAT       55.0ms       36.3ms     OK
+177 uf20-0712.cnf                                     20      91     SAT     SAT       56.2ms       47.4ms     OK
+178 uf20-0943.cnf                                     20      91     SAT     SAT       43.7ms       20.4ms     OK
+179 uf20-0987.cnf                                     20      91     SAT     SAT       44.1ms       20.1ms     OK
+180 uf20-08.cnf                                       20      91     SAT     SAT       49.6ms       54.9ms     OK
+181 uf20-0756.cnf                                     20      91     SAT     SAT       54.2ms       49.1ms     OK
+182 uf20-090.cnf                                      20      91     SAT     SAT       11.9ms       22.1ms     OK
+183 uf20-0871.cnf                                     20      91     SAT     SAT       16.0ms       25.1ms     OK
+184 uf20-0886.cnf                                     20      91     SAT     SAT       18.4ms       24.7ms     OK
+185 uf20-0958.cnf                                     20      91     SAT     SAT       16.4ms       26.8ms     OK
+186 uf20-0857.cnf                                     20      91     SAT     SAT       40.3ms       31.5ms     OK
+187 uf20-0914.cnf                                     20      91     SAT     SAT       40.6ms       31.3ms     OK
+188 uf20-0972.cnf                                     20      91     SAT     SAT       38.6ms       34.6ms     OK
+189 uf20-0209.cnf                                     20      91     SAT     SAT       17.5ms       20.5ms     OK
+190 uf20-0281.cnf                                     20      91     SAT     SAT       19.8ms       26.2ms     OK
+191 uf20-0339.cnf                                     20      91     SAT     SAT       28.0ms       24.1ms     OK
+192 uf20-0252.cnf                                     20      91     SAT     SAT       18.7ms       48.1ms     OK
+193 uf20-0166.cnf                                     20      91     SAT     SAT       30.9ms       71.6ms     OK
+194 uf20-0180.cnf                                     20      91     SAT     SAT       36.8ms       78.8ms     OK
+195 uf20-0397.cnf                                     20      91     SAT     SAT       45.2ms       62.3ms     OK
+196 uf20-0267.cnf                                     20      91     SAT     SAT       46.6ms       69.3ms     OK
+197 uf20-0122.cnf                                     20      91     SAT     SAT       53.5ms       76.7ms     OK
+198 uf20-031.cnf                                      20      91     SAT     SAT       49.5ms       78.3ms     OK
+199 uf20-0223.cnf                                     20      91     SAT     SAT       50.1ms       81.7ms     OK
+200 uf20-0382.cnf                                     20      91     SAT     SAT       65.5ms       68.4ms     OK
+201 uf20-0483.cnf                                     20      91     SAT     SAT       38.4ms       97.3ms     OK
+202 uf20-0151.cnf                                     20      91     SAT     SAT       67.0ms       69.2ms     OK
+203 uf20-0137.cnf                                     20      91     SAT     SAT       49.7ms      100.7ms     OK
+204 uf20-0353.cnf                                     20      91     SAT     SAT       58.5ms       92.1ms     OK
+205 uf20-0555.cnf                                     20      91     SAT     SAT       90.2ms       57.7ms     OK
+206 uf20-0238.cnf                                     20      91     SAT     SAT       79.1ms       76.1ms     OK
+207 uf20-0526.cnf                                     20      91     SAT     SAT       97.4ms       70.1ms     OK
+208 uf20-0195.cnf                                     20      91     SAT     SAT       83.5ms       83.7ms     OK
+209 uf20-0511.cnf                                     20      91     SAT     SAT       66.1ms       89.6ms     OK
+210 uf20-0469.cnf                                     20      91     SAT     SAT       94.1ms       64.4ms     OK
+211 uf20-0296.cnf                                     20      91     SAT     SAT       91.5ms       70.8ms     OK
+212 uf20-0368.cnf                                     20      91     SAT     SAT      100.9ms       60.9ms     OK
+213 uf20-0540.cnf                                     20      91     SAT     SAT       99.6ms       59.3ms     OK
+214 uf20-0454.cnf                                     20      91     SAT     SAT       70.1ms       88.4ms     OK
+215 uf20-0108.cnf                                     20      91     SAT     SAT       82.7ms       89.8ms     OK
+216 uf20-0584.cnf                                     20      91     SAT     SAT       67.7ms       61.5ms     OK
+217 uf20-057.cnf                                      20      91     SAT     SAT       69.8ms       64.3ms     OK
+218 uf20-044.cnf                                      20      91     SAT     SAT      107.3ms       62.2ms     OK
+219 uf20-0324.cnf                                     20      91     SAT     SAT      104.6ms       58.1ms     OK
+220 uf20-0498.cnf                                     20      91     SAT     SAT       99.0ms       79.6ms     OK
+221 uf20-0425.cnf                                     20      91     SAT     SAT      112.1ms       63.7ms     OK
+222 uf20-0410.cnf                                     20      91     SAT     SAT      110.5ms       70.4ms     OK
+223 uf20-0599.cnf                                     20      91     SAT     SAT       92.6ms       52.8ms     OK
+224 uf20-0627.cnf                                     20      91     SAT     SAT       53.9ms       45.5ms     OK
+225 uf20-0641.cnf                                     20      91     SAT     SAT       66.3ms       55.5ms     OK
+226 uf20-0612.cnf                                     20      91     SAT     SAT       88.1ms       76.6ms     OK
+227 uf20-0670.cnf                                     20      91     SAT     SAT       81.5ms       57.0ms     OK
+228 uf20-07.cnf                                       20      91     SAT     SAT       59.5ms       51.7ms     OK
+229 uf20-0685.cnf                                     20      91     SAT     SAT       85.6ms       51.9ms     OK
+230 uf20-0900.cnf                                     20      91     SAT     SAT       42.3ms       44.6ms     OK
+231 uf20-0771.cnf                                     20      91     SAT     SAT       51.2ms       45.3ms     OK
+232 uf20-0872.cnf                                     20      91     SAT     SAT       53.2ms       40.3ms     OK
+233 uf20-0713.cnf                                     20      91     SAT     SAT       73.6ms       46.2ms     OK
+234 uf20-0887.cnf                                     20      91     SAT     SAT       47.4ms       46.3ms     OK
+235 uf20-0814.cnf                                     20      91     SAT     SAT       66.2ms       41.9ms     OK
+236 uf20-0829.cnf                                     20      91     SAT     SAT       50.5ms       55.1ms     OK
+237 uf20-0757.cnf                                     20      91     SAT     SAT       70.7ms       58.4ms     OK
+238 uf20-0973.cnf                                     20      91     SAT     SAT       56.0ms       38.3ms     OK
+239 uf20-0786.cnf                                     20      91     SAT     SAT       69.8ms       41.0ms     OK
+240 uf20-0858.cnf                                     20      91     SAT     SAT       51.0ms       41.9ms     OK
+241 uf20-0656.cnf                                     20      91     SAT     SAT       81.3ms       60.0ms     OK
+242 uf20-0915.cnf                                     20      91     SAT     SAT       65.7ms       21.3ms     OK
+243 uf20-0728.cnf                                     20      91     SAT     SAT       57.8ms       58.7ms     OK
+244 uf20-0742.cnf                                     20      91     SAT     SAT       63.3ms       60.3ms     OK
+245 uf20-0944.cnf                                     20      91     SAT     SAT       59.9ms       44.2ms     OK
+246 uf20-0959.cnf                                     20      91     SAT     SAT       74.5ms       19.3ms     OK
+247 uf20-0988.cnf                                     20      91     SAT     SAT       59.0ms       22.9ms     OK
+248 uf20-080.cnf                                      20      91     SAT     SAT       81.2ms       31.2ms     OK
+249 uf20-093.cnf                                      20      91     SAT     SAT       69.8ms       25.4ms     OK
+250 uf20-0843.cnf                                     20      91     SAT     SAT       78.2ms       25.3ms     OK
+251 uf20-0196.cnf                                     20      91     SAT     SAT      373.7ms       37.9ms     OK
+252 uf20-0138.cnf                                     20      91     SAT     SAT      352.5ms       46.0ms     OK
+253 uf20-0239.cnf                                     20      91     SAT     SAT      332.4ms       47.2ms     OK
+254 uf20-0268.cnf                                     20      91     SAT     SAT      353.6ms       39.4ms     OK
+255 uf20-0253.cnf                                     20      91     SAT     SAT      365.2ms       46.6ms     OK
+256 uf20-0354.cnf                                     20      91     SAT     SAT      363.9ms       65.5ms     OK
+257 uf20-0297.cnf                                     20      91     SAT     SAT      349.8ms       68.0ms     OK
+258 uf20-0440.cnf                                     20      91     SAT     SAT      344.4ms       68.3ms     OK
+259 uf20-0167.cnf                                     20      91     SAT     SAT      355.8ms       59.5ms     OK
+260 uf20-0527.cnf                                     20      91     SAT     SAT      370.3ms       64.8ms     OK
+261 uf20-0556.cnf                                     20      91     SAT     SAT      346.0ms       58.9ms     OK
+262 uf20-0383.cnf                                     20      91     SAT     SAT      351.5ms       65.4ms     OK
+263 uf20-0426.cnf                                     20      91     SAT     SAT      351.0ms       64.2ms     OK
+264 uf20-0152.cnf                                     20      91     SAT     SAT      355.0ms       80.7ms     OK
+265 uf20-0181.cnf                                     20      91     SAT     SAT      360.0ms       59.3ms     OK
+266 uf20-047.cnf                                      20      91     SAT     SAT      358.3ms       72.5ms     OK
+267 uf20-021.cnf                                      20      91     SAT     SAT      339.0ms       75.4ms     OK
+268 uf20-0369.cnf                                     20      91     SAT     SAT      359.8ms       76.4ms     OK
+269 uf20-0455.cnf                                     20      91     SAT     SAT      378.3ms       42.0ms     OK
+270 uf20-0325.cnf                                     20      91     SAT     SAT      375.2ms       40.3ms     OK
+271 uf20-0282.cnf                                     20      91     SAT     SAT      398.0ms       39.4ms     OK
+272 uf20-0411.cnf                                     20      91     SAT     SAT      346.9ms       80.3ms     OK
+273 uf20-0310.cnf                                     20      91     SAT     SAT      398.5ms       37.7ms     OK
+274 uf20-034.cnf                                      20      91     SAT     SAT      391.3ms       36.9ms     OK
+275 uf20-0109.cnf                                     20      91     SAT     SAT      361.2ms       67.0ms     OK
+276 uf20-0123.cnf                                     20      91     SAT     SAT      375.1ms       77.3ms     OK
+277 uf20-0484.cnf                                     20      91     SAT     SAT      374.1ms       40.4ms     OK
+278 uf20-0499.cnf                                     20      91     SAT     SAT      372.1ms       65.3ms     OK
+279 uf20-0398.cnf                                     20      91     SAT     SAT      392.5ms       36.1ms     OK
+280 uf20-0512.cnf                                     20      91     SAT     SAT      363.2ms       63.0ms     OK
+281 uf20-0224.cnf                                     20      91     SAT     SAT      397.7ms       35.9ms     OK
+282 uf20-0541.cnf                                     20      91     SAT     SAT      386.9ms       41.6ms     OK
+283 uf20-0585.cnf                                     20      91     SAT     SAT       29.2ms       32.7ms     OK
+284 uf20-0628.cnf                                     20      91     SAT     SAT       30.2ms       31.9ms     OK
+285 uf20-06.cnf                                       20      91     SAT     SAT       41.4ms       51.7ms     OK
+286 uf20-0642.cnf                                     20      91     SAT     SAT       18.0ms       58.1ms     OK
+287 uf20-0800.cnf                                     20      91     SAT     SAT       28.3ms       51.8ms     OK
+288 uf20-070.cnf                                      20      91     SAT     SAT       33.0ms       60.3ms     OK
+289 uf20-083.cnf                                      20      91     SAT     SAT       37.1ms       53.2ms     OK
+290 uf20-0686.cnf                                     20      91     SAT     SAT       46.5ms       62.4ms     OK
+291 uf20-0570.cnf                                     20      91     SAT     SAT       54.5ms       74.3ms     OK
+292 uf20-0657.cnf                                     20      91     SAT     SAT       43.4ms       79.3ms     OK
+293 uf20-0729.cnf                                     20      91     SAT     SAT       42.4ms       80.7ms     OK
+294 uf20-0743.cnf                                     20      91     SAT     SAT       43.8ms       78.7ms     OK
+295 uf20-0815.cnf                                     20      91     SAT     SAT       53.0ms       72.2ms     OK
+296 uf20-0873.cnf                                     20      91     SAT     SAT       56.9ms       67.3ms     OK
+297 uf20-0613.cnf                                     20      91     SAT     SAT       61.6ms       93.0ms     OK
+298 uf20-0714.cnf                                     20      91     SAT     SAT       58.6ms       62.9ms     OK
+299 uf20-0758.cnf                                     20      91     SAT     SAT       61.0ms       62.7ms     OK
+300 uf20-0844.cnf                                     20      91     SAT     SAT       64.2ms       53.5ms     OK
+301 uf20-0901.cnf                                     20      91     SAT     SAT       72.6ms       62.5ms     OK
+302 uf20-0772.cnf                                     20      91     SAT     SAT       76.6ms       52.6ms     OK
+303 uf20-0671.cnf                                     20      91     SAT     SAT       67.4ms       71.5ms     OK
+304 uf20-0859.cnf                                     20      91     SAT     SAT       65.8ms       62.4ms     OK
+305 uf20-0989.cnf                                     20      91     SAT     SAT       53.9ms       59.8ms     OK
+306 uf20-0945.cnf                                     20      91     SAT     SAT       57.1ms       54.5ms     OK
+307 uf20-0930.cnf                                     20      91     SAT     SAT       79.6ms       61.2ms     OK
+308 uf20-0916.cnf                                     20      91     SAT     SAT       77.3ms       49.3ms     OK
+309 uf20-0974.cnf                                     20      91     SAT     SAT       58.6ms       74.9ms     OK
+310 uf20-0888.cnf                                     20      91     SAT     SAT       75.2ms       71.1ms     OK
+311 uf20-096.cnf                                      20      91     SAT     SAT       58.2ms       68.3ms     OK
+312 uf20-0787.cnf                                     20      91     SAT     SAT       78.1ms       46.4ms     OK
+313 uf20-0485.cnf                                     20      91     SAT     SAT      269.5ms       47.2ms     OK
+314 uf20-0139.cnf                                     20      91     SAT     SAT      294.1ms       47.6ms     OK
+315 uf20-0513.cnf                                     20      91     SAT     SAT      277.7ms       47.0ms     OK
+316 uf20-0269.cnf                                     20      91     SAT     SAT      293.6ms       40.2ms     OK
+317 uf20-0441.cnf                                     20      91     SAT     SAT      268.2ms       43.5ms     OK
+318 uf20-0311.cnf                                     20      91     SAT     SAT      271.0ms       45.4ms     OK
+319 uf20-0168.cnf                                     20      91     SAT     SAT      280.0ms       45.6ms     OK
+320 uf20-0124.cnf                                     20      91     SAT     SAT      280.4ms       43.5ms     OK
+321 uf20-0542.cnf                                     20      91     SAT     SAT      276.6ms       40.9ms     OK
+322 uf20-0326.cnf                                     20      91     SAT     SAT      288.8ms       42.9ms     OK
+323 uf20-037.cnf                                      20      91     SAT     SAT      292.7ms       45.4ms     OK
+324 uf20-0153.cnf                                     20      91     SAT     SAT      298.2ms       51.8ms     OK
+325 uf20-0470.cnf                                     20      91     SAT     SAT      276.8ms       60.4ms     OK
+326 uf20-0283.cnf                                     20      91     SAT     SAT      278.0ms       64.1ms     OK
+327 uf20-0182.cnf                                     20      91     SAT     SAT      276.7ms       66.7ms     OK
+328 uf20-0355.cnf                                     20      91     SAT     SAT      294.3ms       61.1ms     OK
+329 uf20-0225.cnf                                     20      91     SAT     SAT      292.8ms       41.1ms     OK
+330 uf20-0456.cnf                                     20      91     SAT     SAT      289.4ms       46.4ms     OK
+331 uf20-0340.cnf                                     20      91     SAT     SAT      293.7ms       51.8ms     OK
+332 uf20-0197.cnf                                     20      91     SAT     SAT      321.7ms       39.9ms     OK
+333 uf20-0384.cnf                                     20      91     SAT     SAT      290.8ms       53.2ms     OK
+334 uf20-0557.cnf                                     20      91     SAT     SAT      300.9ms       44.9ms     OK
+335 uf20-011.cnf                                      20      91     SAT     SAT      309.7ms       50.6ms     OK
+336 uf20-0254.cnf                                     20      91     SAT     SAT      287.4ms       52.4ms     OK
+337 uf20-0399.cnf                                     20      91     SAT     SAT      312.1ms       48.2ms     OK
+338 uf20-024.cnf                                      20      91     SAT     SAT      301.0ms       59.5ms     OK
+339 uf20-0298.cnf                                     20      91     SAT     SAT      308.0ms       54.4ms     OK
+340 uf20-0427.cnf                                     20      91     SAT     SAT      320.2ms       42.6ms     OK
+341 uf20-0210.cnf                                     20      91     SAT     SAT      304.8ms       58.0ms     OK
+342 uf20-0412.cnf                                     20      91     SAT     SAT      306.2ms       52.6ms     OK
+343 uf20-0528.cnf                                     20      91     SAT     SAT      294.4ms       68.6ms     OK
+344 uf20-05.cnf                                       20      91     SAT     SAT      291.5ms       79.4ms     OK
+345 uf20-0629.cnf                                     20      91     SAT     SAT       45.5ms       80.5ms     OK
+346 uf20-0614.cnf                                     20      91     SAT     SAT       60.9ms       62.4ms     OK
+347 uf20-0658.cnf                                     20      91     SAT     SAT       76.6ms       57.4ms     OK
+348 uf20-0700.cnf                                     20      91     SAT     SAT       63.4ms       73.6ms     OK
+349 uf20-0571.cnf                                     20      91     SAT     SAT       60.3ms       67.8ms     OK
+350 uf20-0643.cnf                                     20      91     SAT     SAT       62.1ms       69.7ms     OK
+351 uf20-0687.cnf                                     20      91     SAT     SAT       55.6ms       69.2ms     OK
+352 uf20-0744.cnf                                     20      91     SAT     SAT       67.0ms       60.3ms     OK
+353 uf20-0586.cnf                                     20      91     SAT     SAT       71.8ms       63.6ms     OK
+354 uf20-0816.cnf                                     20      91     SAT     SAT       60.4ms       63.0ms     OK
+355 uf20-0715.cnf                                     20      91     SAT     SAT       64.9ms       72.8ms     OK
+356 uf20-0960.cnf                                     20      91     SAT     SAT       71.2ms       37.0ms     OK
+357 uf20-0902.cnf                                     20      91     SAT     SAT       90.6ms       33.3ms     OK
+358 uf20-086.cnf                                      20      91     SAT     SAT       90.2ms       33.0ms     OK
+359 uf20-0759.cnf                                     20      91     SAT     SAT       87.6ms       36.6ms     OK
+360 uf20-0845.cnf                                     20      91     SAT     SAT       92.9ms       29.5ms     OK
+361 uf20-0672.cnf                                     20      91     SAT     SAT       75.5ms       72.3ms     OK
+362 uf20-073.cnf                                      20      91     SAT     SAT       63.0ms       72.8ms     OK
+363 uf20-0773.cnf                                     20      91     SAT     SAT       89.4ms       33.4ms     OK
+364 uf20-0917.cnf                                     20      91     SAT     SAT       83.6ms       28.8ms     OK
+365 uf20-0788.cnf                                     20      91     SAT     SAT       86.4ms       49.6ms     OK
+366 uf20-0801.cnf                                     20      91     SAT     SAT       86.3ms       42.3ms     OK
+367 uf20-0830.cnf                                     20      91     SAT     SAT      106.5ms       33.7ms     OK
+368 uf20-0931.cnf                                     20      91     SAT     SAT       90.7ms       31.3ms     OK
+369 uf20-0946.cnf                                     20      91     SAT     SAT       90.7ms       40.7ms     OK
+370 uf20-0874.cnf                                     20      91     SAT     SAT       82.0ms       43.9ms     OK
+371 uf20-060.cnf                                      20      91     SAT     SAT      125.2ms       24.4ms     OK
+372 uf20-0889.cnf                                     20      91     SAT     SAT       85.7ms       51.5ms     OK
+373 uf20-0975.cnf                                     20      91     SAT     SAT       76.6ms       45.2ms     OK
+374 uf20-099.cnf                                      20      91     SAT     SAT       93.4ms       25.3ms     OK
+375 uf20-0226.cnf                                     20      91     SAT     SAT      206.3ms       89.1ms     OK
+376 uf20-0169.cnf                                     20      91     SAT     SAT      220.6ms       87.4ms     OK
+377 uf20-0428.cnf                                     20      91     SAT     SAT      182.3ms      106.9ms     OK
+378 uf20-0529.cnf                                     20      91     SAT     SAT      196.6ms       88.8ms     OK
+379 uf20-0558.cnf                                     20      91     SAT     SAT      173.0ms      105.5ms     OK
+380 uf20-0240.cnf                                     20      91     SAT     SAT      169.0ms       98.5ms     OK
+381 uf20-0183.cnf                                     20      91     SAT     SAT      187.9ms      102.1ms     OK
+382 uf20-0125.cnf                                     20      91     SAT     SAT      207.7ms       96.8ms     OK
+383 uf20-0154.cnf                                     20      91     SAT     SAT      234.1ms       77.3ms     OK
+384 uf20-0356.cnf                                     20      91     SAT     SAT      200.9ms       86.7ms     OK
+385 uf20-0471.cnf                                     20      91     SAT     SAT      180.2ms      109.2ms     OK
+386 uf20-0486.cnf                                     20      91     SAT     SAT      173.4ms      102.6ms     OK
+387 uf20-04.cnf                                       20      91     SAT     SAT      176.9ms      105.4ms     OK
+388 uf20-0457.cnf                                     20      91     SAT     SAT      177.5ms      105.9ms     OK
+389 uf20-0341.cnf                                     20      91     SAT     SAT      204.7ms       86.1ms     OK
+390 uf20-0255.cnf                                     20      91     SAT     SAT      168.8ms      101.7ms     OK
+391 uf20-0543.cnf                                     20      91     SAT     SAT      167.8ms      108.1ms     OK
+392 uf20-0327.cnf                                     20      91     SAT     SAT      184.8ms      103.1ms     OK
+393 uf20-050.cnf                                      20      91     SAT     SAT      193.1ms       92.2ms     OK
+394 uf20-0110.cnf                                     20      91     SAT     SAT      225.9ms       82.3ms     OK
+395 uf20-0413.cnf                                     20      91     SAT     SAT      205.2ms       82.9ms     OK
+396 uf20-0370.cnf                                     20      91     SAT     SAT      174.0ms      110.5ms     OK
+397 uf20-0198.cnf                                     20      91     SAT     SAT      206.3ms      102.9ms     OK
+398 uf20-0284.cnf                                     20      91     SAT     SAT      202.2ms       87.8ms     OK
+399 uf20-014.cnf                                      20      91     SAT     SAT      207.6ms       98.1ms     OK
+400 uf20-0442.cnf                                     20      91     SAT     SAT      195.8ms      108.4ms     OK
+401 uf20-027.cnf                                      20      91     SAT     SAT      213.3ms       82.2ms     OK
+402 uf20-0312.cnf                                     20      91     SAT     SAT      191.5ms      110.7ms     OK
+403 uf20-0299.cnf                                     20      91     SAT     SAT      199.8ms       87.3ms     OK
+404 uf20-0385.cnf                                     20      91     SAT     SAT      198.8ms       87.5ms     OK
+405 uf20-0211.cnf                                     20      91     SAT     SAT      213.2ms       84.7ms     OK
+406 uf20-0514.cnf                                     20      91     SAT     SAT      198.8ms       89.2ms     OK
+407 uf20-0673.cnf                                     20      91     SAT     SAT       13.7ms       48.5ms     OK
+408 uf20-0600.cnf                                     20      91     SAT     SAT       37.5ms       55.8ms     OK
+409 uf20-0860.cnf                                     20      91     SAT     SAT       42.9ms       49.3ms     OK
+410 uf20-0644.cnf                                     20      91     SAT     SAT       46.7ms       55.2ms     OK
+411 uf20-0716.cnf                                     20      91     SAT     SAT       44.2ms       43.6ms     OK
+412 uf20-076.cnf                                      20      91     SAT     SAT       45.5ms       45.8ms     OK
+413 uf20-0961.cnf                                     20      91     SAT     SAT       47.0ms       50.1ms     OK
+414 uf20-0745.cnf                                     20      91     SAT     SAT       47.0ms       52.1ms     OK
+415 uf20-0659.cnf                                     20      91     SAT     SAT       49.5ms       62.1ms     OK
+416 uf20-0572.cnf                                     20      91     SAT     SAT       61.6ms       43.0ms     OK
+417 uf20-0875.cnf                                     20      91     SAT     SAT       57.7ms       42.8ms     OK
+418 uf20-063.cnf                                      20      91     SAT     SAT       71.5ms       46.8ms     OK
+419 uf20-0688.cnf                                     20      91     SAT     SAT       50.2ms       42.9ms     OK
+420 uf20-0789.cnf                                     20      91     SAT     SAT       54.6ms       52.5ms     OK
+421 uf20-0587.cnf                                     20      91     SAT     SAT       63.6ms       48.8ms     OK
+422 uf20-0831.cnf                                     20      91     SAT     SAT       61.7ms       43.8ms     OK
+423 uf20-0846.cnf                                     20      91     SAT     SAT       43.2ms       70.4ms     OK
+424 uf20-0701.cnf                                     20      91     SAT     SAT       76.3ms       38.6ms     OK
+425 uf20-0730.cnf                                     20      91     SAT     SAT       62.5ms       39.3ms     OK
+426 uf20-0918.cnf                                     20      91     SAT     SAT       62.4ms       51.6ms     OK
+427 uf20-0615.cnf                                     20      91     SAT     SAT       49.7ms       66.8ms     OK
+428 uf20-0774.cnf                                     20      91     SAT     SAT       50.1ms       67.3ms     OK
+429 uf20-0903.cnf                                     20      91     SAT     SAT       63.7ms       44.9ms     OK
+430 uf20-0932.cnf                                     20      91     SAT     SAT       62.8ms       37.9ms     OK
+431 uf20-089.cnf                                      20      91     SAT     SAT       63.1ms       30.9ms     OK
+432 uf20-0976.cnf                                     20      91     SAT     SAT       61.5ms       37.6ms     OK
+433 uf20-0990.cnf                                     20      91     SAT     SAT       72.2ms       27.0ms     OK
+434 uf20-0817.cnf                                     20      91     SAT     SAT       59.6ms       53.4ms     OK
+435 uf20-0947.cnf                                     20      91     SAT     SAT       79.8ms       29.3ms     OK
+436 uf20-0802.cnf                                     20      91     SAT     SAT       76.9ms       52.7ms     OK
+437 uf20-0328.cnf                                     20      91     SAT     SAT      386.4ms       50.4ms     OK
+438 uf20-0443.cnf                                     20      91     SAT     SAT      404.6ms       59.8ms     OK
+439 uf20-0184.cnf                                     20      91     SAT     SAT      390.1ms       60.7ms     OK
+440 uf20-0227.cnf                                     20      91     SAT     SAT      400.0ms       59.0ms     OK
+441 uf20-0256.cnf                                     20      91     SAT     SAT      400.8ms       60.3ms     OK
+442 uf20-0199.cnf                                     20      91     SAT     SAT      423.8ms       61.1ms     OK
+443 uf20-0241.cnf                                     20      91     SAT     SAT      389.8ms       63.1ms     OK
+444 uf20-053.cnf                                      20      91     SAT     SAT      385.9ms       69.8ms     OK
+445 uf20-0357.cnf                                     20      91     SAT     SAT      394.9ms       69.1ms     OK
+446 uf20-0472.cnf                                     20      91     SAT     SAT      410.0ms       53.7ms     OK
+447 uf20-0155.cnf                                     20      91     SAT     SAT      433.2ms       54.0ms     OK
+448 uf20-0313.cnf                                     20      91     SAT     SAT      413.3ms       53.9ms     OK
+449 uf20-0429.cnf                                     20      91     SAT     SAT      404.0ms       75.6ms     OK
+450 uf20-0140.cnf                                     20      91     SAT     SAT      414.6ms       53.5ms     OK
+451 uf20-0487.cnf                                     20      91     SAT     SAT      420.8ms       47.3ms     OK
+452 uf20-0458.cnf                                     20      91     SAT     SAT      407.7ms       53.0ms     OK
+453 uf20-0544.cnf                                     20      91     SAT     SAT      412.4ms       46.1ms     OK
+454 uf20-0414.cnf                                     20      91     SAT     SAT      421.9ms       43.5ms     OK
+455 uf20-0111.cnf                                     20      91     SAT     SAT      432.3ms       42.1ms     OK
+456 uf20-0386.cnf                                     20      91     SAT     SAT      407.5ms       51.1ms     OK
+457 uf20-0342.cnf                                     20      91     SAT     SAT      403.7ms       71.6ms     OK
+458 uf20-0500.cnf                                     20      91     SAT     SAT      425.5ms       38.6ms     OK
+459 uf20-0212.cnf                                     20      91     SAT     SAT      426.7ms       57.6ms     OK
+460 uf20-040.cnf                                      20      91     SAT     SAT      410.3ms       60.8ms     OK
+461 uf20-0270.cnf                                     20      91     SAT     SAT      440.0ms       43.4ms     OK
+462 uf20-0371.cnf                                     20      91     SAT     SAT      430.3ms       73.7ms     OK
+463 uf20-0126.cnf                                     20      91     SAT     SAT      448.8ms       66.5ms     OK
+464 uf20-03.cnf                                       20      91     SAT     SAT      438.7ms       54.6ms     OK
+465 uf20-0515.cnf                                     20      91     SAT     SAT      423.2ms       66.1ms     OK
+466 uf20-0285.cnf                                     20      91     SAT     SAT      426.4ms       77.3ms     OK
+467 uf20-0559.cnf                                     20      91     SAT     SAT      444.7ms       72.9ms     OK
+468 uf20-017.cnf                                      20      91     SAT     SAT      467.3ms      101.2ms     OK
+469 uf20-0616.cnf                                     20      91     SAT     SAT       55.1ms       84.5ms     OK
+470 uf20-0573.cnf                                     20      91     SAT     SAT       52.2ms       86.8ms     OK
+471 uf20-0717.cnf                                     20      91     SAT     SAT       47.0ms       88.4ms     OK
+472 uf20-0601.cnf                                     20      91     SAT     SAT       63.3ms       70.8ms     OK
+473 uf20-0818.cnf                                     20      91     SAT     SAT       64.6ms       68.0ms     OK
+474 uf20-0702.cnf                                     20      91     SAT     SAT       68.0ms       68.9ms     OK
+475 uf20-0588.cnf                                     20      91     SAT     SAT       64.9ms       73.0ms     OK
+476 uf20-0861.cnf                                     20      91     SAT     SAT       68.2ms       63.9ms     OK
+477 uf20-0847.cnf                                     20      91     SAT     SAT       71.3ms       73.9ms     OK
+478 uf20-0760.cnf                                     20      91     SAT     SAT       63.6ms       82.6ms     OK
+479 uf20-0674.cnf                                     20      91     SAT     SAT       86.2ms       69.7ms     OK
+480 uf20-079.cnf                                      20      91     SAT     SAT       65.1ms       83.1ms     OK
+481 uf20-0876.cnf                                     20      91     SAT     SAT       64.2ms       83.0ms     OK
+482 uf20-0645.cnf                                     20      91     SAT     SAT       97.8ms       54.4ms     OK
+483 uf20-0630.cnf                                     20      91     SAT     SAT       93.8ms       54.9ms     OK
+484 uf20-0803.cnf                                     20      91     SAT     SAT       90.6ms       58.0ms     OK
+485 uf20-0890.cnf                                     20      91     SAT     SAT       73.8ms       51.9ms     OK
+486 uf20-0689.cnf                                     20      91     SAT     SAT       90.8ms       51.4ms     OK
+487 uf20-0775.cnf                                     20      91     SAT     SAT       89.8ms       60.6ms     OK
+488 uf20-0933.cnf                                     20      91     SAT     SAT       79.4ms       45.3ms     OK
+489 uf20-0832.cnf                                     20      91     SAT     SAT      105.5ms       34.2ms     OK
+490 uf20-0731.cnf                                     20      91     SAT     SAT       86.3ms       52.9ms     OK
+491 uf20-066.cnf                                      20      91     SAT     SAT       97.4ms       59.7ms     OK
+492 uf20-0977.cnf                                     20      91     SAT     SAT       74.0ms       32.3ms     OK
+493 uf20-0904.cnf                                     20      91     SAT     SAT       93.5ms       37.9ms     OK
+494 uf20-0919.cnf                                     20      91     SAT     SAT       80.2ms       60.6ms     OK
+495 uf20-0948.cnf                                     20      91     SAT     SAT       94.3ms       21.6ms     OK
+496 uf20-0746.cnf                                     20      91     SAT     SAT      122.6ms       26.7ms     OK
+497 uf20-0962.cnf                                     20      91     SAT     SAT      105.5ms       16.7ms     OK
+498 uf20-0991.cnf                                     20      91     SAT     SAT       85.0ms       20.0ms     OK
+499 uf20-0100.cnf                                     20      91     SAT     SAT       15.2ms       14.6ms     OK
+500 uf20-0143.cnf                                     20      91     SAT     SAT       30.6ms       42.8ms     OK
+501 uf20-0187.cnf                                     20      91     SAT     SAT       56.7ms       45.5ms     OK
+502 uf20-0158.cnf                                     20      91     SAT     SAT       48.3ms       50.6ms     OK
+503 uf20-0301.cnf                                     20      91     SAT     SAT       60.6ms       44.9ms     OK
+504 uf20-0129.cnf                                     20      91     SAT     SAT       54.3ms       54.0ms     OK
+505 uf20-0330.cnf                                     20      91     SAT     SAT       51.7ms       50.5ms     OK
+506 uf20-023.cnf                                      20      91     SAT     SAT       52.7ms       50.4ms     OK
+507 uf20-0345.cnf                                     20      91     SAT     SAT       57.4ms       46.6ms     OK
+508 uf20-0244.cnf                                     20      91     SAT     SAT       58.8ms       45.8ms     OK
+509 uf20-0215.cnf                                     20      91     SAT     SAT       70.1ms       56.2ms     OK
+510 uf20-0259.cnf                                     20      91     SAT     SAT       63.5ms       64.5ms     OK
+511 uf20-0114.cnf                                     20      91     SAT     SAT       57.5ms       64.9ms     OK
+512 uf20-0374.cnf                                     20      91     SAT     SAT       50.3ms       63.5ms     OK
+513 uf20-0561.cnf                                     20      91     SAT     SAT       50.2ms       60.7ms     OK
+514 uf20-0316.cnf                                     20      91     SAT     SAT       53.7ms       71.4ms     OK
+515 uf20-0402.cnf                                     20      91     SAT     SAT       52.4ms       64.4ms     OK
+516 uf20-0389.cnf                                     20      91     SAT     SAT       60.3ms       60.6ms     OK
+517 uf20-0288.cnf                                     20      91     SAT     SAT       66.5ms       64.7ms     OK
+518 uf20-0200.cnf                                     20      91     SAT     SAT       61.3ms       85.2ms     OK
+519 uf20-0273.cnf                                     20      91     SAT     SAT       51.9ms       84.7ms     OK
+520 uf20-0172.cnf                                     20      91     SAT     SAT       72.1ms       71.8ms     OK
+521 uf20-0532.cnf                                     20      91     SAT     SAT       71.3ms       53.3ms     OK
+522 uf20-036.cnf                                      20      91     SAT     SAT       60.7ms       74.8ms     OK
+523 uf20-0446.cnf                                     20      91     SAT     SAT       71.9ms       60.0ms     OK
+524 uf20-049.cnf                                      20      91     SAT     SAT       71.6ms       73.8ms     OK
+525 uf20-0417.cnf                                     20      91     SAT     SAT       68.1ms       73.3ms     OK
+526 uf20-0431.cnf                                     20      91     SAT     SAT       70.8ms       73.0ms     OK
+527 uf20-0547.cnf                                     20      91     SAT     SAT       76.9ms       66.6ms     OK
+528 uf20-0475.cnf                                     20      91     SAT     SAT       93.3ms       62.5ms     OK
+529 uf20-0518.cnf                                     20      91     SAT     SAT       92.3ms       52.2ms     OK
+530 uf20-0460.cnf                                     20      91     SAT     SAT      113.5ms       52.6ms     OK
+531 uf20-0576.cnf                                     20      91     SAT     SAT       57.8ms       52.1ms     OK
+532 uf20-0503.cnf                                     20      91     SAT     SAT       83.3ms       64.5ms     OK
+533 uf20-0619.cnf                                     20      91     SAT     SAT       57.8ms       49.2ms     OK
+534 uf20-0633.cnf                                     20      91     SAT     SAT       56.3ms       45.8ms     OK
+535 uf20-0677.cnf                                     20      91     SAT     SAT       57.2ms       58.4ms     OK
+536 uf20-0691.cnf                                     20      91     SAT     SAT       57.9ms       66.5ms     OK
+537 uf20-0604.cnf                                     20      91     SAT     SAT       62.4ms       62.7ms     OK
+538 uf20-0648.cnf                                     20      91     SAT     SAT       59.1ms       78.6ms     OK
+539 uf20-0705.cnf                                     20      91     SAT     SAT       54.4ms       63.3ms     OK
+540 uf20-072.cnf                                      20      91     SAT     SAT       59.2ms       65.2ms     OK
+541 uf20-0806.cnf                                     20      91     SAT     SAT       58.1ms       60.5ms     OK
+542 uf20-0590.cnf                                     20      91     SAT     SAT       50.1ms       93.3ms     OK
+543 uf20-0662.cnf                                     20      91     SAT     SAT       56.4ms       90.7ms     OK
+544 uf20-0763.cnf                                     20      91     SAT     SAT       57.6ms       57.1ms     OK
+545 uf20-0864.cnf                                     20      91     SAT     SAT       56.8ms       58.2ms     OK
+546 uf20-0792.cnf                                     20      91     SAT     SAT       50.8ms       68.0ms     OK
+547 uf20-085.cnf                                      20      91     SAT     SAT       57.6ms       66.4ms     OK
+548 uf20-0936.cnf                                     20      91     SAT     SAT       61.1ms       38.2ms     OK
+549 uf20-0879.cnf                                     20      91     SAT     SAT       59.7ms       54.5ms     OK
+550 uf20-0893.cnf                                     20      91     SAT     SAT       55.9ms       54.4ms     OK
+551 uf20-0907.cnf                                     20      91     SAT     SAT       57.5ms       51.0ms     OK
+552 uf20-0820.cnf                                     20      91     SAT     SAT       55.9ms       67.6ms     OK
+553 uf20-0835.cnf                                     20      91     SAT     SAT       55.4ms       78.6ms     OK
+554 uf20-0749.cnf                                     20      91     SAT     SAT       69.5ms       69.7ms     OK
+555 uf20-0921.cnf                                     20      91     SAT     SAT       68.6ms       33.6ms     OK
+556 uf20-098.cnf                                      20      91     SAT     SAT       69.9ms       39.4ms     OK
+557 uf20-0994.cnf                                     20      91     SAT     SAT       87.8ms       24.7ms     OK
+558 uf20-0734.cnf                                     20      91     SAT     SAT       72.3ms       82.6ms     OK
+559 uf20-0778.cnf                                     20      91     SAT     SAT       58.2ms       89.8ms     OK
+560 uf20-0965.cnf                                     20      91     SAT     SAT       58.6ms       56.3ms     OK
+561 uf20-0950.cnf                                     20      91     SAT     SAT       60.4ms       39.0ms     OK
+562 uf20-0188.cnf                                     20      91     SAT     SAT       34.2ms       83.5ms     OK
+563 uf20-013.cnf                                      20      91     SAT     SAT       44.4ms       78.6ms     OK
+564 uf20-0317.cnf                                     20      91     SAT     SAT       31.8ms       83.1ms     OK
+565 uf20-01000.cnf                                    20      91     SAT     SAT       43.8ms       95.9ms     OK
+566 uf20-0173.cnf                                     20      91     SAT     SAT       44.9ms       88.2ms     OK
+567 uf20-026.cnf                                      20      91     SAT     SAT       42.4ms      101.5ms     OK
+568 uf20-0115.cnf                                     20      91     SAT     SAT       57.4ms       85.7ms     OK
+569 uf20-0201.cnf                                     20      91     SAT     SAT       57.9ms       85.8ms     OK
+570 uf20-0289.cnf                                     20      91     SAT     SAT       48.9ms       94.7ms     OK
+571 uf20-0331.cnf                                     20      91     SAT     SAT       71.2ms       71.6ms     OK
+572 uf20-0302.cnf                                     20      91     SAT     SAT       67.4ms       75.2ms     OK
+573 uf20-0144.cnf                                     20      91     SAT     SAT       40.6ms      116.8ms     OK
+574 uf20-0418.cnf                                     20      91     SAT     SAT       86.8ms       67.4ms     OK
+575 uf20-039.cnf                                      20      91     SAT     SAT       78.9ms       62.8ms     OK
+576 uf20-0159.cnf                                     20      91     SAT     SAT       72.0ms       84.3ms     OK
+577 uf20-0432.cnf                                     20      91     SAT     SAT       84.7ms       80.2ms     OK
+578 uf20-0519.cnf                                     20      91     SAT     SAT       88.1ms       58.4ms     OK
+579 uf20-0461.cnf                                     20      91     SAT     SAT       67.5ms       85.5ms     OK
+580 uf20-0476.cnf                                     20      91     SAT     SAT       76.3ms       85.6ms     OK
+581 uf20-0447.cnf                                     20      91     SAT     SAT       86.9ms       62.0ms     OK
+582 uf20-0216.cnf                                     20      91     SAT     SAT       89.4ms       65.8ms     OK
+583 uf20-0274.cnf                                     20      91     SAT     SAT       82.8ms       65.8ms     OK
+584 uf20-0504.cnf                                     20      91     SAT     SAT      107.5ms       44.7ms     OK
+585 uf20-0403.cnf                                     20      91     SAT     SAT       97.7ms       49.2ms     OK
+586 uf20-0360.cnf                                     20      91     SAT     SAT      113.7ms       38.2ms     OK
+587 uf20-0548.cnf                                     20      91     SAT     SAT      121.9ms       33.0ms     OK
+588 uf20-0533.cnf                                     20      91     SAT     SAT       90.3ms       66.5ms     OK
+589 uf20-0245.cnf                                     20      91     SAT     SAT      103.4ms       75.8ms     OK
+590 uf20-0346.cnf                                     20      91     SAT     SAT       93.6ms       84.8ms     OK
+591 uf20-0375.cnf                                     20      91     SAT     SAT       84.3ms       73.5ms     OK
+592 uf20-0230.cnf                                     20      91     SAT     SAT      113.8ms       46.9ms     OK
+593 uf20-0490.cnf                                     20      91     SAT     SAT      114.5ms       46.8ms     OK
+594 uf20-0577.cnf                                     20      91     SAT     SAT       53.4ms       36.7ms     OK
+595 uf20-0562.cnf                                     20      91     SAT     SAT       56.5ms       49.7ms     OK
+596 uf20-0649.cnf                                     20      91     SAT     SAT       34.4ms       45.4ms     OK
+597 uf20-0591.cnf                                     20      91     SAT     SAT       39.2ms       60.5ms     OK
+598 uf20-062.cnf                                      20      91     SAT     SAT       30.8ms       64.8ms     OK
+599 uf20-0706.cnf                                     20      91     SAT     SAT       33.1ms       62.0ms     OK
+600 uf20-0605.cnf                                     20      91     SAT     SAT       35.5ms       73.5ms     OK
+601 uf20-0850.cnf                                     20      91     SAT     SAT       37.1ms       54.1ms     OK
+602 uf20-0807.cnf                                     20      91     SAT     SAT       37.8ms       51.1ms     OK
+603 uf20-0678.cnf                                     20      91     SAT     SAT       47.1ms       46.4ms     OK
+604 uf20-0663.cnf                                     20      91     SAT     SAT       47.2ms       47.4ms     OK
+605 uf20-0865.cnf                                     20      91     SAT     SAT       55.2ms       43.5ms     OK
+606 uf20-0634.cnf                                     20      91     SAT     SAT       63.4ms       60.9ms     OK
+607 uf20-0735.cnf                                     20      91     SAT     SAT       68.4ms       46.7ms     OK
+608 uf20-0937.cnf                                     20      91     SAT     SAT       56.6ms       47.0ms     OK
+609 uf20-0764.cnf                                     20      91     SAT     SAT       60.7ms       47.0ms     OK
+610 uf20-088.cnf                                      20      91     SAT     SAT       58.1ms       50.3ms     OK
+611 uf20-0894.cnf                                     20      91     SAT     SAT       50.0ms       50.8ms     OK
+612 uf20-0908.cnf                                     20      91     SAT     SAT       57.0ms       50.4ms     OK
+613 uf20-0692.cnf                                     20      91     SAT     SAT       74.2ms       57.0ms     OK
+614 uf20-0821.cnf                                     20      91     SAT     SAT       68.6ms       51.0ms     OK
+615 uf20-0720.cnf                                     20      91     SAT     SAT       75.4ms       53.3ms     OK
+616 uf20-0922.cnf                                     20      91     SAT     SAT       69.8ms       44.1ms     OK
+617 uf20-0951.cnf                                     20      91     SAT     SAT       56.1ms       50.3ms     OK
+618 uf20-0966.cnf                                     20      91     SAT     SAT       62.6ms       46.5ms     OK
+619 uf20-075.cnf                                      20      91     SAT     SAT       81.3ms       64.2ms     OK
+620 uf20-0793.cnf                                     20      91     SAT     SAT       68.0ms       65.9ms     OK
+621 uf20-0980.cnf                                     20      91     SAT     SAT       56.0ms       59.0ms     OK
+622 uf20-0995.cnf                                     20      91     SAT     SAT       66.3ms       58.3ms     OK
+623 uf20-0779.cnf                                     20      91     SAT     SAT       64.6ms       57.3ms     OK
+624 uf20-0836.cnf                                     20      91     SAT     SAT       72.7ms       40.0ms     OK
+625 uf20-0116.cnf                                     20      91     SAT     SAT       17.4ms       11.5ms     OK
+626 uf20-0217.cnf                                     20      91     SAT     SAT       25.4ms       18.4ms     OK
+627 uf20-0404.cnf                                     20      91     SAT     SAT       36.0ms       39.9ms     OK
+628 uf20-0101.cnf                                     20      91     SAT     SAT       41.1ms       60.3ms     OK
+629 uf20-0275.cnf                                     20      91     SAT     SAT       44.8ms       58.9ms     OK
+630 uf20-0130.cnf                                     20      91     SAT     SAT       43.5ms       68.4ms     OK
+631 uf20-0563.cnf                                     20      91     SAT     SAT       20.1ms       66.3ms     OK
+632 uf20-0174.cnf                                     20      91     SAT     SAT       38.1ms       67.5ms     OK
+633 uf20-0145.cnf                                     20      91     SAT     SAT       50.1ms       74.7ms     OK
+634 uf20-0202.cnf                                     20      91     SAT     SAT       61.6ms       53.8ms     OK
+635 uf20-0332.cnf                                     20      91     SAT     SAT       60.5ms       59.5ms     OK
+636 uf20-0361.cnf                                     20      91     SAT     SAT       48.4ms       68.7ms     OK
+637 uf20-0491.cnf                                     20      91     SAT     SAT       53.3ms       65.2ms     OK
+638 uf20-0260.cnf                                     20      91     SAT     SAT       60.6ms       57.3ms     OK
+639 uf20-0231.cnf                                     20      91     SAT     SAT       42.8ms       84.4ms     OK
+640 uf20-0189.cnf                                     20      91     SAT     SAT       66.4ms       57.6ms     OK
+641 uf20-0347.cnf                                     20      91     SAT     SAT       77.5ms       50.0ms     OK
+642 uf20-0376.cnf                                     20      91     SAT     SAT       66.0ms       62.2ms     OK
+643 uf20-0534.cnf                                     20      91     SAT     SAT       63.6ms       80.2ms     OK
+644 uf20-0477.cnf                                     20      91     SAT     SAT       77.7ms       58.8ms     OK
+645 uf20-016.cnf                                      20      91     SAT     SAT       75.1ms       71.0ms     OK
+646 uf20-0505.cnf                                     20      91     SAT     SAT       74.8ms       61.6ms     OK
+647 uf20-052.cnf                                      20      91     SAT     SAT       82.0ms       61.0ms     OK
+648 uf20-0390.cnf                                     20      91     SAT     SAT       85.3ms       61.9ms     OK
+649 uf20-0246.cnf                                     20      91     SAT     SAT       80.8ms       64.1ms     OK
+650 uf20-0318.cnf                                     20      91     SAT     SAT       95.0ms       56.9ms     OK
+651 uf20-0448.cnf                                     20      91     SAT     SAT       94.7ms       52.5ms     OK
+652 uf20-0549.cnf                                     20      91     SAT     SAT       74.9ms       64.5ms     OK
+653 uf20-029.cnf                                      20      91     SAT     SAT       89.0ms       57.5ms     OK
+654 uf20-0303.cnf                                     20      91     SAT     SAT       73.9ms       84.1ms     OK
+655 uf20-0419.cnf                                     20      91     SAT     SAT      100.0ms       51.0ms     OK
+656 uf20-0433.cnf                                     20      91     SAT     SAT       72.3ms       70.5ms     OK
+657 uf20-0462.cnf                                     20      91     SAT     SAT      104.9ms       67.3ms     OK
+658 uf20-0578.cnf                                     20      91     SAT     SAT       78.9ms       60.9ms     OK
+659 uf20-0620.cnf                                     20      91     SAT     SAT       44.4ms       41.2ms     OK
+660 uf20-065.cnf                                      20      91     SAT     SAT       44.3ms       44.3ms     OK
+661 uf20-0606.cnf                                     20      91     SAT     SAT       64.5ms       60.4ms     OK
+662 uf20-0592.cnf                                     20      91     SAT     SAT       67.2ms       66.0ms     OK
+663 uf20-0635.cnf                                     20      91     SAT     SAT       49.4ms       62.9ms     OK
+664 uf20-0765.cnf                                     20      91     SAT     SAT       54.4ms       53.3ms     OK
+665 uf20-0679.cnf                                     20      91     SAT     SAT       65.3ms       56.5ms     OK
+666 uf20-078.cnf                                      20      91     SAT     SAT       53.0ms       56.7ms     OK
+667 uf20-0707.cnf                                     20      91     SAT     SAT       72.9ms       53.9ms     OK
+668 uf20-0736.cnf                                     20      91     SAT     SAT       74.3ms       51.8ms     OK
+669 uf20-0880.cnf                                     20      91     SAT     SAT       42.5ms       49.0ms     OK
+670 uf20-0750.cnf                                     20      91     SAT     SAT       60.0ms       49.1ms     OK
+671 uf20-0794.cnf                                     20      91     SAT     SAT       66.1ms       55.3ms     OK
+672 uf20-0866.cnf                                     20      91     SAT     SAT       61.9ms       44.6ms     OK
+673 uf20-0923.cnf                                     20      91     SAT     SAT       47.3ms       52.9ms     OK
+674 uf20-0996.cnf                                     20      91     SAT     SAT       48.6ms       54.3ms     OK
+675 uf20-0808.cnf                                     20      91     SAT     SAT       49.4ms       65.4ms     OK
+676 uf20-0938.cnf                                     20      91     SAT     SAT       51.5ms       50.3ms     OK
+677 uf20-0822.cnf                                     20      91     SAT     SAT       66.7ms       50.6ms     OK
+678 uf20-0664.cnf                                     20      91     SAT     SAT       62.0ms       82.4ms     OK
+679 uf20-0693.cnf                                     20      91     SAT     SAT       76.7ms       75.3ms     OK
+680 uf20-0851.cnf                                     20      91     SAT     SAT       71.3ms       30.6ms     OK
+681 uf20-0895.cnf                                     20      91     SAT     SAT       65.7ms       38.8ms     OK
+682 uf20-0721.cnf                                     20      91     SAT     SAT       56.1ms       84.3ms     OK
+683 uf20-0967.cnf                                     20      91     SAT     SAT       65.0ms       39.4ms     OK
+684 uf20-0952.cnf                                     20      91     SAT     SAT       72.3ms       33.5ms     OK
+685 uf20-0909.cnf                                     20      91     SAT     SAT       57.6ms       58.6ms     OK
+686 uf20-0837.cnf                                     20      91     SAT     SAT       61.6ms       59.5ms     OK
+687 uf20-0981.cnf                                     20      91     SAT     SAT       73.5ms       27.4ms     OK
+688 uf20-0261.cnf                                     20      91     SAT     SAT       38.3ms       50.6ms     OK
+689 uf20-0117.cnf                                     20      91     SAT     SAT       41.9ms       64.0ms     OK
+690 uf20-0348.cnf                                     20      91     SAT     SAT       41.9ms       70.1ms     OK
+691 uf20-0304.cnf                                     20      91     SAT     SAT       40.4ms       76.0ms     OK
+692 uf20-0131.cnf                                     20      91     SAT     SAT       60.1ms       74.5ms     OK
+693 uf20-0160.cnf                                     20      91     SAT     SAT       38.3ms       80.3ms     OK
+694 uf20-0463.cnf                                     20      91     SAT     SAT       48.2ms       68.5ms     OK
+695 uf20-0405.cnf                                     20      91     SAT     SAT       36.0ms       76.6ms     OK
+696 uf20-0478.cnf                                     20      91     SAT     SAT       41.7ms       75.9ms     OK
+697 uf20-0218.cnf                                     20      91     SAT     SAT       46.4ms       82.6ms     OK
+698 uf20-0203.cnf                                     20      91     SAT     SAT       43.9ms       95.5ms     OK
+699 uf20-0377.cnf                                     20      91     SAT     SAT       41.5ms       80.6ms     OK
+700 uf20-0232.cnf                                     20      91     SAT     SAT       48.3ms       72.7ms     OK
+701 uf20-0434.cnf                                     20      91     SAT     SAT       49.6ms       74.0ms     OK
+702 uf20-0362.cnf                                     20      91     SAT     SAT       64.0ms       61.3ms     OK
+703 uf20-0276.cnf                                     20      91     SAT     SAT       64.2ms       75.2ms     OK
+704 uf20-0492.cnf                                     20      91     SAT     SAT       53.5ms       80.0ms     OK
+705 uf20-019.cnf                                      20      91     SAT     SAT       58.2ms       84.9ms     OK
+706 uf20-0290.cnf                                     20      91     SAT     SAT       83.1ms       55.4ms     OK
+707 uf20-0175.cnf                                     20      91     SAT     SAT       60.2ms       82.8ms     OK
+708 uf20-0535.cnf                                     20      91     SAT     SAT       69.7ms       71.9ms     OK
+709 uf20-0333.cnf                                     20      91     SAT     SAT       98.5ms       39.8ms     OK
+710 uf20-0391.cnf                                     20      91     SAT     SAT       78.2ms       39.3ms     OK
+711 uf20-042.cnf                                      20      91     SAT     SAT       91.5ms       44.5ms     OK
+712 uf20-0506.cnf                                     20      91     SAT     SAT       59.8ms       92.4ms     OK
+713 uf20-0146.cnf                                     20      91     SAT     SAT       44.6ms      113.7ms     OK
+714 uf20-0247.cnf                                     20      91     SAT     SAT       57.3ms       93.7ms     OK
+715 uf20-0102.cnf                                     20      91     SAT     SAT       49.8ms       95.6ms     OK
+716 uf20-055.cnf                                      20      91     SAT     SAT       68.4ms       71.9ms     OK
+717 uf20-0319.cnf                                     20      91     SAT     SAT       66.4ms       86.0ms     OK
+718 uf20-0449.cnf                                     20      91     SAT     SAT       87.5ms       60.1ms     OK
+719 uf20-0564.cnf                                     20      91     SAT     SAT       64.5ms       65.9ms     OK
+720 uf20-0520.cnf                                     20      91     SAT     SAT      127.1ms       81.9ms     OK
+721 uf20-0593.cnf                                     20      91     SAT     SAT       43.6ms       73.0ms     OK
+722 uf20-0722.cnf                                     20      91     SAT     SAT       33.0ms       72.7ms     OK
+723 uf20-0621.cnf                                     20      91     SAT     SAT       40.4ms       75.4ms     OK
+724 uf20-0650.cnf                                     20      91     SAT     SAT       43.3ms       72.9ms     OK
+725 uf20-0579.cnf                                     20      91     SAT     SAT       58.2ms       74.7ms     OK
+726 uf20-0607.cnf                                     20      91     SAT     SAT       51.6ms       75.8ms     OK
+727 uf20-0737.cnf                                     20      91     SAT     SAT       54.5ms       61.0ms     OK
+728 uf20-0694.cnf                                     20      91     SAT     SAT       65.8ms       54.4ms     OK
+729 uf20-068.cnf                                      20      91     SAT     SAT       51.1ms       70.1ms     OK
+730 uf20-0636.cnf                                     20      91     SAT     SAT       71.3ms       56.2ms     OK
+731 uf20-0766.cnf                                     20      91     SAT     SAT       63.3ms       60.1ms     OK
+732 uf20-0665.cnf                                     20      91     SAT     SAT       52.2ms       79.2ms     OK
+733 uf20-0867.cnf                                     20      91     SAT     SAT       72.3ms       40.1ms     OK
+734 uf20-0751.cnf                                     20      91     SAT     SAT       90.9ms       41.8ms     OK
+735 uf20-0823.cnf                                     20      91     SAT     SAT       80.6ms       32.5ms     OK
+736 uf20-0968.cnf                                     20      91     SAT     SAT       78.3ms       32.0ms     OK
+737 uf20-0852.cnf                                     20      91     SAT     SAT       79.5ms       34.4ms     OK
+738 uf20-0780.cnf                                     20      91     SAT     SAT       71.3ms       52.2ms     OK
+739 uf20-0708.cnf                                     20      91     SAT     SAT       91.4ms       44.5ms     OK
+740 uf20-0896.cnf                                     20      91     SAT     SAT       73.1ms       38.4ms     OK
+741 uf20-0809.cnf                                     20      91     SAT     SAT       81.9ms       37.1ms     OK
+742 uf20-0881.cnf                                     20      91     SAT     SAT       78.4ms       43.8ms     OK
+743 uf20-0795.cnf                                     20      91     SAT     SAT       76.5ms       44.4ms     OK
+744 uf20-0997.cnf                                     20      91     SAT     SAT       78.0ms       43.7ms     OK
+745 uf20-091.cnf                                      20      91     SAT     SAT       80.5ms       38.1ms     OK
+746 uf20-0838.cnf                                     20      91     SAT     SAT       89.1ms       45.6ms     OK
+747 uf20-0939.cnf                                     20      91     SAT     SAT       94.7ms       28.9ms     OK
+748 uf20-0924.cnf                                     20      91     SAT     SAT       77.9ms       58.5ms     OK
+749 uf20-0982.cnf                                     20      91     SAT     SAT       74.8ms       55.4ms     OK
+750 uf20-0953.cnf                                     20      91     SAT     SAT       98.6ms       40.3ms     OK
+751 uf20-0479.cnf                                     20      91     SAT     SAT       13.0ms       47.9ms     OK
+752 uf20-0277.cnf                                     20      91     SAT     SAT       21.0ms       45.6ms     OK
+753 uf20-0118.cnf                                     20      91     SAT     SAT       20.1ms       43.1ms     OK
+754 uf20-0233.cnf                                     20      91     SAT     SAT       15.5ms       41.6ms     OK
+755 uf20-0176.cnf                                     20      91     SAT     SAT       18.8ms       43.2ms     OK
+756 uf20-0204.cnf                                     20      91     SAT     SAT       22.9ms       43.2ms     OK
+757 uf20-0190.cnf                                     20      91     SAT     SAT       50.5ms       21.8ms     OK
+758 uf20-0493.cnf                                     20      91     SAT     SAT       36.8ms       34.2ms     OK
+759 uf20-0132.cnf                                     20      91     SAT     SAT       43.1ms       39.6ms     OK
+760 uf20-0435.cnf                                     20      91     SAT     SAT       43.6ms       40.3ms     OK
+761 uf20-0349.cnf                                     20      91     SAT     SAT       43.0ms       46.4ms     OK
+762 uf20-0219.cnf                                     20      91     SAT     SAT       49.5ms       45.6ms     OK
+763 uf20-0103.cnf                                     20      91     SAT     SAT       46.1ms       41.2ms     OK
+764 uf20-0334.cnf                                     20      91     SAT     SAT       42.3ms       46.7ms     OK
+765 uf20-0248.cnf                                     20      91     SAT     SAT       40.3ms       50.5ms     OK
+766 uf20-0464.cnf                                     20      91     SAT     SAT       45.5ms       42.0ms     OK
+767 uf20-0262.cnf                                     20      91     SAT     SAT       42.2ms       51.4ms     OK
+768 uf20-0305.cnf                                     20      91     SAT     SAT       47.1ms       40.9ms     OK
+769 uf20-0507.cnf                                     20      91     SAT     SAT       39.4ms       43.2ms     OK
+770 uf20-0363.cnf                                     20      91     SAT     SAT       43.2ms       45.7ms     OK
+771 uf20-0420.cnf                                     20      91     SAT     SAT       44.9ms       47.5ms     OK
+772 uf20-0161.cnf                                     20      91     SAT     SAT       42.1ms       47.4ms     OK
+773 uf20-032.cnf                                      20      91     SAT     SAT       44.5ms       46.6ms     OK
+774 uf20-0378.cnf                                     20      91     SAT     SAT       47.7ms       47.8ms     OK
+775 uf20-0536.cnf                                     20      91     SAT     SAT       41.8ms       46.5ms     OK
+776 uf20-0291.cnf                                     20      91     SAT     SAT       41.8ms       43.6ms     OK
+777 uf20-0147.cnf                                     20      91     SAT     SAT       44.5ms       47.5ms     OK
+778 uf20-045.cnf                                      20      91     SAT     SAT       40.3ms       45.6ms     OK
+779 uf20-0392.cnf                                     20      91     SAT     SAT       33.5ms       44.7ms     OK
+780 uf20-0406.cnf                                     20      91     SAT     SAT       43.9ms       48.7ms     OK
+781 uf20-0550.cnf                                     20      91     SAT     SAT       50.1ms       39.5ms     OK
+782 uf20-0521.cnf                                     20      91     SAT     SAT       46.4ms       30.3ms     OK
+783 uf20-0608.cnf                                     20      91     SAT     SAT       40.5ms       29.0ms     OK
+784 uf20-0594.cnf                                     20      91     SAT     SAT       47.5ms       28.7ms     OK
+785 uf20-0622.cnf                                     20      91     SAT     SAT       43.7ms       38.2ms     OK
+786 uf20-0651.cnf                                     20      91     SAT     SAT       44.0ms       44.8ms     OK
+787 uf20-0565.cnf                                     20      91     SAT     SAT       35.7ms       41.9ms     OK
+788 uf20-058.cnf                                      20      91     SAT     SAT       50.1ms       43.8ms     OK
+789 uf20-0666.cnf                                     20      91     SAT     SAT       26.4ms       42.8ms     OK
+790 uf20-0637.cnf                                     20      91     SAT     SAT       35.5ms       43.7ms     OK
+791 uf20-0695.cnf                                     20      91     SAT     SAT       30.3ms       41.3ms     OK
+792 uf20-0767.cnf                                     20      91     SAT     SAT       37.7ms       48.1ms     OK
+793 uf20-0723.cnf                                     20      91     SAT     SAT       34.9ms       47.8ms     OK
+794 uf20-0752.cnf                                     20      91     SAT     SAT       34.9ms       51.0ms     OK
+795 uf20-0796.cnf                                     20      91     SAT     SAT       33.5ms       43.5ms     OK
+796 uf20-0781.cnf                                     20      91     SAT     SAT       35.3ms       50.1ms     OK
+797 uf20-081.cnf                                      20      91     SAT     SAT       41.1ms       33.8ms     OK
+798 uf20-0839.cnf                                     20      91     SAT     SAT       31.3ms       49.2ms     OK
+799 uf20-0954.cnf                                     20      91     SAT     SAT       44.0ms       34.2ms     OK
+800 uf20-0969.cnf                                     20      91     SAT     SAT       45.3ms       31.8ms     OK
+801 uf20-0709.cnf                                     20      91     SAT     SAT       38.1ms       53.9ms     OK
+802 uf20-0868.cnf                                     20      91     SAT     SAT       38.2ms       31.7ms     OK
+803 uf20-0853.cnf                                     20      91     SAT     SAT       38.8ms       32.0ms     OK
+804 uf20-0680.cnf                                     20      91     SAT     SAT       36.1ms       31.8ms     OK
+805 uf20-0738.cnf                                     20      91     SAT     SAT       43.1ms       34.6ms     OK
+806 uf20-0882.cnf                                     20      91     SAT     SAT       38.8ms       27.7ms     OK
+807 uf20-0925.cnf                                     20      91     SAT     SAT       39.7ms       28.2ms     OK
+808 uf20-0910.cnf                                     20      91     SAT     SAT       37.2ms       28.8ms     OK
+809 uf20-0983.cnf                                     20      91     SAT     SAT       39.4ms       32.2ms     OK
+810 uf20-0897.cnf                                     20      91     SAT     SAT       40.0ms       28.3ms     OK
+811 uf20-0824.cnf                                     20      91     SAT     SAT       38.9ms       28.3ms     OK
+812 uf20-094.cnf                                      20      91     SAT     SAT       46.1ms       12.9ms     OK
+813 uf20-0998.cnf                                     20      91     SAT     SAT       48.9ms       16.1ms     OK
+814 uf20-0162.cnf                                     20      91     SAT     SAT       17.8ms       28.5ms     OK
+815 uf20-0104.cnf                                     20      91     SAT     SAT       40.7ms       29.4ms     OK
+816 uf20-0205.cnf                                     20      91     SAT     SAT       29.6ms       29.3ms     OK
+817 uf20-035.cnf                                      20      91     SAT     SAT       29.4ms       26.8ms     OK
+818 uf20-0249.cnf                                     20      91     SAT     SAT       24.5ms       58.2ms     OK
+819 uf20-0379.cnf                                     20      91     SAT     SAT       42.8ms       50.0ms     OK
+820 uf20-0494.cnf                                     20      91     SAT     SAT       48.0ms       73.6ms     OK
+821 uf20-0191.cnf                                     20      91     SAT     SAT       45.8ms       89.0ms     OK
+822 uf20-0364.cnf                                     20      91     SAT     SAT       49.2ms       88.2ms     OK
+823 uf20-0465.cnf                                     20      91     SAT     SAT       61.3ms       73.1ms     OK
+824 uf20-0320.cnf                                     20      91     SAT     SAT       59.6ms       76.7ms     OK
+825 uf20-0551.cnf                                     20      91     SAT     SAT       54.6ms       80.0ms     OK
+826 uf20-0393.cnf                                     20      91     SAT     SAT       67.2ms       73.0ms     OK
+827 uf20-0148.cnf                                     20      91     SAT     SAT       53.9ms       98.0ms     OK
+828 uf20-022.cnf                                      20      91     SAT     SAT       59.6ms      100.9ms     OK
+829 uf20-0263.cnf                                     20      91     SAT     SAT       37.9ms      106.2ms     OK
+830 uf20-0292.cnf                                     20      91     SAT     SAT       60.8ms       85.5ms     OK
+831 uf20-0306.cnf                                     20      91     SAT     SAT       54.4ms      102.2ms     OK
+832 uf20-0421.cnf                                     20      91     SAT     SAT       57.1ms      103.9ms     OK
+833 uf20-0177.cnf                                     20      91     SAT     SAT       74.1ms       98.3ms     OK
+834 uf20-0234.cnf                                     20      91     SAT     SAT       61.2ms      120.5ms     OK
+835 uf20-0522.cnf                                     20      91     SAT     SAT       55.9ms      119.6ms     OK
+836 uf20-0436.cnf                                     20      91     SAT     SAT       74.4ms      102.8ms     OK
+837 uf20-048.cnf                                      20      91     SAT     SAT       95.8ms       86.4ms     OK
+838 uf20-0450.cnf                                     20      91     SAT     SAT       81.6ms      110.4ms     OK
+839 uf20-0335.cnf                                     20      91     SAT     SAT       83.5ms      105.6ms     OK
+840 uf20-0133.cnf                                     20      91     SAT     SAT      103.7ms       85.3ms     OK
+841 uf20-0595.cnf                                     20      91     SAT     SAT       80.8ms       62.5ms     OK
+842 uf20-0609.cnf                                     20      91     SAT     SAT       76.9ms       60.5ms     OK
+843 uf20-0537.cnf                                     20      91     SAT     SAT      129.2ms       69.9ms     OK
+844 uf20-0278.cnf                                     20      91     SAT     SAT      120.6ms       75.5ms     OK
+845 uf20-0508.cnf                                     20      91     SAT     SAT      108.6ms       89.8ms     OK
+846 uf20-0566.cnf                                     20      91     SAT     SAT       95.6ms       72.8ms     OK
+847 uf20-0119.cnf                                     20      91     SAT     SAT      121.2ms       77.6ms     OK
+848 uf20-0623.cnf                                     20      91     SAT     SAT       72.8ms       52.6ms     OK
+849 uf20-0407.cnf                                     20      91     SAT     SAT      121.9ms       87.6ms     OK
+850 uf20-0580.cnf                                     20      91     SAT     SAT       81.1ms       78.0ms     OK
+851 uf20-0638.cnf                                     20      91     SAT     SAT       84.5ms       56.7ms     OK
+852 uf20-0652.cnf                                     20      91     SAT     SAT       77.8ms       41.7ms     OK
+853 uf20-0667.cnf                                     20      91     SAT     SAT       62.1ms       31.7ms     OK
+854 uf20-0681.cnf                                     20      91     SAT     SAT       54.9ms       30.7ms     OK
+855 uf20-0797.cnf                                     20      91     SAT     SAT       61.9ms       31.8ms     OK
+856 uf20-0753.cnf                                     20      91     SAT     SAT       72.3ms       33.5ms     OK
+857 uf20-071.cnf                                      20      91     SAT     SAT       74.7ms       43.9ms     OK
+858 uf20-0825.cnf                                     20      91     SAT     SAT       46.8ms       40.0ms     OK
+859 uf20-084.cnf                                      20      91     SAT     SAT       41.4ms       39.3ms     OK
+860 uf20-0955.cnf                                     20      91     SAT     SAT       36.8ms       23.3ms     OK
+861 uf20-0782.cnf                                     20      91     SAT     SAT       53.2ms       45.1ms     OK
+862 uf20-0696.cnf                                     20      91     SAT     SAT       74.5ms       51.5ms     OK
+863 uf20-0768.cnf                                     20      91     SAT     SAT       77.4ms       41.0ms     OK
+864 uf20-0724.cnf                                     20      91     SAT     SAT       66.6ms       49.2ms     OK
+865 uf20-0911.cnf                                     20      91     SAT     SAT       46.2ms       34.9ms     OK
+866 uf20-0940.cnf                                     20      91     SAT     SAT       37.2ms       43.6ms     OK
+867 uf20-0739.cnf                                     20      91     SAT     SAT       69.3ms       57.6ms     OK
+868 uf20-097.cnf                                      20      91     SAT     SAT       39.8ms       47.0ms     OK
+869 uf20-0898.cnf                                     20      91     SAT     SAT       49.7ms       48.0ms     OK
+870 uf20-0984.cnf                                     20      91     SAT     SAT       33.8ms       44.7ms     OK
+871 uf20-0869.cnf                                     20      91     SAT     SAT       71.8ms       30.2ms     OK
+872 uf20-0810.cnf                                     20      91     SAT     SAT       65.6ms       64.6ms     OK
+873 uf20-0854.cnf                                     20      91     SAT     SAT       45.3ms       60.4ms     OK
+874 uf20-0999.cnf                                     20      91     SAT     SAT       56.4ms       33.2ms     OK
+875 uf20-0883.cnf                                     20      91     SAT     SAT       41.4ms       49.5ms     OK
+876 uf20-0926.cnf                                     20      91     SAT     SAT       48.4ms       49.7ms     OK
+877 uf20-0307.cnf                                     20      91     SAT     SAT       26.6ms       22.3ms     OK
+878 uf20-0336.cnf                                     20      91     SAT     SAT       25.8ms       25.7ms     OK
+879 uf20-0220.cnf                                     20      91     SAT     SAT       26.7ms       38.8ms     OK
+880 uf20-0105.cnf                                     20      91     SAT     SAT       39.8ms       46.5ms     OK
+881 uf20-012.cnf                                      20      91     SAT     SAT       37.8ms       55.2ms     OK
+882 uf20-0134.cnf                                     20      91     SAT     SAT       46.0ms       51.5ms     OK
+883 uf20-0206.cnf                                     20      91     SAT     SAT       46.8ms       77.0ms     OK
+884 uf20-0495.cnf                                     20      91     SAT     SAT       57.9ms       60.6ms     OK
+885 uf20-0422.cnf                                     20      91     SAT     SAT       46.7ms       67.6ms     OK
+886 uf20-0149.cnf                                     20      91     SAT     SAT       51.0ms       66.9ms     OK
+887 uf20-0163.cnf                                     20      91     SAT     SAT       45.9ms       76.6ms     OK
+888 uf20-0178.cnf                                     20      91     SAT     SAT       48.2ms       76.9ms     OK
+889 uf20-0264.cnf                                     20      91     SAT     SAT       54.7ms       69.6ms     OK
+890 uf20-025.cnf                                      20      91     SAT     SAT       44.6ms       89.6ms     OK
+891 uf20-0451.cnf                                     20      91     SAT     SAT       46.4ms       81.6ms     OK
+892 uf20-0437.cnf                                     20      91     SAT     SAT       60.8ms       69.4ms     OK
+893 uf20-0466.cnf                                     20      91     SAT     SAT       65.1ms       64.8ms     OK
+894 uf20-0365.cnf                                     20      91     SAT     SAT       61.8ms       75.7ms     OK
+895 uf20-0192.cnf                                     20      91     SAT     SAT       66.4ms       72.5ms     OK
+896 uf20-0394.cnf                                     20      91     SAT     SAT       64.1ms       92.7ms     OK
+897 uf20-0408.cnf                                     20      91     SAT     SAT       65.0ms       98.7ms     OK
+898 uf20-0235.cnf                                     20      91     SAT     SAT       74.1ms       93.1ms     OK
+899 uf20-0293.cnf                                     20      91     SAT     SAT       85.4ms       86.6ms     OK
+900 uf20-0321.cnf                                     20      91     SAT     SAT       80.4ms       85.2ms     OK
+901 uf20-0480.cnf                                     20      91     SAT     SAT       83.9ms       92.4ms     OK
+902 uf20-0509.cnf                                     20      91     SAT     SAT       96.9ms       73.7ms     OK
+903 uf20-0523.cnf                                     20      91     SAT     SAT       87.4ms       82.1ms     OK
+904 uf20-0350.cnf                                     20      91     SAT     SAT       96.6ms       75.1ms     OK
+905 uf20-0279.cnf                                     20      91     SAT     SAT      110.7ms       69.4ms     OK
+906 uf20-0552.cnf                                     20      91     SAT     SAT      113.2ms       67.7ms     OK
+907 uf20-038.cnf                                      20      91     SAT     SAT       83.7ms      102.2ms     OK
+908 uf20-0567.cnf                                     20      91     SAT     SAT       71.3ms       59.1ms     OK
+909 uf20-0538.cnf                                     20      91     SAT     SAT       96.5ms       76.2ms     OK
+910 uf20-0581.cnf                                     20      91     SAT     SAT       84.3ms       62.5ms     OK
+911 uf20-0596.cnf                                     20      91     SAT     SAT       69.9ms       56.2ms     OK
+912 uf20-0639.cnf                                     20      91     SAT     SAT       58.9ms       50.8ms     OK
+913 uf20-0624.cnf                                     20      91     SAT     SAT       87.1ms       41.9ms     OK
+914 uf20-0697.cnf                                     20      91     SAT     SAT       66.8ms       44.0ms     OK
+915 uf20-0682.cnf                                     20      91     SAT     SAT       64.2ms       45.0ms     OK
+916 uf20-0725.cnf                                     20      91     SAT     SAT       63.7ms       45.8ms     OK
+917 uf20-061.cnf                                      20      91     SAT     SAT       87.7ms       65.7ms     OK
+918 uf20-074.cnf                                      20      91     SAT     SAT       68.4ms       37.4ms     OK
+919 uf20-0769.cnf                                     20      91     SAT     SAT       60.5ms       43.3ms     OK
+920 uf20-0710.cnf                                     20      91     SAT     SAT       64.7ms       54.6ms     OK
+921 uf20-0783.cnf                                     20      91     SAT     SAT       60.8ms       51.9ms     OK
+922 uf20-0653.cnf                                     20      91     SAT     SAT       77.5ms       62.8ms     OK
+923 uf20-0811.cnf                                     20      91     SAT     SAT       58.5ms       53.0ms     OK
+924 uf20-0826.cnf                                     20      91     SAT     SAT       50.4ms       47.7ms     OK
+925 uf20-0855.cnf                                     20      91     SAT     SAT       43.1ms       36.6ms     OK
+926 uf20-0956.cnf                                     20      91     SAT     SAT       46.2ms       24.2ms     OK
+927 uf20-0754.cnf                                     20      91     SAT     SAT       67.9ms       59.4ms     OK
+928 uf20-0970.cnf                                     20      91     SAT     SAT       41.1ms       27.2ms     OK
+929 uf20-0927.cnf                                     20      91     SAT     SAT       43.7ms       33.6ms     OK
+930 uf20-0668.cnf                                     20      91     SAT     SAT       80.7ms       56.5ms     OK
+931 uf20-0798.cnf                                     20      91     SAT     SAT       64.1ms       42.1ms     OK
+932 uf20-0899.cnf                                     20      91     SAT     SAT       45.3ms       31.5ms     OK
+933 uf20-0941.cnf                                     20      91     SAT     SAT       45.0ms       29.2ms     OK
+934 uf20-0985.cnf                                     20      91     SAT     SAT       42.6ms       10.5ms     OK
+935 uf20-0884.cnf                                     20      91     SAT     SAT       58.9ms       32.1ms     OK
+936 uf20-087.cnf                                      20      91     SAT     SAT       54.2ms       42.4ms     OK
+937 uf20-0912.cnf                                     20      91     SAT     SAT       46.6ms       40.6ms     OK
+938 uf20-0840.cnf                                     20      91     SAT     SAT       54.3ms       49.2ms     OK
+939 uf20-0120.cnf                                     20      91     SAT     SAT       20.1ms       22.3ms     OK
+940 uf20-0467.cnf                                     20      91     SAT     SAT       14.7ms       21.3ms     OK
+941 uf20-0179.cnf                                     20      91     SAT     SAT       19.9ms       23.0ms     OK
+942 uf20-0337.cnf                                     20      91     SAT     SAT       16.1ms       18.6ms     OK
+943 uf20-0193.cnf                                     20      91     SAT     SAT       15.7ms       19.3ms     OK
+944 uf20-0106.cnf                                     20      91     SAT     SAT       16.3ms       17.1ms     OK
+945 uf20-0423.cnf                                     20      91     SAT     SAT       16.7ms       16.4ms     OK
+946 uf20-0380.cnf                                     20      91     SAT     SAT       18.5ms       13.6ms     OK
+947 uf20-0164.cnf                                     20      91     SAT     SAT       14.2ms       30.0ms     OK
+948 uf20-0135.cnf                                     20      91     SAT     SAT       21.4ms       26.9ms     OK
+949 uf20-015.cnf                                      20      91     SAT     SAT       22.8ms       25.7ms     OK
+950 uf20-0250.cnf                                     20      91     SAT     SAT       25.7ms       10.6ms     OK
+951 uf20-0351.cnf                                     20      91     SAT     SAT       29.4ms       12.6ms     OK
+952 uf20-051.cnf                                      20      91     SAT     SAT       25.5ms       13.1ms     OK
+953 uf20-0308.cnf                                     20      91     SAT     SAT       29.0ms       13.2ms     OK
+954 uf20-0481.cnf                                     20      91     SAT     SAT       26.4ms       12.1ms     OK
+955 uf20-0322.cnf                                     20      91     SAT     SAT       32.2ms       13.0ms     OK
+956 uf20-0409.cnf                                     20      91     SAT     SAT       33.1ms       12.8ms     OK
+957 uf20-0294.cnf                                     20      91     SAT     SAT       33.7ms       11.2ms     OK
+958 uf20-0265.cnf                                     20      91     SAT     SAT       25.5ms       20.3ms     OK
+959 uf20-0496.cnf                                     20      91     SAT     SAT       32.1ms       10.9ms     OK
+960 uf20-0236.cnf                                     20      91     SAT     SAT       31.3ms       20.8ms     OK
+961 uf20-0524.cnf                                     20      91     SAT     SAT       29.5ms       21.5ms     OK
+962 uf20-0207.cnf                                     20      91     SAT     SAT       28.0ms       20.8ms     OK
+963 uf20-0568.cnf                                     20      91     SAT     SAT       12.3ms       10.9ms     OK
+964 uf20-028.cnf                                      20      91     SAT     SAT       25.3ms       21.0ms     OK
+965 uf20-0221.cnf                                     20      91     SAT     SAT       26.8ms       23.7ms     OK
+966 uf20-0438.cnf                                     20      91     SAT     SAT       31.5ms       19.8ms     OK
+967 uf20-0683.cnf                                     20      91     SAT     SAT       13.2ms        9.1ms     OK
+968 uf20-0553.cnf                                     20      91     SAT     SAT       32.4ms       18.9ms     OK
+969 uf20-0597.cnf                                     20      91     SAT     SAT       14.5ms        9.5ms     OK
+970 uf20-0539.cnf                                     20      91     SAT     SAT       29.1ms       19.0ms     OK
+971 uf20-0582.cnf                                     20      91     SAT     SAT       12.8ms       19.1ms     OK
+972 uf20-0366.cnf                                     20      91     SAT     SAT       28.2ms       20.2ms     OK
+973 uf20-0654.cnf                                     20      91     SAT     SAT       11.6ms       10.0ms     OK
+974 uf20-0669.cnf                                     20      91     SAT     SAT       12.2ms       11.0ms     OK
+975 uf20-0711.cnf                                     20      91     SAT     SAT       13.2ms       10.8ms     OK
+976 uf20-0625.cnf                                     20      91     SAT     SAT       11.5ms       11.2ms     OK
+977 uf20-0799.cnf                                     20      91     SAT     SAT       11.2ms       11.1ms     OK
+978 uf20-064.cnf                                      20      91     SAT     SAT       10.3ms        9.8ms     OK
+979 uf20-0827.cnf                                     20      91     SAT     SAT       10.7ms       11.0ms     OK
+980 uf20-0698.cnf                                     20      91     SAT     SAT       10.4ms       18.5ms     OK
+981 uf20-0812.cnf                                     20      91     SAT     SAT       10.6ms       17.6ms     OK
+982 uf20-0885.cnf                                     20      91     SAT     SAT       13.0ms        8.1ms     OK
+983 uf20-0610.cnf                                     20      91     SAT     SAT       18.8ms        8.5ms     OK
+984 uf20-0726.cnf                                     20      91     SAT     SAT       20.4ms       16.0ms     OK
+985 uf20-077.cnf                                      20      91     SAT     SAT       14.8ms        9.1ms     OK
+986 uf20-0856.cnf                                     20      91     SAT     SAT       11.8ms        9.1ms     OK
+987 uf20-0740.cnf                                     20      91     SAT     SAT       19.4ms        9.5ms     OK
+988 uf20-0986.cnf                                     20      91     SAT     SAT       11.5ms       10.1ms     OK
+989 uf20-0870.cnf                                     20      91     SAT     SAT        8.9ms        7.9ms     OK
+990 uf20-0942.cnf                                     20      91     SAT     SAT        8.8ms        8.2ms     OK
+991 uf20-0755.cnf                                     20      91     SAT     SAT       21.0ms        9.5ms     OK
+992 uf20-0841.cnf                                     20      91     SAT     SAT       20.6ms        8.8ms     OK
+993 uf20-09.cnf                                       20      91     SAT     SAT       20.5ms       15.3ms     OK
+994 uf20-0913.cnf                                     20      91     SAT     SAT       17.2ms        5.0ms     OK
+995 uf20-0957.cnf                                     20      91     SAT     SAT        9.4ms       14.6ms     OK
+996 uf20-0784.cnf                                     20      91     SAT     SAT       21.4ms       14.9ms     OK
+997 uf20-0928.cnf                                     20      91     SAT     SAT       17.2ms        6.0ms     OK
+998 uf20-0971.cnf                                     20      91     SAT     SAT       15.7ms       10.0ms     OK
+999 uf20-0395.cnf                                     20      91     SAT     SAT       16.0ms       10.5ms     OK
+1000 uf20-0452.cnf                                     20      91     SAT     SAT       11.0ms       10.0ms     OK
+
+==========================================================================================
+  Summary
+==========================================================================================
+  Total instances       : 1000
+  Both agree            : 1000
+  Disagreements         : 0
+  Both timeout          : 0
+  CDCL faster           : 339 / 1000
+  MiniSat faster        : 660 / 1000
+  CDCL total time       : 167.3s
+  MiniSat total time    : 89.9s
+  Speedup (MS/CDCL)     : 0.54x
+==========================================================================================

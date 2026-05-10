@@ -56,7 +56,10 @@ srun --cpu-bind=cores bash -lc '
     --shard-index "${shard}" \
     --num-shards "${total}" \
     --output "${out_json}" >> "${out_log}" 2>&1
-'
+' || echo "[WARN] srun exited with non-zero (some shards may have failed)"
 
-mv "Logs/info-${SLURM_JOB_ID}.out" "${JOB_DIR}/info.out"
+sleep 5
+if [ -f "Logs/info-${SLURM_JOB_ID}.out" ]; then
+    mv "Logs/info-${SLURM_JOB_ID}.out" "${JOB_DIR}/info.out"
+fi
 python3 Utils/merge_shard_results.py --job-id "${SLURM_JOB_ID}" --job-dir "$JOB_DIR"
