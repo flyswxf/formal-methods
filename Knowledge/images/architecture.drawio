@@ -1,0 +1,172 @@
+<mxfile host="embed.diagrams.net">
+  <diagram id="ZoyQejJMFw-GA2KRqbvN" name="第 1 页">
+    <mxGraphModel dx="785" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;fontSize=18;fontStyle=1;align=center;" value="CDCL SAT 求解器系统架构图" vertex="1">
+          <mxGeometry height="30" width="360" x="200" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="in-file" parent="1" style="shape=cylinder3;whiteSpace=wrap;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;fontSize=12;" value="DIMACS CNF 文件" vertex="1">
+          <mxGeometry height="80" width="130" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="out-result" parent="1" style="rounded=1;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;fontSize=12;" value="SAT / UNSAT" vertex="1">
+          <mxGeometry height="60" width="110" x="550" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="main-entry" parent="1" style="rounded=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontStyle=1;fontSize=11;" value="main()&#xa;cdcl_solver.cpp" vertex="1">
+          <mxGeometry height="55" width="200" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="parser" parent="1" style="rounded=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;fontSize=11;" value="DIMACS 解析器&#xa;parse_dimacs()&#xa;dimacs_parser.cpp" vertex="1">
+          <mxGeometry height="65" width="170" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cnf-formula" parent="1" style="shape=document;whiteSpace=wrap;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;" value="CNFFormula&#xa;num_vars, num_clauses&#xa;clauses: vector&lt;vector&lt;int&gt;&gt;" vertex="1">
+          <mxGeometry height="65" width="160" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cdcl-box" parent="1" style="rounded=1;fillColor=none;strokeColor=#6C8EBF;strokeWidth=2;dashed=1;" value="" vertex="1">
+          <mxGeometry height="358" width="790" x="10" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="cdcl-label" parent="1" style="text;fontSize=13;fontStyle=1;align=left;fillColor=none;" value="CDCLSolver 求解引擎" vertex="1">
+          <mxGeometry height="20" width="180" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cdcl-ctor" parent="1" style="rounded=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;" value="CDCLSolver()&#xa;构造: watches, heap,&#xa;原始子句注册" vertex="1">
+          <mxGeometry height="50" width="200" x="180" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="bcp" parent="1" style="rounded=1;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=1;fontSize=11;" value="BCP 单元传播&#xa;propagate()&#xa;二阶监视文字法" vertex="1">
+          <mxGeometry height="65" width="160" x="440" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="vsids" parent="1" style="rounded=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;" value="VSIDS 决策启发&#xa;pick_branch_lit()&#xa;活性堆 (heap)" vertex="1">
+          <mxGeometry height="55" width="160" x="440" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="conflict" parent="1" style="rounded=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;" value="冲突分析 analyze()&#xa;1UIP 学习子句生成" vertex="1">
+          <mxGeometry height="55" width="170" x="60" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="record" parent="1" style="rounded=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;" value="子句学习 record()&#xa;cancel_until() 回溯" vertex="1">
+          <mxGeometry height="55" width="170" x="60" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="solve-loop" parent="1" style="ellipse;fillColor=#D5E8D4;strokeColor=#82B366;fontStyle=1;fontSize=12;" value="solve() 主循环" vertex="1">
+          <mxGeometry height="50" width="130" x="455" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="data-box" parent="1" style="rounded=1;fillColor=none;strokeColor=#B3B3B3;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="145" width="184" x="230" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="data-label" parent="1" style="text;fontSize=10;fontStyle=1;align=left;" value="数据结构" vertex="1">
+          <mxGeometry height="16" width="80" x="240" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="clause-db" parent="1" style="shape=cylinder3;whiteSpace=wrap;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=9;" value="clause_db&#xa;子句数据库" vertex="1">
+          <mxGeometry height="55" width="65" x="274" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="watches" parent="1" style="shape=cylinder3;whiteSpace=wrap;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=9;" value="watches[]&#xa;监视表" vertex="1">
+          <mxGeometry height="55" width="65" x="339" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="trail" parent="1" style="shape=cylinder3;whiteSpace=wrap;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=9;" value="trail&#xa;赋值轨迹" vertex="1">
+          <mxGeometry height="55" width="65" x="274" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="activity" parent="1" style="shape=cylinder3;whiteSpace=wrap;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=9;" value="activity[]&#xa;活性值堆" vertex="1">
+          <mxGeometry height="55" width="65" x="339" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="self-check" parent="1" style="rounded=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=10;dashed=1;" value="自检系统&#xa;CDCL_SELF_CHECK=1" vertex="1">
+          <mxGeometry height="50" width="120" x="590" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="in-file" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=2;" target="main-entry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="in-file" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;strokeColor=#666666;dashed=1;" target="parser">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="parser" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;" target="cnf-formula">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="cnf-formula" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;" target="cdcl-ctor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="main-entry" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=2;" target="cdcl-ctor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="380" />
+              <mxPoint x="280" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="cdcl-ctor" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;" target="solve-loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="solve-loop" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;" target="bcp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="bcp" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;strokeColor=#B85450;" target="conflict" value="有冲突">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="conflict" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;strokeColor=#B85450;" target="record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="record" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;strokeColor=#B85450;exitX=1;exitY=0.5;entryX=0.25;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="bcp" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="718" />
+              <mxPoint x="430" y="580" />
+              <mxPoint x="480" y="580" />
+            </Array>
+            <mxPoint x="250" y="717.5" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="bcp" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;strokeColor=#82B366;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vsids" value="无冲突,需决策">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="570" />
+              <mxPoint x="520" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="vsids" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1.5;strokeColor=#82B366;exitX=1;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;" target="solve-loop" value="决策/赋值">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="650" />
+              <mxPoint x="720" y="650" />
+              <mxPoint x="720" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="solve-loop" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=2;strokeColor=#82B366;" target="out-result" value="SAT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="390" />
+              <mxPoint x="605" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="record" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=2;strokeColor=#B85450;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="out-result" value="UNSAT">
+          <mxGeometry relative="1" x="-0.0004" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="20" y="718" />
+              <mxPoint x="20" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="bcp" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1;strokeColor=#9673A6;dashed=1;dashPattern=4 2;" target="watches">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="bcp" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1;strokeColor=#9673A6;dashed=1;dashPattern=4 2;" target="trail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="conflict" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1;strokeColor=#9673A6;dashed=1;dashPattern=4 2;" target="clause-db">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="vsids" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1;strokeColor=#9673A6;dashed=1;dashPattern=4 2;" target="activity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="record" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1;strokeColor=#9673A6;dashed=1;dashPattern=4 2;" target="clause-db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="self-check" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;strokeWidth=1;strokeColor=#666666;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bcp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
